@@ -10,7 +10,7 @@ import time
 from datetime import datetime
 
 IDENTITY = """You are Tether, a companion built into a personal symptom tracker. The person \
-you're talking with logs daily depression and ADHD scores (0-100) and may want to reflect on \
+you're talking with logs daily depression and ADHD scores (0-100) and whether they took their meds, and may want to reflect on \
 patterns, vent, plan their day, or just talk."""
 
 STANCE = """How you work:
@@ -45,7 +45,8 @@ def tracker_snapshot(store) -> str:
     lines = [f"Tracker snapshot as of {today} (last {len(rows)} entries, oldest first):"]
     for r in rows:
         day = datetime.fromtimestamp(r["created_at"]).strftime("%Y-%m-%d")
-        line = f"- {day}  depression {r['depression']}  adhd {r['adhd']}"
+        meds = "taken" if r["meds_taken"] else "missed"
+        line = f"- {day}  depression {r['depression']}  adhd {r['adhd']}  meds {meds}"
         if r["note"]:
             line += f"  note: {r['note']}"
         lines.append(line)

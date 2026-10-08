@@ -41,7 +41,7 @@ How it works:
 - `app/tether/prompt.py` is the prompt harness. The system prompt is built from named
   sections (identity, stance, safety) so each can be edited independently. It is frozen for
   the life of a conversation and prompt-cached. The tracker snapshot (last 14 entries from
-  the last 30 days) is injected once, as a mid-conversation `system` message after the first
+  the last 30 days, scores and meds flag) is injected once, as a mid-conversation `system` message after the first
   user turn, so the cached prefix and the model's thinking blocks stay valid.
 - `app/tether/routes.py` streams each reply over server-sent events. The server is
   stateless; the browser keeps the conversation in `sessionStorage` and replays it on every
