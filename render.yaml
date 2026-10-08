@@ -13,3 +13,5 @@ services:
         value: mental_health
       - key: DATABASE_URL
         sync: false
+      - key: SEED_SAMPLE_DATA
+        value: "1"

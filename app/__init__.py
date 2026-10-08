@@ -1,3 +1,5 @@
+import os
+
 from flask import Flask, render_template
 
 from .config import Config
@@ -14,5 +16,11 @@ def create_app() -> Flask:
     @app.get("/")
     def index():
         return render_template("index.html")
+
+    if os.environ.get("SEED_SAMPLE_DATA") == "1":
+        from .sample_data import seed_if_empty
+        from .stores import get_store
+
+        seed_if_empty(get_store())
 
     return app
