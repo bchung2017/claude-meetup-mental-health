@@ -50,3 +50,33 @@ def create_entry():
 def delete_entry(id: str):
     n = get_store().delete_entry(id)
     return (jsonify(ok=True), 200) if n else (jsonify(error="not found"), 404)
+
+
+# --- per-patient model (see data/sample/README.md) ---
+
+from ..carelinq import decode_row  # noqa: E402
+from ..stores.base import PATIENT_TABLES  # noqa: E402
+
+STREAMS = tuple(t for t in PATIENT_TABLES if t != "patients")
+
+
+@bp.get("/patients")
+def list_patients():
+    rows = [decode_row("patients", r) for r in get_store().list_rows("patients")]
+    return jsonify(patients=rows)
+
+
+@bp.get("/patients/<patient_id>")
+def get_patient(patient_id: str):
+    rows = get_store().list_rows("patients", patient_id)
+    if not rows:
+        return jsonify(error="not found"), 404
+    return jsonify(decode_row("patients", rows[0]))
+
+
+@bp.get("/patients/<patient_id>/<stream>")
+def get_patient_stream(patient_id: str, stream: str):
+    if stream not in STREAMS:
+        return jsonify(error=f"stream must be one of {', '.join(STREAMS)}"), 404
+    rows = [decode_row(stream, r) for r in get_store().list_rows(stream, patient_id)]
+    return jsonify({"patient_id": patient_id, stream: rows})

@@ -1,0 +1,4634 @@
+{
+  "_synthetic": true,
+  "patient_id": "pt_7f3a9c21",
+  "sleep_sessions": [
+    {
+      "night_of": "2026-07-13",
+      "hk_type": "HKCategoryTypeIdentifierSleepAnalysis",
+      "source": "Apple Watch",
+      "in_bed_start": "2026-07-14T00:11:21-04:00",
+      "in_bed_end": "2026-07-14T07:07:25-04:00",
+      "sleep_onset_latency_min": 37,
+      "total_asleep_min": 325,
+      "awake_min": 54,
+      "awakenings": 5,
+      "stages_min": {
+        "asleepCore": 222,
+        "asleepDeep": 40,
+        "asleepREM": 63,
+        "awake": 54
+      },
+      "sleep_efficiency": 0.781
+    },
+    {
+      "night_of": "2026-07-14",
+      "hk_type": "HKCategoryTypeIdentifierSleepAnalysis",
+      "source": "Apple Watch",
+      "in_bed_start": "2026-07-15T01:02:22-04:00",
+      "in_bed_end": "2026-07-15T08:48:15-04:00",
+      "sleep_onset_latency_min": 43,
+      "total_asleep_min": 366,
+      "awake_min": 57,
+      "awakenings": 6,
+      "stages_min": {
+        "asleepCore": 250,
+        "asleepDeep": 36,
+        "asleepREM": 80,
+        "awake": 57
+      },
+      "sleep_efficiency": 0.786
+    },
+    {
+      "night_of": "2026-07-15",
+      "hk_type": "HKCategoryTypeIdentifierSleepAnalysis",
+      "source": "Apple Watch",
+      "in_bed_start": "2026-07-16T00:36:35-04:00",
+      "in_bed_end": "2026-07-16T07:21:10-04:00",
+      "sleep_onset_latency_min": 44,
+      "total_asleep_min": 321,
+      "awake_min": 40,
+      "awakenings": 5,
+      "stages_min": {
+        "asleepCore": 208,
+        "asleepDeep": 36,
+        "asleepREM": 77,
+        "awake": 40
+      },
+      "sleep_efficiency": 0.793
+    },
+    {
+      "night_of": "2026-07-16",
+      "hk_type": "HKCategoryTypeIdentifierSleepAnalysis",
+      "source": "Apple Watch",
+      "in_bed_start": "2026-07-17T00:21:13-04:00",
+      "in_bed_end": "2026-07-17T07:35:50-04:00",
+      "sleep_onset_latency_min": 33,
+      "total_asleep_min": 359,
+      "awake_min": 43,
+      "awakenings": 5,
+      "stages_min": {
+        "asleepCore": 245,
+        "asleepDeep": 47,
+        "asleepREM": 66,
+        "awake": 43
+      },
+      "sleep_efficiency": 0.826
+    },
+    {
+      "night_of": "2026-07-17",
+      "hk_type": "HKCategoryTypeIdentifierSleepAnalysis",
+      "source": "Apple Watch",
+      "in_bed_start": "2026-07-18T00:59:15-04:00",
+      "in_bed_end": "2026-07-18T08:36:09-04:00",
+      "sleep_onset_latency_min": 47,
+      "total_asleep_min": 370,
+      "awake_min": 40,
+      "awakenings": 4,
+      "stages_min": {
+        "asleepCore": 257,
+        "asleepDeep": 44,
+        "asleepREM": 68,
+        "awake": 40
+      },
+      "sleep_efficiency": 0.809
+    },
+    {
+      "night_of": "2026-07-18",
+      "hk_type": "HKCategoryTypeIdentifierSleepAnalysis",
+      "source": "Apple Watch",
+      "in_bed_start": "2026-07-19T00:43:11-04:00",
+      "in_bed_end": "2026-07-19T07:40:27-04:00",
+      "sleep_onset_latency_min": 39,
+      "total_asleep_min": 339,
+      "awake_min": 39,
+      "awakenings": 4,
+      "stages_min": {
+        "asleepCore": 232,
+        "asleepDeep": 33,
+        "asleepREM": 73,
+        "awake": 39
+      },
+      "sleep_efficiency": 0.812
+    },
+    {
+      "night_of": "2026-07-19",
+      "hk_type": "HKCategoryTypeIdentifierSleepAnalysis",
+      "source": "Apple Watch",
+      "in_bed_start": "2026-07-20T00:25:35-04:00",
+      "in_bed_end": "2026-07-20T07:55:40-04:00",
+      "sleep_onset_latency_min": 37,
+      "total_asleep_min": 370,
+      "awake_min": 42,
+      "awakenings": 4,
+      "stages_min": {
+        "asleepCore": 263,
+        "asleepDeep": 43,
+        "asleepREM": 64,
+        "awake": 42
+      },
+      "sleep_efficiency": 0.823
+    },
+    {
+      "night_of": "2026-07-20",
+      "hk_type": "HKCategoryTypeIdentifierSleepAnalysis",
+      "source": "Apple Watch",
+      "in_bed_start": "2026-07-21T00:38:33-04:00",
+      "in_bed_end": "2026-07-21T07:56:58-04:00",
+      "sleep_onset_latency_min": 41,
+      "total_asleep_min": 366,
+      "awake_min": 32,
+      "awakenings": 5,
+      "stages_min": {
+        "asleepCore": 260,
+        "asleepDeep": 31,
+        "asleepREM": 74,
+        "awake": 32
+      },
+      "sleep_efficiency": 0.834
+    },
+    {
+      "night_of": "2026-07-21",
+      "hk_type": "HKCategoryTypeIdentifierSleepAnalysis",
+      "source": "Apple Watch",
+      "in_bed_start": "2026-07-22T00:07:27-04:00",
+      "in_bed_end": "2026-07-22T06:17:40-04:00",
+      "sleep_onset_latency_min": 38,
+      "total_asleep_min": 278,
+      "awake_min": 54,
+      "awakenings": 5,
+      "stages_min": {
+        "asleepCore": 190,
+        "asleepDeep": 28,
+        "asleepREM": 61,
+        "awake": 54
+      },
+      "sleep_efficiency": 0.75
+    },
+    {
+      "night_of": "2026-07-22",
+      "hk_type": "HKCategoryTypeIdentifierSleepAnalysis",
+      "source": "Apple Watch",
+      "in_bed_start": "2026-07-23T00:04:35-04:00",
+      "in_bed_end": "2026-07-23T07:32:55-04:00",
+      "sleep_onset_latency_min": 38,
+      "total_asleep_min": 371,
+      "awake_min": 39,
+      "awakenings": 4,
+      "stages_min": {
+        "asleepCore": 251,
+        "asleepDeep": 43,
+        "asleepREM": 77,
+        "awake": 39
+      },
+      "sleep_efficiency": 0.828
+    },
+    {
+      "night_of": "2026-07-24",
+      "hk_type": "HKCategoryTypeIdentifierSleepAnalysis",
+      "source": "Apple Watch",
+      "in_bed_start": "2026-07-25T00:25:01-04:00",
+      "in_bed_end": "2026-07-25T07:42:02-04:00",
+      "sleep_onset_latency_min": 37,
+      "total_asleep_min": 356,
+      "awake_min": 44,
+      "awakenings": 5,
+      "stages_min": {
+        "asleepCore": 247,
+        "asleepDeep": 45,
+        "asleepREM": 65,
+        "awake": 44
+      },
+      "sleep_efficiency": 0.815
+    },
+    {
+      "night_of": "2026-07-25",
+      "hk_type": "HKCategoryTypeIdentifierSleepAnalysis",
+      "source": "Apple Watch",
+      "in_bed_start": "2026-07-26T01:01:46-04:00",
+      "in_bed_end": "2026-07-26T08:19:55-04:00",
+      "sleep_onset_latency_min": 39,
+      "total_asleep_min": 367,
+      "awake_min": 32,
+      "awakenings": 3,
+      "stages_min": {
+        "asleepCore": 246,
+        "asleepDeep": 49,
+        "asleepREM": 72,
+        "awake": 32
+      },
+      "sleep_efficiency": 0.837
+    },
+    {
+      "night_of": "2026-07-26",
+      "hk_type": "HKCategoryTypeIdentifierSleepAnalysis",
+      "source": "Apple Watch",
+      "in_bed_start": "2026-07-27T00:24:40-04:00",
+      "in_bed_end": "2026-07-27T08:34:47-04:00",
+      "sleep_onset_latency_min": 40,
+      "total_asleep_min": 405,
+      "awake_min": 45,
+      "awakenings": 4,
+      "stages_min": {
+        "asleepCore": 274,
+        "asleepDeep": 41,
+        "asleepREM": 91,
+        "awake": 45
+      },
+      "sleep_efficiency": 0.827
+    },
+    {
+      "night_of": "2026-07-27",
+      "hk_type": "HKCategoryTypeIdentifierSleepAnalysis",
+      "source": "Apple Watch",
+      "in_bed_start": "2026-07-28T00:04:19-04:00",
+      "in_bed_end": "2026-07-28T07:18:37-04:00",
+      "sleep_onset_latency_min": 32,
+      "total_asleep_min": 356,
+      "awake_min": 46,
+      "awakenings": 4,
+      "stages_min": {
+        "asleepCore": 231,
+        "asleepDeep": 49,
+        "asleepREM": 77,
+        "awake": 46
+      },
+      "sleep_efficiency": 0.821
+    },
+    {
+      "night_of": "2026-07-28",
+      "hk_type": "HKCategoryTypeIdentifierSleepAnalysis",
+      "source": "Apple Watch",
+      "in_bed_start": "2026-07-29T00:16:53-04:00",
+      "in_bed_end": "2026-07-29T06:53:42-04:00",
+      "sleep_onset_latency_min": 36,
+      "total_asleep_min": 325,
+      "awake_min": 35,
+      "awakenings": 5,
+      "stages_min": {
+        "asleepCore": 213,
+        "asleepDeep": 44,
+        "asleepREM": 68,
+        "awake": 35
+      },
+      "sleep_efficiency": 0.819
+    },
+    {
+      "night_of": "2026-07-30",
+      "hk_type": "HKCategoryTypeIdentifierSleepAnalysis",
+      "source": "Apple Watch",
+      "in_bed_start": "2026-07-31T00:33:32-04:00",
+      "in_bed_end": "2026-07-31T07:22:43-04:00",
+      "sleep_onset_latency_min": 37,
+      "total_asleep_min": 345,
+      "awake_min": 27,
+      "awakenings": 3,
+      "stages_min": {
+        "asleepCore": 244,
+        "asleepDeep": 40,
+        "asleepREM": 61,
+        "awake": 27
+      },
+      "sleep_efficiency": 0.843
+    },
+    {
+      "night_of": "2026-07-31",
+      "hk_type": "HKCategoryTypeIdentifierSleepAnalysis",
+      "source": "Apple Watch",
+      "in_bed_start": "2026-08-01T00:40:17-04:00",
+      "in_bed_end": "2026-08-01T07:48:19-04:00",
+      "sleep_onset_latency_min": 34,
+      "total_asleep_min": 365,
+      "awake_min": 29,
+      "awakenings": 4,
+      "stages_min": {
+        "asleepCore": 243,
+        "asleepDeep": 43,
+        "asleepREM": 79,
+        "awake": 29
+      },
+      "sleep_efficiency": 0.853
+    },
+    {
+      "night_of": "2026-08-01",
+      "hk_type": "HKCategoryTypeIdentifierSleepAnalysis",
+      "source": "Apple Watch",
+      "in_bed_start": "2026-08-01T23:44:21-04:00",
+      "in_bed_end": "2026-08-02T07:35:06-04:00",
+      "sleep_onset_latency_min": 30,
+      "total_asleep_min": 408,
+      "awake_min": 32,
+      "awakenings": 4,
+      "stages_min": {
+        "asleepCore": 265,
+        "asleepDeep": 55,
+        "asleepREM": 88,
+        "awake": 32
+      },
+      "sleep_efficiency": 0.867
+    },
+    {
+      "night_of": "2026-08-02",
+      "hk_type": "HKCategoryTypeIdentifierSleepAnalysis",
+      "source": "Apple Watch",
+      "in_bed_start": "2026-08-03T00:34:14-04:00",
+      "in_bed_end": "2026-08-03T08:59:18-04:00",
+      "sleep_onset_latency_min": 27,
+      "total_asleep_min": 456,
+      "awake_min": 22,
+      "awakenings": 2,
+      "stages_min": {
+        "asleepCore": 309,
+        "asleepDeep": 48,
+        "asleepREM": 98,
+        "awake": 22
+      },
+      "sleep_efficiency": 0.902
+    },
+    {
+      "night_of": "2026-08-03",
+      "hk_type": "HKCategoryTypeIdentifierSleepAnalysis",
+      "source": "Apple Watch",
+      "in_bed_start": "2026-08-04T00:06:18-04:00",
+      "in_bed_end": "2026-08-04T07:44:17-04:00",
+      "sleep_onset_latency_min": 35,
+      "total_asleep_min": 385,
+      "awake_min": 39,
+      "awakenings": 4,
+      "stages_min": {
+        "asleepCore": 267,
+        "asleepDeep": 41,
+        "asleepREM": 77,
+        "awake": 39
+      },
+      "sleep_efficiency": 0.84
+    },
+    {
+      "night_of": "2026-08-04",
+      "hk_type": "HKCategoryTypeIdentifierSleepAnalysis",
+      "source": "Apple Watch",
+      "in_bed_start": "2026-08-05T00:11:02-04:00",
+      "in_bed_end": "2026-08-05T07:43:29-04:00",
+      "sleep_onset_latency_min": 36,
+      "total_asleep_min": 393,
+      "awake_min": 23,
+      "awakenings": 3,
+      "stages_min": {
+        "asleepCore": 256,
+        "asleepDeep": 54,
+        "asleepREM": 83,
+        "awake": 23
+      },
+      "sleep_efficiency": 0.869
+    },
+    {
+      "night_of": "2026-08-06",
+      "hk_type": "HKCategoryTypeIdentifierSleepAnalysis",
+      "source": "Apple Watch",
+      "in_bed_start": "2026-08-06T23:51:47-04:00",
+      "in_bed_end": "2026-08-07T06:04:02-04:00",
+      "sleep_onset_latency_min": 27,
+      "total_asleep_min": 319,
+      "awake_min": 26,
+      "awakenings": 4,
+      "stages_min": {
+        "asleepCore": 219,
+        "asleepDeep": 42,
+        "asleepREM": 57,
+        "awake": 26
+      },
+      "sleep_efficiency": 0.857
+    },
+    {
+      "night_of": "2026-08-07",
+      "hk_type": "HKCategoryTypeIdentifierSleepAnalysis",
+      "source": "Apple Watch",
+      "in_bed_start": "2026-08-08T00:14:43-04:00",
+      "in_bed_end": "2026-08-08T07:55:06-04:00",
+      "sleep_onset_latency_min": 27,
+      "total_asleep_min": 388,
+      "awake_min": 46,
+      "awakenings": 5,
+      "stages_min": {
+        "asleepCore": 249,
+        "asleepDeep": 51,
+        "asleepREM": 87,
+        "awake": 46
+      },
+      "sleep_efficiency": 0.842
+    },
+    {
+      "night_of": "2026-08-08",
+      "hk_type": "HKCategoryTypeIdentifierSleepAnalysis",
+      "source": "Apple Watch",
+      "in_bed_start": "2026-08-08T23:36:01-04:00",
+      "in_bed_end": "2026-08-09T06:28:50-04:00",
+      "sleep_onset_latency_min": 20,
+      "total_asleep_min": 362,
+      "awake_min": 31,
+      "awakenings": 3,
+      "stages_min": {
+        "asleepCore": 244,
+        "asleepDeep": 45,
+        "asleepREM": 73,
+        "awake": 31
+      },
+      "sleep_efficiency": 0.877
+    },
+    {
+      "night_of": "2026-08-09",
+      "hk_type": "HKCategoryTypeIdentifierSleepAnalysis",
+      "source": "Apple Watch",
+      "in_bed_start": "2026-08-09T23:43:04-04:00",
+      "in_bed_end": "2026-08-10T06:51:27-04:00",
+      "sleep_onset_latency_min": 20,
+      "total_asleep_min": 397,
+      "awake_min": 11,
+      "awakenings": 0,
+      "stages_min": {
+        "asleepCore": 273,
+        "asleepDeep": 45,
+        "asleepREM": 80,
+        "awake": 11
+      },
+      "sleep_efficiency": 0.927
+    },
+    {
+      "night_of": "2026-08-10",
+      "hk_type": "HKCategoryTypeIdentifierSleepAnalysis",
+      "source": "Apple Watch",
+      "in_bed_start": "2026-08-10T23:28:53-04:00",
+      "in_bed_end": "2026-08-11T07:27:39-04:00",
+      "sleep_onset_latency_min": 28,
+      "total_asleep_min": 432,
+      "awake_min": 18,
+      "awakenings": 4,
+      "stages_min": {
+        "asleepCore": 288,
+        "asleepDeep": 53,
+        "asleepREM": 91,
+        "awake": 18
+      },
+      "sleep_efficiency": 0.903
+    },
+    {
+      "night_of": "2026-08-11",
+      "hk_type": "HKCategoryTypeIdentifierSleepAnalysis",
+      "source": "Apple Watch",
+      "in_bed_start": "2026-08-12T00:14:39-04:00",
+      "in_bed_end": "2026-08-12T08:02:44-04:00",
+      "sleep_onset_latency_min": 29,
+      "total_asleep_min": 405,
+      "awake_min": 33,
+      "awakenings": 1,
+      "stages_min": {
+        "asleepCore": 264,
+        "asleepDeep": 45,
+        "asleepREM": 96,
+        "awake": 33
+      },
+      "sleep_efficiency": 0.866
+    },
+    {
+      "night_of": "2026-08-12",
+      "hk_type": "HKCategoryTypeIdentifierSleepAnalysis",
+      "source": "Apple Watch",
+      "in_bed_start": "2026-08-12T23:37:02-04:00",
+      "in_bed_end": "2026-08-13T06:29:28-04:00",
+      "sleep_onset_latency_min": 37,
+      "total_asleep_min": 368,
+      "awake_min": 7,
+      "awakenings": 4,
+      "stages_min": {
+        "asleepCore": 248,
+        "asleepDeep": 49,
+        "asleepREM": 72,
+        "awake": 7
+      },
+      "sleep_efficiency": 0.893
+    },
+    {
+      "night_of": "2026-08-13",
+      "hk_type": "HKCategoryTypeIdentifierSleepAnalysis",
+      "source": "Apple Watch",
+      "in_bed_start": "2026-08-13T23:29:14-04:00",
+      "in_bed_end": "2026-08-14T07:25:15-04:00",
+      "sleep_onset_latency_min": 24,
+      "total_asleep_min": 411,
+      "awake_min": 41,
+      "awakenings": 6,
+      "stages_min": {
+        "asleepCore": 262,
+        "asleepDeep": 52,
+        "asleepREM": 97,
+        "awake": 41
+      },
+      "sleep_efficiency": 0.863
+    },
+    {
+      "night_of": "2026-08-14",
+      "hk_type": "HKCategoryTypeIdentifierSleepAnalysis",
+      "source": "Apple Watch",
+      "in_bed_start": "2026-08-15T00:13:19-04:00",
+      "in_bed_end": "2026-08-15T07:43:07-04:00",
+      "sleep_onset_latency_min": 22,
+      "total_asleep_min": 402,
+      "awake_min": 26,
+      "awakenings": 1,
+      "stages_min": {
+        "asleepCore": 275,
+        "asleepDeep": 54,
+        "asleepREM": 73,
+        "awake": 26
+      },
+      "sleep_efficiency": 0.894
+    },
+    {
+      "night_of": "2026-08-15",
+      "hk_type": "HKCategoryTypeIdentifierSleepAnalysis",
+      "source": "Apple Watch",
+      "in_bed_start": "2026-08-16T00:21:15-04:00",
+      "in_bed_end": "2026-08-16T07:48:39-04:00",
+      "sleep_onset_latency_min": 23,
+      "total_asleep_min": 389,
+      "awake_min": 36,
+      "awakenings": 3,
+      "stages_min": {
+        "asleepCore": 245,
+        "asleepDeep": 62,
+        "asleepREM": 83,
+        "awake": 36
+      },
+      "sleep_efficiency": 0.869
+    },
+    {
+      "night_of": "2026-08-16",
+      "hk_type": "HKCategoryTypeIdentifierSleepAnalysis",
+      "source": "Apple Watch",
+      "in_bed_start": "2026-08-16T23:52:10-04:00",
+      "in_bed_end": "2026-08-17T07:27:59-04:00",
+      "sleep_onset_latency_min": 38,
+      "total_asleep_min": 395,
+      "awake_min": 23,
+      "awakenings": 4,
+      "stages_min": {
+        "asleepCore": 268,
+        "asleepDeep": 46,
+        "asleepREM": 80,
+        "awake": 23
+      },
+      "sleep_efficiency": 0.867
+    },
+    {
+      "night_of": "2026-08-18",
+      "hk_type": "HKCategoryTypeIdentifierSleepAnalysis",
+      "source": "Apple Watch",
+      "in_bed_start": "2026-08-18T23:42:38-04:00",
+      "in_bed_end": "2026-08-19T07:08:29-04:00",
+      "sleep_onset_latency_min": 29,
+      "total_asleep_min": 392,
+      "awake_min": 25,
+      "awakenings": 2,
+      "stages_min": {
+        "asleepCore": 271,
+        "asleepDeep": 49,
+        "asleepREM": 72,
+        "awake": 25
+      },
+      "sleep_efficiency": 0.879
+    },
+    {
+      "night_of": "2026-08-20",
+      "hk_type": "HKCategoryTypeIdentifierSleepAnalysis",
+      "source": "Apple Watch",
+      "in_bed_start": "2026-08-21T00:22:15-04:00",
+      "in_bed_end": "2026-08-21T08:11:35-04:00",
+      "sleep_onset_latency_min": 17,
+      "total_asleep_min": 430,
+      "awake_min": 23,
+      "awakenings": 3,
+      "stages_min": {
+        "asleepCore": 263,
+        "asleepDeep": 67,
+        "asleepREM": 100,
+        "awake": 23
+      },
+      "sleep_efficiency": 0.916
+    },
+    {
+      "night_of": "2026-08-22",
+      "hk_type": "HKCategoryTypeIdentifierSleepAnalysis",
+      "source": "Apple Watch",
+      "in_bed_start": "2026-08-23T00:27:57-04:00",
+      "in_bed_end": "2026-08-23T07:41:02-04:00",
+      "sleep_onset_latency_min": 29,
+      "total_asleep_min": 375,
+      "awake_min": 29,
+      "awakenings": 5,
+      "stages_min": {
+        "asleepCore": 248,
+        "asleepDeep": 54,
+        "asleepREM": 72,
+        "awake": 29
+      },
+      "sleep_efficiency": 0.865
+    },
+    {
+      "night_of": "2026-08-23",
+      "hk_type": "HKCategoryTypeIdentifierSleepAnalysis",
+      "source": "Apple Watch",
+      "in_bed_start": "2026-08-23T23:32:30-04:00",
+      "in_bed_end": "2026-08-24T06:21:08-04:00",
+      "sleep_onset_latency_min": 25,
+      "total_asleep_min": 356,
+      "awake_min": 27,
+      "awakenings": 2,
+      "stages_min": {
+        "asleepCore": 237,
+        "asleepDeep": 45,
+        "asleepREM": 74,
+        "awake": 27
+      },
+      "sleep_efficiency": 0.872
+    },
+    {
+      "night_of": "2026-08-24",
+      "hk_type": "HKCategoryTypeIdentifierSleepAnalysis",
+      "source": "Apple Watch",
+      "in_bed_start": "2026-08-25T00:03:03-04:00",
+      "in_bed_end": "2026-08-25T08:36:50-04:00",
+      "sleep_onset_latency_min": 39,
+      "total_asleep_min": 429,
+      "awake_min": 46,
+      "awakenings": 3,
+      "stages_min": {
+        "asleepCore": 295,
+        "asleepDeep": 52,
+        "asleepREM": 83,
+        "awake": 46
+      },
+      "sleep_efficiency": 0.836
+    },
+    {
+      "night_of": "2026-08-25",
+      "hk_type": "HKCategoryTypeIdentifierSleepAnalysis",
+      "source": "Apple Watch",
+      "in_bed_start": "2026-08-25T23:55:11-04:00",
+      "in_bed_end": "2026-08-26T06:29:06-04:00",
+      "sleep_onset_latency_min": 30,
+      "total_asleep_min": 333,
+      "awake_min": 32,
+      "awakenings": 2,
+      "stages_min": {
+        "asleepCore": 225,
+        "asleepDeep": 40,
+        "asleepREM": 67,
+        "awake": 32
+      },
+      "sleep_efficiency": 0.844
+    },
+    {
+      "night_of": "2026-08-26",
+      "hk_type": "HKCategoryTypeIdentifierSleepAnalysis",
+      "source": "Apple Watch",
+      "in_bed_start": "2026-08-27T00:35:17-04:00",
+      "in_bed_end": "2026-08-27T08:07:19-04:00",
+      "sleep_onset_latency_min": 33,
+      "total_asleep_min": 386,
+      "awake_min": 34,
+      "awakenings": 5,
+      "stages_min": {
+        "asleepCore": 266,
+        "asleepDeep": 51,
+        "asleepREM": 69,
+        "awake": 34
+      },
+      "sleep_efficiency": 0.853
+    },
+    {
+      "night_of": "2026-08-27",
+      "hk_type": "HKCategoryTypeIdentifierSleepAnalysis",
+      "source": "Apple Watch",
+      "in_bed_start": "2026-08-27T23:43:45-04:00",
+      "in_bed_end": "2026-08-28T07:21:14-04:00",
+      "sleep_onset_latency_min": 41,
+      "total_asleep_min": 370,
+      "awake_min": 47,
+      "awakenings": 4,
+      "stages_min": {
+        "asleepCore": 237,
+        "asleepDeep": 57,
+        "asleepREM": 75,
+        "awake": 47
+      },
+      "sleep_efficiency": 0.808
+    },
+    {
+      "night_of": "2026-08-28",
+      "hk_type": "HKCategoryTypeIdentifierSleepAnalysis",
+      "source": "Apple Watch",
+      "in_bed_start": "2026-08-29T00:26:04-04:00",
+      "in_bed_end": "2026-08-29T06:52:00-04:00",
+      "sleep_onset_latency_min": 33,
+      "total_asleep_min": 311,
+      "awake_min": 42,
+      "awakenings": 3,
+      "stages_min": {
+        "asleepCore": 213,
+        "asleepDeep": 34,
+        "asleepREM": 64,
+        "awake": 42
+      },
+      "sleep_efficiency": 0.806
+    },
+    {
+      "night_of": "2026-08-29",
+      "hk_type": "HKCategoryTypeIdentifierSleepAnalysis",
+      "source": "Apple Watch",
+      "in_bed_start": "2026-08-30T00:11:06-04:00",
+      "in_bed_end": "2026-08-30T05:53:24-04:00",
+      "sleep_onset_latency_min": 29,
+      "total_asleep_min": 271,
+      "awake_min": 43,
+      "awakenings": 3,
+      "stages_min": {
+        "asleepCore": 181,
+        "asleepDeep": 36,
+        "asleepREM": 54,
+        "awake": 43
+      },
+      "sleep_efficiency": 0.791
+    },
+    {
+      "night_of": "2026-08-30",
+      "hk_type": "HKCategoryTypeIdentifierSleepAnalysis",
+      "source": "Apple Watch",
+      "in_bed_start": "2026-08-31T00:36:45-04:00",
+      "in_bed_end": "2026-08-31T07:00:12-04:00",
+      "sleep_onset_latency_min": 31,
+      "total_asleep_min": 303,
+      "awake_min": 49,
+      "awakenings": 5,
+      "stages_min": {
+        "asleepCore": 211,
+        "asleepDeep": 36,
+        "asleepREM": 56,
+        "awake": 49
+      },
+      "sleep_efficiency": 0.791
+    },
+    {
+      "night_of": "2026-08-31",
+      "hk_type": "HKCategoryTypeIdentifierSleepAnalysis",
+      "source": "Apple Watch",
+      "in_bed_start": "2026-09-01T00:38:19-04:00",
+      "in_bed_end": "2026-09-01T07:43:08-04:00",
+      "sleep_onset_latency_min": 37,
+      "total_asleep_min": 339,
+      "awake_min": 49,
+      "awakenings": 5,
+      "stages_min": {
+        "asleepCore": 241,
+        "asleepDeep": 31,
+        "asleepREM": 67,
+        "awake": 49
+      },
+      "sleep_efficiency": 0.799
+    },
+    {
+      "night_of": "2026-09-02",
+      "hk_type": "HKCategoryTypeIdentifierSleepAnalysis",
+      "source": "Apple Watch",
+      "in_bed_start": "2026-09-02T23:54:41-04:00",
+      "in_bed_end": "2026-09-03T07:33:16-04:00",
+      "sleep_onset_latency_min": 52,
+      "total_asleep_min": 360,
+      "awake_min": 47,
+      "awakenings": 5,
+      "stages_min": {
+        "asleepCore": 232,
+        "asleepDeep": 48,
+        "asleepREM": 80,
+        "awake": 47
+      },
+      "sleep_efficiency": 0.786
+    },
+    {
+      "night_of": "2026-09-03",
+      "hk_type": "HKCategoryTypeIdentifierSleepAnalysis",
+      "source": "Apple Watch",
+      "in_bed_start": "2026-09-04T00:43:38-04:00",
+      "in_bed_end": "2026-09-04T08:36:52-04:00",
+      "sleep_onset_latency_min": 42,
+      "total_asleep_min": 383,
+      "awake_min": 49,
+      "awakenings": 6,
+      "stages_min": {
+        "asleepCore": 270,
+        "asleepDeep": 41,
+        "asleepREM": 72,
+        "awake": 49
+      },
+      "sleep_efficiency": 0.809
+    },
+    {
+      "night_of": "2026-09-04",
+      "hk_type": "HKCategoryTypeIdentifierSleepAnalysis",
+      "source": "Apple Watch",
+      "in_bed_start": "2026-09-05T00:29:27-04:00",
+      "in_bed_end": "2026-09-05T08:16:10-04:00",
+      "sleep_onset_latency_min": 49,
+      "total_asleep_min": 379,
+      "awake_min": 39,
+      "awakenings": 4,
+      "stages_min": {
+        "asleepCore": 263,
+        "asleepDeep": 46,
+        "asleepREM": 71,
+        "awake": 39
+      },
+      "sleep_efficiency": 0.812
+    },
+    {
+      "night_of": "2026-09-05",
+      "hk_type": "HKCategoryTypeIdentifierSleepAnalysis",
+      "source": "Apple Watch",
+      "in_bed_start": "2026-09-06T00:29:23-04:00",
+      "in_bed_end": "2026-09-06T09:05:07-04:00",
+      "sleep_onset_latency_min": 37,
+      "total_asleep_min": 425,
+      "awake_min": 54,
+      "awakenings": 6,
+      "stages_min": {
+        "asleepCore": 289,
+        "asleepDeep": 51,
+        "asleepREM": 85,
+        "awake": 54
+      },
+      "sleep_efficiency": 0.824
+    },
+    {
+      "night_of": "2026-09-06",
+      "hk_type": "HKCategoryTypeIdentifierSleepAnalysis",
+      "source": "Apple Watch",
+      "in_bed_start": "2026-09-07T00:54:05-04:00",
+      "in_bed_end": "2026-09-07T08:25:39-04:00",
+      "sleep_onset_latency_min": 37,
+      "total_asleep_min": 382,
+      "awake_min": 33,
+      "awakenings": 3,
+      "stages_min": {
+        "asleepCore": 244,
+        "asleepDeep": 54,
+        "asleepREM": 83,
+        "awake": 33
+      },
+      "sleep_efficiency": 0.845
+    },
+    {
+      "night_of": "2026-09-07",
+      "hk_type": "HKCategoryTypeIdentifierSleepAnalysis",
+      "source": "Apple Watch",
+      "in_bed_start": "2026-09-08T00:01:47-04:00",
+      "in_bed_end": "2026-09-08T06:59:06-04:00",
+      "sleep_onset_latency_min": 48,
+      "total_asleep_min": 329,
+      "awake_min": 40,
+      "awakenings": 5,
+      "stages_min": {
+        "asleepCore": 214,
+        "asleepDeep": 43,
+        "asleepREM": 73,
+        "awake": 40
+      },
+      "sleep_efficiency": 0.789
+    },
+    {
+      "night_of": "2026-09-08",
+      "hk_type": "HKCategoryTypeIdentifierSleepAnalysis",
+      "source": "Apple Watch",
+      "in_bed_start": "2026-09-09T00:32:55-04:00",
+      "in_bed_end": "2026-09-09T08:36:46-04:00",
+      "sleep_onset_latency_min": 58,
+      "total_asleep_min": 387,
+      "awake_min": 39,
+      "awakenings": 4,
+      "stages_min": {
+        "asleepCore": 263,
+        "asleepDeep": 39,
+        "asleepREM": 85,
+        "awake": 39
+      },
+      "sleep_efficiency": 0.801
+    },
+    {
+      "night_of": "2026-09-10",
+      "hk_type": "HKCategoryTypeIdentifierSleepAnalysis",
+      "source": "Apple Watch",
+      "in_bed_start": "2026-09-11T00:25:37-04:00",
+      "in_bed_end": "2026-09-11T07:54:27-04:00",
+      "sleep_onset_latency_min": 31,
+      "total_asleep_min": 385,
+      "awake_min": 33,
+      "awakenings": 5,
+      "stages_min": {
+        "asleepCore": 248,
+        "asleepDeep": 35,
+        "asleepREM": 102,
+        "awake": 33
+      },
+      "sleep_efficiency": 0.857
+    },
+    {
+      "night_of": "2026-09-11",
+      "hk_type": "HKCategoryTypeIdentifierSleepAnalysis",
+      "source": "Apple Watch",
+      "in_bed_start": "2026-09-12T00:01:29-04:00",
+      "in_bed_end": "2026-09-12T07:07:44-04:00",
+      "sleep_onset_latency_min": 24,
+      "total_asleep_min": 371,
+      "awake_min": 31,
+      "awakenings": 3,
+      "stages_min": {
+        "asleepCore": 234,
+        "asleepDeep": 51,
+        "asleepREM": 86,
+        "awake": 31
+      },
+      "sleep_efficiency": 0.871
+    },
+    {
+      "night_of": "2026-09-12",
+      "hk_type": "HKCategoryTypeIdentifierSleepAnalysis",
+      "source": "Apple Watch",
+      "in_bed_start": "2026-09-13T00:22:09-04:00",
+      "in_bed_end": "2026-09-13T07:47:37-04:00",
+      "sleep_onset_latency_min": 36,
+      "total_asleep_min": 375,
+      "awake_min": 34,
+      "awakenings": 5,
+      "stages_min": {
+        "asleepCore": 234,
+        "asleepDeep": 53,
+        "asleepREM": 89,
+        "awake": 34
+      },
+      "sleep_efficiency": 0.842
+    },
+    {
+      "night_of": "2026-09-13",
+      "hk_type": "HKCategoryTypeIdentifierSleepAnalysis",
+      "source": "Apple Watch",
+      "in_bed_start": "2026-09-14T01:02:09-04:00",
+      "in_bed_end": "2026-09-14T07:37:39-04:00",
+      "sleep_onset_latency_min": 29,
+      "total_asleep_min": 328,
+      "awake_min": 38,
+      "awakenings": 4,
+      "stages_min": {
+        "asleepCore": 209,
+        "asleepDeep": 43,
+        "asleepREM": 76,
+        "awake": 38
+      },
+      "sleep_efficiency": 0.83
+    },
+    {
+      "night_of": "2026-09-14",
+      "hk_type": "HKCategoryTypeIdentifierSleepAnalysis",
+      "source": "Apple Watch",
+      "in_bed_start": "2026-09-15T00:49:46-04:00",
+      "in_bed_end": "2026-09-15T08:32:05-04:00",
+      "sleep_onset_latency_min": 33,
+      "total_asleep_min": 388,
+      "awake_min": 41,
+      "awakenings": 3,
+      "stages_min": {
+        "asleepCore": 265,
+        "asleepDeep": 46,
+        "asleepREM": 77,
+        "awake": 41
+      },
+      "sleep_efficiency": 0.839
+    },
+    {
+      "night_of": "2026-09-15",
+      "hk_type": "HKCategoryTypeIdentifierSleepAnalysis",
+      "source": "Apple Watch",
+      "in_bed_start": "2026-09-16T00:45:57-04:00",
+      "in_bed_end": "2026-09-16T08:22:29-04:00",
+      "sleep_onset_latency_min": 33,
+      "total_asleep_min": 391,
+      "awake_min": 32,
+      "awakenings": 4,
+      "stages_min": {
+        "asleepCore": 260,
+        "asleepDeep": 45,
+        "asleepREM": 85,
+        "awake": 32
+      },
+      "sleep_efficiency": 0.856
+    },
+    {
+      "night_of": "2026-09-16",
+      "hk_type": "HKCategoryTypeIdentifierSleepAnalysis",
+      "source": "Apple Watch",
+      "in_bed_start": "2026-09-17T00:47:00-04:00",
+      "in_bed_end": "2026-09-17T07:41:28-04:00",
+      "sleep_onset_latency_min": 29,
+      "total_asleep_min": 355,
+      "awake_min": 31,
+      "awakenings": 3,
+      "stages_min": {
+        "asleepCore": 230,
+        "asleepDeep": 47,
+        "asleepREM": 77,
+        "awake": 31
+      },
+      "sleep_efficiency": 0.857
+    },
+    {
+      "night_of": "2026-09-17",
+      "hk_type": "HKCategoryTypeIdentifierSleepAnalysis",
+      "source": "Apple Watch",
+      "in_bed_start": "2026-09-18T00:22:19-04:00",
+      "in_bed_end": "2026-09-18T07:02:05-04:00",
+      "sleep_onset_latency_min": 30,
+      "total_asleep_min": 338,
+      "awake_min": 33,
+      "awakenings": 3,
+      "stages_min": {
+        "asleepCore": 229,
+        "asleepDeep": 46,
+        "asleepREM": 63,
+        "awake": 33
+      },
+      "sleep_efficiency": 0.845
+    },
+    {
+      "night_of": "2026-09-18",
+      "hk_type": "HKCategoryTypeIdentifierSleepAnalysis",
+      "source": "Apple Watch",
+      "in_bed_start": "2026-09-19T00:21:21-04:00",
+      "in_bed_end": "2026-09-19T07:00:39-04:00",
+      "sleep_onset_latency_min": 22,
+      "total_asleep_min": 352,
+      "awake_min": 26,
+      "awakenings": 4,
+      "stages_min": {
+        "asleepCore": 224,
+        "asleepDeep": 47,
+        "asleepREM": 81,
+        "awake": 26
+      },
+      "sleep_efficiency": 0.881
+    },
+    {
+      "night_of": "2026-09-19",
+      "hk_type": "HKCategoryTypeIdentifierSleepAnalysis",
+      "source": "Apple Watch",
+      "in_bed_start": "2026-09-20T00:03:54-04:00",
+      "in_bed_end": "2026-09-20T07:27:56-04:00",
+      "sleep_onset_latency_min": 30,
+      "total_asleep_min": 384,
+      "awake_min": 31,
+      "awakenings": 4,
+      "stages_min": {
+        "asleepCore": 264,
+        "asleepDeep": 43,
+        "asleepREM": 77,
+        "awake": 31
+      },
+      "sleep_efficiency": 0.865
+    },
+    {
+      "night_of": "2026-09-20",
+      "hk_type": "HKCategoryTypeIdentifierSleepAnalysis",
+      "source": "Apple Watch",
+      "in_bed_start": "2026-09-21T00:36:24-04:00",
+      "in_bed_end": "2026-09-21T08:04:03-04:00",
+      "sleep_onset_latency_min": 21,
+      "total_asleep_min": 393,
+      "awake_min": 35,
+      "awakenings": 3,
+      "stages_min": {
+        "asleepCore": 247,
+        "asleepDeep": 54,
+        "asleepREM": 91,
+        "awake": 35
+      },
+      "sleep_efficiency": 0.877
+    },
+    {
+      "night_of": "2026-09-21",
+      "hk_type": "HKCategoryTypeIdentifierSleepAnalysis",
+      "source": "Apple Watch",
+      "in_bed_start": "2026-09-22T00:19:39-04:00",
+      "in_bed_end": "2026-09-22T07:12:14-04:00",
+      "sleep_onset_latency_min": 25,
+      "total_asleep_min": 356,
+      "awake_min": 31,
+      "awakenings": 2,
+      "stages_min": {
+        "asleepCore": 218,
+        "asleepDeep": 51,
+        "asleepREM": 86,
+        "awake": 31
+      },
+      "sleep_efficiency": 0.863
+    },
+    {
+      "night_of": "2026-09-22",
+      "hk_type": "HKCategoryTypeIdentifierSleepAnalysis",
+      "source": "Apple Watch",
+      "in_bed_start": "2026-09-22T23:19:36-04:00",
+      "in_bed_end": "2026-09-23T07:01:48-04:00",
+      "sleep_onset_latency_min": 22,
+      "total_asleep_min": 416,
+      "awake_min": 25,
+      "awakenings": 3,
+      "stages_min": {
+        "asleepCore": 253,
+        "asleepDeep": 52,
+        "asleepREM": 111,
+        "awake": 25
+      },
+      "sleep_efficiency": 0.899
+    },
+    {
+      "night_of": "2026-09-23",
+      "hk_type": "HKCategoryTypeIdentifierSleepAnalysis",
+      "source": "Apple Watch",
+      "in_bed_start": "2026-09-24T00:47:32-04:00",
+      "in_bed_end": "2026-09-24T08:19:19-04:00",
+      "sleep_onset_latency_min": 26,
+      "total_asleep_min": 401,
+      "awake_min": 25,
+      "awakenings": 2,
+      "stages_min": {
+        "asleepCore": 260,
+        "asleepDeep": 58,
+        "asleepREM": 83,
+        "awake": 25
+      },
+      "sleep_efficiency": 0.888
+    },
+    {
+      "night_of": "2026-09-24",
+      "hk_type": "HKCategoryTypeIdentifierSleepAnalysis",
+      "source": "Apple Watch",
+      "in_bed_start": "2026-09-24T23:27:50-04:00",
+      "in_bed_end": "2026-09-25T06:28:01-04:00",
+      "sleep_onset_latency_min": 37,
+      "total_asleep_min": 364,
+      "awake_min": 19,
+      "awakenings": 2,
+      "stages_min": {
+        "asleepCore": 239,
+        "asleepDeep": 49,
+        "asleepREM": 77,
+        "awake": 19
+      },
+      "sleep_efficiency": 0.866
+    },
+    {
+      "night_of": "2026-09-25",
+      "hk_type": "HKCategoryTypeIdentifierSleepAnalysis",
+      "source": "Apple Watch",
+      "in_bed_start": "2026-09-25T23:24:16-04:00",
+      "in_bed_end": "2026-09-26T06:46:04-04:00",
+      "sleep_onset_latency_min": 10,
+      "total_asleep_min": 397,
+      "awake_min": 35,
+      "awakenings": 3,
+      "stages_min": {
+        "asleepCore": 264,
+        "asleepDeep": 53,
+        "asleepREM": 80,
+        "awake": 35
+      },
+      "sleep_efficiency": 0.898
+    },
+    {
+      "night_of": "2026-09-26",
+      "hk_type": "HKCategoryTypeIdentifierSleepAnalysis",
+      "source": "Apple Watch",
+      "in_bed_start": "2026-09-27T00:05:29-04:00",
+      "in_bed_end": "2026-09-27T07:31:34-04:00",
+      "sleep_onset_latency_min": 20,
+      "total_asleep_min": 415,
+      "awake_min": 10,
+      "awakenings": 2,
+      "stages_min": {
+        "asleepCore": 261,
+        "asleepDeep": 66,
+        "asleepREM": 88,
+        "awake": 10
+      },
+      "sleep_efficiency": 0.931
+    },
+    {
+      "night_of": "2026-09-27",
+      "hk_type": "HKCategoryTypeIdentifierSleepAnalysis",
+      "source": "Apple Watch",
+      "in_bed_start": "2026-09-27T23:17:16-04:00",
+      "in_bed_end": "2026-09-28T06:39:20-04:00",
+      "sleep_onset_latency_min": 22,
+      "total_asleep_min": 407,
+      "awake_min": 14,
+      "awakenings": 2,
+      "stages_min": {
+        "asleepCore": 259,
+        "asleepDeep": 55,
+        "asleepREM": 93,
+        "awake": 14
+      },
+      "sleep_efficiency": 0.92
+    },
+    {
+      "night_of": "2026-09-28",
+      "hk_type": "HKCategoryTypeIdentifierSleepAnalysis",
+      "source": "Apple Watch",
+      "in_bed_start": "2026-09-28T23:21:36-04:00",
+      "in_bed_end": "2026-09-29T07:49:56-04:00",
+      "sleep_onset_latency_min": 20,
+      "total_asleep_min": 457,
+      "awake_min": 31,
+      "awakenings": 0,
+      "stages_min": {
+        "asleepCore": 298,
+        "asleepDeep": 70,
+        "asleepREM": 89,
+        "awake": 31
+      },
+      "sleep_efficiency": 0.899
+    },
+    {
+      "night_of": "2026-09-29",
+      "hk_type": "HKCategoryTypeIdentifierSleepAnalysis",
+      "source": "Apple Watch",
+      "in_bed_start": "2026-09-29T23:53:43-04:00",
+      "in_bed_end": "2026-09-30T07:43:54-04:00",
+      "sleep_onset_latency_min": 19,
+      "total_asleep_min": 424,
+      "awake_min": 27,
+      "awakenings": 2,
+      "stages_min": {
+        "asleepCore": 262,
+        "asleepDeep": 54,
+        "asleepREM": 109,
+        "awake": 27
+      },
+      "sleep_efficiency": 0.902
+    },
+    {
+      "night_of": "2026-09-30",
+      "hk_type": "HKCategoryTypeIdentifierSleepAnalysis",
+      "source": "Apple Watch",
+      "in_bed_start": "2026-09-30T22:55:33-04:00",
+      "in_bed_end": "2026-10-01T06:39:12-04:00",
+      "sleep_onset_latency_min": 15,
+      "total_asleep_min": 411,
+      "awake_min": 37,
+      "awakenings": 3,
+      "stages_min": {
+        "asleepCore": 265,
+        "asleepDeep": 53,
+        "asleepREM": 93,
+        "awake": 37
+      },
+      "sleep_efficiency": 0.887
+    },
+    {
+      "night_of": "2026-10-01",
+      "hk_type": "HKCategoryTypeIdentifierSleepAnalysis",
+      "source": "Apple Watch",
+      "in_bed_start": "2026-10-01T23:19:45-04:00",
+      "in_bed_end": "2026-10-02T06:28:49-04:00",
+      "sleep_onset_latency_min": 14,
+      "total_asleep_min": 404,
+      "awake_min": 11,
+      "awakenings": 2,
+      "stages_min": {
+        "asleepCore": 255,
+        "asleepDeep": 62,
+        "asleepREM": 87,
+        "awake": 11
+      },
+      "sleep_efficiency": 0.942
+    },
+    {
+      "night_of": "2026-10-02",
+      "hk_type": "HKCategoryTypeIdentifierSleepAnalysis",
+      "source": "Apple Watch",
+      "in_bed_start": "2026-10-02T23:40:49-04:00",
+      "in_bed_end": "2026-10-03T07:25:18-04:00",
+      "sleep_onset_latency_min": 24,
+      "total_asleep_min": 420,
+      "awake_min": 20,
+      "awakenings": 1,
+      "stages_min": {
+        "asleepCore": 263,
+        "asleepDeep": 74,
+        "asleepREM": 83,
+        "awake": 20
+      },
+      "sleep_efficiency": 0.905
+    },
+    {
+      "night_of": "2026-10-03",
+      "hk_type": "HKCategoryTypeIdentifierSleepAnalysis",
+      "source": "Apple Watch",
+      "in_bed_start": "2026-10-03T23:17:06-04:00",
+      "in_bed_end": "2026-10-04T07:29:26-04:00",
+      "sleep_onset_latency_min": 14,
+      "total_asleep_min": 456,
+      "awake_min": 22,
+      "awakenings": 1,
+      "stages_min": {
+        "asleepCore": 297,
+        "asleepDeep": 59,
+        "asleepREM": 100,
+        "awake": 22
+      },
+      "sleep_efficiency": 0.927
+    }
+  ],
+  "daily_metrics": [
+    {
+      "date": "2026-07-13",
+      "watch_worn": true,
+      "HKQuantityTypeIdentifierStepCount": {
+        "value": 2845,
+        "unit": "count",
+        "source": "iPhone+Watch"
+      },
+      "HKQuantityTypeIdentifierActiveEnergyBurned": {
+        "value": 199,
+        "unit": "kcal"
+      },
+      "HKQuantityTypeIdentifierAppleExerciseTime": {
+        "value": 10,
+        "unit": "min"
+      },
+      "HKQuantityTypeIdentifierRestingHeartRate": {
+        "value": 72,
+        "unit": "count/min"
+      },
+      "HKQuantityTypeIdentifierHeartRateVariabilitySDNN": {
+        "value": 22.0,
+        "unit": "ms",
+        "aggregation": "daily_mean_of_samples"
+      },
+      "HKQuantityTypeIdentifierRespiratoryRate": {
+        "value": 16.6,
+        "unit": "count/min",
+        "aggregation": "sleep_mean"
+      },
+      "HKQuantityTypeIdentifierTimeInDaylight": {
+        "value": 18,
+        "unit": "min"
+      },
+      "HKCategoryTypeIdentifierMindfulSession": {
+        "value": 0,
+        "unit": "min"
+      }
+    },
+    {
+      "date": "2026-07-14",
+      "watch_worn": true,
+      "HKQuantityTypeIdentifierStepCount": {
+        "value": 4739,
+        "unit": "count",
+        "source": "iPhone+Watch"
+      },
+      "HKQuantityTypeIdentifierActiveEnergyBurned": {
+        "value": 293,
+        "unit": "kcal"
+      },
+      "HKQuantityTypeIdentifierAppleExerciseTime": {
+        "value": 9,
+        "unit": "min"
+      },
+      "HKQuantityTypeIdentifierRestingHeartRate": {
+        "value": 71,
+        "unit": "count/min"
+      },
+      "HKQuantityTypeIdentifierHeartRateVariabilitySDNN": {
+        "value": 24.8,
+        "unit": "ms",
+        "aggregation": "daily_mean_of_samples"
+      },
+      "HKQuantityTypeIdentifierRespiratoryRate": {
+        "value": 16.3,
+        "unit": "count/min",
+        "aggregation": "sleep_mean"
+      },
+      "HKQuantityTypeIdentifierTimeInDaylight": {
+        "value": 20,
+        "unit": "min"
+      },
+      "HKCategoryTypeIdentifierMindfulSession": {
+        "value": 0,
+        "unit": "min"
+      }
+    },
+    {
+      "date": "2026-07-15",
+      "watch_worn": true,
+      "HKQuantityTypeIdentifierStepCount": {
+        "value": 3142,
+        "unit": "count",
+        "source": "iPhone+Watch"
+      },
+      "HKQuantityTypeIdentifierActiveEnergyBurned": {
+        "value": 381,
+        "unit": "kcal"
+      },
+      "HKQuantityTypeIdentifierAppleExerciseTime": {
+        "value": 26,
+        "unit": "min"
+      },
+      "HKQuantityTypeIdentifierRestingHeartRate": {
+        "value": 71,
+        "unit": "count/min"
+      },
+      "HKQuantityTypeIdentifierHeartRateVariabilitySDNN": {
+        "value": 30.9,
+        "unit": "ms",
+        "aggregation": "daily_mean_of_samples"
+      },
+      "HKQuantityTypeIdentifierRespiratoryRate": {
+        "value": 15.9,
+        "unit": "count/min",
+        "aggregation": "sleep_mean"
+      },
+      "HKQuantityTypeIdentifierTimeInDaylight": {
+        "value": 22,
+        "unit": "min"
+      },
+      "HKCategoryTypeIdentifierMindfulSession": {
+        "value": 0,
+        "unit": "min"
+      }
+    },
+    {
+      "date": "2026-07-16",
+      "watch_worn": true,
+      "HKQuantityTypeIdentifierStepCount": {
+        "value": 4116,
+        "unit": "count",
+        "source": "iPhone+Watch"
+      },
+      "HKQuantityTypeIdentifierActiveEnergyBurned": {
+        "value": 291,
+        "unit": "kcal"
+      },
+      "HKQuantityTypeIdentifierAppleExerciseTime": {
+        "value": 15,
+        "unit": "min"
+      },
+      "HKQuantityTypeIdentifierRestingHeartRate": {
+        "value": 74,
+        "unit": "count/min"
+      },
+      "HKQuantityTypeIdentifierHeartRateVariabilitySDNN": {
+        "value": 22.3,
+        "unit": "ms",
+        "aggregation": "daily_mean_of_samples"
+      },
+      "HKQuantityTypeIdentifierRespiratoryRate": {
+        "value": 15.8,
+        "unit": "count/min",
+        "aggregation": "sleep_mean"
+      },
+      "HKQuantityTypeIdentifierTimeInDaylight": {
+        "value": 34,
+        "unit": "min"
+      },
+      "HKCategoryTypeIdentifierMindfulSession": {
+        "value": 0,
+        "unit": "min"
+      }
+    },
+    {
+      "date": "2026-07-17",
+      "watch_worn": true,
+      "HKQuantityTypeIdentifierStepCount": {
+        "value": 4962,
+        "unit": "count",
+        "source": "iPhone+Watch"
+      },
+      "HKQuantityTypeIdentifierActiveEnergyBurned": {
+        "value": 286,
+        "unit": "kcal"
+      },
+      "HKQuantityTypeIdentifierAppleExerciseTime": {
+        "value": 12,
+        "unit": "min"
+      },
+      "HKQuantityTypeIdentifierRestingHeartRate": {
+        "value": 71,
+        "unit": "count/min"
+      },
+      "HKQuantityTypeIdentifierHeartRateVariabilitySDNN": {
+        "value": 25.4,
+        "unit": "ms",
+        "aggregation": "daily_mean_of_samples"
+      },
+      "HKQuantityTypeIdentifierRespiratoryRate": {
+        "value": 16.0,
+        "unit": "count/min",
+        "aggregation": "sleep_mean"
+      },
+      "HKQuantityTypeIdentifierTimeInDaylight": {
+        "value": 46,
+        "unit": "min"
+      },
+      "HKCategoryTypeIdentifierMindfulSession": {
+        "value": 0,
+        "unit": "min"
+      }
+    },
+    {
+      "date": "2026-07-18",
+      "watch_worn": true,
+      "HKQuantityTypeIdentifierStepCount": {
+        "value": 3712,
+        "unit": "count",
+        "source": "iPhone+Watch"
+      },
+      "HKQuantityTypeIdentifierActiveEnergyBurned": {
+        "value": 228,
+        "unit": "kcal"
+      },
+      "HKQuantityTypeIdentifierAppleExerciseTime": {
+        "value": 8,
+        "unit": "min"
+      },
+      "HKQuantityTypeIdentifierRestingHeartRate": {
+        "value": 75,
+        "unit": "count/min"
+      },
+      "HKQuantityTypeIdentifierHeartRateVariabilitySDNN": {
+        "value": 33.1,
+        "unit": "ms",
+        "aggregation": "daily_mean_of_samples"
+      },
+      "HKQuantityTypeIdentifierRespiratoryRate": {
+        "value": 16.6,
+        "unit": "count/min",
+        "aggregation": "sleep_mean"
+      },
+      "HKQuantityTypeIdentifierTimeInDaylight": {
+        "value": 23,
+        "unit": "min"
+      },
+      "HKCategoryTypeIdentifierMindfulSession": {
+        "value": 0,
+        "unit": "min"
+      }
+    },
+    {
+      "date": "2026-07-19",
+      "watch_worn": true,
+      "HKQuantityTypeIdentifierStepCount": {
+        "value": 3454,
+        "unit": "count",
+        "source": "iPhone+Watch"
+      },
+      "HKQuantityTypeIdentifierActiveEnergyBurned": {
+        "value": 188,
+        "unit": "kcal"
+      },
+      "HKQuantityTypeIdentifierAppleExerciseTime": {
+        "value": 5,
+        "unit": "min"
+      },
+      "HKQuantityTypeIdentifierRestingHeartRate": {
+        "value": 71,
+        "unit": "count/min"
+      },
+      "HKQuantityTypeIdentifierHeartRateVariabilitySDNN": {
+        "value": 31.6,
+        "unit": "ms",
+        "aggregation": "daily_mean_of_samples"
+      },
+      "HKQuantityTypeIdentifierRespiratoryRate": {
+        "value": 15.9,
+        "unit": "count/min",
+        "aggregation": "sleep_mean"
+      },
+      "HKQuantityTypeIdentifierTimeInDaylight": {
+        "value": 28,
+        "unit": "min"
+      },
+      "HKCategoryTypeIdentifierMindfulSession": {
+        "value": 0,
+        "unit": "min"
+      }
+    },
+    {
+      "date": "2026-07-20",
+      "watch_worn": true,
+      "HKQuantityTypeIdentifierStepCount": {
+        "value": 4688,
+        "unit": "count",
+        "source": "iPhone+Watch"
+      },
+      "HKQuantityTypeIdentifierActiveEnergyBurned": {
+        "value": 307,
+        "unit": "kcal"
+      },
+      "HKQuantityTypeIdentifierAppleExerciseTime": {
+        "value": 12,
+        "unit": "min"
+      },
+      "HKQuantityTypeIdentifierRestingHeartRate": {
+        "value": 69,
+        "unit": "count/min"
+      },
+      "HKQuantityTypeIdentifierHeartRateVariabilitySDNN": {
+        "value": 30.5,
+        "unit": "ms",
+        "aggregation": "daily_mean_of_samples"
+      },
+      "HKQuantityTypeIdentifierRespiratoryRate": {
+        "value": 15.9,
+        "unit": "count/min",
+        "aggregation": "sleep_mean"
+      },
+      "HKQuantityTypeIdentifierTimeInDaylight": {
+        "value": 39,
+        "unit": "min"
+      },
+      "HKCategoryTypeIdentifierMindfulSession": {
+        "value": 0,
+        "unit": "min"
+      }
+    },
+    {
+      "date": "2026-07-21",
+      "watch_worn": true,
+      "HKQuantityTypeIdentifierStepCount": {
+        "value": 3336,
+        "unit": "count",
+        "source": "iPhone+Watch"
+      },
+      "HKQuantityTypeIdentifierActiveEnergyBurned": {
+        "value": 275,
+        "unit": "kcal"
+      },
+      "HKQuantityTypeIdentifierAppleExerciseTime": {
+        "value": 15,
+        "unit": "min"
+      },
+      "HKQuantityTypeIdentifierRestingHeartRate": {
+        "value": 71,
+        "unit": "count/min"
+      },
+      "HKQuantityTypeIdentifierHeartRateVariabilitySDNN": {
+        "value": 31.6,
+        "unit": "ms",
+        "aggregation": "daily_mean_of_samples"
+      },
+      "HKQuantityTypeIdentifierRespiratoryRate": {
+        "value": 16.2,
+        "unit": "count/min",
+        "aggregation": "sleep_mean"
+      },
+      "HKQuantityTypeIdentifierTimeInDaylight": {
+        "value": 30,
+        "unit": "min"
+      },
+      "HKCategoryTypeIdentifierMindfulSession": {
+        "value": 0,
+        "unit": "min"
+      }
+    },
+    {
+      "date": "2026-07-22",
+      "watch_worn": true,
+      "HKQuantityTypeIdentifierStepCount": {
+        "value": 6358,
+        "unit": "count",
+        "source": "iPhone+Watch"
+      },
+      "HKQuantityTypeIdentifierActiveEnergyBurned": {
+        "value": 371,
+        "unit": "kcal"
+      },
+      "HKQuantityTypeIdentifierAppleExerciseTime": {
+        "value": 16,
+        "unit": "min"
+      },
+      "HKQuantityTypeIdentifierRestingHeartRate": {
+        "value": 72,
+        "unit": "count/min"
+      },
+      "HKQuantityTypeIdentifierHeartRateVariabilitySDNN": {
+        "value": 32.9,
+        "unit": "ms",
+        "aggregation": "daily_mean_of_samples"
+      },
+      "HKQuantityTypeIdentifierRespiratoryRate": {
+        "value": 16.7,
+        "unit": "count/min",
+        "aggregation": "sleep_mean"
+      },
+      "HKQuantityTypeIdentifierTimeInDaylight": {
+        "value": 21,
+        "unit": "min"
+      },
+      "HKCategoryTypeIdentifierMindfulSession": {
+        "value": 0,
+        "unit": "min"
+      }
+    },
+    {
+      "date": "2026-07-23",
+      "watch_worn": false,
+      "HKQuantityTypeIdentifierStepCount": {
+        "value": 5386,
+        "unit": "count",
+        "source": "iPhone+Watch"
+      },
+      "HKQuantityTypeIdentifierActiveEnergyBurned": {
+        "value": 329,
+        "unit": "kcal"
+      },
+      "HKQuantityTypeIdentifierAppleExerciseTime": {
+        "value": null,
+        "unit": "min"
+      },
+      "HKQuantityTypeIdentifierRestingHeartRate": {
+        "value": null,
+        "unit": "count/min"
+      },
+      "HKQuantityTypeIdentifierHeartRateVariabilitySDNN": {
+        "value": null,
+        "unit": "ms",
+        "aggregation": "daily_mean_of_samples"
+      },
+      "HKQuantityTypeIdentifierRespiratoryRate": {
+        "value": null,
+        "unit": "count/min",
+        "aggregation": "sleep_mean"
+      },
+      "HKQuantityTypeIdentifierTimeInDaylight": {
+        "value": null,
+        "unit": "min"
+      },
+      "HKCategoryTypeIdentifierMindfulSession": {
+        "value": 0,
+        "unit": "min"
+      }
+    },
+    {
+      "date": "2026-07-24",
+      "watch_worn": true,
+      "HKQuantityTypeIdentifierStepCount": {
+        "value": 5406,
+        "unit": "count",
+        "source": "iPhone+Watch"
+      },
+      "HKQuantityTypeIdentifierActiveEnergyBurned": {
+        "value": 298,
+        "unit": "kcal"
+      },
+      "HKQuantityTypeIdentifierAppleExerciseTime": {
+        "value": 8,
+        "unit": "min"
+      },
+      "HKQuantityTypeIdentifierRestingHeartRate": {
+        "value": 70,
+        "unit": "count/min"
+      },
+      "HKQuantityTypeIdentifierHeartRateVariabilitySDNN": {
+        "value": 40.2,
+        "unit": "ms",
+        "aggregation": "daily_mean_of_samples"
+      },
+      "HKQuantityTypeIdentifierRespiratoryRate": {
+        "value": 15.8,
+        "unit": "count/min",
+        "aggregation": "sleep_mean"
+      },
+      "HKQuantityTypeIdentifierTimeInDaylight": {
+        "value": 5,
+        "unit": "min"
+      },
+      "HKCategoryTypeIdentifierMindfulSession": {
+        "value": 5,
+        "unit": "min"
+      }
+    },
+    {
+      "date": "2026-07-25",
+      "watch_worn": true,
+      "HKQuantityTypeIdentifierStepCount": {
+        "value": 3797,
+        "unit": "count",
+        "source": "iPhone+Watch"
+      },
+      "HKQuantityTypeIdentifierActiveEnergyBurned": {
+        "value": 197,
+        "unit": "kcal"
+      },
+      "HKQuantityTypeIdentifierAppleExerciseTime": {
+        "value": 4,
+        "unit": "min"
+      },
+      "HKQuantityTypeIdentifierRestingHeartRate": {
+        "value": 71,
+        "unit": "count/min"
+      },
+      "HKQuantityTypeIdentifierHeartRateVariabilitySDNN": {
+        "value": 29.1,
+        "unit": "ms",
+        "aggregation": "daily_mean_of_samples"
+      },
+      "HKQuantityTypeIdentifierRespiratoryRate": {
+        "value": 15.7,
+        "unit": "count/min",
+        "aggregation": "sleep_mean"
+      },
+      "HKQuantityTypeIdentifierTimeInDaylight": {
+        "value": 38,
+        "unit": "min"
+      },
+      "HKCategoryTypeIdentifierMindfulSession": {
+        "value": 0,
+        "unit": "min"
+      }
+    },
+    {
+      "date": "2026-07-26",
+      "watch_worn": true,
+      "HKQuantityTypeIdentifierStepCount": {
+        "value": 5432,
+        "unit": "count",
+        "source": "iPhone+Watch"
+      },
+      "HKQuantityTypeIdentifierActiveEnergyBurned": {
+        "value": 351,
+        "unit": "kcal"
+      },
+      "HKQuantityTypeIdentifierAppleExerciseTime": {
+        "value": 17,
+        "unit": "min"
+      },
+      "HKQuantityTypeIdentifierRestingHeartRate": {
+        "value": 71,
+        "unit": "count/min"
+      },
+      "HKQuantityTypeIdentifierHeartRateVariabilitySDNN": {
+        "value": 38.1,
+        "unit": "ms",
+        "aggregation": "daily_mean_of_samples"
+      },
+      "HKQuantityTypeIdentifierRespiratoryRate": {
+        "value": 15.6,
+        "unit": "count/min",
+        "aggregation": "sleep_mean"
+      },
+      "HKQuantityTypeIdentifierTimeInDaylight": {
+        "value": 34,
+        "unit": "min"
+      },
+      "HKCategoryTypeIdentifierMindfulSession": {
+        "value": 5,
+        "unit": "min"
+      }
+    },
+    {
+      "date": "2026-07-27",
+      "watch_worn": true,
+      "HKQuantityTypeIdentifierStepCount": {
+        "value": 4607,
+        "unit": "count",
+        "source": "iPhone+Watch"
+      },
+      "HKQuantityTypeIdentifierActiveEnergyBurned": {
+        "value": 327,
+        "unit": "kcal"
+      },
+      "HKQuantityTypeIdentifierAppleExerciseTime": {
+        "value": 18,
+        "unit": "min"
+      },
+      "HKQuantityTypeIdentifierRestingHeartRate": {
+        "value": 72,
+        "unit": "count/min"
+      },
+      "HKQuantityTypeIdentifierHeartRateVariabilitySDNN": {
+        "value": 42.1,
+        "unit": "ms",
+        "aggregation": "daily_mean_of_samples"
+      },
+      "HKQuantityTypeIdentifierRespiratoryRate": {
+        "value": 16.2,
+        "unit": "count/min",
+        "aggregation": "sleep_mean"
+      },
+      "HKQuantityTypeIdentifierTimeInDaylight": {
+        "value": 57,
+        "unit": "min"
+      },
+      "HKCategoryTypeIdentifierMindfulSession": {
+        "value": 0,
+        "unit": "min"
+      }
+    },
+    {
+      "date": "2026-07-28",
+      "watch_worn": true,
+      "HKQuantityTypeIdentifierStepCount": {
+        "value": 4178,
+        "unit": "count",
+        "source": "iPhone+Watch"
+      },
+      "HKQuantityTypeIdentifierActiveEnergyBurned": {
+        "value": 323,
+        "unit": "kcal"
+      },
+      "HKQuantityTypeIdentifierAppleExerciseTime": {
+        "value": 17,
+        "unit": "min"
+      },
+      "HKQuantityTypeIdentifierRestingHeartRate": {
+        "value": 71,
+        "unit": "count/min"
+      },
+      "HKQuantityTypeIdentifierHeartRateVariabilitySDNN": {
+        "value": 34.2,
+        "unit": "ms",
+        "aggregation": "daily_mean_of_samples"
+      },
+      "HKQuantityTypeIdentifierRespiratoryRate": {
+        "value": 16.3,
+        "unit": "count/min",
+        "aggregation": "sleep_mean"
+      },
+      "HKQuantityTypeIdentifierTimeInDaylight": {
+        "value": 29,
+        "unit": "min"
+      },
+      "HKCategoryTypeIdentifierMindfulSession": {
+        "value": 5,
+        "unit": "min"
+      }
+    },
+    {
+      "date": "2026-07-29",
+      "watch_worn": false,
+      "HKQuantityTypeIdentifierStepCount": {
+        "value": 4841,
+        "unit": "count",
+        "source": "iPhone+Watch"
+      },
+      "HKQuantityTypeIdentifierActiveEnergyBurned": {
+        "value": 280,
+        "unit": "kcal"
+      },
+      "HKQuantityTypeIdentifierAppleExerciseTime": {
+        "value": null,
+        "unit": "min"
+      },
+      "HKQuantityTypeIdentifierRestingHeartRate": {
+        "value": null,
+        "unit": "count/min"
+      },
+      "HKQuantityTypeIdentifierHeartRateVariabilitySDNN": {
+        "value": null,
+        "unit": "ms",
+        "aggregation": "daily_mean_of_samples"
+      },
+      "HKQuantityTypeIdentifierRespiratoryRate": {
+        "value": null,
+        "unit": "count/min",
+        "aggregation": "sleep_mean"
+      },
+      "HKQuantityTypeIdentifierTimeInDaylight": {
+        "value": null,
+        "unit": "min"
+      },
+      "HKCategoryTypeIdentifierMindfulSession": {
+        "value": 0,
+        "unit": "min"
+      }
+    },
+    {
+      "date": "2026-07-30",
+      "watch_worn": true,
+      "HKQuantityTypeIdentifierStepCount": {
+        "value": 4414,
+        "unit": "count",
+        "source": "iPhone+Watch"
+      },
+      "HKQuantityTypeIdentifierActiveEnergyBurned": {
+        "value": 274,
+        "unit": "kcal"
+      },
+      "HKQuantityTypeIdentifierAppleExerciseTime": {
+        "value": 10,
+        "unit": "min"
+      },
+      "HKQuantityTypeIdentifierRestingHeartRate": {
+        "value": 69,
+        "unit": "count/min"
+      },
+      "HKQuantityTypeIdentifierHeartRateVariabilitySDNN": {
+        "value": 37.0,
+        "unit": "ms",
+        "aggregation": "daily_mean_of_samples"
+      },
+      "HKQuantityTypeIdentifierRespiratoryRate": {
+        "value": 15.6,
+        "unit": "count/min",
+        "aggregation": "sleep_mean"
+      },
+      "HKQuantityTypeIdentifierTimeInDaylight": {
+        "value": 22,
+        "unit": "min"
+      },
+      "HKCategoryTypeIdentifierMindfulSession": {
+        "value": 0,
+        "unit": "min"
+      }
+    },
+    {
+      "date": "2026-07-31",
+      "watch_worn": true,
+      "HKQuantityTypeIdentifierStepCount": {
+        "value": 5324,
+        "unit": "count",
+        "source": "iPhone+Watch"
+      },
+      "HKQuantityTypeIdentifierActiveEnergyBurned": {
+        "value": 335,
+        "unit": "kcal"
+      },
+      "HKQuantityTypeIdentifierAppleExerciseTime": {
+        "value": 15,
+        "unit": "min"
+      },
+      "HKQuantityTypeIdentifierRestingHeartRate": {
+        "value": 69,
+        "unit": "count/min"
+      },
+      "HKQuantityTypeIdentifierHeartRateVariabilitySDNN": {
+        "value": 24.2,
+        "unit": "ms",
+        "aggregation": "daily_mean_of_samples"
+      },
+      "HKQuantityTypeIdentifierRespiratoryRate": {
+        "value": 15.9,
+        "unit": "count/min",
+        "aggregation": "sleep_mean"
+      },
+      "HKQuantityTypeIdentifierTimeInDaylight": {
+        "value": 54,
+        "unit": "min"
+      },
+      "HKCategoryTypeIdentifierMindfulSession": {
+        "value": 0,
+        "unit": "min"
+      }
+    },
+    {
+      "date": "2026-08-01",
+      "watch_worn": true,
+      "HKQuantityTypeIdentifierStepCount": {
+        "value": 6194,
+        "unit": "count",
+        "source": "iPhone+Watch"
+      },
+      "HKQuantityTypeIdentifierActiveEnergyBurned": {
+        "value": 356,
+        "unit": "kcal"
+      },
+      "HKQuantityTypeIdentifierAppleExerciseTime": {
+        "value": 10,
+        "unit": "min"
+      },
+      "HKQuantityTypeIdentifierRestingHeartRate": {
+        "value": 68,
+        "unit": "count/min"
+      },
+      "HKQuantityTypeIdentifierHeartRateVariabilitySDNN": {
+        "value": 31.7,
+        "unit": "ms",
+        "aggregation": "daily_mean_of_samples"
+      },
+      "HKQuantityTypeIdentifierRespiratoryRate": {
+        "value": 14.8,
+        "unit": "count/min",
+        "aggregation": "sleep_mean"
+      },
+      "HKQuantityTypeIdentifierTimeInDaylight": {
+        "value": 33,
+        "unit": "min"
+      },
+      "HKCategoryTypeIdentifierMindfulSession": {
+        "value": 0,
+        "unit": "min"
+      }
+    },
+    {
+      "date": "2026-08-02",
+      "watch_worn": true,
+      "HKQuantityTypeIdentifierStepCount": {
+        "value": 5929,
+        "unit": "count",
+        "source": "iPhone+Watch"
+      },
+      "HKQuantityTypeIdentifierActiveEnergyBurned": {
+        "value": 339,
+        "unit": "kcal"
+      },
+      "HKQuantityTypeIdentifierAppleExerciseTime": {
+        "value": 13,
+        "unit": "min"
+      },
+      "HKQuantityTypeIdentifierRestingHeartRate": {
+        "value": 68,
+        "unit": "count/min"
+      },
+      "HKQuantityTypeIdentifierHeartRateVariabilitySDNN": {
+        "value": 31.7,
+        "unit": "ms",
+        "aggregation": "daily_mean_of_samples"
+      },
+      "HKQuantityTypeIdentifierRespiratoryRate": {
+        "value": 15.3,
+        "unit": "count/min",
+        "aggregation": "sleep_mean"
+      },
+      "HKQuantityTypeIdentifierTimeInDaylight": {
+        "value": 27,
+        "unit": "min"
+      },
+      "HKCategoryTypeIdentifierMindfulSession": {
+        "value": 0,
+        "unit": "min"
+      }
+    },
+    {
+      "date": "2026-08-03",
+      "watch_worn": true,
+      "HKQuantityTypeIdentifierStepCount": {
+        "value": 4991,
+        "unit": "count",
+        "source": "iPhone+Watch"
+      },
+      "HKQuantityTypeIdentifierActiveEnergyBurned": {
+        "value": 317,
+        "unit": "kcal"
+      },
+      "HKQuantityTypeIdentifierAppleExerciseTime": {
+        "value": 11,
+        "unit": "min"
+      },
+      "HKQuantityTypeIdentifierRestingHeartRate": {
+        "value": 68,
+        "unit": "count/min"
+      },
+      "HKQuantityTypeIdentifierHeartRateVariabilitySDNN": {
+        "value": 29.5,
+        "unit": "ms",
+        "aggregation": "daily_mean_of_samples"
+      },
+      "HKQuantityTypeIdentifierRespiratoryRate": {
+        "value": 16.4,
+        "unit": "count/min",
+        "aggregation": "sleep_mean"
+      },
+      "HKQuantityTypeIdentifierTimeInDaylight": {
+        "value": 67,
+        "unit": "min"
+      },
+      "HKCategoryTypeIdentifierMindfulSession": {
+        "value": 0,
+        "unit": "min"
+      }
+    },
+    {
+      "date": "2026-08-04",
+      "watch_worn": true,
+      "HKQuantityTypeIdentifierStepCount": {
+        "value": 4594,
+        "unit": "count",
+        "source": "iPhone+Watch"
+      },
+      "HKQuantityTypeIdentifierActiveEnergyBurned": {
+        "value": 319,
+        "unit": "kcal"
+      },
+      "HKQuantityTypeIdentifierAppleExerciseTime": {
+        "value": 15,
+        "unit": "min"
+      },
+      "HKQuantityTypeIdentifierRestingHeartRate": {
+        "value": 69,
+        "unit": "count/min"
+      },
+      "HKQuantityTypeIdentifierHeartRateVariabilitySDNN": {
+        "value": 31.1,
+        "unit": "ms",
+        "aggregation": "daily_mean_of_samples"
+      },
+      "HKQuantityTypeIdentifierRespiratoryRate": {
+        "value": 15.7,
+        "unit": "count/min",
+        "aggregation": "sleep_mean"
+      },
+      "HKQuantityTypeIdentifierTimeInDaylight": {
+        "value": 41,
+        "unit": "min"
+      },
+      "HKCategoryTypeIdentifierMindfulSession": {
+        "value": 0,
+        "unit": "min"
+      }
+    },
+    {
+      "date": "2026-08-05",
+      "watch_worn": false,
+      "HKQuantityTypeIdentifierStepCount": {
+        "value": 5503,
+        "unit": "count",
+        "source": "iPhone+Watch"
+      },
+      "HKQuantityTypeIdentifierActiveEnergyBurned": {
+        "value": 387,
+        "unit": "kcal"
+      },
+      "HKQuantityTypeIdentifierAppleExerciseTime": {
+        "value": null,
+        "unit": "min"
+      },
+      "HKQuantityTypeIdentifierRestingHeartRate": {
+        "value": null,
+        "unit": "count/min"
+      },
+      "HKQuantityTypeIdentifierHeartRateVariabilitySDNN": {
+        "value": null,
+        "unit": "ms",
+        "aggregation": "daily_mean_of_samples"
+      },
+      "HKQuantityTypeIdentifierRespiratoryRate": {
+        "value": null,
+        "unit": "count/min",
+        "aggregation": "sleep_mean"
+      },
+      "HKQuantityTypeIdentifierTimeInDaylight": {
+        "value": null,
+        "unit": "min"
+      },
+      "HKCategoryTypeIdentifierMindfulSession": {
+        "value": 0,
+        "unit": "min"
+      }
+    },
+    {
+      "date": "2026-08-06",
+      "watch_worn": true,
+      "HKQuantityTypeIdentifierStepCount": {
+        "value": 6337,
+        "unit": "count",
+        "source": "iPhone+Watch"
+      },
+      "HKQuantityTypeIdentifierActiveEnergyBurned": {
+        "value": 417,
+        "unit": "kcal"
+      },
+      "HKQuantityTypeIdentifierAppleExerciseTime": {
+        "value": 25,
+        "unit": "min"
+      },
+      "HKQuantityTypeIdentifierRestingHeartRate": {
+        "value": 70,
+        "unit": "count/min"
+      },
+      "HKQuantityTypeIdentifierHeartRateVariabilitySDNN": {
+        "value": 40.2,
+        "unit": "ms",
+        "aggregation": "daily_mean_of_samples"
+      },
+      "HKQuantityTypeIdentifierRespiratoryRate": {
+        "value": 15.2,
+        "unit": "count/min",
+        "aggregation": "sleep_mean"
+      },
+      "HKQuantityTypeIdentifierTimeInDaylight": {
+        "value": 40,
+        "unit": "min"
+      },
+      "HKCategoryTypeIdentifierMindfulSession": {
+        "value": 5,
+        "unit": "min"
+      }
+    },
+    {
+      "date": "2026-08-07",
+      "watch_worn": true,
+      "HKQuantityTypeIdentifierStepCount": {
+        "value": 5228,
+        "unit": "count",
+        "source": "iPhone+Watch"
+      },
+      "HKQuantityTypeIdentifierActiveEnergyBurned": {
+        "value": 378,
+        "unit": "kcal"
+      },
+      "HKQuantityTypeIdentifierAppleExerciseTime": {
+        "value": 19,
+        "unit": "min"
+      },
+      "HKQuantityTypeIdentifierRestingHeartRate": {
+        "value": 67,
+        "unit": "count/min"
+      },
+      "HKQuantityTypeIdentifierHeartRateVariabilitySDNN": {
+        "value": 32.9,
+        "unit": "ms",
+        "aggregation": "daily_mean_of_samples"
+      },
+      "HKQuantityTypeIdentifierRespiratoryRate": {
+        "value": 15.1,
+        "unit": "count/min",
+        "aggregation": "sleep_mean"
+      },
+      "HKQuantityTypeIdentifierTimeInDaylight": {
+        "value": 32,
+        "unit": "min"
+      },
+      "HKCategoryTypeIdentifierMindfulSession": {
+        "value": 0,
+        "unit": "min"
+      }
+    },
+    {
+      "date": "2026-08-08",
+      "watch_worn": true,
+      "HKQuantityTypeIdentifierStepCount": {
+        "value": 6288,
+        "unit": "count",
+        "source": "iPhone+Watch"
+      },
+      "HKQuantityTypeIdentifierActiveEnergyBurned": {
+        "value": 405,
+        "unit": "kcal"
+      },
+      "HKQuantityTypeIdentifierAppleExerciseTime": {
+        "value": 20,
+        "unit": "min"
+      },
+      "HKQuantityTypeIdentifierRestingHeartRate": {
+        "value": 69,
+        "unit": "count/min"
+      },
+      "HKQuantityTypeIdentifierHeartRateVariabilitySDNN": {
+        "value": 35.2,
+        "unit": "ms",
+        "aggregation": "daily_mean_of_samples"
+      },
+      "HKQuantityTypeIdentifierRespiratoryRate": {
+        "value": 15.0,
+        "unit": "count/min",
+        "aggregation": "sleep_mean"
+      },
+      "HKQuantityTypeIdentifierTimeInDaylight": {
+        "value": 38,
+        "unit": "min"
+      },
+      "HKCategoryTypeIdentifierMindfulSession": {
+        "value": 0,
+        "unit": "min"
+      }
+    },
+    {
+      "date": "2026-08-09",
+      "watch_worn": true,
+      "HKQuantityTypeIdentifierStepCount": {
+        "value": 6567,
+        "unit": "count",
+        "source": "iPhone+Watch"
+      },
+      "HKQuantityTypeIdentifierActiveEnergyBurned": {
+        "value": 426,
+        "unit": "kcal"
+      },
+      "HKQuantityTypeIdentifierAppleExerciseTime": {
+        "value": 22,
+        "unit": "min"
+      },
+      "HKQuantityTypeIdentifierRestingHeartRate": {
+        "value": 69,
+        "unit": "count/min"
+      },
+      "HKQuantityTypeIdentifierHeartRateVariabilitySDNN": {
+        "value": 37.0,
+        "unit": "ms",
+        "aggregation": "daily_mean_of_samples"
+      },
+      "HKQuantityTypeIdentifierRespiratoryRate": {
+        "value": 15.5,
+        "unit": "count/min",
+        "aggregation": "sleep_mean"
+      },
+      "HKQuantityTypeIdentifierTimeInDaylight": {
+        "value": 55,
+        "unit": "min"
+      },
+      "HKCategoryTypeIdentifierMindfulSession": {
+        "value": 0,
+        "unit": "min"
+      }
+    },
+    {
+      "date": "2026-08-10",
+      "watch_worn": true,
+      "HKQuantityTypeIdentifierStepCount": {
+        "value": 7645,
+        "unit": "count",
+        "source": "iPhone+Watch"
+      },
+      "HKQuantityTypeIdentifierActiveEnergyBurned": {
+        "value": 456,
+        "unit": "kcal"
+      },
+      "HKQuantityTypeIdentifierAppleExerciseTime": {
+        "value": 20,
+        "unit": "min"
+      },
+      "HKQuantityTypeIdentifierRestingHeartRate": {
+        "value": 69,
+        "unit": "count/min"
+      },
+      "HKQuantityTypeIdentifierHeartRateVariabilitySDNN": {
+        "value": 35.0,
+        "unit": "ms",
+        "aggregation": "daily_mean_of_samples"
+      },
+      "HKQuantityTypeIdentifierRespiratoryRate": {
+        "value": 15.4,
+        "unit": "count/min",
+        "aggregation": "sleep_mean"
+      },
+      "HKQuantityTypeIdentifierTimeInDaylight": {
+        "value": 28,
+        "unit": "min"
+      },
+      "HKCategoryTypeIdentifierMindfulSession": {
+        "value": 0,
+        "unit": "min"
+      }
+    },
+    {
+      "date": "2026-08-11",
+      "watch_worn": true,
+      "HKQuantityTypeIdentifierStepCount": {
+        "value": 7618,
+        "unit": "count",
+        "source": "iPhone+Watch"
+      },
+      "HKQuantityTypeIdentifierActiveEnergyBurned": {
+        "value": 408,
+        "unit": "kcal"
+      },
+      "HKQuantityTypeIdentifierAppleExerciseTime": {
+        "value": 21,
+        "unit": "min"
+      },
+      "HKQuantityTypeIdentifierRestingHeartRate": {
+        "value": 67,
+        "unit": "count/min"
+      },
+      "HKQuantityTypeIdentifierHeartRateVariabilitySDNN": {
+        "value": 44.7,
+        "unit": "ms",
+        "aggregation": "daily_mean_of_samples"
+      },
+      "HKQuantityTypeIdentifierRespiratoryRate": {
+        "value": 15.9,
+        "unit": "count/min",
+        "aggregation": "sleep_mean"
+      },
+      "HKQuantityTypeIdentifierTimeInDaylight": {
+        "value": 45,
+        "unit": "min"
+      },
+      "HKCategoryTypeIdentifierMindfulSession": {
+        "value": 0,
+        "unit": "min"
+      }
+    },
+    {
+      "date": "2026-08-12",
+      "watch_worn": true,
+      "HKQuantityTypeIdentifierStepCount": {
+        "value": 6760,
+        "unit": "count",
+        "source": "iPhone+Watch"
+      },
+      "HKQuantityTypeIdentifierActiveEnergyBurned": {
+        "value": 356,
+        "unit": "kcal"
+      },
+      "HKQuantityTypeIdentifierAppleExerciseTime": {
+        "value": 12,
+        "unit": "min"
+      },
+      "HKQuantityTypeIdentifierRestingHeartRate": {
+        "value": 70,
+        "unit": "count/min"
+      },
+      "HKQuantityTypeIdentifierHeartRateVariabilitySDNN": {
+        "value": 36.4,
+        "unit": "ms",
+        "aggregation": "daily_mean_of_samples"
+      },
+      "HKQuantityTypeIdentifierRespiratoryRate": {
+        "value": 15.2,
+        "unit": "count/min",
+        "aggregation": "sleep_mean"
+      },
+      "HKQuantityTypeIdentifierTimeInDaylight": {
+        "value": 50,
+        "unit": "min"
+      },
+      "HKCategoryTypeIdentifierMindfulSession": {
+        "value": 3,
+        "unit": "min"
+      }
+    },
+    {
+      "date": "2026-08-13",
+      "watch_worn": true,
+      "HKQuantityTypeIdentifierStepCount": {
+        "value": 7429,
+        "unit": "count",
+        "source": "iPhone+Watch"
+      },
+      "HKQuantityTypeIdentifierActiveEnergyBurned": {
+        "value": 469,
+        "unit": "kcal"
+      },
+      "HKQuantityTypeIdentifierAppleExerciseTime": {
+        "value": 18,
+        "unit": "min"
+      },
+      "HKQuantityTypeIdentifierRestingHeartRate": {
+        "value": 66,
+        "unit": "count/min"
+      },
+      "HKQuantityTypeIdentifierHeartRateVariabilitySDNN": {
+        "value": 43.4,
+        "unit": "ms",
+        "aggregation": "daily_mean_of_samples"
+      },
+      "HKQuantityTypeIdentifierRespiratoryRate": {
+        "value": 15.9,
+        "unit": "count/min",
+        "aggregation": "sleep_mean"
+      },
+      "HKQuantityTypeIdentifierTimeInDaylight": {
+        "value": 43,
+        "unit": "min"
+      },
+      "HKCategoryTypeIdentifierMindfulSession": {
+        "value": 10,
+        "unit": "min"
+      }
+    },
+    {
+      "date": "2026-08-14",
+      "watch_worn": true,
+      "HKQuantityTypeIdentifierStepCount": {
+        "value": 5299,
+        "unit": "count",
+        "source": "iPhone+Watch"
+      },
+      "HKQuantityTypeIdentifierActiveEnergyBurned": {
+        "value": 375,
+        "unit": "kcal"
+      },
+      "HKQuantityTypeIdentifierAppleExerciseTime": {
+        "value": 21,
+        "unit": "min"
+      },
+      "HKQuantityTypeIdentifierRestingHeartRate": {
+        "value": 69,
+        "unit": "count/min"
+      },
+      "HKQuantityTypeIdentifierHeartRateVariabilitySDNN": {
+        "value": 32.7,
+        "unit": "ms",
+        "aggregation": "daily_mean_of_samples"
+      },
+      "HKQuantityTypeIdentifierRespiratoryRate": {
+        "value": 15.5,
+        "unit": "count/min",
+        "aggregation": "sleep_mean"
+      },
+      "HKQuantityTypeIdentifierTimeInDaylight": {
+        "value": 50,
+        "unit": "min"
+      },
+      "HKCategoryTypeIdentifierMindfulSession": {
+        "value": 0,
+        "unit": "min"
+      }
+    },
+    {
+      "date": "2026-08-15",
+      "watch_worn": true,
+      "HKQuantityTypeIdentifierStepCount": {
+        "value": 6401,
+        "unit": "count",
+        "source": "iPhone+Watch"
+      },
+      "HKQuantityTypeIdentifierActiveEnergyBurned": {
+        "value": 326,
+        "unit": "kcal"
+      },
+      "HKQuantityTypeIdentifierAppleExerciseTime": {
+        "value": 11,
+        "unit": "min"
+      },
+      "HKQuantityTypeIdentifierRestingHeartRate": {
+        "value": 68,
+        "unit": "count/min"
+      },
+      "HKQuantityTypeIdentifierHeartRateVariabilitySDNN": {
+        "value": 38.0,
+        "unit": "ms",
+        "aggregation": "daily_mean_of_samples"
+      },
+      "HKQuantityTypeIdentifierRespiratoryRate": {
+        "value": 15.4,
+        "unit": "count/min",
+        "aggregation": "sleep_mean"
+      },
+      "HKQuantityTypeIdentifierTimeInDaylight": {
+        "value": 41,
+        "unit": "min"
+      },
+      "HKCategoryTypeIdentifierMindfulSession": {
+        "value": 0,
+        "unit": "min"
+      }
+    },
+    {
+      "date": "2026-08-16",
+      "watch_worn": true,
+      "HKQuantityTypeIdentifierStepCount": {
+        "value": 5883,
+        "unit": "count",
+        "source": "iPhone+Watch"
+      },
+      "HKQuantityTypeIdentifierActiveEnergyBurned": {
+        "value": 454,
+        "unit": "kcal"
+      },
+      "HKQuantityTypeIdentifierAppleExerciseTime": {
+        "value": 28,
+        "unit": "min"
+      },
+      "HKQuantityTypeIdentifierRestingHeartRate": {
+        "value": 67,
+        "unit": "count/min"
+      },
+      "HKQuantityTypeIdentifierHeartRateVariabilitySDNN": {
+        "value": 40.4,
+        "unit": "ms",
+        "aggregation": "daily_mean_of_samples"
+      },
+      "HKQuantityTypeIdentifierRespiratoryRate": {
+        "value": 14.8,
+        "unit": "count/min",
+        "aggregation": "sleep_mean"
+      },
+      "HKQuantityTypeIdentifierTimeInDaylight": {
+        "value": 62,
+        "unit": "min"
+      },
+      "HKCategoryTypeIdentifierMindfulSession": {
+        "value": 0,
+        "unit": "min"
+      }
+    },
+    {
+      "date": "2026-08-17",
+      "watch_worn": false,
+      "HKQuantityTypeIdentifierStepCount": {
+        "value": 7973,
+        "unit": "count",
+        "source": "iPhone+Watch"
+      },
+      "HKQuantityTypeIdentifierActiveEnergyBurned": {
+        "value": 502,
+        "unit": "kcal"
+      },
+      "HKQuantityTypeIdentifierAppleExerciseTime": {
+        "value": null,
+        "unit": "min"
+      },
+      "HKQuantityTypeIdentifierRestingHeartRate": {
+        "value": null,
+        "unit": "count/min"
+      },
+      "HKQuantityTypeIdentifierHeartRateVariabilitySDNN": {
+        "value": null,
+        "unit": "ms",
+        "aggregation": "daily_mean_of_samples"
+      },
+      "HKQuantityTypeIdentifierRespiratoryRate": {
+        "value": null,
+        "unit": "count/min",
+        "aggregation": "sleep_mean"
+      },
+      "HKQuantityTypeIdentifierTimeInDaylight": {
+        "value": null,
+        "unit": "min"
+      },
+      "HKCategoryTypeIdentifierMindfulSession": {
+        "value": 0,
+        "unit": "min"
+      }
+    },
+    {
+      "date": "2026-08-18",
+      "watch_worn": true,
+      "HKQuantityTypeIdentifierStepCount": {
+        "value": 8208,
+        "unit": "count",
+        "source": "iPhone+Watch"
+      },
+      "HKQuantityTypeIdentifierActiveEnergyBurned": {
+        "value": 532,
+        "unit": "kcal"
+      },
+      "HKQuantityTypeIdentifierAppleExerciseTime": {
+        "value": 25,
+        "unit": "min"
+      },
+      "HKQuantityTypeIdentifierRestingHeartRate": {
+        "value": 66,
+        "unit": "count/min"
+      },
+      "HKQuantityTypeIdentifierHeartRateVariabilitySDNN": {
+        "value": 46.4,
+        "unit": "ms",
+        "aggregation": "daily_mean_of_samples"
+      },
+      "HKQuantityTypeIdentifierRespiratoryRate": {
+        "value": 15.3,
+        "unit": "count/min",
+        "aggregation": "sleep_mean"
+      },
+      "HKQuantityTypeIdentifierTimeInDaylight": {
+        "value": 64,
+        "unit": "min"
+      },
+      "HKCategoryTypeIdentifierMindfulSession": {
+        "value": 0,
+        "unit": "min"
+      }
+    },
+    {
+      "date": "2026-08-19",
+      "watch_worn": false,
+      "HKQuantityTypeIdentifierStepCount": {
+        "value": 6410,
+        "unit": "count",
+        "source": "iPhone+Watch"
+      },
+      "HKQuantityTypeIdentifierActiveEnergyBurned": {
+        "value": 438,
+        "unit": "kcal"
+      },
+      "HKQuantityTypeIdentifierAppleExerciseTime": {
+        "value": null,
+        "unit": "min"
+      },
+      "HKQuantityTypeIdentifierRestingHeartRate": {
+        "value": null,
+        "unit": "count/min"
+      },
+      "HKQuantityTypeIdentifierHeartRateVariabilitySDNN": {
+        "value": null,
+        "unit": "ms",
+        "aggregation": "daily_mean_of_samples"
+      },
+      "HKQuantityTypeIdentifierRespiratoryRate": {
+        "value": null,
+        "unit": "count/min",
+        "aggregation": "sleep_mean"
+      },
+      "HKQuantityTypeIdentifierTimeInDaylight": {
+        "value": null,
+        "unit": "min"
+      },
+      "HKCategoryTypeIdentifierMindfulSession": {
+        "value": 10,
+        "unit": "min"
+      }
+    },
+    {
+      "date": "2026-08-20",
+      "watch_worn": true,
+      "HKQuantityTypeIdentifierStepCount": {
+        "value": 5494,
+        "unit": "count",
+        "source": "iPhone+Watch"
+      },
+      "HKQuantityTypeIdentifierActiveEnergyBurned": {
+        "value": 399,
+        "unit": "kcal"
+      },
+      "HKQuantityTypeIdentifierAppleExerciseTime": {
+        "value": 24,
+        "unit": "min"
+      },
+      "HKQuantityTypeIdentifierRestingHeartRate": {
+        "value": 69,
+        "unit": "count/min"
+      },
+      "HKQuantityTypeIdentifierHeartRateVariabilitySDNN": {
+        "value": 42.9,
+        "unit": "ms",
+        "aggregation": "daily_mean_of_samples"
+      },
+      "HKQuantityTypeIdentifierRespiratoryRate": {
+        "value": 14.5,
+        "unit": "count/min",
+        "aggregation": "sleep_mean"
+      },
+      "HKQuantityTypeIdentifierTimeInDaylight": {
+        "value": 39,
+        "unit": "min"
+      },
+      "HKCategoryTypeIdentifierMindfulSession": {
+        "value": 10,
+        "unit": "min"
+      }
+    },
+    {
+      "date": "2026-08-21",
+      "watch_worn": false,
+      "HKQuantityTypeIdentifierStepCount": {
+        "value": 4005,
+        "unit": "count",
+        "source": "iPhone+Watch"
+      },
+      "HKQuantityTypeIdentifierActiveEnergyBurned": {
+        "value": 279,
+        "unit": "kcal"
+      },
+      "HKQuantityTypeIdentifierAppleExerciseTime": {
+        "value": null,
+        "unit": "min"
+      },
+      "HKQuantityTypeIdentifierRestingHeartRate": {
+        "value": null,
+        "unit": "count/min"
+      },
+      "HKQuantityTypeIdentifierHeartRateVariabilitySDNN": {
+        "value": null,
+        "unit": "ms",
+        "aggregation": "daily_mean_of_samples"
+      },
+      "HKQuantityTypeIdentifierRespiratoryRate": {
+        "value": null,
+        "unit": "count/min",
+        "aggregation": "sleep_mean"
+      },
+      "HKQuantityTypeIdentifierTimeInDaylight": {
+        "value": null,
+        "unit": "min"
+      },
+      "HKCategoryTypeIdentifierMindfulSession": {
+        "value": 0,
+        "unit": "min"
+      }
+    },
+    {
+      "date": "2026-08-22",
+      "watch_worn": true,
+      "HKQuantityTypeIdentifierStepCount": {
+        "value": 4253,
+        "unit": "count",
+        "source": "iPhone+Watch"
+      },
+      "HKQuantityTypeIdentifierActiveEnergyBurned": {
+        "value": 354,
+        "unit": "kcal"
+      },
+      "HKQuantityTypeIdentifierAppleExerciseTime": {
+        "value": 24,
+        "unit": "min"
+      },
+      "HKQuantityTypeIdentifierRestingHeartRate": {
+        "value": 69,
+        "unit": "count/min"
+      },
+      "HKQuantityTypeIdentifierHeartRateVariabilitySDNN": {
+        "value": 40.4,
+        "unit": "ms",
+        "aggregation": "daily_mean_of_samples"
+      },
+      "HKQuantityTypeIdentifierRespiratoryRate": {
+        "value": 15.9,
+        "unit": "count/min",
+        "aggregation": "sleep_mean"
+      },
+      "HKQuantityTypeIdentifierTimeInDaylight": {
+        "value": 50,
+        "unit": "min"
+      },
+      "HKCategoryTypeIdentifierMindfulSession": {
+        "value": 0,
+        "unit": "min"
+      }
+    },
+    {
+      "date": "2026-08-23",
+      "watch_worn": true,
+      "HKQuantityTypeIdentifierStepCount": {
+        "value": 3917,
+        "unit": "count",
+        "source": "iPhone+Watch"
+      },
+      "HKQuantityTypeIdentifierActiveEnergyBurned": {
+        "value": 398,
+        "unit": "kcal"
+      },
+      "HKQuantityTypeIdentifierAppleExerciseTime": {
+        "value": 30,
+        "unit": "min"
+      },
+      "HKQuantityTypeIdentifierRestingHeartRate": {
+        "value": 70,
+        "unit": "count/min"
+      },
+      "HKQuantityTypeIdentifierHeartRateVariabilitySDNN": {
+        "value": 35.6,
+        "unit": "ms",
+        "aggregation": "daily_mean_of_samples"
+      },
+      "HKQuantityTypeIdentifierRespiratoryRate": {
+        "value": 15.8,
+        "unit": "count/min",
+        "aggregation": "sleep_mean"
+      },
+      "HKQuantityTypeIdentifierTimeInDaylight": {
+        "value": 50,
+        "unit": "min"
+      },
+      "HKCategoryTypeIdentifierMindfulSession": {
+        "value": 0,
+        "unit": "min"
+      }
+    },
+    {
+      "date": "2026-08-24",
+      "watch_worn": true,
+      "HKQuantityTypeIdentifierStepCount": {
+        "value": 3311,
+        "unit": "count",
+        "source": "iPhone+Watch"
+      },
+      "HKQuantityTypeIdentifierActiveEnergyBurned": {
+        "value": 332,
+        "unit": "kcal"
+      },
+      "HKQuantityTypeIdentifierAppleExerciseTime": {
+        "value": 27,
+        "unit": "min"
+      },
+      "HKQuantityTypeIdentifierRestingHeartRate": {
+        "value": 69,
+        "unit": "count/min"
+      },
+      "HKQuantityTypeIdentifierHeartRateVariabilitySDNN": {
+        "value": 36.7,
+        "unit": "ms",
+        "aggregation": "daily_mean_of_samples"
+      },
+      "HKQuantityTypeIdentifierRespiratoryRate": {
+        "value": 15.5,
+        "unit": "count/min",
+        "aggregation": "sleep_mean"
+      },
+      "HKQuantityTypeIdentifierTimeInDaylight": {
+        "value": 44,
+        "unit": "min"
+      },
+      "HKCategoryTypeIdentifierMindfulSession": {
+        "value": 5,
+        "unit": "min"
+      }
+    },
+    {
+      "date": "2026-08-25",
+      "watch_worn": true,
+      "HKQuantityTypeIdentifierStepCount": {
+        "value": 4803,
+        "unit": "count",
+        "source": "iPhone+Watch"
+      },
+      "HKQuantityTypeIdentifierActiveEnergyBurned": {
+        "value": 300,
+        "unit": "kcal"
+      },
+      "HKQuantityTypeIdentifierAppleExerciseTime": {
+        "value": 12,
+        "unit": "min"
+      },
+      "HKQuantityTypeIdentifierRestingHeartRate": {
+        "value": 70,
+        "unit": "count/min"
+      },
+      "HKQuantityTypeIdentifierHeartRateVariabilitySDNN": {
+        "value": 30.7,
+        "unit": "ms",
+        "aggregation": "daily_mean_of_samples"
+      },
+      "HKQuantityTypeIdentifierRespiratoryRate": {
+        "value": 15.1,
+        "unit": "count/min",
+        "aggregation": "sleep_mean"
+      },
+      "HKQuantityTypeIdentifierTimeInDaylight": {
+        "value": 49,
+        "unit": "min"
+      },
+      "HKCategoryTypeIdentifierMindfulSession": {
+        "value": 0,
+        "unit": "min"
+      }
+    },
+    {
+      "date": "2026-08-26",
+      "watch_worn": true,
+      "HKQuantityTypeIdentifierStepCount": {
+        "value": 4371,
+        "unit": "count",
+        "source": "iPhone+Watch"
+      },
+      "HKQuantityTypeIdentifierActiveEnergyBurned": {
+        "value": 315,
+        "unit": "kcal"
+      },
+      "HKQuantityTypeIdentifierAppleExerciseTime": {
+        "value": 12,
+        "unit": "min"
+      },
+      "HKQuantityTypeIdentifierRestingHeartRate": {
+        "value": 69,
+        "unit": "count/min"
+      },
+      "HKQuantityTypeIdentifierHeartRateVariabilitySDNN": {
+        "value": 33.1,
+        "unit": "ms",
+        "aggregation": "daily_mean_of_samples"
+      },
+      "HKQuantityTypeIdentifierRespiratoryRate": {
+        "value": 15.5,
+        "unit": "count/min",
+        "aggregation": "sleep_mean"
+      },
+      "HKQuantityTypeIdentifierTimeInDaylight": {
+        "value": 23,
+        "unit": "min"
+      },
+      "HKCategoryTypeIdentifierMindfulSession": {
+        "value": 5,
+        "unit": "min"
+      }
+    },
+    {
+      "date": "2026-08-27",
+      "watch_worn": true,
+      "HKQuantityTypeIdentifierStepCount": {
+        "value": 3815,
+        "unit": "count",
+        "source": "iPhone+Watch"
+      },
+      "HKQuantityTypeIdentifierActiveEnergyBurned": {
+        "value": 274,
+        "unit": "kcal"
+      },
+      "HKQuantityTypeIdentifierAppleExerciseTime": {
+        "value": 16,
+        "unit": "min"
+      },
+      "HKQuantityTypeIdentifierRestingHeartRate": {
+        "value": 72,
+        "unit": "count/min"
+      },
+      "HKQuantityTypeIdentifierHeartRateVariabilitySDNN": {
+        "value": 37.6,
+        "unit": "ms",
+        "aggregation": "daily_mean_of_samples"
+      },
+      "HKQuantityTypeIdentifierRespiratoryRate": {
+        "value": 15.5,
+        "unit": "count/min",
+        "aggregation": "sleep_mean"
+      },
+      "HKQuantityTypeIdentifierTimeInDaylight": {
+        "value": 35,
+        "unit": "min"
+      },
+      "HKCategoryTypeIdentifierMindfulSession": {
+        "value": 0,
+        "unit": "min"
+      }
+    },
+    {
+      "date": "2026-08-28",
+      "watch_worn": true,
+      "HKQuantityTypeIdentifierStepCount": {
+        "value": 4650,
+        "unit": "count",
+        "source": "iPhone+Watch"
+      },
+      "HKQuantityTypeIdentifierActiveEnergyBurned": {
+        "value": 390,
+        "unit": "kcal"
+      },
+      "HKQuantityTypeIdentifierAppleExerciseTime": {
+        "value": 25,
+        "unit": "min"
+      },
+      "HKQuantityTypeIdentifierRestingHeartRate": {
+        "value": 70,
+        "unit": "count/min"
+      },
+      "HKQuantityTypeIdentifierHeartRateVariabilitySDNN": {
+        "value": 39.3,
+        "unit": "ms",
+        "aggregation": "daily_mean_of_samples"
+      },
+      "HKQuantityTypeIdentifierRespiratoryRate": {
+        "value": 15.6,
+        "unit": "count/min",
+        "aggregation": "sleep_mean"
+      },
+      "HKQuantityTypeIdentifierTimeInDaylight": {
+        "value": 39,
+        "unit": "min"
+      },
+      "HKCategoryTypeIdentifierMindfulSession": {
+        "value": 0,
+        "unit": "min"
+      }
+    },
+    {
+      "date": "2026-08-29",
+      "watch_worn": true,
+      "HKQuantityTypeIdentifierStepCount": {
+        "value": 3996,
+        "unit": "count",
+        "source": "iPhone+Watch"
+      },
+      "HKQuantityTypeIdentifierActiveEnergyBurned": {
+        "value": 261,
+        "unit": "kcal"
+      },
+      "HKQuantityTypeIdentifierAppleExerciseTime": {
+        "value": 8,
+        "unit": "min"
+      },
+      "HKQuantityTypeIdentifierRestingHeartRate": {
+        "value": 71,
+        "unit": "count/min"
+      },
+      "HKQuantityTypeIdentifierHeartRateVariabilitySDNN": {
+        "value": 32.0,
+        "unit": "ms",
+        "aggregation": "daily_mean_of_samples"
+      },
+      "HKQuantityTypeIdentifierRespiratoryRate": {
+        "value": 16.2,
+        "unit": "count/min",
+        "aggregation": "sleep_mean"
+      },
+      "HKQuantityTypeIdentifierTimeInDaylight": {
+        "value": 7,
+        "unit": "min"
+      },
+      "HKCategoryTypeIdentifierMindfulSession": {
+        "value": 0,
+        "unit": "min"
+      }
+    },
+    {
+      "date": "2026-08-30",
+      "watch_worn": true,
+      "HKQuantityTypeIdentifierStepCount": {
+        "value": 3376,
+        "unit": "count",
+        "source": "iPhone+Watch"
+      },
+      "HKQuantityTypeIdentifierActiveEnergyBurned": {
+        "value": 198,
+        "unit": "kcal"
+      },
+      "HKQuantityTypeIdentifierAppleExerciseTime": {
+        "value": 7,
+        "unit": "min"
+      },
+      "HKQuantityTypeIdentifierRestingHeartRate": {
+        "value": 69,
+        "unit": "count/min"
+      },
+      "HKQuantityTypeIdentifierHeartRateVariabilitySDNN": {
+        "value": 30.2,
+        "unit": "ms",
+        "aggregation": "daily_mean_of_samples"
+      },
+      "HKQuantityTypeIdentifierRespiratoryRate": {
+        "value": 15.9,
+        "unit": "count/min",
+        "aggregation": "sleep_mean"
+      },
+      "HKQuantityTypeIdentifierTimeInDaylight": {
+        "value": 26,
+        "unit": "min"
+      },
+      "HKCategoryTypeIdentifierMindfulSession": {
+        "value": 0,
+        "unit": "min"
+      }
+    },
+    {
+      "date": "2026-08-31",
+      "watch_worn": true,
+      "HKQuantityTypeIdentifierStepCount": {
+        "value": 3464,
+        "unit": "count",
+        "source": "iPhone+Watch"
+      },
+      "HKQuantityTypeIdentifierActiveEnergyBurned": {
+        "value": 172,
+        "unit": "kcal"
+      },
+      "HKQuantityTypeIdentifierAppleExerciseTime": {
+        "value": 5,
+        "unit": "min"
+      },
+      "HKQuantityTypeIdentifierRestingHeartRate": {
+        "value": 71,
+        "unit": "count/min"
+      },
+      "HKQuantityTypeIdentifierHeartRateVariabilitySDNN": {
+        "value": 30.4,
+        "unit": "ms",
+        "aggregation": "daily_mean_of_samples"
+      },
+      "HKQuantityTypeIdentifierRespiratoryRate": {
+        "value": 15.6,
+        "unit": "count/min",
+        "aggregation": "sleep_mean"
+      },
+      "HKQuantityTypeIdentifierTimeInDaylight": {
+        "value": 30,
+        "unit": "min"
+      },
+      "HKCategoryTypeIdentifierMindfulSession": {
+        "value": 0,
+        "unit": "min"
+      }
+    },
+    {
+      "date": "2026-09-01",
+      "watch_worn": false,
+      "HKQuantityTypeIdentifierStepCount": {
+        "value": 4413,
+        "unit": "count",
+        "source": "iPhone+Watch"
+      },
+      "HKQuantityTypeIdentifierActiveEnergyBurned": {
+        "value": 310,
+        "unit": "kcal"
+      },
+      "HKQuantityTypeIdentifierAppleExerciseTime": {
+        "value": null,
+        "unit": "min"
+      },
+      "HKQuantityTypeIdentifierRestingHeartRate": {
+        "value": null,
+        "unit": "count/min"
+      },
+      "HKQuantityTypeIdentifierHeartRateVariabilitySDNN": {
+        "value": null,
+        "unit": "ms",
+        "aggregation": "daily_mean_of_samples"
+      },
+      "HKQuantityTypeIdentifierRespiratoryRate": {
+        "value": null,
+        "unit": "count/min",
+        "aggregation": "sleep_mean"
+      },
+      "HKQuantityTypeIdentifierTimeInDaylight": {
+        "value": null,
+        "unit": "min"
+      },
+      "HKCategoryTypeIdentifierMindfulSession": {
+        "value": 0,
+        "unit": "min"
+      }
+    },
+    {
+      "date": "2026-09-02",
+      "watch_worn": true,
+      "HKQuantityTypeIdentifierStepCount": {
+        "value": 4002,
+        "unit": "count",
+        "source": "iPhone+Watch"
+      },
+      "HKQuantityTypeIdentifierActiveEnergyBurned": {
+        "value": 229,
+        "unit": "kcal"
+      },
+      "HKQuantityTypeIdentifierAppleExerciseTime": {
+        "value": 13,
+        "unit": "min"
+      },
+      "HKQuantityTypeIdentifierRestingHeartRate": {
+        "value": 73,
+        "unit": "count/min"
+      },
+      "HKQuantityTypeIdentifierHeartRateVariabilitySDNN": {
+        "value": 31.7,
+        "unit": "ms",
+        "aggregation": "daily_mean_of_samples"
+      },
+      "HKQuantityTypeIdentifierRespiratoryRate": {
+        "value": 16.3,
+        "unit": "count/min",
+        "aggregation": "sleep_mean"
+      },
+      "HKQuantityTypeIdentifierTimeInDaylight": {
+        "value": 21,
+        "unit": "min"
+      },
+      "HKCategoryTypeIdentifierMindfulSession": {
+        "value": 0,
+        "unit": "min"
+      }
+    },
+    {
+      "date": "2026-09-03",
+      "watch_worn": true,
+      "HKQuantityTypeIdentifierStepCount": {
+        "value": 3484,
+        "unit": "count",
+        "source": "iPhone+Watch"
+      },
+      "HKQuantityTypeIdentifierActiveEnergyBurned": {
+        "value": 243,
+        "unit": "kcal"
+      },
+      "HKQuantityTypeIdentifierAppleExerciseTime": {
+        "value": 14,
+        "unit": "min"
+      },
+      "HKQuantityTypeIdentifierRestingHeartRate": {
+        "value": 73,
+        "unit": "count/min"
+      },
+      "HKQuantityTypeIdentifierHeartRateVariabilitySDNN": {
+        "value": 33.8,
+        "unit": "ms",
+        "aggregation": "daily_mean_of_samples"
+      },
+      "HKQuantityTypeIdentifierRespiratoryRate": {
+        "value": 16.0,
+        "unit": "count/min",
+        "aggregation": "sleep_mean"
+      },
+      "HKQuantityTypeIdentifierTimeInDaylight": {
+        "value": 24,
+        "unit": "min"
+      },
+      "HKCategoryTypeIdentifierMindfulSession": {
+        "value": 3,
+        "unit": "min"
+      }
+    },
+    {
+      "date": "2026-09-04",
+      "watch_worn": true,
+      "HKQuantityTypeIdentifierStepCount": {
+        "value": 2768,
+        "unit": "count",
+        "source": "iPhone+Watch"
+      },
+      "HKQuantityTypeIdentifierActiveEnergyBurned": {
+        "value": 140,
+        "unit": "kcal"
+      },
+      "HKQuantityTypeIdentifierAppleExerciseTime": {
+        "value": 0,
+        "unit": "min"
+      },
+      "HKQuantityTypeIdentifierRestingHeartRate": {
+        "value": 72,
+        "unit": "count/min"
+      },
+      "HKQuantityTypeIdentifierHeartRateVariabilitySDNN": {
+        "value": 28.7,
+        "unit": "ms",
+        "aggregation": "daily_mean_of_samples"
+      },
+      "HKQuantityTypeIdentifierRespiratoryRate": {
+        "value": 16.7,
+        "unit": "count/min",
+        "aggregation": "sleep_mean"
+      },
+      "HKQuantityTypeIdentifierTimeInDaylight": {
+        "value": 39,
+        "unit": "min"
+      },
+      "HKCategoryTypeIdentifierMindfulSession": {
+        "value": 0,
+        "unit": "min"
+      }
+    },
+    {
+      "date": "2026-09-05",
+      "watch_worn": true,
+      "HKQuantityTypeIdentifierStepCount": {
+        "value": 3388,
+        "unit": "count",
+        "source": "iPhone+Watch"
+      },
+      "HKQuantityTypeIdentifierActiveEnergyBurned": {
+        "value": 214,
+        "unit": "kcal"
+      },
+      "HKQuantityTypeIdentifierAppleExerciseTime": {
+        "value": 6,
+        "unit": "min"
+      },
+      "HKQuantityTypeIdentifierRestingHeartRate": {
+        "value": 73,
+        "unit": "count/min"
+      },
+      "HKQuantityTypeIdentifierHeartRateVariabilitySDNN": {
+        "value": 27.6,
+        "unit": "ms",
+        "aggregation": "daily_mean_of_samples"
+      },
+      "HKQuantityTypeIdentifierRespiratoryRate": {
+        "value": 15.1,
+        "unit": "count/min",
+        "aggregation": "sleep_mean"
+      },
+      "HKQuantityTypeIdentifierTimeInDaylight": {
+        "value": 40,
+        "unit": "min"
+      },
+      "HKCategoryTypeIdentifierMindfulSession": {
+        "value": 0,
+        "unit": "min"
+      }
+    },
+    {
+      "date": "2026-09-06",
+      "watch_worn": true,
+      "HKQuantityTypeIdentifierStepCount": {
+        "value": 4693,
+        "unit": "count",
+        "source": "iPhone+Watch"
+      },
+      "HKQuantityTypeIdentifierActiveEnergyBurned": {
+        "value": 276,
+        "unit": "kcal"
+      },
+      "HKQuantityTypeIdentifierAppleExerciseTime": {
+        "value": 8,
+        "unit": "min"
+      },
+      "HKQuantityTypeIdentifierRestingHeartRate": {
+        "value": 71,
+        "unit": "count/min"
+      },
+      "HKQuantityTypeIdentifierHeartRateVariabilitySDNN": {
+        "value": 36.4,
+        "unit": "ms",
+        "aggregation": "daily_mean_of_samples"
+      },
+      "HKQuantityTypeIdentifierRespiratoryRate": {
+        "value": 15.7,
+        "unit": "count/min",
+        "aggregation": "sleep_mean"
+      },
+      "HKQuantityTypeIdentifierTimeInDaylight": {
+        "value": 28,
+        "unit": "min"
+      },
+      "HKCategoryTypeIdentifierMindfulSession": {
+        "value": 0,
+        "unit": "min"
+      }
+    },
+    {
+      "date": "2026-09-07",
+      "watch_worn": true,
+      "HKQuantityTypeIdentifierStepCount": {
+        "value": 3696,
+        "unit": "count",
+        "source": "iPhone+Watch"
+      },
+      "HKQuantityTypeIdentifierActiveEnergyBurned": {
+        "value": 172,
+        "unit": "kcal"
+      },
+      "HKQuantityTypeIdentifierAppleExerciseTime": {
+        "value": 5,
+        "unit": "min"
+      },
+      "HKQuantityTypeIdentifierRestingHeartRate": {
+        "value": 71,
+        "unit": "count/min"
+      },
+      "HKQuantityTypeIdentifierHeartRateVariabilitySDNN": {
+        "value": 30.7,
+        "unit": "ms",
+        "aggregation": "daily_mean_of_samples"
+      },
+      "HKQuantityTypeIdentifierRespiratoryRate": {
+        "value": 15.9,
+        "unit": "count/min",
+        "aggregation": "sleep_mean"
+      },
+      "HKQuantityTypeIdentifierTimeInDaylight": {
+        "value": 23,
+        "unit": "min"
+      },
+      "HKCategoryTypeIdentifierMindfulSession": {
+        "value": 0,
+        "unit": "min"
+      }
+    },
+    {
+      "date": "2026-09-08",
+      "watch_worn": true,
+      "HKQuantityTypeIdentifierStepCount": {
+        "value": 3235,
+        "unit": "count",
+        "source": "iPhone+Watch"
+      },
+      "HKQuantityTypeIdentifierActiveEnergyBurned": {
+        "value": 233,
+        "unit": "kcal"
+      },
+      "HKQuantityTypeIdentifierAppleExerciseTime": {
+        "value": 13,
+        "unit": "min"
+      },
+      "HKQuantityTypeIdentifierRestingHeartRate": {
+        "value": 72,
+        "unit": "count/min"
+      },
+      "HKQuantityTypeIdentifierHeartRateVariabilitySDNN": {
+        "value": 31.5,
+        "unit": "ms",
+        "aggregation": "daily_mean_of_samples"
+      },
+      "HKQuantityTypeIdentifierRespiratoryRate": {
+        "value": 16.1,
+        "unit": "count/min",
+        "aggregation": "sleep_mean"
+      },
+      "HKQuantityTypeIdentifierTimeInDaylight": {
+        "value": 46,
+        "unit": "min"
+      },
+      "HKCategoryTypeIdentifierMindfulSession": {
+        "value": 5,
+        "unit": "min"
+      }
+    },
+    {
+      "date": "2026-09-09",
+      "watch_worn": false,
+      "HKQuantityTypeIdentifierStepCount": {
+        "value": 5122,
+        "unit": "count",
+        "source": "iPhone+Watch"
+      },
+      "HKQuantityTypeIdentifierActiveEnergyBurned": {
+        "value": 363,
+        "unit": "kcal"
+      },
+      "HKQuantityTypeIdentifierAppleExerciseTime": {
+        "value": null,
+        "unit": "min"
+      },
+      "HKQuantityTypeIdentifierRestingHeartRate": {
+        "value": null,
+        "unit": "count/min"
+      },
+      "HKQuantityTypeIdentifierHeartRateVariabilitySDNN": {
+        "value": null,
+        "unit": "ms",
+        "aggregation": "daily_mean_of_samples"
+      },
+      "HKQuantityTypeIdentifierRespiratoryRate": {
+        "value": null,
+        "unit": "count/min",
+        "aggregation": "sleep_mean"
+      },
+      "HKQuantityTypeIdentifierTimeInDaylight": {
+        "value": null,
+        "unit": "min"
+      },
+      "HKCategoryTypeIdentifierMindfulSession": {
+        "value": 0,
+        "unit": "min"
+      }
+    },
+    {
+      "date": "2026-09-10",
+      "watch_worn": true,
+      "HKQuantityTypeIdentifierStepCount": {
+        "value": 6096,
+        "unit": "count",
+        "source": "iPhone+Watch"
+      },
+      "HKQuantityTypeIdentifierActiveEnergyBurned": {
+        "value": 407,
+        "unit": "kcal"
+      },
+      "HKQuantityTypeIdentifierAppleExerciseTime": {
+        "value": 15,
+        "unit": "min"
+      },
+      "HKQuantityTypeIdentifierRestingHeartRate": {
+        "value": 71,
+        "unit": "count/min"
+      },
+      "HKQuantityTypeIdentifierHeartRateVariabilitySDNN": {
+        "value": 29.9,
+        "unit": "ms",
+        "aggregation": "daily_mean_of_samples"
+      },
+      "HKQuantityTypeIdentifierRespiratoryRate": {
+        "value": 16.2,
+        "unit": "count/min",
+        "aggregation": "sleep_mean"
+      },
+      "HKQuantityTypeIdentifierTimeInDaylight": {
+        "value": 18,
+        "unit": "min"
+      },
+      "HKCategoryTypeIdentifierMindfulSession": {
+        "value": 10,
+        "unit": "min"
+      }
+    },
+    {
+      "date": "2026-09-11",
+      "watch_worn": true,
+      "HKQuantityTypeIdentifierStepCount": {
+        "value": 6896,
+        "unit": "count",
+        "source": "iPhone+Watch"
+      },
+      "HKQuantityTypeIdentifierActiveEnergyBurned": {
+        "value": 394,
+        "unit": "kcal"
+      },
+      "HKQuantityTypeIdentifierAppleExerciseTime": {
+        "value": 19,
+        "unit": "min"
+      },
+      "HKQuantityTypeIdentifierRestingHeartRate": {
+        "value": 72,
+        "unit": "count/min"
+      },
+      "HKQuantityTypeIdentifierHeartRateVariabilitySDNN": {
+        "value": 33.4,
+        "unit": "ms",
+        "aggregation": "daily_mean_of_samples"
+      },
+      "HKQuantityTypeIdentifierRespiratoryRate": {
+        "value": 15.8,
+        "unit": "count/min",
+        "aggregation": "sleep_mean"
+      },
+      "HKQuantityTypeIdentifierTimeInDaylight": {
+        "value": 38,
+        "unit": "min"
+      },
+      "HKCategoryTypeIdentifierMindfulSession": {
+        "value": 10,
+        "unit": "min"
+      }
+    },
+    {
+      "date": "2026-09-12",
+      "watch_worn": true,
+      "HKQuantityTypeIdentifierStepCount": {
+        "value": 4485,
+        "unit": "count",
+        "source": "iPhone+Watch"
+      },
+      "HKQuantityTypeIdentifierActiveEnergyBurned": {
+        "value": 305,
+        "unit": "kcal"
+      },
+      "HKQuantityTypeIdentifierAppleExerciseTime": {
+        "value": 14,
+        "unit": "min"
+      },
+      "HKQuantityTypeIdentifierRestingHeartRate": {
+        "value": 67,
+        "unit": "count/min"
+      },
+      "HKQuantityTypeIdentifierHeartRateVariabilitySDNN": {
+        "value": 29.7,
+        "unit": "ms",
+        "aggregation": "daily_mean_of_samples"
+      },
+      "HKQuantityTypeIdentifierRespiratoryRate": {
+        "value": 15.8,
+        "unit": "count/min",
+        "aggregation": "sleep_mean"
+      },
+      "HKQuantityTypeIdentifierTimeInDaylight": {
+        "value": 18,
+        "unit": "min"
+      },
+      "HKCategoryTypeIdentifierMindfulSession": {
+        "value": 0,
+        "unit": "min"
+      }
+    },
+    {
+      "date": "2026-09-13",
+      "watch_worn": true,
+      "HKQuantityTypeIdentifierStepCount": {
+        "value": 7309,
+        "unit": "count",
+        "source": "iPhone+Watch"
+      },
+      "HKQuantityTypeIdentifierActiveEnergyBurned": {
+        "value": 392,
+        "unit": "kcal"
+      },
+      "HKQuantityTypeIdentifierAppleExerciseTime": {
+        "value": 19,
+        "unit": "min"
+      },
+      "HKQuantityTypeIdentifierRestingHeartRate": {
+        "value": 69,
+        "unit": "count/min"
+      },
+      "HKQuantityTypeIdentifierHeartRateVariabilitySDNN": {
+        "value": 33.1,
+        "unit": "ms",
+        "aggregation": "daily_mean_of_samples"
+      },
+      "HKQuantityTypeIdentifierRespiratoryRate": {
+        "value": 16.2,
+        "unit": "count/min",
+        "aggregation": "sleep_mean"
+      },
+      "HKQuantityTypeIdentifierTimeInDaylight": {
+        "value": 35,
+        "unit": "min"
+      },
+      "HKCategoryTypeIdentifierMindfulSession": {
+        "value": 0,
+        "unit": "min"
+      }
+    },
+    {
+      "date": "2026-09-14",
+      "watch_worn": true,
+      "HKQuantityTypeIdentifierStepCount": {
+        "value": 3443,
+        "unit": "count",
+        "source": "iPhone+Watch"
+      },
+      "HKQuantityTypeIdentifierActiveEnergyBurned": {
+        "value": 308,
+        "unit": "kcal"
+      },
+      "HKQuantityTypeIdentifierAppleExerciseTime": {
+        "value": 22,
+        "unit": "min"
+      },
+      "HKQuantityTypeIdentifierRestingHeartRate": {
+        "value": 73,
+        "unit": "count/min"
+      },
+      "HKQuantityTypeIdentifierHeartRateVariabilitySDNN": {
+        "value": 35.4,
+        "unit": "ms",
+        "aggregation": "daily_mean_of_samples"
+      },
+      "HKQuantityTypeIdentifierRespiratoryRate": {
+        "value": 16.1,
+        "unit": "count/min",
+        "aggregation": "sleep_mean"
+      },
+      "HKQuantityTypeIdentifierTimeInDaylight": {
+        "value": 42,
+        "unit": "min"
+      },
+      "HKCategoryTypeIdentifierMindfulSession": {
+        "value": 0,
+        "unit": "min"
+      }
+    },
+    {
+      "date": "2026-09-15",
+      "watch_worn": true,
+      "HKQuantityTypeIdentifierStepCount": {
+        "value": 5701,
+        "unit": "count",
+        "source": "iPhone+Watch"
+      },
+      "HKQuantityTypeIdentifierActiveEnergyBurned": {
+        "value": 374,
+        "unit": "kcal"
+      },
+      "HKQuantityTypeIdentifierAppleExerciseTime": {
+        "value": 19,
+        "unit": "min"
+      },
+      "HKQuantityTypeIdentifierRestingHeartRate": {
+        "value": 68,
+        "unit": "count/min"
+      },
+      "HKQuantityTypeIdentifierHeartRateVariabilitySDNN": {
+        "value": 30.1,
+        "unit": "ms",
+        "aggregation": "daily_mean_of_samples"
+      },
+      "HKQuantityTypeIdentifierRespiratoryRate": {
+        "value": 15.9,
+        "unit": "count/min",
+        "aggregation": "sleep_mean"
+      },
+      "HKQuantityTypeIdentifierTimeInDaylight": {
+        "value": 34,
+        "unit": "min"
+      },
+      "HKCategoryTypeIdentifierMindfulSession": {
+        "value": 3,
+        "unit": "min"
+      }
+    },
+    {
+      "date": "2026-09-16",
+      "watch_worn": true,
+      "HKQuantityTypeIdentifierStepCount": {
+        "value": 6709,
+        "unit": "count",
+        "source": "iPhone+Watch"
+      },
+      "HKQuantityTypeIdentifierActiveEnergyBurned": {
+        "value": 419,
+        "unit": "kcal"
+      },
+      "HKQuantityTypeIdentifierAppleExerciseTime": {
+        "value": 21,
+        "unit": "min"
+      },
+      "HKQuantityTypeIdentifierRestingHeartRate": {
+        "value": 67,
+        "unit": "count/min"
+      },
+      "HKQuantityTypeIdentifierHeartRateVariabilitySDNN": {
+        "value": 42.8,
+        "unit": "ms",
+        "aggregation": "daily_mean_of_samples"
+      },
+      "HKQuantityTypeIdentifierRespiratoryRate": {
+        "value": 15.6,
+        "unit": "count/min",
+        "aggregation": "sleep_mean"
+      },
+      "HKQuantityTypeIdentifierTimeInDaylight": {
+        "value": 29,
+        "unit": "min"
+      },
+      "HKCategoryTypeIdentifierMindfulSession": {
+        "value": 0,
+        "unit": "min"
+      }
+    },
+    {
+      "date": "2026-09-17",
+      "watch_worn": true,
+      "HKQuantityTypeIdentifierStepCount": {
+        "value": 7625,
+        "unit": "count",
+        "source": "iPhone+Watch"
+      },
+      "HKQuantityTypeIdentifierActiveEnergyBurned": {
+        "value": 460,
+        "unit": "kcal"
+      },
+      "HKQuantityTypeIdentifierAppleExerciseTime": {
+        "value": 19,
+        "unit": "min"
+      },
+      "HKQuantityTypeIdentifierRestingHeartRate": {
+        "value": 73,
+        "unit": "count/min"
+      },
+      "HKQuantityTypeIdentifierHeartRateVariabilitySDNN": {
+        "value": 32.9,
+        "unit": "ms",
+        "aggregation": "daily_mean_of_samples"
+      },
+      "HKQuantityTypeIdentifierRespiratoryRate": {
+        "value": 14.9,
+        "unit": "count/min",
+        "aggregation": "sleep_mean"
+      },
+      "HKQuantityTypeIdentifierTimeInDaylight": {
+        "value": 68,
+        "unit": "min"
+      },
+      "HKCategoryTypeIdentifierMindfulSession": {
+        "value": 0,
+        "unit": "min"
+      }
+    },
+    {
+      "date": "2026-09-18",
+      "watch_worn": true,
+      "HKQuantityTypeIdentifierStepCount": {
+        "value": 6042,
+        "unit": "count",
+        "source": "iPhone+Watch"
+      },
+      "HKQuantityTypeIdentifierActiveEnergyBurned": {
+        "value": 293,
+        "unit": "kcal"
+      },
+      "HKQuantityTypeIdentifierAppleExerciseTime": {
+        "value": 6,
+        "unit": "min"
+      },
+      "HKQuantityTypeIdentifierRestingHeartRate": {
+        "value": 66,
+        "unit": "count/min"
+      },
+      "HKQuantityTypeIdentifierHeartRateVariabilitySDNN": {
+        "value": 36.1,
+        "unit": "ms",
+        "aggregation": "daily_mean_of_samples"
+      },
+      "HKQuantityTypeIdentifierRespiratoryRate": {
+        "value": 15.4,
+        "unit": "count/min",
+        "aggregation": "sleep_mean"
+      },
+      "HKQuantityTypeIdentifierTimeInDaylight": {
+        "value": 49,
+        "unit": "min"
+      },
+      "HKCategoryTypeIdentifierMindfulSession": {
+        "value": 0,
+        "unit": "min"
+      }
+    },
+    {
+      "date": "2026-09-19",
+      "watch_worn": true,
+      "HKQuantityTypeIdentifierStepCount": {
+        "value": 6383,
+        "unit": "count",
+        "source": "iPhone+Watch"
+      },
+      "HKQuantityTypeIdentifierActiveEnergyBurned": {
+        "value": 453,
+        "unit": "kcal"
+      },
+      "HKQuantityTypeIdentifierAppleExerciseTime": {
+        "value": 22,
+        "unit": "min"
+      },
+      "HKQuantityTypeIdentifierRestingHeartRate": {
+        "value": 70,
+        "unit": "count/min"
+      },
+      "HKQuantityTypeIdentifierHeartRateVariabilitySDNN": {
+        "value": 37.5,
+        "unit": "ms",
+        "aggregation": "daily_mean_of_samples"
+      },
+      "HKQuantityTypeIdentifierRespiratoryRate": {
+        "value": 15.9,
+        "unit": "count/min",
+        "aggregation": "sleep_mean"
+      },
+      "HKQuantityTypeIdentifierTimeInDaylight": {
+        "value": 57,
+        "unit": "min"
+      },
+      "HKCategoryTypeIdentifierMindfulSession": {
+        "value": 0,
+        "unit": "min"
+      }
+    },
+    {
+      "date": "2026-09-20",
+      "watch_worn": true,
+      "HKQuantityTypeIdentifierStepCount": {
+        "value": 6743,
+        "unit": "count",
+        "source": "iPhone+Watch"
+      },
+      "HKQuantityTypeIdentifierActiveEnergyBurned": {
+        "value": 458,
+        "unit": "kcal"
+      },
+      "HKQuantityTypeIdentifierAppleExerciseTime": {
+        "value": 19,
+        "unit": "min"
+      },
+      "HKQuantityTypeIdentifierRestingHeartRate": {
+        "value": 67,
+        "unit": "count/min"
+      },
+      "HKQuantityTypeIdentifierHeartRateVariabilitySDNN": {
+        "value": 37.8,
+        "unit": "ms",
+        "aggregation": "daily_mean_of_samples"
+      },
+      "HKQuantityTypeIdentifierRespiratoryRate": {
+        "value": 15.3,
+        "unit": "count/min",
+        "aggregation": "sleep_mean"
+      },
+      "HKQuantityTypeIdentifierTimeInDaylight": {
+        "value": 43,
+        "unit": "min"
+      },
+      "HKCategoryTypeIdentifierMindfulSession": {
+        "value": 0,
+        "unit": "min"
+      }
+    },
+    {
+      "date": "2026-09-21",
+      "watch_worn": true,
+      "HKQuantityTypeIdentifierStepCount": {
+        "value": 6324,
+        "unit": "count",
+        "source": "iPhone+Watch"
+      },
+      "HKQuantityTypeIdentifierActiveEnergyBurned": {
+        "value": 452,
+        "unit": "kcal"
+      },
+      "HKQuantityTypeIdentifierAppleExerciseTime": {
+        "value": 28,
+        "unit": "min"
+      },
+      "HKQuantityTypeIdentifierRestingHeartRate": {
+        "value": 67,
+        "unit": "count/min"
+      },
+      "HKQuantityTypeIdentifierHeartRateVariabilitySDNN": {
+        "value": 43.0,
+        "unit": "ms",
+        "aggregation": "daily_mean_of_samples"
+      },
+      "HKQuantityTypeIdentifierRespiratoryRate": {
+        "value": 14.7,
+        "unit": "count/min",
+        "aggregation": "sleep_mean"
+      },
+      "HKQuantityTypeIdentifierTimeInDaylight": {
+        "value": 60,
+        "unit": "min"
+      },
+      "HKCategoryTypeIdentifierMindfulSession": {
+        "value": 10,
+        "unit": "min"
+      }
+    },
+    {
+      "date": "2026-09-22",
+      "watch_worn": true,
+      "HKQuantityTypeIdentifierStepCount": {
+        "value": 6525,
+        "unit": "count",
+        "source": "iPhone+Watch"
+      },
+      "HKQuantityTypeIdentifierActiveEnergyBurned": {
+        "value": 428,
+        "unit": "kcal"
+      },
+      "HKQuantityTypeIdentifierAppleExerciseTime": {
+        "value": 23,
+        "unit": "min"
+      },
+      "HKQuantityTypeIdentifierRestingHeartRate": {
+        "value": 63,
+        "unit": "count/min"
+      },
+      "HKQuantityTypeIdentifierHeartRateVariabilitySDNN": {
+        "value": 46.0,
+        "unit": "ms",
+        "aggregation": "daily_mean_of_samples"
+      },
+      "HKQuantityTypeIdentifierRespiratoryRate": {
+        "value": 14.0,
+        "unit": "count/min",
+        "aggregation": "sleep_mean"
+      },
+      "HKQuantityTypeIdentifierTimeInDaylight": {
+        "value": 63,
+        "unit": "min"
+      },
+      "HKCategoryTypeIdentifierMindfulSession": {
+        "value": 0,
+        "unit": "min"
+      }
+    },
+    {
+      "date": "2026-09-23",
+      "watch_worn": true,
+      "HKQuantityTypeIdentifierStepCount": {
+        "value": 7546,
+        "unit": "count",
+        "source": "iPhone+Watch"
+      },
+      "HKQuantityTypeIdentifierActiveEnergyBurned": {
+        "value": 402,
+        "unit": "kcal"
+      },
+      "HKQuantityTypeIdentifierAppleExerciseTime": {
+        "value": 10,
+        "unit": "min"
+      },
+      "HKQuantityTypeIdentifierRestingHeartRate": {
+        "value": 67,
+        "unit": "count/min"
+      },
+      "HKQuantityTypeIdentifierHeartRateVariabilitySDNN": {
+        "value": 34.1,
+        "unit": "ms",
+        "aggregation": "daily_mean_of_samples"
+      },
+      "HKQuantityTypeIdentifierRespiratoryRate": {
+        "value": 14.8,
+        "unit": "count/min",
+        "aggregation": "sleep_mean"
+      },
+      "HKQuantityTypeIdentifierTimeInDaylight": {
+        "value": 49,
+        "unit": "min"
+      },
+      "HKCategoryTypeIdentifierMindfulSession": {
+        "value": 0,
+        "unit": "min"
+      }
+    },
+    {
+      "date": "2026-09-24",
+      "watch_worn": true,
+      "HKQuantityTypeIdentifierStepCount": {
+        "value": 8133,
+        "unit": "count",
+        "source": "iPhone+Watch"
+      },
+      "HKQuantityTypeIdentifierActiveEnergyBurned": {
+        "value": 490,
+        "unit": "kcal"
+      },
+      "HKQuantityTypeIdentifierAppleExerciseTime": {
+        "value": 19,
+        "unit": "min"
+      },
+      "HKQuantityTypeIdentifierRestingHeartRate": {
+        "value": 65,
+        "unit": "count/min"
+      },
+      "HKQuantityTypeIdentifierHeartRateVariabilitySDNN": {
+        "value": 44.2,
+        "unit": "ms",
+        "aggregation": "daily_mean_of_samples"
+      },
+      "HKQuantityTypeIdentifierRespiratoryRate": {
+        "value": 15.1,
+        "unit": "count/min",
+        "aggregation": "sleep_mean"
+      },
+      "HKQuantityTypeIdentifierTimeInDaylight": {
+        "value": 50,
+        "unit": "min"
+      },
+      "HKCategoryTypeIdentifierMindfulSession": {
+        "value": 3,
+        "unit": "min"
+      }
+    },
+    {
+      "date": "2026-09-25",
+      "watch_worn": true,
+      "HKQuantityTypeIdentifierStepCount": {
+        "value": 7300,
+        "unit": "count",
+        "source": "iPhone+Watch"
+      },
+      "HKQuantityTypeIdentifierActiveEnergyBurned": {
+        "value": 460,
+        "unit": "kcal"
+      },
+      "HKQuantityTypeIdentifierAppleExerciseTime": {
+        "value": 20,
+        "unit": "min"
+      },
+      "HKQuantityTypeIdentifierRestingHeartRate": {
+        "value": 67,
+        "unit": "count/min"
+      },
+      "HKQuantityTypeIdentifierHeartRateVariabilitySDNN": {
+        "value": 37.5,
+        "unit": "ms",
+        "aggregation": "daily_mean_of_samples"
+      },
+      "HKQuantityTypeIdentifierRespiratoryRate": {
+        "value": 15.6,
+        "unit": "count/min",
+        "aggregation": "sleep_mean"
+      },
+      "HKQuantityTypeIdentifierTimeInDaylight": {
+        "value": 37,
+        "unit": "min"
+      },
+      "HKCategoryTypeIdentifierMindfulSession": {
+        "value": 0,
+        "unit": "min"
+      }
+    },
+    {
+      "date": "2026-09-26",
+      "watch_worn": true,
+      "HKQuantityTypeIdentifierStepCount": {
+        "value": 7094,
+        "unit": "count",
+        "source": "iPhone+Watch"
+      },
+      "HKQuantityTypeIdentifierActiveEnergyBurned": {
+        "value": 403,
+        "unit": "kcal"
+      },
+      "HKQuantityTypeIdentifierAppleExerciseTime": {
+        "value": 12,
+        "unit": "min"
+      },
+      "HKQuantityTypeIdentifierRestingHeartRate": {
+        "value": 64,
+        "unit": "count/min"
+      },
+      "HKQuantityTypeIdentifierHeartRateVariabilitySDNN": {
+        "value": 44.5,
+        "unit": "ms",
+        "aggregation": "daily_mean_of_samples"
+      },
+      "HKQuantityTypeIdentifierRespiratoryRate": {
+        "value": 14.7,
+        "unit": "count/min",
+        "aggregation": "sleep_mean"
+      },
+      "HKQuantityTypeIdentifierTimeInDaylight": {
+        "value": 53,
+        "unit": "min"
+      },
+      "HKCategoryTypeIdentifierMindfulSession": {
+        "value": 3,
+        "unit": "min"
+      }
+    },
+    {
+      "date": "2026-09-27",
+      "watch_worn": true,
+      "HKQuantityTypeIdentifierStepCount": {
+        "value": 7050,
+        "unit": "count",
+        "source": "iPhone+Watch"
+      },
+      "HKQuantityTypeIdentifierActiveEnergyBurned": {
+        "value": 479,
+        "unit": "kcal"
+      },
+      "HKQuantityTypeIdentifierAppleExerciseTime": {
+        "value": 26,
+        "unit": "min"
+      },
+      "HKQuantityTypeIdentifierRestingHeartRate": {
+        "value": 67,
+        "unit": "count/min"
+      },
+      "HKQuantityTypeIdentifierHeartRateVariabilitySDNN": {
+        "value": 43.5,
+        "unit": "ms",
+        "aggregation": "daily_mean_of_samples"
+      },
+      "HKQuantityTypeIdentifierRespiratoryRate": {
+        "value": 15.2,
+        "unit": "count/min",
+        "aggregation": "sleep_mean"
+      },
+      "HKQuantityTypeIdentifierTimeInDaylight": {
+        "value": 65,
+        "unit": "min"
+      },
+      "HKCategoryTypeIdentifierMindfulSession": {
+        "value": 0,
+        "unit": "min"
+      }
+    },
+    {
+      "date": "2026-09-28",
+      "watch_worn": true,
+      "HKQuantityTypeIdentifierStepCount": {
+        "value": 7799,
+        "unit": "count",
+        "source": "iPhone+Watch"
+      },
+      "HKQuantityTypeIdentifierActiveEnergyBurned": {
+        "value": 492,
+        "unit": "kcal"
+      },
+      "HKQuantityTypeIdentifierAppleExerciseTime": {
+        "value": 19,
+        "unit": "min"
+      },
+      "HKQuantityTypeIdentifierRestingHeartRate": {
+        "value": 65,
+        "unit": "count/min"
+      },
+      "HKQuantityTypeIdentifierHeartRateVariabilitySDNN": {
+        "value": 51.1,
+        "unit": "ms",
+        "aggregation": "daily_mean_of_samples"
+      },
+      "HKQuantityTypeIdentifierRespiratoryRate": {
+        "value": 15.1,
+        "unit": "count/min",
+        "aggregation": "sleep_mean"
+      },
+      "HKQuantityTypeIdentifierTimeInDaylight": {
+        "value": 58,
+        "unit": "min"
+      },
+      "HKCategoryTypeIdentifierMindfulSession": {
+        "value": 10,
+        "unit": "min"
+      }
+    },
+    {
+      "date": "2026-09-29",
+      "watch_worn": true,
+      "HKQuantityTypeIdentifierStepCount": {
+        "value": 5993,
+        "unit": "count",
+        "source": "iPhone+Watch"
+      },
+      "HKQuantityTypeIdentifierActiveEnergyBurned": {
+        "value": 403,
+        "unit": "kcal"
+      },
+      "HKQuantityTypeIdentifierAppleExerciseTime": {
+        "value": 24,
+        "unit": "min"
+      },
+      "HKQuantityTypeIdentifierRestingHeartRate": {
+        "value": 66,
+        "unit": "count/min"
+      },
+      "HKQuantityTypeIdentifierHeartRateVariabilitySDNN": {
+        "value": 45.2,
+        "unit": "ms",
+        "aggregation": "daily_mean_of_samples"
+      },
+      "HKQuantityTypeIdentifierRespiratoryRate": {
+        "value": 15.0,
+        "unit": "count/min",
+        "aggregation": "sleep_mean"
+      },
+      "HKQuantityTypeIdentifierTimeInDaylight": {
+        "value": 51,
+        "unit": "min"
+      },
+      "HKCategoryTypeIdentifierMindfulSession": {
+        "value": 0,
+        "unit": "min"
+      }
+    },
+    {
+      "date": "2026-09-30",
+      "watch_worn": true,
+      "HKQuantityTypeIdentifierStepCount": {
+        "value": 8652,
+        "unit": "count",
+        "source": "iPhone+Watch"
+      },
+      "HKQuantityTypeIdentifierActiveEnergyBurned": {
+        "value": 489,
+        "unit": "kcal"
+      },
+      "HKQuantityTypeIdentifierAppleExerciseTime": {
+        "value": 19,
+        "unit": "min"
+      },
+      "HKQuantityTypeIdentifierRestingHeartRate": {
+        "value": 65,
+        "unit": "count/min"
+      },
+      "HKQuantityTypeIdentifierHeartRateVariabilitySDNN": {
+        "value": 43.3,
+        "unit": "ms",
+        "aggregation": "daily_mean_of_samples"
+      },
+      "HKQuantityTypeIdentifierRespiratoryRate": {
+        "value": 15.9,
+        "unit": "count/min",
+        "aggregation": "sleep_mean"
+      },
+      "HKQuantityTypeIdentifierTimeInDaylight": {
+        "value": 59,
+        "unit": "min"
+      },
+      "HKCategoryTypeIdentifierMindfulSession": {
+        "value": 0,
+        "unit": "min"
+      }
+    },
+    {
+      "date": "2026-10-01",
+      "watch_worn": true,
+      "HKQuantityTypeIdentifierStepCount": {
+        "value": 8692,
+        "unit": "count",
+        "source": "iPhone+Watch"
+      },
+      "HKQuantityTypeIdentifierActiveEnergyBurned": {
+        "value": 459,
+        "unit": "kcal"
+      },
+      "HKQuantityTypeIdentifierAppleExerciseTime": {
+        "value": 20,
+        "unit": "min"
+      },
+      "HKQuantityTypeIdentifierRestingHeartRate": {
+        "value": 64,
+        "unit": "count/min"
+      },
+      "HKQuantityTypeIdentifierHeartRateVariabilitySDNN": {
+        "value": 41.7,
+        "unit": "ms",
+        "aggregation": "daily_mean_of_samples"
+      },
+      "HKQuantityTypeIdentifierRespiratoryRate": {
+        "value": 14.6,
+        "unit": "count/min",
+        "aggregation": "sleep_mean"
+      },
+      "HKQuantityTypeIdentifierTimeInDaylight": {
+        "value": 60,
+        "unit": "min"
+      },
+      "HKCategoryTypeIdentifierMindfulSession": {
+        "value": 10,
+        "unit": "min"
+      }
+    },
+    {
+      "date": "2026-10-02",
+      "watch_worn": true,
+      "HKQuantityTypeIdentifierStepCount": {
+        "value": 9019,
+        "unit": "count",
+        "source": "iPhone+Watch"
+      },
+      "HKQuantityTypeIdentifierActiveEnergyBurned": {
+        "value": 428,
+        "unit": "kcal"
+      },
+      "HKQuantityTypeIdentifierAppleExerciseTime": {
+        "value": 12,
+        "unit": "min"
+      },
+      "HKQuantityTypeIdentifierRestingHeartRate": {
+        "value": 65,
+        "unit": "count/min"
+      },
+      "HKQuantityTypeIdentifierHeartRateVariabilitySDNN": {
+        "value": 40.8,
+        "unit": "ms",
+        "aggregation": "daily_mean_of_samples"
+      },
+      "HKQuantityTypeIdentifierRespiratoryRate": {
+        "value": 14.7,
+        "unit": "count/min",
+        "aggregation": "sleep_mean"
+      },
+      "HKQuantityTypeIdentifierTimeInDaylight": {
+        "value": 47,
+        "unit": "min"
+      },
+      "HKCategoryTypeIdentifierMindfulSession": {
+        "value": 0,
+        "unit": "min"
+      }
+    },
+    {
+      "date": "2026-10-03",
+      "watch_worn": true,
+      "HKQuantityTypeIdentifierStepCount": {
+        "value": 9310,
+        "unit": "count",
+        "source": "iPhone+Watch"
+      },
+      "HKQuantityTypeIdentifierActiveEnergyBurned": {
+        "value": 550,
+        "unit": "kcal"
+      },
+      "HKQuantityTypeIdentifierAppleExerciseTime": {
+        "value": 29,
+        "unit": "min"
+      },
+      "HKQuantityTypeIdentifierRestingHeartRate": {
+        "value": 61,
+        "unit": "count/min"
+      },
+      "HKQuantityTypeIdentifierHeartRateVariabilitySDNN": {
+        "value": 41.5,
+        "unit": "ms",
+        "aggregation": "daily_mean_of_samples"
+      },
+      "HKQuantityTypeIdentifierRespiratoryRate": {
+        "value": 15.6,
+        "unit": "count/min",
+        "aggregation": "sleep_mean"
+      },
+      "HKQuantityTypeIdentifierTimeInDaylight": {
+        "value": 56,
+        "unit": "min"
+      },
+      "HKCategoryTypeIdentifierMindfulSession": {
+        "value": 0,
+        "unit": "min"
+      }
+    },
+    {
+      "date": "2026-10-04",
+      "watch_worn": true,
+      "HKQuantityTypeIdentifierStepCount": {
+        "value": 8780,
+        "unit": "count",
+        "source": "iPhone+Watch"
+      },
+      "HKQuantityTypeIdentifierActiveEnergyBurned": {
+        "value": 610,
+        "unit": "kcal"
+      },
+      "HKQuantityTypeIdentifierAppleExerciseTime": {
+        "value": 42,
+        "unit": "min"
+      },
+      "HKQuantityTypeIdentifierRestingHeartRate": {
+        "value": 65,
+        "unit": "count/min"
+      },
+      "HKQuantityTypeIdentifierHeartRateVariabilitySDNN": {
+        "value": 41.4,
+        "unit": "ms",
+        "aggregation": "daily_mean_of_samples"
+      },
+      "HKQuantityTypeIdentifierRespiratoryRate": {
+        "value": 15.1,
+        "unit": "count/min",
+        "aggregation": "sleep_mean"
+      },
+      "HKQuantityTypeIdentifierTimeInDaylight": {
+        "value": 59,
+        "unit": "min"
+      },
+      "HKCategoryTypeIdentifierMindfulSession": {
+        "value": 10,
+        "unit": "min"
+      }
+    }
+  ]
+}

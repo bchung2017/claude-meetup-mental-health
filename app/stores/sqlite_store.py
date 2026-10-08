@@ -3,7 +3,7 @@ import threading
 from pathlib import Path
 
 from ..config import Config
-from .base import ADDED_COLUMNS, COLUMNS, Store
+from .base import ADDED_COLUMNS, COLUMNS, Store, table_spec
 
 _COLS = ", ".join(COLUMNS)
 _INSERT = f"INSERT INTO entries({_COLS}) VALUES({', '.join('?' for _ in COLUMNS)})"
@@ -42,3 +42,21 @@ class SqliteStore(Store):
             cur = self._db.execute("DELETE FROM entries WHERE id=?", (id,))
             self._db.commit()
             return cur.rowcount
+
+    def insert_rows(self, table, rows):
+        cols, _ = table_spec(table)
+        sql = f"INSERT OR IGNORE INTO {table}({', '.join(cols)}) VALUES({', '.join('?' for _ in cols)})"
+        with self._lock:
+            self._db.executemany(sql, [tuple(r.get(c) for c in cols) for r in rows])
+            self._db.commit()
+
+    def list_rows(self, table, patient_id=None):
+        cols, order = table_spec(table)
+        sql = f"SELECT {', '.join(cols)} FROM {table}"
+        params = ()
+        if patient_id is not None:
+            sql += " WHERE patient_id = ?"
+            params = (patient_id,)
+        with self._lock:
+            rows = self._db.execute(f"{sql} ORDER BY {order}", params).fetchall()
+        return [dict(r) for r in rows]
