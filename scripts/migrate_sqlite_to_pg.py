@@ -7,7 +7,9 @@ import psycopg
 
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 from app.config import Config, pg_schema  # noqa: E402
-from app.stores.base import ADDED_COLUMNS, COLUMNS  # noqa: E402
+from app.stores.base import COLUMNS  # noqa: E402
+from app.stores.postgres_store import migrate as migrate_pg  # noqa: E402
+from app.stores.sqlite_store import migrate as migrate_sqlite  # noqa: E402
 
 
 def main() -> None:
@@ -19,15 +21,11 @@ def main() -> None:
     marks = ", ".join("%s" for _ in COLUMNS)
 
     src = sqlite3.connect(src_path)
-    have = {r[1] for r in src.execute("PRAGMA table_info(entries)")}
-    for col, decl in ADDED_COLUMNS:
-        if col not in have:
-            src.execute(f"ALTER TABLE entries ADD COLUMN {col} {decl}")
+    migrate_sqlite(src)
     with psycopg.connect(dsn, options=f"-c search_path={schema}") as dst:
         dst.execute(f"CREATE SCHEMA IF NOT EXISTS {schema};")
         dst.execute(ddl)
-        for col, decl in ADDED_COLUMNS:
-            dst.execute(f"ALTER TABLE entries ADD COLUMN IF NOT EXISTS {col} {decl}")
+        migrate_pg(dst, schema)
         (n,) = dst.execute("SELECT count(*) FROM entries").fetchone()
         if n:
             sys.exit(f"refusing to run: entries already has {n} rows in Postgres")

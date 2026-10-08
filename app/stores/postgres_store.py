@@ -3,10 +3,23 @@ from pathlib import Path
 from psycopg_pool import ConnectionPool
 
 from ..config import Config, pg_schema
-from .base import ADDED_COLUMNS, COLUMNS, Store, table_spec
+from .base import COLUMNS, Store, table_spec
 
 _COLS = ", ".join(COLUMNS)
 _INSERT = f"INSERT INTO entries({_COLS}) VALUES({', '.join('%s' for _ in COLUMNS)})"
+
+
+def migrate(conn, schema: str) -> None:
+    """Bring a pre-existing entries table up to the current schema (idempotent)."""
+    conn.execute("ALTER TABLE entries ADD COLUMN IF NOT EXISTS adherence INTEGER NOT NULL DEFAULT 0")
+    had_bool = conn.execute(
+        "SELECT 1 FROM information_schema.columns "
+        "WHERE table_schema = %s AND table_name = 'entries' AND column_name = 'meds_taken'",
+        (schema,),
+    ).fetchone()
+    if had_bool:  # short-lived boolean, folded into the 0-100 score
+        conn.execute("UPDATE entries SET adherence = meds_taken * 100")
+        conn.execute("ALTER TABLE entries DROP COLUMN meds_taken")
 
 
 class PostgresStore(Store):
@@ -26,8 +39,7 @@ class PostgresStore(Store):
         with self._pool.connection() as conn:
             conn.execute(f"CREATE SCHEMA IF NOT EXISTS {schema};")
             conn.execute(ddl)
-            for col, decl in ADDED_COLUMNS:
-                conn.execute(f"ALTER TABLE entries ADD COLUMN IF NOT EXISTS {col} {decl}")
+            migrate(conn, schema)
 
     def insert_entry(self, row):
         with self._pool.connection() as conn:

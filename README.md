@@ -61,7 +61,7 @@ Two rules for what goes where:
 - `app/tether/prompt.py` loads the prompt file and renders the patient record: profile,
   sessions, PHQ-9 responses, mood check-ins, journal entries, voice note transcripts,
   practices with weekly rollups, meet-the-moment logs, sleep sessions, daily metrics, plus
-  the Behavidence scores and meds flags from the tracker. The whole record (roughly 20K
+  the Behavidence and adherence scores from the tracker. The whole record (roughly 20K
   tokens for the sample patient) is sent once per conversation and cache-read after that.
 - `app/tether/routes.py` streams each reply over server-sent events. The server is
   stateless; the browser keeps the conversation in `sessionStorage` and replays it on every

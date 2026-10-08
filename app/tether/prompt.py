@@ -60,11 +60,10 @@ def patient_record(store) -> str:
             out.append(f"## {table} ({len(rows)} rows)\n" + "\n".join(_line(r) for r in rows))
 
     entries = store.list_entries(0)
-    out.append(f"## behavidence_scores ({len(entries)} rows; depression/adhd are 0-100 similarity scores)")
+    out.append(f"## behavidence_scores ({len(entries)} rows; depression/adhd are 0-100 similarity scores, adherence is 0-100)")
     for r in entries:
         day = datetime.fromtimestamp(r["created_at"]).strftime("%Y-%m-%d")
-        meds = "taken" if r["meds_taken"] else "missed"
-        line = f"- date={day}  depression={r['depression']}  adhd={r['adhd']}  meds={meds}"
+        line = f"- date={day}  depression={r['depression']}  adhd={r['adhd']}  adherence={r['adherence']}"
         if r["note"]:
             line += f"  note={r['note']}"
         out.append(line)
