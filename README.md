@@ -122,6 +122,10 @@ adherence scores, onto consecutive days ending today. Refuses to run if the tabl
 Existing databases get the `adherence` column added on startup (defaults to 0). A database seeded
 before that column existed shows a flat adherence line until you reseed with `--replace`.
 
+Without shell access (Render free tier), set `SEED_SAMPLE_DATA=replace` on the service instead:
+every boot then wipes `entries` and reseeds. Set it back to `1` once the chart looks right, or
+every restart will keep wiping your real entries.
+
 ## Migrate SQLite → Postgres
 
 ```bash

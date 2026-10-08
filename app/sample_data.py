@@ -18,6 +18,13 @@ def seed_if_empty(store) -> int:
     return seed(store)
 
 
+def reseed(store) -> int:
+    """Delete every entry, then insert ROWS."""
+    for e in store.list_entries(0):
+        store.delete_entry(e["id"])
+    return seed(store)
+
+
 def seed(store) -> int:
     now = int(time.time())
     for i, (dep, adhd, adherence) in enumerate(ROWS):
