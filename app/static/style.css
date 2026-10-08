@@ -10,6 +10,8 @@
   --border: rgba(11, 11, 11, 0.10);
   --series-1: #2a78d6;
   --series-2: #eb6834;
+  --series-3: #1baf7a;
+  --series-4: #eda100;
   --good: #006300;
   --bad: #d03b3b;
 }
@@ -26,6 +28,8 @@
     --border: rgba(255, 255, 255, 0.10);
     --series-1: #3987e5;
     --series-2: #d95926;
+    --series-3: #199e70;
+    --series-4: #c98500;
     --good: #0ca30c;
     --bad: #e66767;
   }
@@ -42,6 +46,8 @@
   --border: rgba(255, 255, 255, 0.10);
   --series-1: #3987e5;
   --series-2: #d95926;
+  --series-3: #199e70;
+  --series-4: #c98500;
   --good: #0ca30c;
   --bad: #e66767;
 }
@@ -100,8 +106,11 @@ button {
 .key { display: inline-block; width: 14px; height: 2px; border-radius: 1px; }
 .key.depression { background: var(--series-1); }
 .key.adhd { background: var(--series-2); }
+.key.mood { background: var(--series-3); }
+.key.phq9 { background: var(--series-4); }
 
 .chart { position: relative; width: 100%; height: 280px; }
+.chart.tall { height: 360px; }
 .chart svg { width: 100%; height: 100%; display: block; overflow: visible; }
 .chart .grid { stroke: var(--grid); stroke-width: 1; }
 .chart .axis { stroke: var(--axis); stroke-width: 1; }
@@ -112,6 +121,11 @@ button {
 .chart .adhd { stroke: var(--series-2); }
 .chart .dot.depression { fill: var(--series-1); }
 .chart .dot.adhd { fill: var(--series-2); }
+.chart .mood { stroke: var(--series-3); }
+.chart .phq9 { stroke: var(--series-4); }
+.chart .dot.mood { fill: var(--series-3); }
+.chart .dot.phq9 { fill: var(--series-4); }
+.chart .panel { fill: var(--ink-2); font-size: 12px; font-weight: 600; }
 .chart .hit { fill: transparent; }
 .chart .crosshair { stroke: var(--axis); stroke-width: 1; }
 .chart .label { fill: var(--ink-2); font-size: 12px; }
