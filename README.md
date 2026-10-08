@@ -15,6 +15,8 @@ flask --app wsgi run --debug    # http://127.0.0.1:5000, SQLite at ./mental_heal
 
 ## Deploy on Render
 
+Step-by-step in [DEPLOY.md](DEPLOY.md). Summary:
+
 `render.yaml` defines the web service (gunicorn). Create a Blueprint from this repo,
 then set `DATABASE_URL` in the service's environment:
 
