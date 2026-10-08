@@ -27,3 +27,5 @@ class Config:
     ANTHROPIC_API_KEY = os.environ.get("ANTHROPIC_API_KEY")
     TETHER_MODEL = os.environ.get("TETHER_MODEL", "claude-opus-5-5")
     TETHER_EFFORT = os.environ.get("TETHER_EFFORT", "medium")  # low | medium | high | xhigh | max
+    TETHER_PROMPT_FILE = os.environ.get("TETHER_PROMPT_FILE")  # unset -> app/tether/prompts/clinician.md
+    TETHER_PATIENT_ID = os.environ.get("TETHER_PATIENT_ID")  # unset -> first patient on file

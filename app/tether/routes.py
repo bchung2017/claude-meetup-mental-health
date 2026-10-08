@@ -6,7 +6,7 @@ from flask import Blueprint, Response, jsonify, request, stream_with_context
 
 from ..config import Config
 from ..stores import get_store
-from .prompt import context_message, system_prompt
+from .prompt import context_message, patient_label, system_prompt
 
 bp = Blueprint("tether", __name__, url_prefix="/api/tether")
 
@@ -39,7 +39,11 @@ def _echoable(content: list) -> list[dict]:
 
 @bp.get("/health")
 def health():
-    return jsonify(configured=bool(Config.ANTHROPIC_API_KEY), model=Config.TETHER_MODEL)
+    return jsonify(
+        configured=bool(Config.ANTHROPIC_API_KEY),
+        model=Config.TETHER_MODEL,
+        patient=patient_label(get_store()),
+    )
 
 
 @bp.post("/chat")

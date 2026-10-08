@@ -128,7 +128,7 @@
   });
 
   fetch("/api/tether/health").then((r) => r.json()).then((h) => {
-    status.textContent = h.configured ? h.model : "ANTHROPIC_API_KEY not set";
+    status.textContent = h.configured ? [h.patient, h.model].filter(Boolean).join(" · ") : "ANTHROPIC_API_KEY not set";
     if (!h.configured) setBusy(true);
   });
   render();
