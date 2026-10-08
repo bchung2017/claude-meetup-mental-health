@@ -14,153 +14,6 @@ Conventions:
   a source id use a composite key on `(patient_id, <natural unit>)`.
 - `patient_id` is on every table so a single predicate scopes any query to one patient.
 
-## Entity-relationship diagram
-
-```mermaid
-erDiagram
-    patients ||--o{ sessions : "has"
-    patients ||--o{ phq9_responses : "completes weekly"
-    patients ||--o{ mood_checkins : "logs daily"
-    patients ||--o{ journal_entries : "writes"
-    patients ||--o{ voice_notes : "records"
-    patients ||--o{ practices : "commits to"
-    practices ||--o{ practice_daily_logs : "completed?"
-    practices ||--o{ practice_weekly_cycles : "weekly rollup"
-    practices ||--o{ meet_the_moment_logs : "event-triggered"
-    patients ||--o{ sleep_sessions : "nightly"
-    patients ||--o{ daily_metrics : "daily"
-
-    patients {
-        text patient_id PK
-        text display_name
-        text date_of_birth
-        text sex_at_birth
-        text pronouns
-        text timezone
-        json enrollment
-        json clinical
-        json care_team
-    }
-    sessions {
-        text session_id PK
-        text patient_id FK
-        int session_number
-        text scheduled_start
-        int duration_min
-        text modality
-        text cpt_code
-        int attended
-    }
-    phq9_responses {
-        text response_id PK
-        text patient_id FK
-        int administration_week
-        text completed_at
-        json items
-        int total_score
-        int item9_score
-        text severity_band
-        text functional_difficulty
-    }
-    mood_checkins {
-        text checkin_id PK
-        text patient_id FK
-        text logged_at
-        int mood
-        int anxiety
-        int energy
-        json emotion_tags
-        text note
-    }
-    journal_entries {
-        text entry_id PK
-        text patient_id FK
-        text created_at
-        text text
-        int word_count
-        text ai_summary
-        json ai_themes
-        real sentiment_score
-        int shared_with_clinician
-    }
-    voice_notes {
-        text voice_note_id PK
-        text patient_id FK
-        text recorded_at
-        int duration_sec
-        text audio_uri
-        text transcript
-        real transcription_confidence
-        text ai_summary
-        real sentiment_score
-        int shared_with_clinician
-    }
-    practices {
-        text patient_id PK_FK
-        text practice_id PK
-        text name
-        text track
-        int target_per_week
-        text trigger_text
-        text created_at
-    }
-    practice_daily_logs {
-        text log_id PK
-        text patient_id FK
-        text practice_id FK
-        text date
-        int completed
-    }
-    practice_weekly_cycles {
-        text patient_id PK_FK
-        text practice_id PK_FK
-        int week PK
-        text cycle_start
-        text cycle_end
-        int target
-        int completed
-        int met_target
-    }
-    meet_the_moment_logs {
-        text log_id PK
-        text patient_id FK
-        text practice_id FK
-        text logged_at
-        text situation
-        text emotion_named
-        int intensity_before
-        int intensity_after
-    }
-    sleep_sessions {
-        text patient_id PK_FK
-        text night_of PK
-        text source
-        text in_bed_start
-        text in_bed_end
-        int sleep_onset_latency_min
-        int total_asleep_min
-        int awake_min
-        int awakenings
-        int asleep_core_min
-        int asleep_deep_min
-        int asleep_rem_min
-        real sleep_efficiency
-    }
-    daily_metrics {
-        text patient_id PK_FK
-        text date PK
-        int watch_worn
-        int step_count
-        int active_energy_kcal
-        int exercise_min
-        int resting_hr
-        real hrv_sdnn_ms
-        real respiratory_rate
-        int time_in_daylight_min
-        int mindful_min
-    }
-```
-
 ## Tables
 
 ### `patients` ← `patient.json`
@@ -350,3 +203,150 @@ SELECT night_of, AVG(total_asleep_min) OVER (ORDER BY night_of ROWS 6 PRECEDING)
   to a column when a query needs to filter or join on it.
 - `scale` strings on `mood_checkins` and `meet_the_moment_logs` are dropped; the scale is fixed
   and documented above.
+
+## Entity-relationship diagram
+
+```mermaid
+erDiagram
+    patients ||--o{ sessions : "has"
+    patients ||--o{ phq9_responses : "completes weekly"
+    patients ||--o{ mood_checkins : "logs daily"
+    patients ||--o{ journal_entries : "writes"
+    patients ||--o{ voice_notes : "records"
+    patients ||--o{ practices : "commits to"
+    practices ||--o{ practice_daily_logs : "completed?"
+    practices ||--o{ practice_weekly_cycles : "weekly rollup"
+    practices ||--o{ meet_the_moment_logs : "event-triggered"
+    patients ||--o{ sleep_sessions : "nightly"
+    patients ||--o{ daily_metrics : "daily"
+
+    patients {
+        text patient_id PK
+        text display_name
+        text date_of_birth
+        text sex_at_birth
+        text pronouns
+        text timezone
+        json enrollment
+        json clinical
+        json care_team
+    }
+    sessions {
+        text session_id PK
+        text patient_id FK
+        int session_number
+        text scheduled_start
+        int duration_min
+        text modality
+        text cpt_code
+        int attended
+    }
+    phq9_responses {
+        text response_id PK
+        text patient_id FK
+        int administration_week
+        text completed_at
+        json items
+        int total_score
+        int item9_score
+        text severity_band
+        text functional_difficulty
+    }
+    mood_checkins {
+        text checkin_id PK
+        text patient_id FK
+        text logged_at
+        int mood
+        int anxiety
+        int energy
+        json emotion_tags
+        text note
+    }
+    journal_entries {
+        text entry_id PK
+        text patient_id FK
+        text created_at
+        text text
+        int word_count
+        text ai_summary
+        json ai_themes
+        real sentiment_score
+        int shared_with_clinician
+    }
+    voice_notes {
+        text voice_note_id PK
+        text patient_id FK
+        text recorded_at
+        int duration_sec
+        text audio_uri
+        text transcript
+        real transcription_confidence
+        text ai_summary
+        real sentiment_score
+        int shared_with_clinician
+    }
+    practices {
+        text patient_id PK_FK
+        text practice_id PK
+        text name
+        text track
+        int target_per_week
+        text trigger_text
+        text created_at
+    }
+    practice_daily_logs {
+        text log_id PK
+        text patient_id FK
+        text practice_id FK
+        text date
+        int completed
+    }
+    practice_weekly_cycles {
+        text patient_id PK_FK
+        text practice_id PK_FK
+        int week PK
+        text cycle_start
+        text cycle_end
+        int target
+        int completed
+        int met_target
+    }
+    meet_the_moment_logs {
+        text log_id PK
+        text patient_id FK
+        text practice_id FK
+        text logged_at
+        text situation
+        text emotion_named
+        int intensity_before
+        int intensity_after
+    }
+    sleep_sessions {
+        text patient_id PK_FK
+        text night_of PK
+        text source
+        text in_bed_start
+        text in_bed_end
+        int sleep_onset_latency_min
+        int total_asleep_min
+        int awake_min
+        int awakenings
+        int asleep_core_min
+        int asleep_deep_min
+        int asleep_rem_min
+        real sleep_efficiency
+    }
+    daily_metrics {
+        text patient_id PK_FK
+        text date PK
+        int watch_worn
+        int step_count
+        int active_energy_kcal
+        int exercise_min
+        int resting_hr
+        real hrv_sdnn_ms
+        real respiratory_rate
+        int time_in_daylight_min
+        int mindful_min
+    }
+```

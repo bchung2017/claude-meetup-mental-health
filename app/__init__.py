@@ -9,9 +9,11 @@ def create_app() -> Flask:
     app = Flask(__name__)
     app.config.from_object(Config)
 
-    from .api.routes import bp
+    from .api.routes import bp as api_bp
+    from .tether.routes import bp as tether_bp
 
-    app.register_blueprint(bp)
+    app.register_blueprint(api_bp)
+    app.register_blueprint(tether_bp)
 
     @app.get("/")
     def index():
