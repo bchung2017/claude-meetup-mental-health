@@ -1,8 +1,10 @@
 (() => {
   const NS = "http://www.w3.org/2000/svg";
+  // higherIsBetter drives the tile delta colouring: a rise in a symptom score is bad, a rise in adherence is good.
   const SERIES = [
-    { key: "depression", name: "Depression" },
-    { key: "adhd", name: "ADHD" },
+    { key: "depression", name: "Depression", higherIsBetter: false },
+    { key: "adhd", name: "ADHD", higherIsBetter: false },
+    { key: "adherence", name: "Adherence", higherIsBetter: true },
   ];
   const $ = (s) => document.querySelector(s);
   const tooltip = $("#tooltip");
@@ -37,17 +39,6 @@
       r.append(key, v, k);
       tooltip.append(r);
     }
-    const mr = document.createElement("div");
-    mr.className = "r";
-    const mk = document.createElement("i");
-    mk.className = `key med ${values.meds_taken ? "on" : "off"}`;
-    const mv = document.createElement("strong");
-    mv.textContent = values.meds_taken ? "\u2713" : "\u2715";
-    const ml = document.createElement("span");
-    ml.className = "k";
-    ml.textContent = values.meds_taken ? "Meds taken" : "Meds missed";
-    mr.append(mk, mv, ml);
-    tooltip.append(mr);
     tooltip.hidden = false;
     const x = Math.min(evt.clientX + 12, window.innerWidth - tooltip.offsetWidth - 8);
     tooltip.style.left = x + "px";
@@ -57,8 +48,7 @@
 
   function lineChart(container, data) {
     const W = container.clientWidth || 600, H = container.clientHeight || 280;
-    const m = { t: 12, r: 40, b: 48, l: 36 };
-    const strip = { gap: 8, size: 10 };
+    const m = { t: 12, r: 40, b: 28, l: 36 };
     const iw = W - m.l - m.r, ih = H - m.t - m.b;
     const svg = el("svg", { viewBox: `0 0 ${W} ${H}` });
     container.replaceChildren(svg);
@@ -78,26 +68,12 @@
       svg.append(el("text", { x: x(t), y: H - 8, "text-anchor": "middle" }, fmtDate(t)));
     }
 
-    // Medication strip: one square per entry under the plot. Filled = taken, hollow = missed.
-    const stripY = m.t + ih + strip.gap;
-    const minGap = xs.length > 1 ? Math.min(...xs.slice(1).map((v, i) => v - xs[i])) : Infinity;
-    const sz = Math.max(4, Math.min(strip.size, minGap - 2));
-    svg.append(el("text", { class: "strip-label", x: m.l - 8, y: stripY + sz / 2 + 4, "text-anchor": "end" }, "Meds"));
-    data.forEach((d, i) => {
-      svg.append(el("rect", {
-        class: `med ${d.meds_taken ? "on" : "off"}`,
-        x: xs[i] - sz / 2, y: stripY, width: sz, height: sz, rx: 2,
-      }));
-    });
-
-    // Direct end-labels: nudge apart only if they would collide.
+    // Direct end-labels: push apart top-to-bottom only where they would collide.
     const last = data[data.length - 1];
     const ends = SERIES.map((s) => ({ s, y: y(last[s.key]) })).sort((a, b) => a.y - b.y);
-    if (ends.length === 2 && ends[1].y - ends[0].y < 14) {
-      const mid = (ends[0].y + ends[1].y) / 2;
-      ends[0].y = mid - 7;
-      ends[1].y = mid + 7;
-    }
+    for (let i = 1; i < ends.length; i++) ends[i].y = Math.max(ends[i].y, ends[i - 1].y + 14);
+    const overflow = ends[ends.length - 1].y - (m.t + ih);
+    if (overflow > 0) for (const e of ends) e.y -= overflow;
 
     for (const s of SERIES) {
       const pts = data.map((d, i) => [xs[i], y(d[s.key])]);
@@ -109,9 +85,9 @@
       svg.append(el("text", { class: "label", x: xs[xs.length - 1] + 8, y: e.y + 4 }, last[s.key]));
     }
 
-    const cross = el("line", { class: "crosshair", y1: m.t, y2: stripY + sz, visibility: "hidden" });
+    const cross = el("line", { class: "crosshair", y1: m.t, y2: m.t + ih, visibility: "hidden" });
     svg.append(cross);
-    const hit = el("rect", { class: "hit", x: m.l, y: m.t, width: iw, height: stripY + sz - m.t });
+    const hit = el("rect", { class: "hit", x: m.l, y: m.t, width: iw, height: ih });
     hit.addEventListener("pointermove", (evt) => {
       const r = svg.getBoundingClientRect();
       const px = ((evt.clientX - r.left) / r.width) * W;
@@ -137,7 +113,7 @@
       if (!last || !prev) continue;
       const delta = last[s.key] - prev[s.key];
       d.textContent = `${delta > 0 ? "+" : ""}${delta} vs previous entry`;
-      if (delta) d.classList.add(delta > 0 ? "up" : "down");
+      if (delta) d.classList.add((delta > 0) === s.higherIsBetter ? "good" : "bad");
     }
   }
 
@@ -146,10 +122,9 @@
     body.replaceChildren();
     for (const d of [...data].reverse()) {
       const tr = document.createElement("tr");
-      [fmtWhen(d.created_at), d.depression, d.adhd, d.meds_taken ? "\u2713 Taken" : "\u2715 Missed", d.note].forEach((c, i) => {
+      [fmtWhen(d.created_at), ...SERIES.map((s) => d[s.key]), d.note].forEach((c, i) => {
         const td = document.createElement("td");
-        if (i === 1 || i === 2) td.className = "num";
-        if (i === 3) td.className = d.meds_taken ? "med on" : "med off";
+        if (i >= 1 && i <= SERIES.length) td.className = "num";
         td.textContent = c;
         tr.append(td);
       });
@@ -182,15 +157,13 @@
   const form = $("#entry");
   form.addEventListener("submit", async (evt) => {
     evt.preventDefault();
-    const body = {
-      depression: Number(form.depression.value), adhd: Number(form.adhd.value),
-      meds_taken: form.meds_taken.checked, note: form.note.value,
-    };
+    const body = { note: form.note.value };
+    for (const s of SERIES) body[s.key] = Number(form[s.key].value);
     const res = await fetch("/api/entries", {
       method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify(body),
     });
     const msg = $("#form-msg");
-    if (res.ok) { form.note.value = ""; form.meds_taken.checked = false; msg.textContent = "Saved."; load(); }
+    if (res.ok) { form.note.value = ""; msg.textContent = "Saved."; load(); }
     else msg.textContent = (await res.json()).error || "Error";
     setTimeout(() => { msg.textContent = ""; }, 2000);
   });

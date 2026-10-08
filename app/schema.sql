@@ -3,7 +3,7 @@ CREATE TABLE IF NOT EXISTS entries (
   created_at BIGINT  NOT NULL,
   depression INTEGER NOT NULL,
   adhd       INTEGER NOT NULL,
-  meds_taken INTEGER NOT NULL DEFAULT 0,
+  adherence  INTEGER NOT NULL DEFAULT 0,
   note       TEXT    NOT NULL
 );
 
