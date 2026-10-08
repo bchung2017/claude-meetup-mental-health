@@ -1,7 +1,8 @@
 # Symptom Tracker
 
 Small Flask site for one person: log daily depression and ADHD scores (0–100, matching the
-Behavidence MHSS similarity scale) and see them as two lines over time.
+Behavidence MHSS similarity scale) plus whether meds were taken, and see the scores as two
+lines over time with a green/red medication strip under them.
 Runs on SQLite with zero config; set `DATABASE_URL` to persist in Postgres/Supabase,
 isolated in its own schema so it can share a Supabase project with other apps.
 
@@ -12,6 +13,45 @@ python -m venv .venv && . .venv/bin/activate
 pip install -r requirements.txt
 flask --app wsgi run --debug    # http://127.0.0.1:5000, SQLite at ./mental_health.db
 ```
+
+## Tether (chat tab)
+
+Second tab: a chatbot called Tether, backed by Claude Opus 5.5 through the Anthropic API.
+It needs an API key from <https://console.anthropic.com/settings/keys>.
+
+**Locally:** copy `.env.example` to `.env` and set the key (the app loads `.env` on startup):
+
+```bash
+cp .env.example .env
+# edit .env: ANTHROPIC_API_KEY=sk-ant-...
+flask --app wsgi run --debug
+```
+
+Or export it in the shell instead: `ANTHROPIC_API_KEY=sk-ant-... flask --app wsgi run --debug`.
+`.env` is gitignored; never commit the key.
+
+**On Render:** service → **Environment** → add `ANTHROPIC_API_KEY` → **Save, rebuild, and
+deploy**. `render.yaml` already declares it with `sync: false`, so a fresh Blueprint deploy
+prompts for it.
+
+Without the key the tab loads but shows "ANTHROPIC_API_KEY not set" and the input is disabled.
+
+How it works:
+
+- `app/tether/prompt.py` is the prompt harness. The system prompt is built from named
+  sections (identity, stance, safety) so each can be edited independently. It is frozen for
+  the life of a conversation and prompt-cached. The tracker snapshot (last 14 entries from
+  the last 30 days, scores and meds flag) is injected once, as a mid-conversation `system` message after the first
+  user turn, so the cached prefix and the model's thinking blocks stay valid.
+- `app/tether/routes.py` streams each reply over server-sent events. The server is
+  stateless; the browser keeps the conversation in `sessionStorage` and replays it on every
+  turn, assistant content blocks included.
+- Adaptive thinking is on (it cannot be turned off on Opus 5.5); `TETHER_EFFORT` controls
+  depth (`low`…`max`, default `medium`). Server-side refusal fallback is enabled
+  (`fallbacks: "default"`), so a classifier false positive is retried on another model
+  rather than surfacing as a dead turn.
+- Env: `ANTHROPIC_API_KEY` (required), `TETHER_MODEL` (default `claude-opus-5-5`),
+  `TETHER_EFFORT` (default `medium`).
 
 ## Deploy on Render
 
@@ -34,8 +74,10 @@ Leave `DATABASE_URL` unset and the service falls back to SQLite on Render's ephe
 |---|---|---|
 | GET | `/api/health` | – |
 | GET | `/api/entries?days=30` | `days=0` for all |
-| POST | `/api/entries` | `{"depression": 0-100, "adhd": 0-100, "note": ""}` |
+| POST | `/api/entries` | `{"depression": 0-100, "adhd": 0-100, "meds_taken": true/false, "note": ""}` |
 | DELETE | `/api/entries/<id>` | – |
+| GET | `/api/tether/health` | – → `{"configured": bool, "model": "..."}` |
+| POST | `/api/tether/chat` | `{"messages": [...]}` full history ending with a user turn; responds with SSE events `context`, `text`, `done`, `error` |
 
 ## Per-patient model
 
@@ -73,8 +115,10 @@ With `SEED_SAMPLE_DATA=1` the app imports `data/sample` on startup when `patient
 python scripts/seed_sample.py
 ```
 
-Loads the 19 daily depression/ADHD rows from the sample Behavidence report onto consecutive
-days ending today. Refuses to run if the table already has rows.
+Loads the 19 daily depression/ADHD rows from the sample Behavidence report, with synthetic
+meds-taken flags, onto consecutive days ending today. Refuses to run if the table already has rows.
+
+Existing databases get the `meds_taken` column added on startup (defaults to not taken).
 
 ## Migrate SQLite → Postgres
 

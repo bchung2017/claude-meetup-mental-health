@@ -3,7 +3,7 @@ from pathlib import Path
 from psycopg_pool import ConnectionPool
 
 from ..config import Config, pg_schema
-from .base import COLUMNS, Store, table_spec
+from .base import ADDED_COLUMNS, COLUMNS, Store, table_spec
 
 _COLS = ", ".join(COLUMNS)
 _INSERT = f"INSERT INTO entries({_COLS}) VALUES({', '.join('%s' for _ in COLUMNS)})"
@@ -26,6 +26,8 @@ class PostgresStore(Store):
         with self._pool.connection() as conn:
             conn.execute(f"CREATE SCHEMA IF NOT EXISTS {schema};")
             conn.execute(ddl)
+            for col, decl in ADDED_COLUMNS:
+                conn.execute(f"ALTER TABLE entries ADD COLUMN IF NOT EXISTS {col} {decl}")
 
     def insert_entry(self, row):
         with self._pool.connection() as conn:

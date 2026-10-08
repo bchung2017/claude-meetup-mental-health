@@ -1,7 +1,10 @@
 from abc import ABC, abstractmethod
 
 METRICS = ("depression", "adhd")
-COLUMNS = ("id", "created_at", *METRICS, "note")
+COLUMNS = ("id", "created_at", *METRICS, "meds_taken", "note")
+
+# Columns added after the initial schema; applied idempotently on startup.
+ADDED_COLUMNS = (("meds_taken", "INTEGER NOT NULL DEFAULT 0"),)
 
 # Per-patient tables: name -> (columns, order-by column). Every table carries patient_id.
 PATIENT_TABLES = {

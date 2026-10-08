@@ -24,3 +24,6 @@ class Config:
     SQLITE_PATH = os.environ.get("SQLITE_PATH", "mental_health.db")
     PGPOOL_MAX = int(os.environ.get("PGPOOL_MAX", "3"))
     USE_POSTGRES = bool(DATABASE_URL)
+    ANTHROPIC_API_KEY = os.environ.get("ANTHROPIC_API_KEY")
+    TETHER_MODEL = os.environ.get("TETHER_MODEL", "claude-opus-5-5")
+    TETHER_EFFORT = os.environ.get("TETHER_EFFORT", "medium")  # low | medium | high | xhigh | max

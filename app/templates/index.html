@@ -13,12 +13,21 @@
       <p class="sub">Daily depression and ADHD similarity scores (0–100). Backend: <span id="backend">…</span></p>
     </header>
 
+    <nav class="tabs" role="tablist">
+      <button type="button" role="tab" data-tab="tracker" aria-selected="true">Tracker</button>
+      <button type="button" role="tab" data-tab="tether" aria-selected="false">Tether</button>
+    </nav>
+
+    <section id="tab-tracker" role="tabpanel">
     <form id="entry" class="card form">
       <label>Depression
         <span class="row"><input name="depression" type="range" min="0" max="100" value="50"><output>50</output></span>
       </label>
       <label>ADHD
         <span class="row"><input name="adhd" type="range" min="0" max="100" value="50"><output>50</output></span>
+      </label>
+      <label class="check">
+        <input name="meds_taken" type="checkbox"> Took meds today
       </label>
       <label class="grow">Note
         <input name="note" type="text" maxlength="280" placeholder="optional">
@@ -48,6 +57,8 @@
         <div class="legend">
           <span><i class="key depression"></i>Depression</span>
           <span><i class="key adhd"></i>ADHD</span>
+          <span><i class="key med on"></i>Meds taken</span>
+          <span><i class="key med off"></i>Meds missed</span>
         </div>
       </div>
       <div class="chart" id="chart-line"></div>
@@ -67,12 +78,31 @@
     <section class="card" id="table-card" hidden>
       <h2>Entries</h2>
       <table id="table">
-        <thead><tr><th>When</th><th>Depression</th><th>ADHD</th><th>Note</th><th></th></tr></thead>
+        <thead><tr><th>When</th><th>Depression</th><th>ADHD</th><th>Meds</th><th>Note</th><th></th></tr></thead>
         <tbody></tbody>
       </table>
+    </section>
+    </section>
+
+    <section id="tab-tether" role="tabpanel" hidden>
+      <div class="card">
+        <div class="chat-head">
+          <h2>Tether</h2>
+          <span id="tether-status" class="muted"></span>
+          <span class="spacer"></span>
+          <button type="button" id="tether-new">New chat</button>
+        </div>
+        <div id="tether-log" class="chat-log" aria-live="polite"></div>
+        <form id="tether-form" class="chat-form">
+          <textarea name="text" rows="2" placeholder="Talk to Tether… (Enter to send, Shift+Enter for a new line)" required></textarea>
+          <button type="submit">Send</button>
+        </form>
+      </div>
     </section>
   </main>
   <div id="tooltip" class="tooltip" hidden></div>
   <script src="{{ url_for('static', filename='app.js') }}"></script>
+  <script src="{{ url_for('static', filename='tether.js') }}"></script>
+  <script src="{{ url_for('static', filename='tabs.js') }}"></script>
 </body>
 </html>

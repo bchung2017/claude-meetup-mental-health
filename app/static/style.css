@@ -76,6 +76,8 @@ h2 { font-size: 15px; font-weight: 600; margin: 0 0 12px; color: var(--ink-2); }
 .form label { display: flex; flex-direction: column; gap: 4px; font-size: 13px; color: var(--ink-2); }
 .form .row { display: flex; align-items: center; gap: 8px; }
 .form .grow { flex: 1 1 200px; }
+.form .check { flex-direction: row; align-items: center; gap: 6px; padding-bottom: 6px; }
+.form input[type="checkbox"] { accent-color: var(--good); width: 16px; height: 16px; margin: 0; }
 .form input[type="text"] {
   font: inherit; color: var(--ink); background: var(--page);
   border: 1px solid var(--axis); border-radius: 6px; padding: 6px 8px;
@@ -108,6 +110,9 @@ button {
 .key.adhd { background: var(--series-2); }
 .key.mood { background: var(--series-3); }
 .key.phq9 { background: var(--series-4); }
+.key.med { width: 10px; height: 10px; border-radius: 2px; }
+.key.med.on { background: var(--good); }
+.key.med.off { background: transparent; border: 2px solid var(--bad); }
 
 .chart { position: relative; width: 100%; height: 280px; }
 .chart.tall { height: 360px; }
@@ -129,6 +134,9 @@ button {
 .chart .hit { fill: transparent; }
 .chart .crosshair { stroke: var(--axis); stroke-width: 1; }
 .chart .label { fill: var(--ink-2); font-size: 12px; }
+.chart .strip-label { fill: var(--ink-2); font-size: 11px; }
+.chart .med.on { fill: var(--good); }
+.chart .med.off { fill: none; stroke: var(--bad); stroke-width: 2; }
 .chart .empty { fill: var(--muted); font-size: 13px; }
 
 .tooltip {
@@ -145,4 +153,34 @@ table { width: 100%; border-collapse: collapse; font-size: 14px; }
 th, td { text-align: left; padding: 6px 8px; border-bottom: 1px solid var(--grid); }
 th { color: var(--ink-2); font-weight: 600; }
 td.num { font-variant-numeric: tabular-nums; }
+td.med.on { color: var(--good); }
+td.med.off { color: var(--bad); }
 td button { padding: 2px 8px; font-size: 12px; }
+
+.tabs { display: flex; gap: 4px; margin-top: 16px; border-bottom: 1px solid var(--border); }
+.tabs [role="tab"] {
+  border: 0; border-bottom: 2px solid transparent; border-radius: 0; background: none;
+  padding: 8px 12px; color: var(--ink-2); margin-bottom: -1px;
+}
+.tabs [role="tab"][aria-selected="true"] { color: var(--ink); border-bottom-color: var(--series-1); font-weight: 600; }
+
+.chat-head { display: flex; align-items: baseline; gap: 12px; }
+.chat-head h2 { margin: 0; }
+.chat-head .spacer { flex: 1; }
+.chat-log {
+  display: flex; flex-direction: column; gap: 8px;
+  height: 60vh; min-height: 320px; overflow-y: auto; padding: 12px 4px; margin-top: 12px;
+}
+.msg { max-width: 80%; padding: 8px 12px; border-radius: 10px; white-space: pre-wrap; overflow-wrap: anywhere; }
+.msg.user { align-self: flex-end; background: var(--series-1); color: #fff; border-bottom-right-radius: 3px; }
+.msg.assistant { align-self: flex-start; background: var(--page); border: 1px solid var(--border); border-bottom-left-radius: 3px; }
+.msg.assistant.pending { min-width: 3em; }
+.msg.assistant.pending::after { content: "…"; color: var(--muted); }
+.msg.notice { align-self: center; color: var(--muted); font-size: 13px; }
+.chat-form { display: flex; gap: 8px; margin-top: 8px; }
+.chat-form textarea {
+  flex: 1; resize: vertical; font: inherit; color: var(--ink); background: var(--page);
+  border: 1px solid var(--axis); border-radius: 6px; padding: 8px;
+}
+.chat-form button { background: var(--series-1); border-color: var(--series-1); color: #fff; align-self: flex-end; }
+.chat-form button:disabled, .chat-form textarea:disabled { opacity: 0.6; cursor: default; }
