@@ -177,3 +177,5 @@ td button { padding: 2px 8px; font-size: 12px; }
 }
 .chat-form button { background: var(--series-1); border-color: var(--series-1); color: #fff; align-self: flex-end; }
 .chat-form button:disabled, .chat-form textarea:disabled { opacity: 0.6; cursor: default; }
+.msg-tools { align-self: flex-start; margin-top: -4px; }
+.msg-tools .speak { padding: 2px 8px; font-size: 12px; }

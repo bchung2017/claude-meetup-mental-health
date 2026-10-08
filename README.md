@@ -38,6 +38,13 @@ prompts for it.
 
 Without the key the tab loads but shows "ANTHROPIC_API_KEY not set" and the input is disabled.
 
+### Voice (optional)
+
+Set `ELEVENLABS_API_KEY` (same places as the Anthropic key) and each Tether reply gets a
+**Speak** button that plays it through ElevenLabs text-to-speech via `POST /api/tether/speak`.
+`ELEVENLABS_VOICE_ID` (default `JBFqnCBsd6RMkjVDRZzb`) and `ELEVENLABS_MODEL_ID` (default
+`eleven_multilingual_v2`) pick the voice and model. Without the key the button is hidden.
+
 ### The meta prompt
 
 The meta prompt is a plain text/Markdown file, read once at startup:
@@ -97,7 +104,8 @@ Leave `DATABASE_URL` unset and the service falls back to SQLite on Render's ephe
 | GET | `/api/entries?days=30` | `days=0` for all |
 | POST | `/api/entries` | `{"depression": 0-100, "adhd": 0-100, "adherence": 0-100, "note": ""}` |
 | DELETE | `/api/entries/<id>` | – |
-| GET | `/api/tether/health` | – → `{"configured": bool, "model": "...", "patient": "..."}` |
+| GET | `/api/tether/health` | – → `{"configured": bool, "model": "...", "patient": "...", "tts": bool}` |
+| POST | `/api/tether/speak` | `{"text": "..."}` → `audio/mpeg` stream (needs `ELEVENLABS_API_KEY`) |
 | POST | `/api/tether/chat` | `{"messages": [...]}` full history ending with a user turn; responds with SSE events `context`, `text`, `done`, `error` |
 
 ## Per-patient model

@@ -29,3 +29,6 @@ class Config:
     TETHER_EFFORT = os.environ.get("TETHER_EFFORT", "medium")  # low | medium | high | xhigh | max
     TETHER_PROMPT_FILE = os.environ.get("TETHER_PROMPT_FILE")  # unset -> app/tether/prompts/clinician.md
     TETHER_PATIENT_ID = os.environ.get("TETHER_PATIENT_ID")  # unset -> first patient on file
+    ELEVENLABS_API_KEY = os.environ.get("ELEVENLABS_API_KEY")
+    ELEVENLABS_VOICE_ID = os.environ.get("ELEVENLABS_VOICE_ID", "JBFqnCBsd6RMkjVDRZzb")
+    ELEVENLABS_MODEL_ID = os.environ.get("ELEVENLABS_MODEL_ID", "eleven_multilingual_v2")
