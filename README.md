@@ -40,44 +40,36 @@ Leave `DATABASE_URL` unset and the service falls back to SQLite on Render's ephe
 
 ## Per-patient model
 
-Beyond the single-person `entries` table, the schema carries the CareLinq per-patient streams.
-Full model with ER diagram: [docs/per-patient-schema.md](docs/per-patient-schema.md); source data
-and clinical story: `data/sample/README.md`. All tables are keyed by
-`patient_id`:
+Schema: `app/schema.sql` is the integrated DDL from `docs/integrated-patient-schema.md` (33 tables,
+4 views), made idempotent so it applies on every startup. Tables keyed by `patient_id`; every
+clinical fact carries a `source_id`.
 
-| Table | Source |
-|---|---|
-| `patients`, `sessions` | `patient.json` |
-| `phq9_responses` (with `item9_score` denormalized), `mood_checkins`, `journal_entries`, `voice_notes` | `self_report.json` |
-| `practices`, `practice_daily_logs`, `practice_weekly_cycles`, `meet_the_moment_logs` | `self_report.json` → `practices` |
-| `sleep_sessions`, `daily_metrics` (HealthKit identifiers flattened to columns) | `healthkit.json` |
-
-Read endpoints:
+Dashboard at `/`: patient dropdown, PHQ-9 / GAD-7 weekly totals with severity bands and clinical
+event markers, daily mood/anxiety/energy, Behavidence MHSS similarity, sleep / HRV / steps,
+safety-signal feed (`v_safety_signals`), recent narratives, and weekly practice targets.
 
 | Method | Path |
 |---|---|
-| GET | `/api/patients` |
-| GET | `/api/patients/<patient_id>` |
-| GET | `/api/patients/<patient_id>/<stream>` where stream is any table above except `patients` |
-
-Import a bundle directory (defaults to `data/sample`; re-runs skip existing keys):
-
-```bash
-python scripts/import_carelinq.py [dir]
-```
-
-With `SEED_SAMPLE_DATA=1` the app imports `data/sample` on startup when `patients` is empty.
+| GET | `/api/patients` — roster with diagnoses, latest PHQ-9, safety-signal count |
+| GET | `/api/patients/<id>/dashboard` — everything the dashboard renders, one call |
+| GET | `/api/patients/<id>/<relation>` — any patient-scoped table or view |
 
 ## Sample data
 
-```bash
-python scripts/seed_sample.py
-```
+Four synthetic patients under `data/patients/<patient_id>/` in CareLinq bundle format
+(`patient.json`, `self_report.json`, `healthkit.json`, `behavidence.json`):
 
-Loads the 19 daily depression/ADHD rows from the sample Behavidence report, with synthetic
-meds-taken flags, onto consecutive days ending today. Refuses to run if the table already has rows.
+| Patient | Profile |
+|---|---|
+| Maya R. `pt_7f3a9c21` | MDD recurrent moderate + insomnia; layoff dip with passive ideation and safety plan (hand-authored, `data/patients/pt_7f3a9c21/README.md`) |
+| Daniel K. `pt_b2c4e8d1` | GAD + ADHD; PHQ-9 and GAD-7; work-crunch relapse, exposure milestone |
+| Elena M. `pt_c9d1a3f7` | No diagnosis; wellness monitoring; half-marathon arc |
+| Marcus T. `pt_d4e6b2a9` | No diagnosis; wellness monitoring; one-week illness dip |
 
-Existing databases get the `meds_taken` column added on startup (defaults to not taken).
+Regenerate the three generated patients (and Maya's MHSS stream) with `python data/generate_cohort.py`.
+Import with `python scripts/import_patients.py [dir]`; with `SEED_SAMPLE_DATA=1` the app imports
+all bundles on startup when `patients` is empty. A database carrying the previous 12-table
+per-patient layout is reset automatically on first boot.
 
 ## Migrate SQLite → Postgres
 

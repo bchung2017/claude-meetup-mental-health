@@ -142,3 +142,70 @@ td.num { font-variant-numeric: tabular-nums; }
 td.med.on { color: var(--good); }
 td.med.off { color: var(--bad); }
 td button { padding: 2px 8px; font-size: 12px; }
+
+/* ---- dashboard ---- */
+:root { --series-3: #1baf7a; --series-4: #eda100; --critical: #d03b3b; --good-status: #0ca30c; }
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) { --series-3: #199e70; --series-4: #c98500; --critical: #e66767; }
+}
+:root[data-theme="dark"] { --series-3: #199e70; --series-4: #c98500; --critical: #e66767; }
+
+.head-row { display: flex; justify-content: space-between; align-items: flex-end; gap: 16px; flex-wrap: wrap; }
+.navlink { font-size: 13px; font-weight: 400; margin-left: 12px; color: var(--series-1); text-decoration: none; }
+.navlink:hover { text-decoration: underline; }
+.select-label { display: flex; flex-direction: column; gap: 4px; font-size: 13px; color: var(--ink-2); }
+.select-label select {
+  font: inherit; color: var(--ink); background: var(--surface); border: 1px solid var(--axis);
+  border-radius: 6px; padding: 6px 10px; min-width: 260px;
+}
+.patient-head { display: flex; justify-content: space-between; gap: 16px; flex-wrap: wrap; align-items: flex-start; }
+.patient-name { font-size: 20px; font-weight: 600; }
+.chips { display: flex; gap: 6px; flex-wrap: wrap; }
+.chip { font-size: 12px; padding: 2px 8px; border-radius: 999px; border: 1px solid var(--axis); color: var(--ink-2); }
+.chip.primary { border-color: var(--series-1); color: var(--ink); }
+.patient-facts { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 8px 16px; margin-top: 12px; font-size: 13px; }
+.patient-facts .k { color: var(--muted); }
+.tile .value.critical { color: var(--critical); }
+.tile .value.ok { color: var(--good); }
+.tile .sub { font-size: 13px; color: var(--ink-2); }
+.tile .delta.up { color: var(--bad); }
+.tile .delta.down { color: var(--good); }
+.multiples { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 16px; margin-top: 16px; }
+.multiples .card { margin-top: 0; }
+.multiples .chart { height: 200px; }
+.chart.tall { height: 320px; }
+.key.s1 { background: var(--series-1); }
+.key.s2 { background: var(--series-2); }
+.key.s3 { background: var(--series-3); }
+.key.s4 { background: var(--series-4); }
+.key.event { background: var(--muted); height: 10px; width: 1px; }
+.chart .s1 { stroke: var(--series-1); }
+.chart .s2 { stroke: var(--series-2); }
+.chart .s3 { stroke: var(--series-3); }
+.chart .s4 { stroke: var(--series-4); }
+.chart .dot.s1 { fill: var(--series-1); }
+.chart .dot.s2 { fill: var(--series-2); }
+.chart .dot.s3 { fill: var(--series-3); }
+.chart .dot.s4 { fill: var(--series-4); }
+.chart .event-line { stroke: var(--muted); stroke-width: 1; stroke-dasharray: none; }
+.chart .event-label { fill: var(--ink-2); font-size: 11px; }
+.chart .marker { fill: var(--axis); }
+.chart .band { fill: var(--ink); opacity: 0.03; }
+.chart .band-label { fill: var(--muted); font-size: 10px; }
+.two-col { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 16px; }
+.two-col .card { margin-top: 16px; }
+.feed { list-style: none; margin: 0; padding: 0; font-size: 14px; }
+.feed li { padding: 8px 0; border-bottom: 1px solid var(--grid); display: grid; grid-template-columns: 96px 1fr; gap: 10px; }
+.feed li:last-child { border-bottom: none; }
+.feed .when { color: var(--muted); font-variant-numeric: tabular-nums; font-size: 13px; }
+.feed .tag { display: inline-block; font-size: 11px; padding: 1px 6px; border-radius: 4px; margin-right: 6px; border: 1px solid var(--axis); color: var(--ink-2); }
+.feed .tag.p1 { border-color: var(--critical); color: var(--critical); }
+.feed .empty { color: var(--muted); display: block; }
+.feed .body { color: var(--ink-2); }
+.feed .sent { color: var(--muted); font-size: 12px; margin-left: 6px; }
+.practice-grid { display: grid; grid-template-columns: max-content repeat(11, 1fr); gap: 4px; align-items: center; font-size: 13px; }
+.practice-grid .name { padding-right: 12px; color: var(--ink-2); }
+.practice-grid .wk { text-align: center; color: var(--muted); font-size: 11px; }
+.practice-grid .cell { height: 22px; border-radius: 4px; background: var(--grid); font-size: 11px; text-align: center; line-height: 22px; color: var(--ink-2); }
+.practice-grid .cell.met { background: var(--series-1); color: #fff; opacity: 0.85; }
+.tooltip .note { color: var(--ink-2); font-size: 12px; max-width: 260px; margin-top: 4px; }

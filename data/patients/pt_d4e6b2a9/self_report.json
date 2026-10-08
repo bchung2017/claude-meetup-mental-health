@@ -1,0 +1,3464 @@
+{
+  "_synthetic": true,
+  "patient_id": "pt_d4e6b2a9",
+  "phq9_responses": [
+    {
+      "response_id": "phq9_9ec2d7763896",
+      "instrument": "PHQ-9",
+      "administration_week": 0,
+      "completed_at": "2026-07-13T20:34:00-04:00",
+      "items": [
+        {
+          "item": 1,
+          "text": "Little interest or pleasure in doing things",
+          "score": 1
+        },
+        {
+          "item": 2,
+          "text": "Feeling down, depressed, or hopeless",
+          "score": 1
+        },
+        {
+          "item": 3,
+          "text": "Trouble falling or staying asleep, or sleeping too much",
+          "score": 1
+        },
+        {
+          "item": 4,
+          "text": "Feeling tired or having little energy",
+          "score": 1
+        },
+        {
+          "item": 5,
+          "text": "Poor appetite or overeating",
+          "score": 0
+        },
+        {
+          "item": 6,
+          "text": "Feeling bad about yourself — or that you are a failure or have let yourself or your family down",
+          "score": 0
+        },
+        {
+          "item": 7,
+          "text": "Trouble concentrating on things, such as reading the newspaper or watching television",
+          "score": 0
+        },
+        {
+          "item": 8,
+          "text": "Moving or speaking so slowly that other people could have noticed, or the opposite — being so fidgety or restless",
+          "score": 0
+        },
+        {
+          "item": 9,
+          "text": "Thoughts that you would be better off dead, or of hurting yourself in some way",
+          "score": 0
+        }
+      ],
+      "total_score": 4,
+      "severity_band": "minimal",
+      "functional_difficulty": "not_difficult_at_all"
+    },
+    {
+      "response_id": "phq9_6bd6eed67f8c",
+      "instrument": "PHQ-9",
+      "administration_week": 1,
+      "completed_at": "2026-07-20T20:06:00-04:00",
+      "items": [
+        {
+          "item": 1,
+          "text": "Little interest or pleasure in doing things",
+          "score": 0
+        },
+        {
+          "item": 2,
+          "text": "Feeling down, depressed, or hopeless",
+          "score": 0
+        },
+        {
+          "item": 3,
+          "text": "Trouble falling or staying asleep, or sleeping too much",
+          "score": 1
+        },
+        {
+          "item": 4,
+          "text": "Feeling tired or having little energy",
+          "score": 0
+        },
+        {
+          "item": 5,
+          "text": "Poor appetite or overeating",
+          "score": 0
+        },
+        {
+          "item": 6,
+          "text": "Feeling bad about yourself — or that you are a failure or have let yourself or your family down",
+          "score": 0
+        },
+        {
+          "item": 7,
+          "text": "Trouble concentrating on things, such as reading the newspaper or watching television",
+          "score": 0
+        },
+        {
+          "item": 8,
+          "text": "Moving or speaking so slowly that other people could have noticed, or the opposite — being so fidgety or restless",
+          "score": 0
+        },
+        {
+          "item": 9,
+          "text": "Thoughts that you would be better off dead, or of hurting yourself in some way",
+          "score": 0
+        }
+      ],
+      "total_score": 1,
+      "severity_band": "minimal",
+      "functional_difficulty": "not_difficult_at_all"
+    },
+    {
+      "response_id": "phq9_090a0e01c879",
+      "instrument": "PHQ-9",
+      "administration_week": 2,
+      "completed_at": "2026-07-27T20:42:00-04:00",
+      "items": [
+        {
+          "item": 1,
+          "text": "Little interest or pleasure in doing things",
+          "score": 0
+        },
+        {
+          "item": 2,
+          "text": "Feeling down, depressed, or hopeless",
+          "score": 0
+        },
+        {
+          "item": 3,
+          "text": "Trouble falling or staying asleep, or sleeping too much",
+          "score": 0
+        },
+        {
+          "item": 4,
+          "text": "Feeling tired or having little energy",
+          "score": 1
+        },
+        {
+          "item": 5,
+          "text": "Poor appetite or overeating",
+          "score": 0
+        },
+        {
+          "item": 6,
+          "text": "Feeling bad about yourself — or that you are a failure or have let yourself or your family down",
+          "score": 0
+        },
+        {
+          "item": 7,
+          "text": "Trouble concentrating on things, such as reading the newspaper or watching television",
+          "score": 0
+        },
+        {
+          "item": 8,
+          "text": "Moving or speaking so slowly that other people could have noticed, or the opposite — being so fidgety or restless",
+          "score": 0
+        },
+        {
+          "item": 9,
+          "text": "Thoughts that you would be better off dead, or of hurting yourself in some way",
+          "score": 0
+        }
+      ],
+      "total_score": 1,
+      "severity_band": "minimal",
+      "functional_difficulty": "not_difficult_at_all"
+    },
+    {
+      "response_id": "phq9_5cdff86dbc36",
+      "instrument": "PHQ-9",
+      "administration_week": 3,
+      "completed_at": "2026-08-03T20:41:00-04:00",
+      "items": [
+        {
+          "item": 1,
+          "text": "Little interest or pleasure in doing things",
+          "score": 0
+        },
+        {
+          "item": 2,
+          "text": "Feeling down, depressed, or hopeless",
+          "score": 0
+        },
+        {
+          "item": 3,
+          "text": "Trouble falling or staying asleep, or sleeping too much",
+          "score": 1
+        },
+        {
+          "item": 4,
+          "text": "Feeling tired or having little energy",
+          "score": 1
+        },
+        {
+          "item": 5,
+          "text": "Poor appetite or overeating",
+          "score": 0
+        },
+        {
+          "item": 6,
+          "text": "Feeling bad about yourself — or that you are a failure or have let yourself or your family down",
+          "score": 0
+        },
+        {
+          "item": 7,
+          "text": "Trouble concentrating on things, such as reading the newspaper or watching television",
+          "score": 0
+        },
+        {
+          "item": 8,
+          "text": "Moving or speaking so slowly that other people could have noticed, or the opposite — being so fidgety or restless",
+          "score": 0
+        },
+        {
+          "item": 9,
+          "text": "Thoughts that you would be better off dead, or of hurting yourself in some way",
+          "score": 0
+        }
+      ],
+      "total_score": 2,
+      "severity_band": "minimal",
+      "functional_difficulty": "not_difficult_at_all"
+    },
+    {
+      "response_id": "phq9_d0745cc115f2",
+      "instrument": "PHQ-9",
+      "administration_week": 4,
+      "completed_at": "2026-08-10T20:35:00-04:00",
+      "items": [
+        {
+          "item": 1,
+          "text": "Little interest or pleasure in doing things",
+          "score": 0
+        },
+        {
+          "item": 2,
+          "text": "Feeling down, depressed, or hopeless",
+          "score": 0
+        },
+        {
+          "item": 3,
+          "text": "Trouble falling or staying asleep, or sleeping too much",
+          "score": 1
+        },
+        {
+          "item": 4,
+          "text": "Feeling tired or having little energy",
+          "score": 1
+        },
+        {
+          "item": 5,
+          "text": "Poor appetite or overeating",
+          "score": 0
+        },
+        {
+          "item": 6,
+          "text": "Feeling bad about yourself — or that you are a failure or have let yourself or your family down",
+          "score": 0
+        },
+        {
+          "item": 7,
+          "text": "Trouble concentrating on things, such as reading the newspaper or watching television",
+          "score": 0
+        },
+        {
+          "item": 8,
+          "text": "Moving or speaking so slowly that other people could have noticed, or the opposite — being so fidgety or restless",
+          "score": 0
+        },
+        {
+          "item": 9,
+          "text": "Thoughts that you would be better off dead, or of hurting yourself in some way",
+          "score": 0
+        }
+      ],
+      "total_score": 2,
+      "severity_band": "minimal",
+      "functional_difficulty": "not_difficult_at_all"
+    },
+    {
+      "response_id": "phq9_728c2f7bca9f",
+      "instrument": "PHQ-9",
+      "administration_week": 5,
+      "completed_at": "2026-08-17T20:48:00-04:00",
+      "items": [
+        {
+          "item": 1,
+          "text": "Little interest or pleasure in doing things",
+          "score": 0
+        },
+        {
+          "item": 2,
+          "text": "Feeling down, depressed, or hopeless",
+          "score": 0
+        },
+        {
+          "item": 3,
+          "text": "Trouble falling or staying asleep, or sleeping too much",
+          "score": 0
+        },
+        {
+          "item": 4,
+          "text": "Feeling tired or having little energy",
+          "score": 1
+        },
+        {
+          "item": 5,
+          "text": "Poor appetite or overeating",
+          "score": 0
+        },
+        {
+          "item": 6,
+          "text": "Feeling bad about yourself — or that you are a failure or have let yourself or your family down",
+          "score": 0
+        },
+        {
+          "item": 7,
+          "text": "Trouble concentrating on things, such as reading the newspaper or watching television",
+          "score": 0
+        },
+        {
+          "item": 8,
+          "text": "Moving or speaking so slowly that other people could have noticed, or the opposite — being so fidgety or restless",
+          "score": 0
+        },
+        {
+          "item": 9,
+          "text": "Thoughts that you would be better off dead, or of hurting yourself in some way",
+          "score": 0
+        }
+      ],
+      "total_score": 1,
+      "severity_band": "minimal",
+      "functional_difficulty": "not_difficult_at_all"
+    },
+    {
+      "response_id": "phq9_951179a03213",
+      "instrument": "PHQ-9",
+      "administration_week": 6,
+      "completed_at": "2026-08-24T20:12:00-04:00",
+      "items": [
+        {
+          "item": 1,
+          "text": "Little interest or pleasure in doing things",
+          "score": 0
+        },
+        {
+          "item": 2,
+          "text": "Feeling down, depressed, or hopeless",
+          "score": 0
+        },
+        {
+          "item": 3,
+          "text": "Trouble falling or staying asleep, or sleeping too much",
+          "score": 1
+        },
+        {
+          "item": 4,
+          "text": "Feeling tired or having little energy",
+          "score": 1
+        },
+        {
+          "item": 5,
+          "text": "Poor appetite or overeating",
+          "score": 0
+        },
+        {
+          "item": 6,
+          "text": "Feeling bad about yourself — or that you are a failure or have let yourself or your family down",
+          "score": 0
+        },
+        {
+          "item": 7,
+          "text": "Trouble concentrating on things, such as reading the newspaper or watching television",
+          "score": 0
+        },
+        {
+          "item": 8,
+          "text": "Moving or speaking so slowly that other people could have noticed, or the opposite — being so fidgety or restless",
+          "score": 0
+        },
+        {
+          "item": 9,
+          "text": "Thoughts that you would be better off dead, or of hurting yourself in some way",
+          "score": 0
+        }
+      ],
+      "total_score": 2,
+      "severity_band": "minimal",
+      "functional_difficulty": "not_difficult_at_all"
+    },
+    {
+      "response_id": "phq9_92a474bbf0a9",
+      "instrument": "PHQ-9",
+      "administration_week": 7,
+      "completed_at": "2026-08-31T20:22:00-04:00",
+      "items": [
+        {
+          "item": 1,
+          "text": "Little interest or pleasure in doing things",
+          "score": 0
+        },
+        {
+          "item": 2,
+          "text": "Feeling down, depressed, or hopeless",
+          "score": 0
+        },
+        {
+          "item": 3,
+          "text": "Trouble falling or staying asleep, or sleeping too much",
+          "score": 1
+        },
+        {
+          "item": 4,
+          "text": "Feeling tired or having little energy",
+          "score": 1
+        },
+        {
+          "item": 5,
+          "text": "Poor appetite or overeating",
+          "score": 0
+        },
+        {
+          "item": 6,
+          "text": "Feeling bad about yourself — or that you are a failure or have let yourself or your family down",
+          "score": 0
+        },
+        {
+          "item": 7,
+          "text": "Trouble concentrating on things, such as reading the newspaper or watching television",
+          "score": 0
+        },
+        {
+          "item": 8,
+          "text": "Moving or speaking so slowly that other people could have noticed, or the opposite — being so fidgety or restless",
+          "score": 0
+        },
+        {
+          "item": 9,
+          "text": "Thoughts that you would be better off dead, or of hurting yourself in some way",
+          "score": 0
+        }
+      ],
+      "total_score": 2,
+      "severity_band": "minimal",
+      "functional_difficulty": "not_difficult_at_all"
+    },
+    {
+      "response_id": "phq9_746911c2c70f",
+      "instrument": "PHQ-9",
+      "administration_week": 8,
+      "completed_at": "2026-09-07T20:40:00-04:00",
+      "items": [
+        {
+          "item": 1,
+          "text": "Little interest or pleasure in doing things",
+          "score": 0
+        },
+        {
+          "item": 2,
+          "text": "Feeling down, depressed, or hopeless",
+          "score": 0
+        },
+        {
+          "item": 3,
+          "text": "Trouble falling or staying asleep, or sleeping too much",
+          "score": 1
+        },
+        {
+          "item": 4,
+          "text": "Feeling tired or having little energy",
+          "score": 1
+        },
+        {
+          "item": 5,
+          "text": "Poor appetite or overeating",
+          "score": 0
+        },
+        {
+          "item": 6,
+          "text": "Feeling bad about yourself — or that you are a failure or have let yourself or your family down",
+          "score": 0
+        },
+        {
+          "item": 7,
+          "text": "Trouble concentrating on things, such as reading the newspaper or watching television",
+          "score": 0
+        },
+        {
+          "item": 8,
+          "text": "Moving or speaking so slowly that other people could have noticed, or the opposite — being so fidgety or restless",
+          "score": 0
+        },
+        {
+          "item": 9,
+          "text": "Thoughts that you would be better off dead, or of hurting yourself in some way",
+          "score": 0
+        }
+      ],
+      "total_score": 2,
+      "severity_band": "minimal",
+      "functional_difficulty": "not_difficult_at_all"
+    },
+    {
+      "response_id": "phq9_c8a7b6009ea1",
+      "instrument": "PHQ-9",
+      "administration_week": 9,
+      "completed_at": "2026-09-14T20:12:00-04:00",
+      "items": [
+        {
+          "item": 1,
+          "text": "Little interest or pleasure in doing things",
+          "score": 0
+        },
+        {
+          "item": 2,
+          "text": "Feeling down, depressed, or hopeless",
+          "score": 0
+        },
+        {
+          "item": 3,
+          "text": "Trouble falling or staying asleep, or sleeping too much",
+          "score": 0
+        },
+        {
+          "item": 4,
+          "text": "Feeling tired or having little energy",
+          "score": 1
+        },
+        {
+          "item": 5,
+          "text": "Poor appetite or overeating",
+          "score": 0
+        },
+        {
+          "item": 6,
+          "text": "Feeling bad about yourself — or that you are a failure or have let yourself or your family down",
+          "score": 0
+        },
+        {
+          "item": 7,
+          "text": "Trouble concentrating on things, such as reading the newspaper or watching television",
+          "score": 0
+        },
+        {
+          "item": 8,
+          "text": "Moving or speaking so slowly that other people could have noticed, or the opposite — being so fidgety or restless",
+          "score": 0
+        },
+        {
+          "item": 9,
+          "text": "Thoughts that you would be better off dead, or of hurting yourself in some way",
+          "score": 0
+        }
+      ],
+      "total_score": 1,
+      "severity_band": "minimal",
+      "functional_difficulty": "not_difficult_at_all"
+    },
+    {
+      "response_id": "phq9_becce65aeb32",
+      "instrument": "PHQ-9",
+      "administration_week": 10,
+      "completed_at": "2026-09-21T20:42:00-04:00",
+      "items": [
+        {
+          "item": 1,
+          "text": "Little interest or pleasure in doing things",
+          "score": 0
+        },
+        {
+          "item": 2,
+          "text": "Feeling down, depressed, or hopeless",
+          "score": 0
+        },
+        {
+          "item": 3,
+          "text": "Trouble falling or staying asleep, or sleeping too much",
+          "score": 0
+        },
+        {
+          "item": 4,
+          "text": "Feeling tired or having little energy",
+          "score": 1
+        },
+        {
+          "item": 5,
+          "text": "Poor appetite or overeating",
+          "score": 0
+        },
+        {
+          "item": 6,
+          "text": "Feeling bad about yourself — or that you are a failure or have let yourself or your family down",
+          "score": 0
+        },
+        {
+          "item": 7,
+          "text": "Trouble concentrating on things, such as reading the newspaper or watching television",
+          "score": 0
+        },
+        {
+          "item": 8,
+          "text": "Moving or speaking so slowly that other people could have noticed, or the opposite — being so fidgety or restless",
+          "score": 0
+        },
+        {
+          "item": 9,
+          "text": "Thoughts that you would be better off dead, or of hurting yourself in some way",
+          "score": 0
+        }
+      ],
+      "total_score": 1,
+      "severity_band": "minimal",
+      "functional_difficulty": "not_difficult_at_all"
+    },
+    {
+      "response_id": "phq9_2ad18910620e",
+      "instrument": "PHQ-9",
+      "administration_week": 11,
+      "completed_at": "2026-09-28T20:33:00-04:00",
+      "items": [
+        {
+          "item": 1,
+          "text": "Little interest or pleasure in doing things",
+          "score": 0
+        },
+        {
+          "item": 2,
+          "text": "Feeling down, depressed, or hopeless",
+          "score": 0
+        },
+        {
+          "item": 3,
+          "text": "Trouble falling or staying asleep, or sleeping too much",
+          "score": 0
+        },
+        {
+          "item": 4,
+          "text": "Feeling tired or having little energy",
+          "score": 0
+        },
+        {
+          "item": 5,
+          "text": "Poor appetite or overeating",
+          "score": 0
+        },
+        {
+          "item": 6,
+          "text": "Feeling bad about yourself — or that you are a failure or have let yourself or your family down",
+          "score": 0
+        },
+        {
+          "item": 7,
+          "text": "Trouble concentrating on things, such as reading the newspaper or watching television",
+          "score": 0
+        },
+        {
+          "item": 8,
+          "text": "Moving or speaking so slowly that other people could have noticed, or the opposite — being so fidgety or restless",
+          "score": 0
+        },
+        {
+          "item": 9,
+          "text": "Thoughts that you would be better off dead, or of hurting yourself in some way",
+          "score": 0
+        }
+      ],
+      "total_score": 0,
+      "severity_band": "minimal",
+      "functional_difficulty": "not_difficult_at_all"
+    }
+  ],
+  "gad7_responses": [],
+  "mood_checkins": [
+    {
+      "checkin_id": "mood_bfbf67df71f0",
+      "logged_at": "2026-07-14T08:22:00-04:00",
+      "mood": 8,
+      "anxiety": 3,
+      "energy": 8,
+      "scale": "1-10 (10 = best for mood/energy; 10 = worst for anxiety)",
+      "emotion_tags": [
+        "content",
+        "proud"
+      ],
+      "note": null
+    },
+    {
+      "checkin_id": "mood_3257521a8c5b",
+      "logged_at": "2026-07-15T21:18:00-04:00",
+      "mood": 7,
+      "anxiety": 3,
+      "energy": 6,
+      "scale": "1-10 (10 = best for mood/energy; 10 = worst for anxiety)",
+      "emotion_tags": [
+        "calm"
+      ],
+      "note": null
+    },
+    {
+      "checkin_id": "mood_0303f311e69f",
+      "logged_at": "2026-07-16T21:48:00-04:00",
+      "mood": 9,
+      "anxiety": 3,
+      "energy": 8,
+      "scale": "1-10 (10 = best for mood/energy; 10 = worst for anxiety)",
+      "emotion_tags": [
+        "content",
+        "proud"
+      ],
+      "note": null
+    },
+    {
+      "checkin_id": "mood_4b95b6578bb9",
+      "logged_at": "2026-07-17T21:26:00-04:00",
+      "mood": 9,
+      "anxiety": 4,
+      "energy": 6,
+      "scale": "1-10 (10 = best for mood/energy; 10 = worst for anxiety)",
+      "emotion_tags": [
+        "calm",
+        "connected",
+        "relieved"
+      ],
+      "note": null
+    },
+    {
+      "checkin_id": "mood_ba8ed7288f31",
+      "logged_at": "2026-07-18T21:15:00-04:00",
+      "mood": 9,
+      "anxiety": 2,
+      "energy": 8,
+      "scale": "1-10 (10 = best for mood/energy; 10 = worst for anxiety)",
+      "emotion_tags": [
+        "grateful"
+      ],
+      "note": null
+    },
+    {
+      "checkin_id": "mood_78819009f526",
+      "logged_at": "2026-07-19T21:45:00-04:00",
+      "mood": 8,
+      "anxiety": 2,
+      "energy": 6,
+      "scale": "1-10 (10 = best for mood/energy; 10 = worst for anxiety)",
+      "emotion_tags": [
+        "energized"
+      ],
+      "note": null
+    },
+    {
+      "checkin_id": "mood_7306e5b2a794",
+      "logged_at": "2026-07-20T21:05:00-04:00",
+      "mood": 8,
+      "anxiety": 3,
+      "energy": 9,
+      "scale": "1-10 (10 = best for mood/energy; 10 = worst for anxiety)",
+      "emotion_tags": [
+        "connected",
+        "energized",
+        "relieved"
+      ],
+      "note": null
+    },
+    {
+      "checkin_id": "mood_39fbb821161d",
+      "logged_at": "2026-07-21T08:55:00-04:00",
+      "mood": 8,
+      "anxiety": 2,
+      "energy": 8,
+      "scale": "1-10 (10 = best for mood/energy; 10 = worst for anxiety)",
+      "emotion_tags": [
+        "grateful",
+        "proud"
+      ],
+      "note": null
+    },
+    {
+      "checkin_id": "mood_575ded86ee1f",
+      "logged_at": "2026-07-23T08:24:00-04:00",
+      "mood": 9,
+      "anxiety": 3,
+      "energy": 6,
+      "scale": "1-10 (10 = best for mood/energy; 10 = worst for anxiety)",
+      "emotion_tags": [
+        "connected",
+        "grateful",
+        "relieved"
+      ],
+      "note": null
+    },
+    {
+      "checkin_id": "mood_e4a8bb7a379e",
+      "logged_at": "2026-07-24T21:54:00-04:00",
+      "mood": 8,
+      "anxiety": 4,
+      "energy": 6,
+      "scale": "1-10 (10 = best for mood/energy; 10 = worst for anxiety)",
+      "emotion_tags": [
+        "connected",
+        "proud"
+      ],
+      "note": null
+    },
+    {
+      "checkin_id": "mood_1c7ee025d9d2",
+      "logged_at": "2026-07-25T08:48:00-04:00",
+      "mood": 7,
+      "anxiety": 3,
+      "energy": 8,
+      "scale": "1-10 (10 = best for mood/energy; 10 = worst for anxiety)",
+      "emotion_tags": [
+        "content",
+        "curious",
+        "relieved"
+      ],
+      "note": null
+    },
+    {
+      "checkin_id": "mood_d66219889f3c",
+      "logged_at": "2026-07-27T08:11:00-04:00",
+      "mood": 8,
+      "anxiety": 4,
+      "energy": 8,
+      "scale": "1-10 (10 = best for mood/energy; 10 = worst for anxiety)",
+      "emotion_tags": [
+        "energized",
+        "grateful"
+      ],
+      "note": null
+    },
+    {
+      "checkin_id": "mood_fc5e0f692ebf",
+      "logged_at": "2026-07-29T08:08:00-04:00",
+      "mood": 8,
+      "anxiety": 2,
+      "energy": 9,
+      "scale": "1-10 (10 = best for mood/energy; 10 = worst for anxiety)",
+      "emotion_tags": [
+        "content",
+        "curious"
+      ],
+      "note": null
+    },
+    {
+      "checkin_id": "mood_c28505f59a57",
+      "logged_at": "2026-07-30T08:20:00-04:00",
+      "mood": 9,
+      "anxiety": 3,
+      "energy": 8,
+      "scale": "1-10 (10 = best for mood/energy; 10 = worst for anxiety)",
+      "emotion_tags": [
+        "content",
+        "curious",
+        "proud"
+      ],
+      "note": null
+    },
+    {
+      "checkin_id": "mood_6fa06855f053",
+      "logged_at": "2026-07-31T21:34:00-04:00",
+      "mood": 8,
+      "anxiety": 3,
+      "energy": 8,
+      "scale": "1-10 (10 = best for mood/energy; 10 = worst for anxiety)",
+      "emotion_tags": [
+        "energized",
+        "proud"
+      ],
+      "note": null
+    },
+    {
+      "checkin_id": "mood_a362704ffb7c",
+      "logged_at": "2026-08-01T08:22:00-04:00",
+      "mood": 10,
+      "anxiety": 3,
+      "energy": 5,
+      "scale": "1-10 (10 = best for mood/energy; 10 = worst for anxiety)",
+      "emotion_tags": [
+        "connected",
+        "curious"
+      ],
+      "note": null
+    },
+    {
+      "checkin_id": "mood_0efccea26c35",
+      "logged_at": "2026-08-02T08:20:00-04:00",
+      "mood": 8,
+      "anxiety": 1,
+      "energy": 8,
+      "scale": "1-10 (10 = best for mood/energy; 10 = worst for anxiety)",
+      "emotion_tags": [
+        "calm",
+        "grateful"
+      ],
+      "note": null
+    },
+    {
+      "checkin_id": "mood_720992844bd6",
+      "logged_at": "2026-08-04T08:25:00-04:00",
+      "mood": 8,
+      "anxiety": 4,
+      "energy": 9,
+      "scale": "1-10 (10 = best for mood/energy; 10 = worst for anxiety)",
+      "emotion_tags": [
+        "energized",
+        "grateful"
+      ],
+      "note": null
+    },
+    {
+      "checkin_id": "mood_fb2b435d6e24",
+      "logged_at": "2026-08-06T08:29:00-04:00",
+      "mood": 9,
+      "anxiety": 2,
+      "energy": 7,
+      "scale": "1-10 (10 = best for mood/energy; 10 = worst for anxiety)",
+      "emotion_tags": [
+        "calm",
+        "curious"
+      ],
+      "note": null
+    },
+    {
+      "checkin_id": "mood_f169a694f987",
+      "logged_at": "2026-08-08T21:46:00-04:00",
+      "mood": 7,
+      "anxiety": 2,
+      "energy": 7,
+      "scale": "1-10 (10 = best for mood/energy; 10 = worst for anxiety)",
+      "emotion_tags": [
+        "relieved"
+      ],
+      "note": null
+    },
+    {
+      "checkin_id": "mood_25446623afbd",
+      "logged_at": "2026-08-09T21:07:00-04:00",
+      "mood": 8,
+      "anxiety": 2,
+      "energy": 6,
+      "scale": "1-10 (10 = best for mood/energy; 10 = worst for anxiety)",
+      "emotion_tags": [
+        "calm"
+      ],
+      "note": null
+    },
+    {
+      "checkin_id": "mood_b42798a444c0",
+      "logged_at": "2026-08-10T21:27:00-04:00",
+      "mood": 8,
+      "anxiety": 3,
+      "energy": 6,
+      "scale": "1-10 (10 = best for mood/energy; 10 = worst for anxiety)",
+      "emotion_tags": [
+        "connected",
+        "relieved"
+      ],
+      "note": null
+    },
+    {
+      "checkin_id": "mood_c99bdf4291d9",
+      "logged_at": "2026-08-11T08:04:00-04:00",
+      "mood": 7,
+      "anxiety": 2,
+      "energy": 7,
+      "scale": "1-10 (10 = best for mood/energy; 10 = worst for anxiety)",
+      "emotion_tags": [
+        "energized"
+      ],
+      "note": null
+    },
+    {
+      "checkin_id": "mood_f48d3d0c1c5d",
+      "logged_at": "2026-08-12T08:53:00-04:00",
+      "mood": 10,
+      "anxiety": 4,
+      "energy": 7,
+      "scale": "1-10 (10 = best for mood/energy; 10 = worst for anxiety)",
+      "emotion_tags": [
+        "proud"
+      ],
+      "note": null
+    },
+    {
+      "checkin_id": "mood_a29a3414fe11",
+      "logged_at": "2026-08-13T08:56:00-04:00",
+      "mood": 8,
+      "anxiety": 1,
+      "energy": 8,
+      "scale": "1-10 (10 = best for mood/energy; 10 = worst for anxiety)",
+      "emotion_tags": [
+        "curious",
+        "proud"
+      ],
+      "note": null
+    },
+    {
+      "checkin_id": "mood_bc873b7d0fab",
+      "logged_at": "2026-08-16T08:16:00-04:00",
+      "mood": 8,
+      "anxiety": 2,
+      "energy": 6,
+      "scale": "1-10 (10 = best for mood/energy; 10 = worst for anxiety)",
+      "emotion_tags": [
+        "grateful",
+        "relieved"
+      ],
+      "note": null
+    },
+    {
+      "checkin_id": "mood_0393a88dcbfe",
+      "logged_at": "2026-08-18T21:41:00-04:00",
+      "mood": 8,
+      "anxiety": 1,
+      "energy": 6,
+      "scale": "1-10 (10 = best for mood/energy; 10 = worst for anxiety)",
+      "emotion_tags": [
+        "content"
+      ],
+      "note": null
+    },
+    {
+      "checkin_id": "mood_493fba46537f",
+      "logged_at": "2026-08-19T08:53:00-04:00",
+      "mood": 8,
+      "anxiety": 1,
+      "energy": 7,
+      "scale": "1-10 (10 = best for mood/energy; 10 = worst for anxiety)",
+      "emotion_tags": [
+        "content",
+        "energized",
+        "relieved"
+      ],
+      "note": null
+    },
+    {
+      "checkin_id": "mood_cf3eb35e325a",
+      "logged_at": "2026-08-20T08:33:00-04:00",
+      "mood": 8,
+      "anxiety": 4,
+      "energy": 8,
+      "scale": "1-10 (10 = best for mood/energy; 10 = worst for anxiety)",
+      "emotion_tags": [
+        "relieved"
+      ],
+      "note": null
+    },
+    {
+      "checkin_id": "mood_d2b5c3e31955",
+      "logged_at": "2026-08-21T08:07:00-04:00",
+      "mood": 8,
+      "anxiety": 2,
+      "energy": 6,
+      "scale": "1-10 (10 = best for mood/energy; 10 = worst for anxiety)",
+      "emotion_tags": [
+        "calm",
+        "grateful"
+      ],
+      "note": null
+    },
+    {
+      "checkin_id": "mood_e2992864a184",
+      "logged_at": "2026-08-22T21:29:00-04:00",
+      "mood": 7,
+      "anxiety": 3,
+      "energy": 4,
+      "scale": "1-10 (10 = best for mood/energy; 10 = worst for anxiety)",
+      "emotion_tags": [
+        "energized"
+      ],
+      "note": null
+    },
+    {
+      "checkin_id": "mood_18a26e4ffda9",
+      "logged_at": "2026-08-23T08:47:00-04:00",
+      "mood": 7,
+      "anxiety": 2,
+      "energy": 6,
+      "scale": "1-10 (10 = best for mood/energy; 10 = worst for anxiety)",
+      "emotion_tags": [
+        "content",
+        "proud"
+      ],
+      "note": null
+    },
+    {
+      "checkin_id": "mood_b4b482a476d6",
+      "logged_at": "2026-08-25T21:19:00-04:00",
+      "mood": 7,
+      "anxiety": 3,
+      "energy": 8,
+      "scale": "1-10 (10 = best for mood/energy; 10 = worst for anxiety)",
+      "emotion_tags": [
+        "grateful",
+        "proud"
+      ],
+      "note": null
+    },
+    {
+      "checkin_id": "mood_6055d59060b3",
+      "logged_at": "2026-08-26T08:11:00-04:00",
+      "mood": 7,
+      "anxiety": 2,
+      "energy": 7,
+      "scale": "1-10 (10 = best for mood/energy; 10 = worst for anxiety)",
+      "emotion_tags": [
+        "relieved"
+      ],
+      "note": null
+    },
+    {
+      "checkin_id": "mood_c58c5a24ab16",
+      "logged_at": "2026-08-27T21:25:00-04:00",
+      "mood": 7,
+      "anxiety": 3,
+      "energy": 8,
+      "scale": "1-10 (10 = best for mood/energy; 10 = worst for anxiety)",
+      "emotion_tags": [
+        "content",
+        "grateful"
+      ],
+      "note": null
+    },
+    {
+      "checkin_id": "mood_ba19f46256ca",
+      "logged_at": "2026-08-30T08:52:00-04:00",
+      "mood": 8,
+      "anxiety": 3,
+      "energy": 7,
+      "scale": "1-10 (10 = best for mood/energy; 10 = worst for anxiety)",
+      "emotion_tags": [
+        "curious",
+        "grateful",
+        "proud"
+      ],
+      "note": null
+    },
+    {
+      "checkin_id": "mood_d8d441edc1c2",
+      "logged_at": "2026-08-31T08:17:00-04:00",
+      "mood": 7,
+      "anxiety": 4,
+      "energy": 7,
+      "scale": "1-10 (10 = best for mood/energy; 10 = worst for anxiety)",
+      "emotion_tags": [
+        "content",
+        "relieved"
+      ],
+      "note": null
+    },
+    {
+      "checkin_id": "mood_d06bf87617fe",
+      "logged_at": "2026-09-01T21:16:00-04:00",
+      "mood": 8,
+      "anxiety": 4,
+      "energy": 7,
+      "scale": "1-10 (10 = best for mood/energy; 10 = worst for anxiety)",
+      "emotion_tags": [
+        "curious",
+        "relieved"
+      ],
+      "note": null
+    },
+    {
+      "checkin_id": "mood_8b16e3ca5ec2",
+      "logged_at": "2026-09-03T08:37:00-04:00",
+      "mood": 8,
+      "anxiety": 3,
+      "energy": 4,
+      "scale": "1-10 (10 = best for mood/energy; 10 = worst for anxiety)",
+      "emotion_tags": [
+        "connected",
+        "curious",
+        "relieved"
+      ],
+      "note": null
+    },
+    {
+      "checkin_id": "mood_2f1e271c1d8c",
+      "logged_at": "2026-09-04T08:55:00-04:00",
+      "mood": 7,
+      "anxiety": 3,
+      "energy": 5,
+      "scale": "1-10 (10 = best for mood/energy; 10 = worst for anxiety)",
+      "emotion_tags": [
+        "calm",
+        "content"
+      ],
+      "note": null
+    },
+    {
+      "checkin_id": "mood_74b53f6ecfae",
+      "logged_at": "2026-09-05T08:54:00-04:00",
+      "mood": 8,
+      "anxiety": 2,
+      "energy": 8,
+      "scale": "1-10 (10 = best for mood/energy; 10 = worst for anxiety)",
+      "emotion_tags": [
+        "curious",
+        "proud"
+      ],
+      "note": null
+    },
+    {
+      "checkin_id": "mood_baf866a429b3",
+      "logged_at": "2026-09-06T08:52:00-04:00",
+      "mood": 9,
+      "anxiety": 2,
+      "energy": 8,
+      "scale": "1-10 (10 = best for mood/energy; 10 = worst for anxiety)",
+      "emotion_tags": [
+        "content",
+        "relieved"
+      ],
+      "note": null
+    },
+    {
+      "checkin_id": "mood_240a3e23e2b4",
+      "logged_at": "2026-09-07T08:45:00-04:00",
+      "mood": 7,
+      "anxiety": 3,
+      "energy": 7,
+      "scale": "1-10 (10 = best for mood/energy; 10 = worst for anxiety)",
+      "emotion_tags": [
+        "curious",
+        "relieved"
+      ],
+      "note": null
+    },
+    {
+      "checkin_id": "mood_e362cbf59655",
+      "logged_at": "2026-09-08T08:51:00-04:00",
+      "mood": 8,
+      "anxiety": 3,
+      "energy": 6,
+      "scale": "1-10 (10 = best for mood/energy; 10 = worst for anxiety)",
+      "emotion_tags": [
+        "proud"
+      ],
+      "note": null
+    },
+    {
+      "checkin_id": "mood_f93fdeb26314",
+      "logged_at": "2026-09-09T08:55:00-04:00",
+      "mood": 7,
+      "anxiety": 3,
+      "energy": 9,
+      "scale": "1-10 (10 = best for mood/energy; 10 = worst for anxiety)",
+      "emotion_tags": [
+        "connected",
+        "content",
+        "energized"
+      ],
+      "note": null
+    },
+    {
+      "checkin_id": "mood_3d58c67837bb",
+      "logged_at": "2026-09-10T08:40:00-04:00",
+      "mood": 6,
+      "anxiety": 4,
+      "energy": 7,
+      "scale": "1-10 (10 = best for mood/energy; 10 = worst for anxiety)",
+      "emotion_tags": [
+        "okay",
+        "wistful"
+      ],
+      "note": null
+    },
+    {
+      "checkin_id": "mood_123a16003653",
+      "logged_at": "2026-09-11T08:00:00-04:00",
+      "mood": 7,
+      "anxiety": 3,
+      "energy": 8,
+      "scale": "1-10 (10 = best for mood/energy; 10 = worst for anxiety)",
+      "emotion_tags": [
+        "content",
+        "relieved"
+      ],
+      "note": null
+    },
+    {
+      "checkin_id": "mood_14761dc6c404",
+      "logged_at": "2026-09-12T08:17:00-04:00",
+      "mood": 8,
+      "anxiety": 4,
+      "energy": 8,
+      "scale": "1-10 (10 = best for mood/energy; 10 = worst for anxiety)",
+      "emotion_tags": [
+        "connected",
+        "energized",
+        "proud"
+      ],
+      "note": null
+    },
+    {
+      "checkin_id": "mood_70b41998da13",
+      "logged_at": "2026-09-13T21:31:00-04:00",
+      "mood": 8,
+      "anxiety": 3,
+      "energy": 8,
+      "scale": "1-10 (10 = best for mood/energy; 10 = worst for anxiety)",
+      "emotion_tags": [
+        "grateful",
+        "relieved"
+      ],
+      "note": null
+    },
+    {
+      "checkin_id": "mood_d2a31f458174",
+      "logged_at": "2026-09-14T21:54:00-04:00",
+      "mood": 8,
+      "anxiety": 2,
+      "energy": 6,
+      "scale": "1-10 (10 = best for mood/energy; 10 = worst for anxiety)",
+      "emotion_tags": [
+        "grateful"
+      ],
+      "note": null
+    },
+    {
+      "checkin_id": "mood_49510ee3cb5f",
+      "logged_at": "2026-09-16T21:40:00-04:00",
+      "mood": 8,
+      "anxiety": 4,
+      "energy": 7,
+      "scale": "1-10 (10 = best for mood/energy; 10 = worst for anxiety)",
+      "emotion_tags": [
+        "curious",
+        "grateful"
+      ],
+      "note": null
+    },
+    {
+      "checkin_id": "mood_0e218b0408cc",
+      "logged_at": "2026-09-18T08:55:00-04:00",
+      "mood": 8,
+      "anxiety": 2,
+      "energy": 9,
+      "scale": "1-10 (10 = best for mood/energy; 10 = worst for anxiety)",
+      "emotion_tags": [
+        "calm",
+        "relieved"
+      ],
+      "note": null
+    },
+    {
+      "checkin_id": "mood_b1b5ff796c94",
+      "logged_at": "2026-09-19T08:34:00-04:00",
+      "mood": 8,
+      "anxiety": 2,
+      "energy": 6,
+      "scale": "1-10 (10 = best for mood/energy; 10 = worst for anxiety)",
+      "emotion_tags": [
+        "grateful"
+      ],
+      "note": null
+    },
+    {
+      "checkin_id": "mood_ce3b014d8661",
+      "logged_at": "2026-09-20T08:02:00-04:00",
+      "mood": 9,
+      "anxiety": 2,
+      "energy": 7,
+      "scale": "1-10 (10 = best for mood/energy; 10 = worst for anxiety)",
+      "emotion_tags": [
+        "calm",
+        "energized"
+      ],
+      "note": null
+    },
+    {
+      "checkin_id": "mood_23b308afdc1d",
+      "logged_at": "2026-09-21T08:52:00-04:00",
+      "mood": 9,
+      "anxiety": 2,
+      "energy": 6,
+      "scale": "1-10 (10 = best for mood/energy; 10 = worst for anxiety)",
+      "emotion_tags": [
+        "calm",
+        "grateful"
+      ],
+      "note": null
+    },
+    {
+      "checkin_id": "mood_5b963810e944",
+      "logged_at": "2026-09-26T08:29:00-04:00",
+      "mood": 9,
+      "anxiety": 2,
+      "energy": 7,
+      "scale": "1-10 (10 = best for mood/energy; 10 = worst for anxiety)",
+      "emotion_tags": [
+        "calm",
+        "relieved"
+      ],
+      "note": null
+    },
+    {
+      "checkin_id": "mood_cba783cfa4ca",
+      "logged_at": "2026-09-28T21:21:00-04:00",
+      "mood": 9,
+      "anxiety": 2,
+      "energy": 7,
+      "scale": "1-10 (10 = best for mood/energy; 10 = worst for anxiety)",
+      "emotion_tags": [
+        "content",
+        "curious",
+        "relieved"
+      ],
+      "note": null
+    },
+    {
+      "checkin_id": "mood_0429e0fa31ca",
+      "logged_at": "2026-09-29T21:36:00-04:00",
+      "mood": 8,
+      "anxiety": 3,
+      "energy": 8,
+      "scale": "1-10 (10 = best for mood/energy; 10 = worst for anxiety)",
+      "emotion_tags": [
+        "grateful",
+        "proud"
+      ],
+      "note": null
+    },
+    {
+      "checkin_id": "mood_142fe7055f95",
+      "logged_at": "2026-09-30T08:04:00-04:00",
+      "mood": 8,
+      "anxiety": 4,
+      "energy": 7,
+      "scale": "1-10 (10 = best for mood/energy; 10 = worst for anxiety)",
+      "emotion_tags": [
+        "content"
+      ],
+      "note": null
+    },
+    {
+      "checkin_id": "mood_3faaf77f1dcf",
+      "logged_at": "2026-10-01T21:21:00-04:00",
+      "mood": 8,
+      "anxiety": 3,
+      "energy": 8,
+      "scale": "1-10 (10 = best for mood/energy; 10 = worst for anxiety)",
+      "emotion_tags": [
+        "energized",
+        "grateful"
+      ],
+      "note": null
+    },
+    {
+      "checkin_id": "mood_d1fe0a9ce8ae",
+      "logged_at": "2026-10-02T08:11:00-04:00",
+      "mood": 8,
+      "anxiety": 3,
+      "energy": 7,
+      "scale": "1-10 (10 = best for mood/energy; 10 = worst for anxiety)",
+      "emotion_tags": [
+        "connected"
+      ],
+      "note": null
+    },
+    {
+      "checkin_id": "mood_9db59851aceb",
+      "logged_at": "2026-10-03T21:39:00-04:00",
+      "mood": 7,
+      "anxiety": 2,
+      "energy": 6,
+      "scale": "1-10 (10 = best for mood/energy; 10 = worst for anxiety)",
+      "emotion_tags": [
+        "energized",
+        "proud"
+      ],
+      "note": null
+    }
+  ],
+  "journal_entries": [
+    {
+      "entry_id": "jrn_4ed27997686e",
+      "created_at": "2026-07-15T22:11:00-04:00",
+      "text": "My wife signed us both up for this. Fine. Slept okay, kids are on summer schedule so mornings are loud.",
+      "word_count": 20,
+      "ai_summary": "Baseline; family routine.",
+      "ai_themes": [
+        "family",
+        "routine"
+      ],
+      "sentiment_score": 0.3,
+      "sentiment_scale": "-1 (very negative) to +1 (very positive)",
+      "shared_with_clinician": true
+    },
+    {
+      "entry_id": "jrn_1f889ae47959",
+      "created_at": "2026-07-22T22:37:00-04:00",
+      "text": "Coached the under-10s Saturday. We lost 6-1 and they were thrilled anyway.",
+      "word_count": 12,
+      "ai_summary": "Enjoyable family and community activity.",
+      "ai_themes": [
+        "family",
+        "pleasure"
+      ],
+      "sentiment_score": 0.6,
+      "sentiment_scale": "-1 (very negative) to +1 (very positive)",
+      "shared_with_clinician": true
+    },
+    {
+      "entry_id": "jrn_992d2c011785",
+      "created_at": "2026-07-29T22:47:00-04:00",
+      "text": "Work's steady. Started walking at lunch instead of eating at my desk.",
+      "word_count": 12,
+      "ai_summary": "New lunchtime walk habit.",
+      "ai_themes": [
+        "work",
+        "exercise",
+        "routine"
+      ],
+      "sentiment_score": 0.45,
+      "sentiment_scale": "-1 (very negative) to +1 (very positive)",
+      "shared_with_clinician": true
+    },
+    {
+      "entry_id": "jrn_4c1ec04f009d",
+      "created_at": "2026-08-05T22:39:00-04:00",
+      "text": "Back-to-school chaos. Forms, shoes, a lost backpack. Normal.",
+      "word_count": 8,
+      "ai_summary": "Family logistics; neutral.",
+      "ai_themes": [
+        "family"
+      ],
+      "sentiment_score": 0.2,
+      "sentiment_scale": "-1 (very negative) to +1 (very positive)",
+      "shared_with_clinician": true
+    },
+    {
+      "entry_id": "jrn_6ed09cb2df0d",
+      "created_at": "2026-08-12T22:08:00-04:00",
+      "text": "Long weekend at the lake. No phone for two days. Should do that more.",
+      "word_count": 14,
+      "ai_summary": "Restorative time off; low screen use.",
+      "ai_themes": [
+        "pleasure",
+        "self_care"
+      ],
+      "sentiment_score": 0.7,
+      "sentiment_scale": "-1 (very negative) to +1 (very positive)",
+      "shared_with_clinician": true
+    },
+    {
+      "entry_id": "jrn_5799d226ba57",
+      "created_at": "2026-08-19T22:24:00-04:00",
+      "text": "Denver conference. Good talks, bad sleep, came home with a cold.",
+      "word_count": 11,
+      "ai_summary": "Travel and illness onset.",
+      "ai_themes": [
+        "work",
+        "sleep",
+        "illness"
+      ],
+      "sentiment_score": -0.1,
+      "sentiment_scale": "-1 (very negative) to +1 (very positive)",
+      "shared_with_clinician": true
+    },
+    {
+      "entry_id": "jrn_91b7ceaeab36",
+      "created_at": "2026-08-26T22:48:00-04:00",
+      "text": "Sick all week. Couch, tea, nothing done. Grumpy about it.",
+      "word_count": 10,
+      "ai_summary": "Acute illness; low energy and irritability.",
+      "ai_themes": [
+        "illness",
+        "low_energy"
+      ],
+      "sentiment_score": -0.35,
+      "sentiment_scale": "-1 (very negative) to +1 (very positive)",
+      "shared_with_clinician": true
+    },
+    {
+      "entry_id": "jrn_c5544ff25805",
+      "created_at": "2026-09-02T22:24:00-04:00",
+      "text": "Mostly better. Walks are back. Appetite's back.",
+      "word_count": 7,
+      "ai_summary": "Recovery from illness.",
+      "ai_themes": [
+        "illness",
+        "routine"
+      ],
+      "sentiment_score": 0.3,
+      "sentiment_scale": "-1 (very negative) to +1 (very positive)",
+      "shared_with_clinician": true
+    },
+    {
+      "entry_id": "jrn_c2cb3d2959db",
+      "created_at": "2026-09-09T22:13:00-04:00",
+      "text": "Our team hit its number. Took everyone out. Good night.",
+      "word_count": 10,
+      "ai_summary": "Work success and social time.",
+      "ai_themes": [
+        "work",
+        "social_connection"
+      ],
+      "sentiment_score": 0.6,
+      "sentiment_scale": "-1 (very negative) to +1 (very positive)",
+      "shared_with_clinician": true
+    },
+    {
+      "entry_id": "jrn_a51c1eb4267c",
+      "created_at": "2026-09-16T22:26:00-04:00",
+      "text": "Daughter's recital. She nailed it. I may have gotten something in my eye.",
+      "word_count": 13,
+      "ai_summary": "Family pride.",
+      "ai_themes": [
+        "family",
+        "pleasure"
+      ],
+      "sentiment_score": 0.8,
+      "sentiment_scale": "-1 (very negative) to +1 (very positive)",
+      "shared_with_clinician": true
+    },
+    {
+      "entry_id": "jrn_3b418708628a",
+      "created_at": "2026-09-23T22:08:00-04:00",
+      "text": "Quiet. Fixed the fence. Slept nine hours Saturday.",
+      "word_count": 8,
+      "ai_summary": "Rest and home projects.",
+      "ai_themes": [
+        "sleep",
+        "pleasure"
+      ],
+      "sentiment_score": 0.55,
+      "sentiment_scale": "-1 (very negative) to +1 (very positive)",
+      "shared_with_clinician": true
+    },
+    {
+      "entry_id": "jrn_68da4023bf8c",
+      "created_at": "2026-09-30T22:09:00-04:00",
+      "text": "Three months in. Honestly nothing dramatic to report, which I think is the point.",
+      "word_count": 14,
+      "ai_summary": "Stable period; reflective.",
+      "ai_themes": [
+        "identity"
+      ],
+      "sentiment_score": 0.5,
+      "sentiment_scale": "-1 (very negative) to +1 (very positive)",
+      "shared_with_clinician": true
+    }
+  ],
+  "voice_notes": [
+    {
+      "voice_note_id": "vn_04cdf35beaf5",
+      "recorded_at": "2026-07-18T12:45:00-04:00",
+      "duration_sec": 13,
+      "audio_uri": "s3://carelinq-demo/audio/pt_d4e6b2a9/vn_w00.m4a",
+      "transcript": "Testing. Uh, day's fine. Kids are feral. That's all.",
+      "transcription_confidence": 0.94,
+      "ai_summary": "Baseline; family humor.",
+      "sentiment_score": 0.3,
+      "shared_with_clinician": true
+    },
+    {
+      "voice_note_id": "vn_b5849d78f33e",
+      "recorded_at": "2026-08-01T08:45:00-04:00",
+      "duration_sec": 7,
+      "audio_uri": "s3://carelinq-demo/audio/pt_d4e6b2a9/vn_w02.m4a",
+      "transcript": "Lunch walk done. Trying to make it a thing.",
+      "transcription_confidence": 0.92,
+      "ai_summary": "Habit formation.",
+      "sentiment_score": 0.4,
+      "shared_with_clinician": true
+    },
+    {
+      "voice_note_id": "vn_05892e4390ac",
+      "recorded_at": "2026-08-15T08:40:00-04:00",
+      "duration_sec": 16,
+      "audio_uri": "s3://carelinq-demo/audio/pt_d4e6b2a9/vn_w04.m4a",
+      "transcript": "I'm sick. Voice is gone, so this is short.",
+      "transcription_confidence": 0.93,
+      "ai_summary": "Acute illness.",
+      "sentiment_score": -0.3,
+      "shared_with_clinician": true
+    },
+    {
+      "voice_note_id": "vn_92053686bf8e",
+      "recorded_at": "2026-08-29T08:30:00-04:00",
+      "duration_sec": 10,
+      "audio_uri": "s3://carelinq-demo/audio/pt_d4e6b2a9/vn_w06.m4a",
+      "transcript": "Better. Back to walking. Appetite is definitely back.",
+      "transcription_confidence": 0.96,
+      "ai_summary": "Illness recovery.",
+      "sentiment_score": 0.35,
+      "shared_with_clinician": true
+    },
+    {
+      "voice_note_id": "vn_d9ccfac3cfec",
+      "recorded_at": "2026-09-12T12:31:00-04:00",
+      "duration_sec": 14,
+      "audio_uri": "s3://carelinq-demo/audio/pt_d4e6b2a9/vn_w08.m4a",
+      "transcript": "Recital was tonight. She was great. Proud dad noise.",
+      "transcription_confidence": 0.95,
+      "ai_summary": "Family pride.",
+      "sentiment_score": 0.8,
+      "shared_with_clinician": true
+    },
+    {
+      "voice_note_id": "vn_76a81ef5aa98",
+      "recorded_at": "2026-09-26T12:31:00-04:00",
+      "duration_sec": 6,
+      "audio_uri": "s3://carelinq-demo/audio/pt_d4e6b2a9/vn_w10.m4a",
+      "transcript": "Nothing to report. Good week. Bye.",
+      "transcription_confidence": 0.89,
+      "ai_summary": "Stable.",
+      "sentiment_score": 0.5,
+      "shared_with_clinician": true
+    }
+  ],
+  "practices": {
+    "definitions": [
+      {
+        "practice_id": "prc_walk",
+        "name": "Lunch walk (20 min)",
+        "track": "make_it_happen",
+        "target_per_week": 4,
+        "created_at": "2026-07-21T18:30:00-04:00"
+      },
+      {
+        "practice_id": "prc_bed",
+        "name": "Lights out by 11pm",
+        "track": "make_it_happen",
+        "target_per_week": 5,
+        "created_at": "2026-07-21T18:31:00-04:00"
+      },
+      {
+        "practice_id": "prc_family",
+        "name": "Phone-free dinner",
+        "track": "make_it_happen",
+        "target_per_week": 5,
+        "created_at": "2026-07-21T18:32:00-04:00"
+      },
+      {
+        "practice_id": "prc_name",
+        "name": "Pause and name the feeling",
+        "track": "meet_the_moment",
+        "target_per_week": null,
+        "trigger": "When I notice a surge of stress",
+        "created_at": "2026-07-21T18:40:00-04:00"
+      }
+    ],
+    "daily_logs": [
+      {
+        "log_id": "plog_24c00787e292",
+        "practice_id": "prc_walk",
+        "date": "2026-07-21",
+        "completed": true
+      },
+      {
+        "log_id": "plog_0b63ab36d3c1",
+        "practice_id": "prc_bed",
+        "date": "2026-07-21",
+        "completed": true
+      },
+      {
+        "log_id": "plog_f35280e34438",
+        "practice_id": "prc_family",
+        "date": "2026-07-21",
+        "completed": true
+      },
+      {
+        "log_id": "plog_c68130b4d70b",
+        "practice_id": "prc_walk",
+        "date": "2026-07-22",
+        "completed": true
+      },
+      {
+        "log_id": "plog_ec6dd919b85a",
+        "practice_id": "prc_bed",
+        "date": "2026-07-22",
+        "completed": true
+      },
+      {
+        "log_id": "plog_781004e83241",
+        "practice_id": "prc_family",
+        "date": "2026-07-22",
+        "completed": true
+      },
+      {
+        "log_id": "plog_e10d64b4ff79",
+        "practice_id": "prc_walk",
+        "date": "2026-07-23",
+        "completed": true
+      },
+      {
+        "log_id": "plog_b11e9313d5ff",
+        "practice_id": "prc_bed",
+        "date": "2026-07-23",
+        "completed": true
+      },
+      {
+        "log_id": "plog_4f251af93b96",
+        "practice_id": "prc_family",
+        "date": "2026-07-23",
+        "completed": true
+      },
+      {
+        "log_id": "plog_cd77e2a5b628",
+        "practice_id": "prc_walk",
+        "date": "2026-07-24",
+        "completed": true
+      },
+      {
+        "log_id": "plog_1ebca979a622",
+        "practice_id": "prc_bed",
+        "date": "2026-07-24",
+        "completed": true
+      },
+      {
+        "log_id": "plog_ad17d9f97211",
+        "practice_id": "prc_family",
+        "date": "2026-07-24",
+        "completed": false
+      },
+      {
+        "log_id": "plog_213edf3ca95f",
+        "practice_id": "prc_walk",
+        "date": "2026-07-25",
+        "completed": true
+      },
+      {
+        "log_id": "plog_4ba6d4916d54",
+        "practice_id": "prc_bed",
+        "date": "2026-07-25",
+        "completed": true
+      },
+      {
+        "log_id": "plog_56fd6ca411ca",
+        "practice_id": "prc_family",
+        "date": "2026-07-25",
+        "completed": true
+      },
+      {
+        "log_id": "plog_896982f40c92",
+        "practice_id": "prc_walk",
+        "date": "2026-07-26",
+        "completed": true
+      },
+      {
+        "log_id": "plog_351e49ea74d7",
+        "practice_id": "prc_bed",
+        "date": "2026-07-26",
+        "completed": true
+      },
+      {
+        "log_id": "plog_1a7f0cdb7276",
+        "practice_id": "prc_family",
+        "date": "2026-07-26",
+        "completed": true
+      },
+      {
+        "log_id": "plog_fca422df7dd9",
+        "practice_id": "prc_walk",
+        "date": "2026-07-27",
+        "completed": false
+      },
+      {
+        "log_id": "plog_d2d91624037b",
+        "practice_id": "prc_bed",
+        "date": "2026-07-27",
+        "completed": true
+      },
+      {
+        "log_id": "plog_94ece911a1c7",
+        "practice_id": "prc_family",
+        "date": "2026-07-27",
+        "completed": true
+      },
+      {
+        "log_id": "plog_3890227fadc6",
+        "practice_id": "prc_walk",
+        "date": "2026-07-28",
+        "completed": false
+      },
+      {
+        "log_id": "plog_ae9e8b7609f1",
+        "practice_id": "prc_bed",
+        "date": "2026-07-28",
+        "completed": true
+      },
+      {
+        "log_id": "plog_72dda3ce6424",
+        "practice_id": "prc_family",
+        "date": "2026-07-28",
+        "completed": false
+      },
+      {
+        "log_id": "plog_ff9f7ba6f01c",
+        "practice_id": "prc_walk",
+        "date": "2026-07-29",
+        "completed": true
+      },
+      {
+        "log_id": "plog_15186b4ed460",
+        "practice_id": "prc_bed",
+        "date": "2026-07-29",
+        "completed": true
+      },
+      {
+        "log_id": "plog_9114255d2f2e",
+        "practice_id": "prc_family",
+        "date": "2026-07-29",
+        "completed": true
+      },
+      {
+        "log_id": "plog_782d56e54cd5",
+        "practice_id": "prc_walk",
+        "date": "2026-07-30",
+        "completed": true
+      },
+      {
+        "log_id": "plog_ddd2db804c0d",
+        "practice_id": "prc_bed",
+        "date": "2026-07-30",
+        "completed": true
+      },
+      {
+        "log_id": "plog_fbc0db6158d1",
+        "practice_id": "prc_family",
+        "date": "2026-07-30",
+        "completed": true
+      },
+      {
+        "log_id": "plog_9667834a4950",
+        "practice_id": "prc_walk",
+        "date": "2026-07-31",
+        "completed": true
+      },
+      {
+        "log_id": "plog_1263d5f45526",
+        "practice_id": "prc_bed",
+        "date": "2026-07-31",
+        "completed": true
+      },
+      {
+        "log_id": "plog_3b0cf04ef8be",
+        "practice_id": "prc_family",
+        "date": "2026-07-31",
+        "completed": true
+      },
+      {
+        "log_id": "plog_f9bbc29d95c4",
+        "practice_id": "prc_walk",
+        "date": "2026-08-01",
+        "completed": true
+      },
+      {
+        "log_id": "plog_667a32e643ef",
+        "practice_id": "prc_bed",
+        "date": "2026-08-01",
+        "completed": true
+      },
+      {
+        "log_id": "plog_0e2718ff0b89",
+        "practice_id": "prc_family",
+        "date": "2026-08-01",
+        "completed": true
+      },
+      {
+        "log_id": "plog_2674a002c529",
+        "practice_id": "prc_walk",
+        "date": "2026-08-02",
+        "completed": true
+      },
+      {
+        "log_id": "plog_3d4f57635430",
+        "practice_id": "prc_bed",
+        "date": "2026-08-02",
+        "completed": false
+      },
+      {
+        "log_id": "plog_e4600d0fe4e5",
+        "practice_id": "prc_family",
+        "date": "2026-08-02",
+        "completed": true
+      },
+      {
+        "log_id": "plog_e2439c82230b",
+        "practice_id": "prc_walk",
+        "date": "2026-08-03",
+        "completed": true
+      },
+      {
+        "log_id": "plog_92e7b268c81e",
+        "practice_id": "prc_bed",
+        "date": "2026-08-03",
+        "completed": false
+      },
+      {
+        "log_id": "plog_410388ee68fa",
+        "practice_id": "prc_family",
+        "date": "2026-08-03",
+        "completed": true
+      },
+      {
+        "log_id": "plog_682201f82150",
+        "practice_id": "prc_walk",
+        "date": "2026-08-04",
+        "completed": true
+      },
+      {
+        "log_id": "plog_81e3dbc06e45",
+        "practice_id": "prc_bed",
+        "date": "2026-08-04",
+        "completed": false
+      },
+      {
+        "log_id": "plog_0a391d45c2c2",
+        "practice_id": "prc_family",
+        "date": "2026-08-04",
+        "completed": true
+      },
+      {
+        "log_id": "plog_57324a526979",
+        "practice_id": "prc_walk",
+        "date": "2026-08-05",
+        "completed": true
+      },
+      {
+        "log_id": "plog_d25a66a14680",
+        "practice_id": "prc_bed",
+        "date": "2026-08-05",
+        "completed": false
+      },
+      {
+        "log_id": "plog_de997d2c8108",
+        "practice_id": "prc_family",
+        "date": "2026-08-05",
+        "completed": true
+      },
+      {
+        "log_id": "plog_dc2c4e6509c1",
+        "practice_id": "prc_walk",
+        "date": "2026-08-06",
+        "completed": true
+      },
+      {
+        "log_id": "plog_1e1dbb34765d",
+        "practice_id": "prc_bed",
+        "date": "2026-08-06",
+        "completed": true
+      },
+      {
+        "log_id": "plog_3090c7d704e6",
+        "practice_id": "prc_family",
+        "date": "2026-08-06",
+        "completed": false
+      },
+      {
+        "log_id": "plog_698b8e28e249",
+        "practice_id": "prc_walk",
+        "date": "2026-08-07",
+        "completed": false
+      },
+      {
+        "log_id": "plog_935ab166a04b",
+        "practice_id": "prc_bed",
+        "date": "2026-08-07",
+        "completed": true
+      },
+      {
+        "log_id": "plog_7ccfa92f613d",
+        "practice_id": "prc_family",
+        "date": "2026-08-07",
+        "completed": false
+      },
+      {
+        "log_id": "plog_658b41818fab",
+        "practice_id": "prc_walk",
+        "date": "2026-08-08",
+        "completed": true
+      },
+      {
+        "log_id": "plog_1c8178c1e293",
+        "practice_id": "prc_bed",
+        "date": "2026-08-08",
+        "completed": true
+      },
+      {
+        "log_id": "plog_03d51649fc53",
+        "practice_id": "prc_family",
+        "date": "2026-08-08",
+        "completed": true
+      },
+      {
+        "log_id": "plog_c0669bda8b00",
+        "practice_id": "prc_walk",
+        "date": "2026-08-09",
+        "completed": true
+      },
+      {
+        "log_id": "plog_51fe5a5145cb",
+        "practice_id": "prc_bed",
+        "date": "2026-08-09",
+        "completed": true
+      },
+      {
+        "log_id": "plog_a5d0eb5d9897",
+        "practice_id": "prc_family",
+        "date": "2026-08-09",
+        "completed": true
+      },
+      {
+        "log_id": "plog_6de4e7e9c08e",
+        "practice_id": "prc_walk",
+        "date": "2026-08-10",
+        "completed": true
+      },
+      {
+        "log_id": "plog_df362e9a7b94",
+        "practice_id": "prc_bed",
+        "date": "2026-08-10",
+        "completed": true
+      },
+      {
+        "log_id": "plog_592c37e8fda3",
+        "practice_id": "prc_family",
+        "date": "2026-08-10",
+        "completed": false
+      },
+      {
+        "log_id": "plog_faf4621e8024",
+        "practice_id": "prc_walk",
+        "date": "2026-08-11",
+        "completed": true
+      },
+      {
+        "log_id": "plog_376dadb2bc19",
+        "practice_id": "prc_bed",
+        "date": "2026-08-11",
+        "completed": true
+      },
+      {
+        "log_id": "plog_8c44c139fa36",
+        "practice_id": "prc_family",
+        "date": "2026-08-11",
+        "completed": true
+      },
+      {
+        "log_id": "plog_bfc3381cd075",
+        "practice_id": "prc_walk",
+        "date": "2026-08-12",
+        "completed": true
+      },
+      {
+        "log_id": "plog_efe7471a73fa",
+        "practice_id": "prc_bed",
+        "date": "2026-08-12",
+        "completed": true
+      },
+      {
+        "log_id": "plog_006eab3f709a",
+        "practice_id": "prc_family",
+        "date": "2026-08-12",
+        "completed": true
+      },
+      {
+        "log_id": "plog_8a8be304af79",
+        "practice_id": "prc_walk",
+        "date": "2026-08-13",
+        "completed": true
+      },
+      {
+        "log_id": "plog_e62b69b91ddb",
+        "practice_id": "prc_bed",
+        "date": "2026-08-13",
+        "completed": true
+      },
+      {
+        "log_id": "plog_bdf8c449da10",
+        "practice_id": "prc_family",
+        "date": "2026-08-13",
+        "completed": true
+      },
+      {
+        "log_id": "plog_99c7052b27e0",
+        "practice_id": "prc_walk",
+        "date": "2026-08-14",
+        "completed": true
+      },
+      {
+        "log_id": "plog_d3a228e0fc71",
+        "practice_id": "prc_bed",
+        "date": "2026-08-14",
+        "completed": true
+      },
+      {
+        "log_id": "plog_7da1d28e4995",
+        "practice_id": "prc_family",
+        "date": "2026-08-14",
+        "completed": true
+      },
+      {
+        "log_id": "plog_ba655e88f7f6",
+        "practice_id": "prc_walk",
+        "date": "2026-08-15",
+        "completed": false
+      },
+      {
+        "log_id": "plog_1d6f76e520f0",
+        "practice_id": "prc_bed",
+        "date": "2026-08-15",
+        "completed": true
+      },
+      {
+        "log_id": "plog_29dc1c379562",
+        "practice_id": "prc_family",
+        "date": "2026-08-15",
+        "completed": true
+      },
+      {
+        "log_id": "plog_96fe40955960",
+        "practice_id": "prc_walk",
+        "date": "2026-08-16",
+        "completed": false
+      },
+      {
+        "log_id": "plog_023a7fe85c65",
+        "practice_id": "prc_bed",
+        "date": "2026-08-16",
+        "completed": true
+      },
+      {
+        "log_id": "plog_438d148e2203",
+        "practice_id": "prc_family",
+        "date": "2026-08-16",
+        "completed": true
+      },
+      {
+        "log_id": "plog_1c4080bb3e21",
+        "practice_id": "prc_walk",
+        "date": "2026-08-17",
+        "completed": false
+      },
+      {
+        "log_id": "plog_784d5c8a56f5",
+        "practice_id": "prc_bed",
+        "date": "2026-08-17",
+        "completed": true
+      },
+      {
+        "log_id": "plog_5fde58f5a670",
+        "practice_id": "prc_family",
+        "date": "2026-08-17",
+        "completed": true
+      },
+      {
+        "log_id": "plog_dbf213ee51cf",
+        "practice_id": "prc_walk",
+        "date": "2026-08-18",
+        "completed": true
+      },
+      {
+        "log_id": "plog_22f1070f3b1d",
+        "practice_id": "prc_bed",
+        "date": "2026-08-18",
+        "completed": true
+      },
+      {
+        "log_id": "plog_581691b830d9",
+        "practice_id": "prc_family",
+        "date": "2026-08-18",
+        "completed": true
+      },
+      {
+        "log_id": "plog_192a9987368f",
+        "practice_id": "prc_walk",
+        "date": "2026-08-19",
+        "completed": true
+      },
+      {
+        "log_id": "plog_3b40afd5cfcb",
+        "practice_id": "prc_bed",
+        "date": "2026-08-19",
+        "completed": true
+      },
+      {
+        "log_id": "plog_5b4d87806bd3",
+        "practice_id": "prc_family",
+        "date": "2026-08-19",
+        "completed": true
+      },
+      {
+        "log_id": "plog_b0a5abf2c40c",
+        "practice_id": "prc_walk",
+        "date": "2026-08-20",
+        "completed": true
+      },
+      {
+        "log_id": "plog_16125eafaebc",
+        "practice_id": "prc_bed",
+        "date": "2026-08-20",
+        "completed": true
+      },
+      {
+        "log_id": "plog_5c5aed766319",
+        "practice_id": "prc_family",
+        "date": "2026-08-20",
+        "completed": true
+      },
+      {
+        "log_id": "plog_b39dc1d8d1f4",
+        "practice_id": "prc_walk",
+        "date": "2026-08-21",
+        "completed": true
+      },
+      {
+        "log_id": "plog_8ad59d54ec31",
+        "practice_id": "prc_bed",
+        "date": "2026-08-21",
+        "completed": true
+      },
+      {
+        "log_id": "plog_ae122e8ec937",
+        "practice_id": "prc_family",
+        "date": "2026-08-21",
+        "completed": true
+      },
+      {
+        "log_id": "plog_c149e1c9755e",
+        "practice_id": "prc_walk",
+        "date": "2026-08-22",
+        "completed": true
+      },
+      {
+        "log_id": "plog_2850210d43b3",
+        "practice_id": "prc_bed",
+        "date": "2026-08-22",
+        "completed": true
+      },
+      {
+        "log_id": "plog_3f1b8ffb7ef3",
+        "practice_id": "prc_family",
+        "date": "2026-08-22",
+        "completed": true
+      },
+      {
+        "log_id": "plog_165fd26148e3",
+        "practice_id": "prc_walk",
+        "date": "2026-08-23",
+        "completed": true
+      },
+      {
+        "log_id": "plog_19defe801d84",
+        "practice_id": "prc_bed",
+        "date": "2026-08-23",
+        "completed": true
+      },
+      {
+        "log_id": "plog_960a8f422a5e",
+        "practice_id": "prc_family",
+        "date": "2026-08-23",
+        "completed": true
+      },
+      {
+        "log_id": "plog_9b4b0b99811a",
+        "practice_id": "prc_walk",
+        "date": "2026-08-24",
+        "completed": true
+      },
+      {
+        "log_id": "plog_e0dfbcf551f2",
+        "practice_id": "prc_bed",
+        "date": "2026-08-24",
+        "completed": true
+      },
+      {
+        "log_id": "plog_532d1d5ca8c4",
+        "practice_id": "prc_family",
+        "date": "2026-08-24",
+        "completed": true
+      },
+      {
+        "log_id": "plog_ba65652bb612",
+        "practice_id": "prc_walk",
+        "date": "2026-08-25",
+        "completed": true
+      },
+      {
+        "log_id": "plog_06a68d94d8af",
+        "practice_id": "prc_bed",
+        "date": "2026-08-25",
+        "completed": true
+      },
+      {
+        "log_id": "plog_994071a08bce",
+        "practice_id": "prc_family",
+        "date": "2026-08-25",
+        "completed": true
+      },
+      {
+        "log_id": "plog_26ca969525f2",
+        "practice_id": "prc_walk",
+        "date": "2026-08-26",
+        "completed": true
+      },
+      {
+        "log_id": "plog_7704a6611dc3",
+        "practice_id": "prc_bed",
+        "date": "2026-08-26",
+        "completed": false
+      },
+      {
+        "log_id": "plog_036c1f521ba1",
+        "practice_id": "prc_family",
+        "date": "2026-08-26",
+        "completed": true
+      },
+      {
+        "log_id": "plog_812fdac8931d",
+        "practice_id": "prc_walk",
+        "date": "2026-08-27",
+        "completed": true
+      },
+      {
+        "log_id": "plog_54ee4fae04aa",
+        "practice_id": "prc_bed",
+        "date": "2026-08-27",
+        "completed": false
+      },
+      {
+        "log_id": "plog_e74e60cf625a",
+        "practice_id": "prc_family",
+        "date": "2026-08-27",
+        "completed": false
+      },
+      {
+        "log_id": "plog_d646aec6c666",
+        "practice_id": "prc_walk",
+        "date": "2026-08-28",
+        "completed": true
+      },
+      {
+        "log_id": "plog_bb51152fcb45",
+        "practice_id": "prc_bed",
+        "date": "2026-08-28",
+        "completed": false
+      },
+      {
+        "log_id": "plog_36e31598411a",
+        "practice_id": "prc_family",
+        "date": "2026-08-28",
+        "completed": true
+      },
+      {
+        "log_id": "plog_548bf7d8bf55",
+        "practice_id": "prc_walk",
+        "date": "2026-08-29",
+        "completed": true
+      },
+      {
+        "log_id": "plog_6d7724f37922",
+        "practice_id": "prc_bed",
+        "date": "2026-08-29",
+        "completed": true
+      },
+      {
+        "log_id": "plog_db1ea96191a5",
+        "practice_id": "prc_family",
+        "date": "2026-08-29",
+        "completed": true
+      },
+      {
+        "log_id": "plog_dd7c8f7be27b",
+        "practice_id": "prc_walk",
+        "date": "2026-08-30",
+        "completed": true
+      },
+      {
+        "log_id": "plog_49e52dbfcc6a",
+        "practice_id": "prc_bed",
+        "date": "2026-08-30",
+        "completed": true
+      },
+      {
+        "log_id": "plog_a67cf2c39fdf",
+        "practice_id": "prc_family",
+        "date": "2026-08-30",
+        "completed": true
+      },
+      {
+        "log_id": "plog_95f44b2383e1",
+        "practice_id": "prc_walk",
+        "date": "2026-08-31",
+        "completed": true
+      },
+      {
+        "log_id": "plog_b67bfc90d31a",
+        "practice_id": "prc_bed",
+        "date": "2026-08-31",
+        "completed": false
+      },
+      {
+        "log_id": "plog_f855f998c334",
+        "practice_id": "prc_family",
+        "date": "2026-08-31",
+        "completed": true
+      },
+      {
+        "log_id": "plog_f2b3e28d3d83",
+        "practice_id": "prc_walk",
+        "date": "2026-09-01",
+        "completed": true
+      },
+      {
+        "log_id": "plog_d7043866ad82",
+        "practice_id": "prc_bed",
+        "date": "2026-09-01",
+        "completed": true
+      },
+      {
+        "log_id": "plog_06b85b29ee75",
+        "practice_id": "prc_family",
+        "date": "2026-09-01",
+        "completed": true
+      },
+      {
+        "log_id": "plog_9599d39a7813",
+        "practice_id": "prc_walk",
+        "date": "2026-09-02",
+        "completed": false
+      },
+      {
+        "log_id": "plog_58a0a90a76d4",
+        "practice_id": "prc_bed",
+        "date": "2026-09-02",
+        "completed": true
+      },
+      {
+        "log_id": "plog_7f2ec77d42e8",
+        "practice_id": "prc_family",
+        "date": "2026-09-02",
+        "completed": true
+      },
+      {
+        "log_id": "plog_e1a5ae288b2c",
+        "practice_id": "prc_walk",
+        "date": "2026-09-03",
+        "completed": false
+      },
+      {
+        "log_id": "plog_3e6342441371",
+        "practice_id": "prc_bed",
+        "date": "2026-09-03",
+        "completed": true
+      },
+      {
+        "log_id": "plog_06e25fc2f721",
+        "practice_id": "prc_family",
+        "date": "2026-09-03",
+        "completed": false
+      },
+      {
+        "log_id": "plog_04081ddd7247",
+        "practice_id": "prc_walk",
+        "date": "2026-09-04",
+        "completed": false
+      },
+      {
+        "log_id": "plog_0f2547355119",
+        "practice_id": "prc_bed",
+        "date": "2026-09-04",
+        "completed": true
+      },
+      {
+        "log_id": "plog_402e1f3691cb",
+        "practice_id": "prc_family",
+        "date": "2026-09-04",
+        "completed": true
+      },
+      {
+        "log_id": "plog_c63a038e1c6d",
+        "practice_id": "prc_walk",
+        "date": "2026-09-05",
+        "completed": true
+      },
+      {
+        "log_id": "plog_80bbf6818149",
+        "practice_id": "prc_bed",
+        "date": "2026-09-05",
+        "completed": true
+      },
+      {
+        "log_id": "plog_9a644543e33e",
+        "practice_id": "prc_family",
+        "date": "2026-09-05",
+        "completed": true
+      },
+      {
+        "log_id": "plog_93644a0a7aee",
+        "practice_id": "prc_walk",
+        "date": "2026-09-06",
+        "completed": false
+      },
+      {
+        "log_id": "plog_d25c5eea7940",
+        "practice_id": "prc_bed",
+        "date": "2026-09-06",
+        "completed": true
+      },
+      {
+        "log_id": "plog_195d45bcef3f",
+        "practice_id": "prc_family",
+        "date": "2026-09-06",
+        "completed": true
+      },
+      {
+        "log_id": "plog_b9e463fd7cce",
+        "practice_id": "prc_walk",
+        "date": "2026-09-07",
+        "completed": false
+      },
+      {
+        "log_id": "plog_da920969a91a",
+        "practice_id": "prc_bed",
+        "date": "2026-09-07",
+        "completed": true
+      },
+      {
+        "log_id": "plog_2cd21d01e965",
+        "practice_id": "prc_family",
+        "date": "2026-09-07",
+        "completed": true
+      },
+      {
+        "log_id": "plog_aecbe0a837ec",
+        "practice_id": "prc_walk",
+        "date": "2026-09-08",
+        "completed": true
+      },
+      {
+        "log_id": "plog_7d9815218085",
+        "practice_id": "prc_bed",
+        "date": "2026-09-08",
+        "completed": true
+      },
+      {
+        "log_id": "plog_6f66f36d8a51",
+        "practice_id": "prc_family",
+        "date": "2026-09-08",
+        "completed": true
+      },
+      {
+        "log_id": "plog_cd04c8d5f906",
+        "practice_id": "prc_walk",
+        "date": "2026-09-09",
+        "completed": true
+      },
+      {
+        "log_id": "plog_58e4dbc10e68",
+        "practice_id": "prc_bed",
+        "date": "2026-09-09",
+        "completed": true
+      },
+      {
+        "log_id": "plog_de43f46df594",
+        "practice_id": "prc_family",
+        "date": "2026-09-09",
+        "completed": true
+      },
+      {
+        "log_id": "plog_e7c804395686",
+        "practice_id": "prc_walk",
+        "date": "2026-09-10",
+        "completed": true
+      },
+      {
+        "log_id": "plog_73333024f962",
+        "practice_id": "prc_bed",
+        "date": "2026-09-10",
+        "completed": true
+      },
+      {
+        "log_id": "plog_ecb94ada69ae",
+        "practice_id": "prc_family",
+        "date": "2026-09-10",
+        "completed": false
+      },
+      {
+        "log_id": "plog_00cdd4b3c446",
+        "practice_id": "prc_walk",
+        "date": "2026-09-11",
+        "completed": true
+      },
+      {
+        "log_id": "plog_9491390ec143",
+        "practice_id": "prc_bed",
+        "date": "2026-09-11",
+        "completed": true
+      },
+      {
+        "log_id": "plog_dbc5d58a9edc",
+        "practice_id": "prc_family",
+        "date": "2026-09-11",
+        "completed": true
+      },
+      {
+        "log_id": "plog_9bf82cce5c08",
+        "practice_id": "prc_walk",
+        "date": "2026-09-12",
+        "completed": true
+      },
+      {
+        "log_id": "plog_7595e54e61a3",
+        "practice_id": "prc_bed",
+        "date": "2026-09-12",
+        "completed": true
+      },
+      {
+        "log_id": "plog_70889ead1105",
+        "practice_id": "prc_family",
+        "date": "2026-09-12",
+        "completed": true
+      },
+      {
+        "log_id": "plog_b538a7985f5f",
+        "practice_id": "prc_walk",
+        "date": "2026-09-13",
+        "completed": false
+      },
+      {
+        "log_id": "plog_13663d2ce995",
+        "practice_id": "prc_bed",
+        "date": "2026-09-13",
+        "completed": true
+      },
+      {
+        "log_id": "plog_99d3e051a6d0",
+        "practice_id": "prc_family",
+        "date": "2026-09-13",
+        "completed": false
+      },
+      {
+        "log_id": "plog_97cb050c1440",
+        "practice_id": "prc_walk",
+        "date": "2026-09-14",
+        "completed": true
+      },
+      {
+        "log_id": "plog_4000c78a5746",
+        "practice_id": "prc_bed",
+        "date": "2026-09-14",
+        "completed": true
+      },
+      {
+        "log_id": "plog_270df7f1fc91",
+        "practice_id": "prc_family",
+        "date": "2026-09-14",
+        "completed": true
+      },
+      {
+        "log_id": "plog_0731509b972e",
+        "practice_id": "prc_walk",
+        "date": "2026-09-15",
+        "completed": true
+      },
+      {
+        "log_id": "plog_186e5091cdab",
+        "practice_id": "prc_bed",
+        "date": "2026-09-15",
+        "completed": true
+      },
+      {
+        "log_id": "plog_4c1fad78d7fd",
+        "practice_id": "prc_family",
+        "date": "2026-09-15",
+        "completed": false
+      },
+      {
+        "log_id": "plog_454d9880dd6a",
+        "practice_id": "prc_walk",
+        "date": "2026-09-16",
+        "completed": true
+      },
+      {
+        "log_id": "plog_fd35a1697a7e",
+        "practice_id": "prc_bed",
+        "date": "2026-09-16",
+        "completed": true
+      },
+      {
+        "log_id": "plog_63550c925f13",
+        "practice_id": "prc_family",
+        "date": "2026-09-16",
+        "completed": true
+      },
+      {
+        "log_id": "plog_1b4095e6926b",
+        "practice_id": "prc_walk",
+        "date": "2026-09-17",
+        "completed": true
+      },
+      {
+        "log_id": "plog_54a50ec20f2a",
+        "practice_id": "prc_bed",
+        "date": "2026-09-17",
+        "completed": true
+      },
+      {
+        "log_id": "plog_ba757ad2c28a",
+        "practice_id": "prc_family",
+        "date": "2026-09-17",
+        "completed": false
+      },
+      {
+        "log_id": "plog_1f9cb1ced177",
+        "practice_id": "prc_walk",
+        "date": "2026-09-18",
+        "completed": true
+      },
+      {
+        "log_id": "plog_bdce42898bf7",
+        "practice_id": "prc_bed",
+        "date": "2026-09-18",
+        "completed": false
+      },
+      {
+        "log_id": "plog_c782b1cd0352",
+        "practice_id": "prc_family",
+        "date": "2026-09-18",
+        "completed": true
+      },
+      {
+        "log_id": "plog_efcff656e40e",
+        "practice_id": "prc_walk",
+        "date": "2026-09-19",
+        "completed": false
+      },
+      {
+        "log_id": "plog_cbb8ec286a24",
+        "practice_id": "prc_bed",
+        "date": "2026-09-19",
+        "completed": true
+      },
+      {
+        "log_id": "plog_d1b60493e0d4",
+        "practice_id": "prc_family",
+        "date": "2026-09-19",
+        "completed": true
+      },
+      {
+        "log_id": "plog_0c939a7f52c3",
+        "practice_id": "prc_walk",
+        "date": "2026-09-20",
+        "completed": true
+      },
+      {
+        "log_id": "plog_9b80f9457f92",
+        "practice_id": "prc_bed",
+        "date": "2026-09-20",
+        "completed": true
+      },
+      {
+        "log_id": "plog_0232ccd1fd34",
+        "practice_id": "prc_family",
+        "date": "2026-09-20",
+        "completed": true
+      },
+      {
+        "log_id": "plog_2ea8ed30ab15",
+        "practice_id": "prc_walk",
+        "date": "2026-09-21",
+        "completed": false
+      },
+      {
+        "log_id": "plog_e2d1be78e653",
+        "practice_id": "prc_bed",
+        "date": "2026-09-21",
+        "completed": true
+      },
+      {
+        "log_id": "plog_dbaa16f3a0ae",
+        "practice_id": "prc_family",
+        "date": "2026-09-21",
+        "completed": true
+      },
+      {
+        "log_id": "plog_8f308ab12cfa",
+        "practice_id": "prc_walk",
+        "date": "2026-09-22",
+        "completed": true
+      },
+      {
+        "log_id": "plog_901eb12906cd",
+        "practice_id": "prc_bed",
+        "date": "2026-09-22",
+        "completed": false
+      },
+      {
+        "log_id": "plog_fc342ac7e941",
+        "practice_id": "prc_family",
+        "date": "2026-09-22",
+        "completed": true
+      },
+      {
+        "log_id": "plog_cf9cc34f56aa",
+        "practice_id": "prc_walk",
+        "date": "2026-09-23",
+        "completed": true
+      },
+      {
+        "log_id": "plog_7ee8f1553a6b",
+        "practice_id": "prc_bed",
+        "date": "2026-09-23",
+        "completed": true
+      },
+      {
+        "log_id": "plog_52411c66e6d3",
+        "practice_id": "prc_family",
+        "date": "2026-09-23",
+        "completed": true
+      },
+      {
+        "log_id": "plog_688673a3ef52",
+        "practice_id": "prc_walk",
+        "date": "2026-09-24",
+        "completed": true
+      },
+      {
+        "log_id": "plog_5c0453f2365a",
+        "practice_id": "prc_bed",
+        "date": "2026-09-24",
+        "completed": true
+      },
+      {
+        "log_id": "plog_2b2e293d3951",
+        "practice_id": "prc_family",
+        "date": "2026-09-24",
+        "completed": true
+      },
+      {
+        "log_id": "plog_1856b06754f5",
+        "practice_id": "prc_walk",
+        "date": "2026-09-25",
+        "completed": true
+      },
+      {
+        "log_id": "plog_a871d765c641",
+        "practice_id": "prc_bed",
+        "date": "2026-09-25",
+        "completed": true
+      },
+      {
+        "log_id": "plog_ab59896b1c57",
+        "practice_id": "prc_family",
+        "date": "2026-09-25",
+        "completed": true
+      },
+      {
+        "log_id": "plog_e2bc656283c7",
+        "practice_id": "prc_walk",
+        "date": "2026-09-26",
+        "completed": true
+      },
+      {
+        "log_id": "plog_1dbf1538bf7c",
+        "practice_id": "prc_bed",
+        "date": "2026-09-26",
+        "completed": true
+      },
+      {
+        "log_id": "plog_c3fc7f19e121",
+        "practice_id": "prc_family",
+        "date": "2026-09-26",
+        "completed": true
+      },
+      {
+        "log_id": "plog_263acf2a5c38",
+        "practice_id": "prc_walk",
+        "date": "2026-09-27",
+        "completed": true
+      },
+      {
+        "log_id": "plog_6a801da07f92",
+        "practice_id": "prc_bed",
+        "date": "2026-09-27",
+        "completed": true
+      },
+      {
+        "log_id": "plog_2322ffcb42d1",
+        "practice_id": "prc_family",
+        "date": "2026-09-27",
+        "completed": false
+      },
+      {
+        "log_id": "plog_d381e9ec67d9",
+        "practice_id": "prc_walk",
+        "date": "2026-09-28",
+        "completed": true
+      },
+      {
+        "log_id": "plog_6b85367cef71",
+        "practice_id": "prc_bed",
+        "date": "2026-09-28",
+        "completed": true
+      },
+      {
+        "log_id": "plog_1d8c870a128e",
+        "practice_id": "prc_family",
+        "date": "2026-09-28",
+        "completed": true
+      },
+      {
+        "log_id": "plog_acae2890fbd1",
+        "practice_id": "prc_walk",
+        "date": "2026-09-29",
+        "completed": false
+      },
+      {
+        "log_id": "plog_e69e9853d5d9",
+        "practice_id": "prc_bed",
+        "date": "2026-09-29",
+        "completed": true
+      },
+      {
+        "log_id": "plog_a8255361c549",
+        "practice_id": "prc_family",
+        "date": "2026-09-29",
+        "completed": true
+      },
+      {
+        "log_id": "plog_6f322dd8d33d",
+        "practice_id": "prc_walk",
+        "date": "2026-09-30",
+        "completed": true
+      },
+      {
+        "log_id": "plog_1446f7be9ae1",
+        "practice_id": "prc_bed",
+        "date": "2026-09-30",
+        "completed": false
+      },
+      {
+        "log_id": "plog_673bc87d2d4e",
+        "practice_id": "prc_family",
+        "date": "2026-09-30",
+        "completed": true
+      },
+      {
+        "log_id": "plog_60abbacf8106",
+        "practice_id": "prc_walk",
+        "date": "2026-10-01",
+        "completed": true
+      },
+      {
+        "log_id": "plog_94a9caff57b2",
+        "practice_id": "prc_bed",
+        "date": "2026-10-01",
+        "completed": true
+      },
+      {
+        "log_id": "plog_c307df8c828c",
+        "practice_id": "prc_family",
+        "date": "2026-10-01",
+        "completed": true
+      },
+      {
+        "log_id": "plog_c3c364217476",
+        "practice_id": "prc_walk",
+        "date": "2026-10-02",
+        "completed": true
+      },
+      {
+        "log_id": "plog_ce3521c1db4d",
+        "practice_id": "prc_bed",
+        "date": "2026-10-02",
+        "completed": true
+      },
+      {
+        "log_id": "plog_1409d8095f8d",
+        "practice_id": "prc_family",
+        "date": "2026-10-02",
+        "completed": true
+      },
+      {
+        "log_id": "plog_cea9907fba5f",
+        "practice_id": "prc_walk",
+        "date": "2026-10-03",
+        "completed": true
+      },
+      {
+        "log_id": "plog_bf94d94b596e",
+        "practice_id": "prc_bed",
+        "date": "2026-10-03",
+        "completed": true
+      },
+      {
+        "log_id": "plog_f5f6cc249a35",
+        "practice_id": "prc_family",
+        "date": "2026-10-03",
+        "completed": true
+      },
+      {
+        "log_id": "plog_a9b7aab51ec7",
+        "practice_id": "prc_walk",
+        "date": "2026-10-04",
+        "completed": true
+      },
+      {
+        "log_id": "plog_b8178736a3a3",
+        "practice_id": "prc_bed",
+        "date": "2026-10-04",
+        "completed": true
+      },
+      {
+        "log_id": "plog_96ec3c088695",
+        "practice_id": "prc_family",
+        "date": "2026-10-04",
+        "completed": true
+      }
+    ],
+    "weekly_cycles": [
+      {
+        "practice_id": "prc_walk",
+        "week": 1,
+        "cycle_start": "2026-07-20",
+        "cycle_end": "2026-07-26",
+        "target": 4,
+        "completed": 6,
+        "met_target": true
+      },
+      {
+        "practice_id": "prc_bed",
+        "week": 1,
+        "cycle_start": "2026-07-20",
+        "cycle_end": "2026-07-26",
+        "target": 5,
+        "completed": 6,
+        "met_target": true
+      },
+      {
+        "practice_id": "prc_family",
+        "week": 1,
+        "cycle_start": "2026-07-20",
+        "cycle_end": "2026-07-26",
+        "target": 5,
+        "completed": 5,
+        "met_target": true
+      },
+      {
+        "practice_id": "prc_walk",
+        "week": 2,
+        "cycle_start": "2026-07-27",
+        "cycle_end": "2026-08-02",
+        "target": 4,
+        "completed": 5,
+        "met_target": true
+      },
+      {
+        "practice_id": "prc_bed",
+        "week": 2,
+        "cycle_start": "2026-07-27",
+        "cycle_end": "2026-08-02",
+        "target": 5,
+        "completed": 6,
+        "met_target": true
+      },
+      {
+        "practice_id": "prc_family",
+        "week": 2,
+        "cycle_start": "2026-07-27",
+        "cycle_end": "2026-08-02",
+        "target": 5,
+        "completed": 6,
+        "met_target": true
+      },
+      {
+        "practice_id": "prc_walk",
+        "week": 3,
+        "cycle_start": "2026-08-03",
+        "cycle_end": "2026-08-09",
+        "target": 4,
+        "completed": 6,
+        "met_target": true
+      },
+      {
+        "practice_id": "prc_bed",
+        "week": 3,
+        "cycle_start": "2026-08-03",
+        "cycle_end": "2026-08-09",
+        "target": 5,
+        "completed": 4,
+        "met_target": false
+      },
+      {
+        "practice_id": "prc_family",
+        "week": 3,
+        "cycle_start": "2026-08-03",
+        "cycle_end": "2026-08-09",
+        "target": 5,
+        "completed": 5,
+        "met_target": true
+      },
+      {
+        "practice_id": "prc_walk",
+        "week": 4,
+        "cycle_start": "2026-08-10",
+        "cycle_end": "2026-08-16",
+        "target": 4,
+        "completed": 5,
+        "met_target": true
+      },
+      {
+        "practice_id": "prc_bed",
+        "week": 4,
+        "cycle_start": "2026-08-10",
+        "cycle_end": "2026-08-16",
+        "target": 5,
+        "completed": 7,
+        "met_target": true
+      },
+      {
+        "practice_id": "prc_family",
+        "week": 4,
+        "cycle_start": "2026-08-10",
+        "cycle_end": "2026-08-16",
+        "target": 5,
+        "completed": 6,
+        "met_target": true
+      },
+      {
+        "practice_id": "prc_walk",
+        "week": 5,
+        "cycle_start": "2026-08-17",
+        "cycle_end": "2026-08-23",
+        "target": 4,
+        "completed": 6,
+        "met_target": true
+      },
+      {
+        "practice_id": "prc_bed",
+        "week": 5,
+        "cycle_start": "2026-08-17",
+        "cycle_end": "2026-08-23",
+        "target": 5,
+        "completed": 7,
+        "met_target": true
+      },
+      {
+        "practice_id": "prc_family",
+        "week": 5,
+        "cycle_start": "2026-08-17",
+        "cycle_end": "2026-08-23",
+        "target": 5,
+        "completed": 7,
+        "met_target": true
+      },
+      {
+        "practice_id": "prc_walk",
+        "week": 6,
+        "cycle_start": "2026-08-24",
+        "cycle_end": "2026-08-30",
+        "target": 4,
+        "completed": 7,
+        "met_target": true
+      },
+      {
+        "practice_id": "prc_bed",
+        "week": 6,
+        "cycle_start": "2026-08-24",
+        "cycle_end": "2026-08-30",
+        "target": 5,
+        "completed": 4,
+        "met_target": false
+      },
+      {
+        "practice_id": "prc_family",
+        "week": 6,
+        "cycle_start": "2026-08-24",
+        "cycle_end": "2026-08-30",
+        "target": 5,
+        "completed": 6,
+        "met_target": true
+      },
+      {
+        "practice_id": "prc_walk",
+        "week": 7,
+        "cycle_start": "2026-08-31",
+        "cycle_end": "2026-09-06",
+        "target": 4,
+        "completed": 3,
+        "met_target": false
+      },
+      {
+        "practice_id": "prc_bed",
+        "week": 7,
+        "cycle_start": "2026-08-31",
+        "cycle_end": "2026-09-06",
+        "target": 5,
+        "completed": 6,
+        "met_target": true
+      },
+      {
+        "practice_id": "prc_family",
+        "week": 7,
+        "cycle_start": "2026-08-31",
+        "cycle_end": "2026-09-06",
+        "target": 5,
+        "completed": 6,
+        "met_target": true
+      },
+      {
+        "practice_id": "prc_walk",
+        "week": 8,
+        "cycle_start": "2026-09-07",
+        "cycle_end": "2026-09-13",
+        "target": 4,
+        "completed": 5,
+        "met_target": true
+      },
+      {
+        "practice_id": "prc_bed",
+        "week": 8,
+        "cycle_start": "2026-09-07",
+        "cycle_end": "2026-09-13",
+        "target": 5,
+        "completed": 7,
+        "met_target": true
+      },
+      {
+        "practice_id": "prc_family",
+        "week": 8,
+        "cycle_start": "2026-09-07",
+        "cycle_end": "2026-09-13",
+        "target": 5,
+        "completed": 5,
+        "met_target": true
+      },
+      {
+        "practice_id": "prc_walk",
+        "week": 9,
+        "cycle_start": "2026-09-14",
+        "cycle_end": "2026-09-20",
+        "target": 4,
+        "completed": 6,
+        "met_target": true
+      },
+      {
+        "practice_id": "prc_bed",
+        "week": 9,
+        "cycle_start": "2026-09-14",
+        "cycle_end": "2026-09-20",
+        "target": 5,
+        "completed": 6,
+        "met_target": true
+      },
+      {
+        "practice_id": "prc_family",
+        "week": 9,
+        "cycle_start": "2026-09-14",
+        "cycle_end": "2026-09-20",
+        "target": 5,
+        "completed": 5,
+        "met_target": true
+      },
+      {
+        "practice_id": "prc_walk",
+        "week": 10,
+        "cycle_start": "2026-09-21",
+        "cycle_end": "2026-09-27",
+        "target": 4,
+        "completed": 6,
+        "met_target": true
+      },
+      {
+        "practice_id": "prc_bed",
+        "week": 10,
+        "cycle_start": "2026-09-21",
+        "cycle_end": "2026-09-27",
+        "target": 5,
+        "completed": 6,
+        "met_target": true
+      },
+      {
+        "practice_id": "prc_family",
+        "week": 10,
+        "cycle_start": "2026-09-21",
+        "cycle_end": "2026-09-27",
+        "target": 5,
+        "completed": 6,
+        "met_target": true
+      },
+      {
+        "practice_id": "prc_walk",
+        "week": 11,
+        "cycle_start": "2026-09-28",
+        "cycle_end": "2026-10-04",
+        "target": 4,
+        "completed": 6,
+        "met_target": true
+      },
+      {
+        "practice_id": "prc_bed",
+        "week": 11,
+        "cycle_start": "2026-09-28",
+        "cycle_end": "2026-10-04",
+        "target": 5,
+        "completed": 6,
+        "met_target": true
+      },
+      {
+        "practice_id": "prc_family",
+        "week": 11,
+        "cycle_start": "2026-09-28",
+        "cycle_end": "2026-10-04",
+        "target": 5,
+        "completed": 7,
+        "met_target": true
+      }
+    ],
+    "meet_the_moment_logs": [
+      {
+        "log_id": "mtm_23673f210d5d",
+        "practice_id": "prc_name",
+        "logged_at": "2026-07-22T10:11:00-04:00",
+        "situation": "Airport delay",
+        "emotion_named": "irritated",
+        "intensity_before": 5,
+        "intensity_after": 4,
+        "scale": "0-10 subjective distress"
+      },
+      {
+        "log_id": "mtm_8b6b802e8156",
+        "practice_id": "prc_name",
+        "logged_at": "2026-07-31T09:34:00-04:00",
+        "situation": "Kid meltdown in the car",
+        "emotion_named": "frustrated",
+        "intensity_before": 6,
+        "intensity_after": 4,
+        "scale": "0-10 subjective distress"
+      },
+      {
+        "log_id": "mtm_047c242759a2",
+        "practice_id": "prc_name",
+        "logged_at": "2026-08-12T14:52:00-04:00",
+        "situation": "Budget review",
+        "emotion_named": "tense",
+        "intensity_before": 5,
+        "intensity_after": 3,
+        "scale": "0-10 subjective distress"
+      },
+      {
+        "log_id": "mtm_3d37b8614769",
+        "practice_id": "prc_name",
+        "logged_at": "2026-09-15T18:42:00-04:00",
+        "situation": "Budget review",
+        "emotion_named": "tense",
+        "intensity_before": 6,
+        "intensity_after": 3,
+        "scale": "0-10 subjective distress"
+      }
+    ]
+  }
+}

@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Patient Dashboard</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <main class="page">
+    <header class="head">
+      <div class="head-row">
+        <h1>Patient Dashboard <a class="navlink" href="/tracker">Symptom tracker</a></h1>
+        <label class="select-label">Patient
+          <select id="patient-select" aria-label="Select patient"></select>
+        </label>
+      </div>
+      <p class="sub">Synthetic demo cohort. Backend: <span id="backend">…</span></p>
+    </header>
+
+    <section class="card" id="patient-card">
+      <div class="patient-head">
+        <div>
+          <div class="patient-name" id="p-name">–</div>
+          <div class="muted" id="p-meta"></div>
+        </div>
+        <div class="chips" id="p-dx"></div>
+      </div>
+      <div class="patient-facts" id="p-facts"></div>
+    </section>
+
+    <div class="filters" role="group" aria-label="Date range">
+      <button type="button" data-weeks="4">Last 4 weeks</button>
+      <button type="button" data-weeks="8">Last 8 weeks</button>
+      <button type="button" data-weeks="0" class="active">Full window</button>
+    </div>
+
+    <section class="tiles" id="tiles"></section>
+
+    <section class="multiples" id="assessment-charts"></section>
+
+    <section class="card">
+      <div class="chart-head">
+        <h2>Daily check-ins</h2>
+        <div class="legend">
+          <span><i class="key s1"></i>Mood</span>
+          <span><i class="key s2"></i>Anxiety</span>
+          <span><i class="key s3"></i>Energy</span>
+          <span><i class="key event"></i>Clinical event</span>
+        </div>
+      </div>
+      <div class="chart tall" id="chart-mood"></div>
+    </section>
+
+    <section class="card">
+      <div class="chart-head">
+        <h2>Passive behavioral similarity (Behavidence MHSS)</h2>
+        <div class="legend">
+          <span><i class="key s1"></i>Anxiety</span>
+          <span><i class="key s2"></i>Stress</span>
+          <span><i class="key s3"></i>Depression</span>
+          <span><i class="key s4"></i>ADHD</span>
+        </div>
+      </div>
+      <div class="chart" id="chart-mhss"></div>
+    </section>
+
+    <section class="multiples" id="body-charts"></section>
+
+    <div class="two-col">
+      <section class="card">
+        <h2>Safety signals</h2>
+        <ul class="feed" id="safety-feed"></ul>
+      </section>
+      <section class="card">
+        <h2>Recent narratives</h2>
+        <ul class="feed" id="narrative-feed"></ul>
+      </section>
+    </div>
+
+    <section class="card">
+      <h2>Practices, weekly target met</h2>
+      <div id="practices"></div>
+    </section>
+  </main>
+  <div id="tooltip" class="tooltip" hidden></div>
+  <script src="{{ url_for('static', filename='dashboard.js') }}"></script>
+</body>
+</html>

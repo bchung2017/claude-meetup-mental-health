@@ -1,0 +1,4691 @@
+{
+  "_synthetic": true,
+  "patient_id": "pt_b2c4e8d1",
+  "phq9_responses": [
+    {
+      "response_id": "phq9_1e27a1c08a6a",
+      "instrument": "PHQ-9",
+      "administration_week": 0,
+      "completed_at": "2026-07-13T20:41:00-04:00",
+      "items": [
+        {
+          "item": 1,
+          "text": "Little interest or pleasure in doing things",
+          "score": 0
+        },
+        {
+          "item": 2,
+          "text": "Feeling down, depressed, or hopeless",
+          "score": 1
+        },
+        {
+          "item": 3,
+          "text": "Trouble falling or staying asleep, or sleeping too much",
+          "score": 2
+        },
+        {
+          "item": 4,
+          "text": "Feeling tired or having little energy",
+          "score": 3
+        },
+        {
+          "item": 5,
+          "text": "Poor appetite or overeating",
+          "score": 0
+        },
+        {
+          "item": 6,
+          "text": "Feeling bad about yourself — or that you are a failure or have let yourself or your family down",
+          "score": 2
+        },
+        {
+          "item": 7,
+          "text": "Trouble concentrating on things, such as reading the newspaper or watching television",
+          "score": 3
+        },
+        {
+          "item": 8,
+          "text": "Moving or speaking so slowly that other people could have noticed, or the opposite — being so fidgety or restless",
+          "score": 1
+        },
+        {
+          "item": 9,
+          "text": "Thoughts that you would be better off dead, or of hurting yourself in some way",
+          "score": 0
+        }
+      ],
+      "total_score": 12,
+      "severity_band": "moderate",
+      "functional_difficulty": "somewhat_difficult"
+    },
+    {
+      "response_id": "phq9_2e05319acb5c",
+      "instrument": "PHQ-9",
+      "administration_week": 1,
+      "completed_at": "2026-07-20T20:49:00-04:00",
+      "items": [
+        {
+          "item": 1,
+          "text": "Little interest or pleasure in doing things",
+          "score": 0
+        },
+        {
+          "item": 2,
+          "text": "Feeling down, depressed, or hopeless",
+          "score": 2
+        },
+        {
+          "item": 3,
+          "text": "Trouble falling or staying asleep, or sleeping too much",
+          "score": 1
+        },
+        {
+          "item": 4,
+          "text": "Feeling tired or having little energy",
+          "score": 2
+        },
+        {
+          "item": 5,
+          "text": "Poor appetite or overeating",
+          "score": 1
+        },
+        {
+          "item": 6,
+          "text": "Feeling bad about yourself — or that you are a failure or have let yourself or your family down",
+          "score": 0
+        },
+        {
+          "item": 7,
+          "text": "Trouble concentrating on things, such as reading the newspaper or watching television",
+          "score": 2
+        },
+        {
+          "item": 8,
+          "text": "Moving or speaking so slowly that other people could have noticed, or the opposite — being so fidgety or restless",
+          "score": 2
+        },
+        {
+          "item": 9,
+          "text": "Thoughts that you would be better off dead, or of hurting yourself in some way",
+          "score": 0
+        }
+      ],
+      "total_score": 10,
+      "severity_band": "moderate",
+      "functional_difficulty": "somewhat_difficult"
+    },
+    {
+      "response_id": "phq9_f1d69ed617f5",
+      "instrument": "PHQ-9",
+      "administration_week": 2,
+      "completed_at": "2026-07-27T20:22:00-04:00",
+      "items": [
+        {
+          "item": 1,
+          "text": "Little interest or pleasure in doing things",
+          "score": 0
+        },
+        {
+          "item": 2,
+          "text": "Feeling down, depressed, or hopeless",
+          "score": 1
+        },
+        {
+          "item": 3,
+          "text": "Trouble falling or staying asleep, or sleeping too much",
+          "score": 3
+        },
+        {
+          "item": 4,
+          "text": "Feeling tired or having little energy",
+          "score": 1
+        },
+        {
+          "item": 5,
+          "text": "Poor appetite or overeating",
+          "score": 1
+        },
+        {
+          "item": 6,
+          "text": "Feeling bad about yourself — or that you are a failure or have let yourself or your family down",
+          "score": 0
+        },
+        {
+          "item": 7,
+          "text": "Trouble concentrating on things, such as reading the newspaper or watching television",
+          "score": 2
+        },
+        {
+          "item": 8,
+          "text": "Moving or speaking so slowly that other people could have noticed, or the opposite — being so fidgety or restless",
+          "score": 2
+        },
+        {
+          "item": 9,
+          "text": "Thoughts that you would be better off dead, or of hurting yourself in some way",
+          "score": 0
+        }
+      ],
+      "total_score": 10,
+      "severity_band": "moderate",
+      "functional_difficulty": "somewhat_difficult"
+    },
+    {
+      "response_id": "phq9_49952399c4aa",
+      "instrument": "PHQ-9",
+      "administration_week": 3,
+      "completed_at": "2026-08-03T20:13:00-04:00",
+      "items": [
+        {
+          "item": 1,
+          "text": "Little interest or pleasure in doing things",
+          "score": 1
+        },
+        {
+          "item": 2,
+          "text": "Feeling down, depressed, or hopeless",
+          "score": 0
+        },
+        {
+          "item": 3,
+          "text": "Trouble falling or staying asleep, or sleeping too much",
+          "score": 2
+        },
+        {
+          "item": 4,
+          "text": "Feeling tired or having little energy",
+          "score": 2
+        },
+        {
+          "item": 5,
+          "text": "Poor appetite or overeating",
+          "score": 1
+        },
+        {
+          "item": 6,
+          "text": "Feeling bad about yourself — or that you are a failure or have let yourself or your family down",
+          "score": 0
+        },
+        {
+          "item": 7,
+          "text": "Trouble concentrating on things, such as reading the newspaper or watching television",
+          "score": 2
+        },
+        {
+          "item": 8,
+          "text": "Moving or speaking so slowly that other people could have noticed, or the opposite — being so fidgety or restless",
+          "score": 1
+        },
+        {
+          "item": 9,
+          "text": "Thoughts that you would be better off dead, or of hurting yourself in some way",
+          "score": 0
+        }
+      ],
+      "total_score": 9,
+      "severity_band": "mild",
+      "functional_difficulty": "somewhat_difficult"
+    },
+    {
+      "response_id": "phq9_3b61867626bb",
+      "instrument": "PHQ-9",
+      "administration_week": 4,
+      "completed_at": "2026-08-10T20:47:00-04:00",
+      "items": [
+        {
+          "item": 1,
+          "text": "Little interest or pleasure in doing things",
+          "score": 1
+        },
+        {
+          "item": 2,
+          "text": "Feeling down, depressed, or hopeless",
+          "score": 1
+        },
+        {
+          "item": 3,
+          "text": "Trouble falling or staying asleep, or sleeping too much",
+          "score": 2
+        },
+        {
+          "item": 4,
+          "text": "Feeling tired or having little energy",
+          "score": 2
+        },
+        {
+          "item": 5,
+          "text": "Poor appetite or overeating",
+          "score": 0
+        },
+        {
+          "item": 6,
+          "text": "Feeling bad about yourself — or that you are a failure or have let yourself or your family down",
+          "score": 1
+        },
+        {
+          "item": 7,
+          "text": "Trouble concentrating on things, such as reading the newspaper or watching television",
+          "score": 0
+        },
+        {
+          "item": 8,
+          "text": "Moving or speaking so slowly that other people could have noticed, or the opposite — being so fidgety or restless",
+          "score": 2
+        },
+        {
+          "item": 9,
+          "text": "Thoughts that you would be better off dead, or of hurting yourself in some way",
+          "score": 0
+        }
+      ],
+      "total_score": 9,
+      "severity_band": "mild",
+      "functional_difficulty": "somewhat_difficult"
+    },
+    {
+      "response_id": "phq9_20203626f3fe",
+      "instrument": "PHQ-9",
+      "administration_week": 5,
+      "completed_at": "2026-08-17T20:49:00-04:00",
+      "items": [
+        {
+          "item": 1,
+          "text": "Little interest or pleasure in doing things",
+          "score": 1
+        },
+        {
+          "item": 2,
+          "text": "Feeling down, depressed, or hopeless",
+          "score": 1
+        },
+        {
+          "item": 3,
+          "text": "Trouble falling or staying asleep, or sleeping too much",
+          "score": 1
+        },
+        {
+          "item": 4,
+          "text": "Feeling tired or having little energy",
+          "score": 1
+        },
+        {
+          "item": 5,
+          "text": "Poor appetite or overeating",
+          "score": 0
+        },
+        {
+          "item": 6,
+          "text": "Feeling bad about yourself — or that you are a failure or have let yourself or your family down",
+          "score": 1
+        },
+        {
+          "item": 7,
+          "text": "Trouble concentrating on things, such as reading the newspaper or watching television",
+          "score": 1
+        },
+        {
+          "item": 8,
+          "text": "Moving or speaking so slowly that other people could have noticed, or the opposite — being so fidgety or restless",
+          "score": 1
+        },
+        {
+          "item": 9,
+          "text": "Thoughts that you would be better off dead, or of hurting yourself in some way",
+          "score": 0
+        }
+      ],
+      "total_score": 7,
+      "severity_band": "mild",
+      "functional_difficulty": "not_difficult_at_all"
+    },
+    {
+      "response_id": "phq9_068739fa9d1d",
+      "instrument": "PHQ-9",
+      "administration_week": 6,
+      "completed_at": "2026-08-24T20:09:00-04:00",
+      "items": [
+        {
+          "item": 1,
+          "text": "Little interest or pleasure in doing things",
+          "score": 1
+        },
+        {
+          "item": 2,
+          "text": "Feeling down, depressed, or hopeless",
+          "score": 1
+        },
+        {
+          "item": 3,
+          "text": "Trouble falling or staying asleep, or sleeping too much",
+          "score": 2
+        },
+        {
+          "item": 4,
+          "text": "Feeling tired or having little energy",
+          "score": 2
+        },
+        {
+          "item": 5,
+          "text": "Poor appetite or overeating",
+          "score": 1
+        },
+        {
+          "item": 6,
+          "text": "Feeling bad about yourself — or that you are a failure or have let yourself or your family down",
+          "score": 0
+        },
+        {
+          "item": 7,
+          "text": "Trouble concentrating on things, such as reading the newspaper or watching television",
+          "score": 3
+        },
+        {
+          "item": 8,
+          "text": "Moving or speaking so slowly that other people could have noticed, or the opposite — being so fidgety or restless",
+          "score": 0
+        },
+        {
+          "item": 9,
+          "text": "Thoughts that you would be better off dead, or of hurting yourself in some way",
+          "score": 0
+        }
+      ],
+      "total_score": 10,
+      "severity_band": "moderate",
+      "functional_difficulty": "somewhat_difficult"
+    },
+    {
+      "response_id": "phq9_bfeaa1551a28",
+      "instrument": "PHQ-9",
+      "administration_week": 7,
+      "completed_at": "2026-08-31T20:26:00-04:00",
+      "items": [
+        {
+          "item": 1,
+          "text": "Little interest or pleasure in doing things",
+          "score": 1
+        },
+        {
+          "item": 2,
+          "text": "Feeling down, depressed, or hopeless",
+          "score": 1
+        },
+        {
+          "item": 3,
+          "text": "Trouble falling or staying asleep, or sleeping too much",
+          "score": 2
+        },
+        {
+          "item": 4,
+          "text": "Feeling tired or having little energy",
+          "score": 1
+        },
+        {
+          "item": 5,
+          "text": "Poor appetite or overeating",
+          "score": 0
+        },
+        {
+          "item": 6,
+          "text": "Feeling bad about yourself — or that you are a failure or have let yourself or your family down",
+          "score": 1
+        },
+        {
+          "item": 7,
+          "text": "Trouble concentrating on things, such as reading the newspaper or watching television",
+          "score": 2
+        },
+        {
+          "item": 8,
+          "text": "Moving or speaking so slowly that other people could have noticed, or the opposite — being so fidgety or restless",
+          "score": 1
+        },
+        {
+          "item": 9,
+          "text": "Thoughts that you would be better off dead, or of hurting yourself in some way",
+          "score": 0
+        }
+      ],
+      "total_score": 9,
+      "severity_band": "mild",
+      "functional_difficulty": "somewhat_difficult"
+    },
+    {
+      "response_id": "phq9_fc241d0bc9d4",
+      "instrument": "PHQ-9",
+      "administration_week": 8,
+      "completed_at": "2026-09-07T20:17:00-04:00",
+      "items": [
+        {
+          "item": 1,
+          "text": "Little interest or pleasure in doing things",
+          "score": 1
+        },
+        {
+          "item": 2,
+          "text": "Feeling down, depressed, or hopeless",
+          "score": 1
+        },
+        {
+          "item": 3,
+          "text": "Trouble falling or staying asleep, or sleeping too much",
+          "score": 2
+        },
+        {
+          "item": 4,
+          "text": "Feeling tired or having little energy",
+          "score": 1
+        },
+        {
+          "item": 5,
+          "text": "Poor appetite or overeating",
+          "score": 0
+        },
+        {
+          "item": 6,
+          "text": "Feeling bad about yourself — or that you are a failure or have let yourself or your family down",
+          "score": 1
+        },
+        {
+          "item": 7,
+          "text": "Trouble concentrating on things, such as reading the newspaper or watching television",
+          "score": 3
+        },
+        {
+          "item": 8,
+          "text": "Moving or speaking so slowly that other people could have noticed, or the opposite — being so fidgety or restless",
+          "score": 1
+        },
+        {
+          "item": 9,
+          "text": "Thoughts that you would be better off dead, or of hurting yourself in some way",
+          "score": 0
+        }
+      ],
+      "total_score": 10,
+      "severity_band": "moderate",
+      "functional_difficulty": "somewhat_difficult"
+    },
+    {
+      "response_id": "phq9_cefe2a1f727d",
+      "instrument": "PHQ-9",
+      "administration_week": 9,
+      "completed_at": "2026-09-14T20:27:00-04:00",
+      "items": [
+        {
+          "item": 1,
+          "text": "Little interest or pleasure in doing things",
+          "score": 0
+        },
+        {
+          "item": 2,
+          "text": "Feeling down, depressed, or hopeless",
+          "score": 1
+        },
+        {
+          "item": 3,
+          "text": "Trouble falling or staying asleep, or sleeping too much",
+          "score": 1
+        },
+        {
+          "item": 4,
+          "text": "Feeling tired or having little energy",
+          "score": 1
+        },
+        {
+          "item": 5,
+          "text": "Poor appetite or overeating",
+          "score": 1
+        },
+        {
+          "item": 6,
+          "text": "Feeling bad about yourself — or that you are a failure or have let yourself or your family down",
+          "score": 1
+        },
+        {
+          "item": 7,
+          "text": "Trouble concentrating on things, such as reading the newspaper or watching television",
+          "score": 2
+        },
+        {
+          "item": 8,
+          "text": "Moving or speaking so slowly that other people could have noticed, or the opposite — being so fidgety or restless",
+          "score": 1
+        },
+        {
+          "item": 9,
+          "text": "Thoughts that you would be better off dead, or of hurting yourself in some way",
+          "score": 0
+        }
+      ],
+      "total_score": 8,
+      "severity_band": "mild",
+      "functional_difficulty": "somewhat_difficult"
+    },
+    {
+      "response_id": "phq9_16353d03551f",
+      "instrument": "PHQ-9",
+      "administration_week": 10,
+      "completed_at": "2026-09-21T20:30:00-04:00",
+      "items": [
+        {
+          "item": 1,
+          "text": "Little interest or pleasure in doing things",
+          "score": 0
+        },
+        {
+          "item": 2,
+          "text": "Feeling down, depressed, or hopeless",
+          "score": 0
+        },
+        {
+          "item": 3,
+          "text": "Trouble falling or staying asleep, or sleeping too much",
+          "score": 2
+        },
+        {
+          "item": 4,
+          "text": "Feeling tired or having little energy",
+          "score": 2
+        },
+        {
+          "item": 5,
+          "text": "Poor appetite or overeating",
+          "score": 1
+        },
+        {
+          "item": 6,
+          "text": "Feeling bad about yourself — or that you are a failure or have let yourself or your family down",
+          "score": 1
+        },
+        {
+          "item": 7,
+          "text": "Trouble concentrating on things, such as reading the newspaper or watching television",
+          "score": 2
+        },
+        {
+          "item": 8,
+          "text": "Moving or speaking so slowly that other people could have noticed, or the opposite — being so fidgety or restless",
+          "score": 1
+        },
+        {
+          "item": 9,
+          "text": "Thoughts that you would be better off dead, or of hurting yourself in some way",
+          "score": 0
+        }
+      ],
+      "total_score": 9,
+      "severity_band": "mild",
+      "functional_difficulty": "somewhat_difficult"
+    },
+    {
+      "response_id": "phq9_59b44e92effd",
+      "instrument": "PHQ-9",
+      "administration_week": 11,
+      "completed_at": "2026-09-28T20:14:00-04:00",
+      "items": [
+        {
+          "item": 1,
+          "text": "Little interest or pleasure in doing things",
+          "score": 0
+        },
+        {
+          "item": 2,
+          "text": "Feeling down, depressed, or hopeless",
+          "score": 1
+        },
+        {
+          "item": 3,
+          "text": "Trouble falling or staying asleep, or sleeping too much",
+          "score": 2
+        },
+        {
+          "item": 4,
+          "text": "Feeling tired or having little energy",
+          "score": 1
+        },
+        {
+          "item": 5,
+          "text": "Poor appetite or overeating",
+          "score": 0
+        },
+        {
+          "item": 6,
+          "text": "Feeling bad about yourself — or that you are a failure or have let yourself or your family down",
+          "score": 0
+        },
+        {
+          "item": 7,
+          "text": "Trouble concentrating on things, such as reading the newspaper or watching television",
+          "score": 2
+        },
+        {
+          "item": 8,
+          "text": "Moving or speaking so slowly that other people could have noticed, or the opposite — being so fidgety or restless",
+          "score": 1
+        },
+        {
+          "item": 9,
+          "text": "Thoughts that you would be better off dead, or of hurting yourself in some way",
+          "score": 0
+        }
+      ],
+      "total_score": 7,
+      "severity_band": "mild",
+      "functional_difficulty": "not_difficult_at_all"
+    }
+  ],
+  "gad7_responses": [
+    {
+      "response_id": "gad7_bd6b881ae8f6",
+      "instrument": "GAD-7",
+      "administration_week": 0,
+      "completed_at": "2026-07-13T20:27:00-04:00",
+      "items": [
+        {
+          "item": 1,
+          "text": "Feeling nervous, anxious, or on edge",
+          "score": 3
+        },
+        {
+          "item": 2,
+          "text": "Not being able to stop or control worrying",
+          "score": 2
+        },
+        {
+          "item": 3,
+          "text": "Worrying too much about different things",
+          "score": 2
+        },
+        {
+          "item": 4,
+          "text": "Trouble relaxing",
+          "score": 2
+        },
+        {
+          "item": 5,
+          "text": "Being so restless that it is hard to sit still",
+          "score": 2
+        },
+        {
+          "item": 6,
+          "text": "Becoming easily annoyed or irritable",
+          "score": 2
+        },
+        {
+          "item": 7,
+          "text": "Feeling afraid, as if something awful might happen",
+          "score": 2
+        }
+      ],
+      "total_score": 15,
+      "severity_band": "severe",
+      "functional_difficulty": "very_difficult"
+    },
+    {
+      "response_id": "gad7_8e752fdf1ece",
+      "instrument": "GAD-7",
+      "administration_week": 1,
+      "completed_at": "2026-07-20T20:08:00-04:00",
+      "items": [
+        {
+          "item": 1,
+          "text": "Feeling nervous, anxious, or on edge",
+          "score": 3
+        },
+        {
+          "item": 2,
+          "text": "Not being able to stop or control worrying",
+          "score": 2
+        },
+        {
+          "item": 3,
+          "text": "Worrying too much about different things",
+          "score": 2
+        },
+        {
+          "item": 4,
+          "text": "Trouble relaxing",
+          "score": 2
+        },
+        {
+          "item": 5,
+          "text": "Being so restless that it is hard to sit still",
+          "score": 2
+        },
+        {
+          "item": 6,
+          "text": "Becoming easily annoyed or irritable",
+          "score": 2
+        },
+        {
+          "item": 7,
+          "text": "Feeling afraid, as if something awful might happen",
+          "score": 2
+        }
+      ],
+      "total_score": 15,
+      "severity_band": "severe",
+      "functional_difficulty": "very_difficult"
+    },
+    {
+      "response_id": "gad7_330c16a3831d",
+      "instrument": "GAD-7",
+      "administration_week": 2,
+      "completed_at": "2026-07-27T20:49:00-04:00",
+      "items": [
+        {
+          "item": 1,
+          "text": "Feeling nervous, anxious, or on edge",
+          "score": 2
+        },
+        {
+          "item": 2,
+          "text": "Not being able to stop or control worrying",
+          "score": 2
+        },
+        {
+          "item": 3,
+          "text": "Worrying too much about different things",
+          "score": 2
+        },
+        {
+          "item": 4,
+          "text": "Trouble relaxing",
+          "score": 2
+        },
+        {
+          "item": 5,
+          "text": "Being so restless that it is hard to sit still",
+          "score": 2
+        },
+        {
+          "item": 6,
+          "text": "Becoming easily annoyed or irritable",
+          "score": 2
+        },
+        {
+          "item": 7,
+          "text": "Feeling afraid, as if something awful might happen",
+          "score": 1
+        }
+      ],
+      "total_score": 13,
+      "severity_band": "moderate",
+      "functional_difficulty": "somewhat_difficult"
+    },
+    {
+      "response_id": "gad7_3d9a8079abd0",
+      "instrument": "GAD-7",
+      "administration_week": 3,
+      "completed_at": "2026-08-03T20:32:00-04:00",
+      "items": [
+        {
+          "item": 1,
+          "text": "Feeling nervous, anxious, or on edge",
+          "score": 2
+        },
+        {
+          "item": 2,
+          "text": "Not being able to stop or control worrying",
+          "score": 2
+        },
+        {
+          "item": 3,
+          "text": "Worrying too much about different things",
+          "score": 2
+        },
+        {
+          "item": 4,
+          "text": "Trouble relaxing",
+          "score": 2
+        },
+        {
+          "item": 5,
+          "text": "Being so restless that it is hard to sit still",
+          "score": 2
+        },
+        {
+          "item": 6,
+          "text": "Becoming easily annoyed or irritable",
+          "score": 2
+        },
+        {
+          "item": 7,
+          "text": "Feeling afraid, as if something awful might happen",
+          "score": 2
+        }
+      ],
+      "total_score": 14,
+      "severity_band": "moderate",
+      "functional_difficulty": "somewhat_difficult"
+    },
+    {
+      "response_id": "gad7_b4d19ec12955",
+      "instrument": "GAD-7",
+      "administration_week": 4,
+      "completed_at": "2026-08-10T20:32:00-04:00",
+      "items": [
+        {
+          "item": 1,
+          "text": "Feeling nervous, anxious, or on edge",
+          "score": 2
+        },
+        {
+          "item": 2,
+          "text": "Not being able to stop or control worrying",
+          "score": 2
+        },
+        {
+          "item": 3,
+          "text": "Worrying too much about different things",
+          "score": 2
+        },
+        {
+          "item": 4,
+          "text": "Trouble relaxing",
+          "score": 2
+        },
+        {
+          "item": 5,
+          "text": "Being so restless that it is hard to sit still",
+          "score": 2
+        },
+        {
+          "item": 6,
+          "text": "Becoming easily annoyed or irritable",
+          "score": 2
+        },
+        {
+          "item": 7,
+          "text": "Feeling afraid, as if something awful might happen",
+          "score": 1
+        }
+      ],
+      "total_score": 13,
+      "severity_band": "moderate",
+      "functional_difficulty": "somewhat_difficult"
+    },
+    {
+      "response_id": "gad7_fc2e6a591ce3",
+      "instrument": "GAD-7",
+      "administration_week": 5,
+      "completed_at": "2026-08-17T20:19:00-04:00",
+      "items": [
+        {
+          "item": 1,
+          "text": "Feeling nervous, anxious, or on edge",
+          "score": 2
+        },
+        {
+          "item": 2,
+          "text": "Not being able to stop or control worrying",
+          "score": 2
+        },
+        {
+          "item": 3,
+          "text": "Worrying too much about different things",
+          "score": 2
+        },
+        {
+          "item": 4,
+          "text": "Trouble relaxing",
+          "score": 2
+        },
+        {
+          "item": 5,
+          "text": "Being so restless that it is hard to sit still",
+          "score": 2
+        },
+        {
+          "item": 6,
+          "text": "Becoming easily annoyed or irritable",
+          "score": 1
+        },
+        {
+          "item": 7,
+          "text": "Feeling afraid, as if something awful might happen",
+          "score": 1
+        }
+      ],
+      "total_score": 12,
+      "severity_band": "moderate",
+      "functional_difficulty": "somewhat_difficult"
+    },
+    {
+      "response_id": "gad7_4770a08716e6",
+      "instrument": "GAD-7",
+      "administration_week": 6,
+      "completed_at": "2026-08-24T20:08:00-04:00",
+      "items": [
+        {
+          "item": 1,
+          "text": "Feeling nervous, anxious, or on edge",
+          "score": 2
+        },
+        {
+          "item": 2,
+          "text": "Not being able to stop or control worrying",
+          "score": 2
+        },
+        {
+          "item": 3,
+          "text": "Worrying too much about different things",
+          "score": 2
+        },
+        {
+          "item": 4,
+          "text": "Trouble relaxing",
+          "score": 2
+        },
+        {
+          "item": 5,
+          "text": "Being so restless that it is hard to sit still",
+          "score": 2
+        },
+        {
+          "item": 6,
+          "text": "Becoming easily annoyed or irritable",
+          "score": 1
+        },
+        {
+          "item": 7,
+          "text": "Feeling afraid, as if something awful might happen",
+          "score": 1
+        }
+      ],
+      "total_score": 12,
+      "severity_band": "moderate",
+      "functional_difficulty": "somewhat_difficult"
+    },
+    {
+      "response_id": "gad7_86e3e7260b0f",
+      "instrument": "GAD-7",
+      "administration_week": 7,
+      "completed_at": "2026-08-31T20:50:00-04:00",
+      "items": [
+        {
+          "item": 1,
+          "text": "Feeling nervous, anxious, or on edge",
+          "score": 3
+        },
+        {
+          "item": 2,
+          "text": "Not being able to stop or control worrying",
+          "score": 2
+        },
+        {
+          "item": 3,
+          "text": "Worrying too much about different things",
+          "score": 2
+        },
+        {
+          "item": 4,
+          "text": "Trouble relaxing",
+          "score": 2
+        },
+        {
+          "item": 5,
+          "text": "Being so restless that it is hard to sit still",
+          "score": 2
+        },
+        {
+          "item": 6,
+          "text": "Becoming easily annoyed or irritable",
+          "score": 2
+        },
+        {
+          "item": 7,
+          "text": "Feeling afraid, as if something awful might happen",
+          "score": 2
+        }
+      ],
+      "total_score": 15,
+      "severity_band": "severe",
+      "functional_difficulty": "very_difficult"
+    },
+    {
+      "response_id": "gad7_83a4e6293080",
+      "instrument": "GAD-7",
+      "administration_week": 8,
+      "completed_at": "2026-09-07T20:35:00-04:00",
+      "items": [
+        {
+          "item": 1,
+          "text": "Feeling nervous, anxious, or on edge",
+          "score": 2
+        },
+        {
+          "item": 2,
+          "text": "Not being able to stop or control worrying",
+          "score": 2
+        },
+        {
+          "item": 3,
+          "text": "Worrying too much about different things",
+          "score": 2
+        },
+        {
+          "item": 4,
+          "text": "Trouble relaxing",
+          "score": 2
+        },
+        {
+          "item": 5,
+          "text": "Being so restless that it is hard to sit still",
+          "score": 2
+        },
+        {
+          "item": 6,
+          "text": "Becoming easily annoyed or irritable",
+          "score": 2
+        },
+        {
+          "item": 7,
+          "text": "Feeling afraid, as if something awful might happen",
+          "score": 2
+        }
+      ],
+      "total_score": 14,
+      "severity_band": "moderate",
+      "functional_difficulty": "somewhat_difficult"
+    },
+    {
+      "response_id": "gad7_58f92deafd4b",
+      "instrument": "GAD-7",
+      "administration_week": 9,
+      "completed_at": "2026-09-14T20:08:00-04:00",
+      "items": [
+        {
+          "item": 1,
+          "text": "Feeling nervous, anxious, or on edge",
+          "score": 2
+        },
+        {
+          "item": 2,
+          "text": "Not being able to stop or control worrying",
+          "score": 2
+        },
+        {
+          "item": 3,
+          "text": "Worrying too much about different things",
+          "score": 2
+        },
+        {
+          "item": 4,
+          "text": "Trouble relaxing",
+          "score": 2
+        },
+        {
+          "item": 5,
+          "text": "Being so restless that it is hard to sit still",
+          "score": 2
+        },
+        {
+          "item": 6,
+          "text": "Becoming easily annoyed or irritable",
+          "score": 2
+        },
+        {
+          "item": 7,
+          "text": "Feeling afraid, as if something awful might happen",
+          "score": 2
+        }
+      ],
+      "total_score": 14,
+      "severity_band": "moderate",
+      "functional_difficulty": "somewhat_difficult"
+    },
+    {
+      "response_id": "gad7_4363e5d900ed",
+      "instrument": "GAD-7",
+      "administration_week": 10,
+      "completed_at": "2026-09-21T20:28:00-04:00",
+      "items": [
+        {
+          "item": 1,
+          "text": "Feeling nervous, anxious, or on edge",
+          "score": 2
+        },
+        {
+          "item": 2,
+          "text": "Not being able to stop or control worrying",
+          "score": 2
+        },
+        {
+          "item": 3,
+          "text": "Worrying too much about different things",
+          "score": 2
+        },
+        {
+          "item": 4,
+          "text": "Trouble relaxing",
+          "score": 2
+        },
+        {
+          "item": 5,
+          "text": "Being so restless that it is hard to sit still",
+          "score": 2
+        },
+        {
+          "item": 6,
+          "text": "Becoming easily annoyed or irritable",
+          "score": 1
+        },
+        {
+          "item": 7,
+          "text": "Feeling afraid, as if something awful might happen",
+          "score": 1
+        }
+      ],
+      "total_score": 12,
+      "severity_band": "moderate",
+      "functional_difficulty": "somewhat_difficult"
+    },
+    {
+      "response_id": "gad7_c6b789ef8136",
+      "instrument": "GAD-7",
+      "administration_week": 11,
+      "completed_at": "2026-09-28T20:05:00-04:00",
+      "items": [
+        {
+          "item": 1,
+          "text": "Feeling nervous, anxious, or on edge",
+          "score": 2
+        },
+        {
+          "item": 2,
+          "text": "Not being able to stop or control worrying",
+          "score": 2
+        },
+        {
+          "item": 3,
+          "text": "Worrying too much about different things",
+          "score": 2
+        },
+        {
+          "item": 4,
+          "text": "Trouble relaxing",
+          "score": 2
+        },
+        {
+          "item": 5,
+          "text": "Being so restless that it is hard to sit still",
+          "score": 1
+        },
+        {
+          "item": 6,
+          "text": "Becoming easily annoyed or irritable",
+          "score": 1
+        },
+        {
+          "item": 7,
+          "text": "Feeling afraid, as if something awful might happen",
+          "score": 1
+        }
+      ],
+      "total_score": 11,
+      "severity_band": "moderate",
+      "functional_difficulty": "somewhat_difficult"
+    }
+  ],
+  "mood_checkins": [
+    {
+      "checkin_id": "mood_f527b5c295e8",
+      "logged_at": "2026-07-13T08:42:00-04:00",
+      "mood": 5,
+      "anxiety": 8,
+      "energy": 3,
+      "scale": "1-10 (10 = best for mood/energy; 10 = worst for anxiety)",
+      "emotion_tags": [
+        "tense",
+        "wistful"
+      ],
+      "note": null
+    },
+    {
+      "checkin_id": "mood_0b35b1de250e",
+      "logged_at": "2026-07-15T21:46:00-04:00",
+      "mood": 4,
+      "anxiety": 7,
+      "energy": 3,
+      "scale": "1-10 (10 = best for mood/energy; 10 = worst for anxiety)",
+      "emotion_tags": [
+        "drained",
+        "dread",
+        "overwhelmed"
+      ],
+      "note": null
+    },
+    {
+      "checkin_id": "mood_221265400ab7",
+      "logged_at": "2026-07-16T21:06:00-04:00",
+      "mood": 3,
+      "anxiety": 8,
+      "energy": 4,
+      "scale": "1-10 (10 = best for mood/energy; 10 = worst for anxiety)",
+      "emotion_tags": [
+        "ashamed"
+      ],
+      "note": null
+    },
+    {
+      "checkin_id": "mood_74fa941200d9",
+      "logged_at": "2026-07-17T08:47:00-04:00",
+      "mood": 4,
+      "anxiety": 8,
+      "energy": 4,
+      "scale": "1-10 (10 = best for mood/energy; 10 = worst for anxiety)",
+      "emotion_tags": [
+        "ashamed"
+      ],
+      "note": null
+    },
+    {
+      "checkin_id": "mood_bd65680c3b11",
+      "logged_at": "2026-07-20T21:31:00-04:00",
+      "mood": 4,
+      "anxiety": 8,
+      "energy": 3,
+      "scale": "1-10 (10 = best for mood/energy; 10 = worst for anxiety)",
+      "emotion_tags": [
+        "ashamed",
+        "dread"
+      ],
+      "note": null
+    },
+    {
+      "checkin_id": "mood_13d5316f32c3",
+      "logged_at": "2026-07-21T08:21:00-04:00",
+      "mood": 5,
+      "anxiety": 9,
+      "energy": 5,
+      "scale": "1-10 (10 = best for mood/energy; 10 = worst for anxiety)",
+      "emotion_tags": [
+        "restless",
+        "wistful"
+      ],
+      "note": null
+    },
+    {
+      "checkin_id": "mood_197a14e2ac08",
+      "logged_at": "2026-07-22T08:43:00-04:00",
+      "mood": 5,
+      "anxiety": 7,
+      "energy": 4,
+      "scale": "1-10 (10 = best for mood/energy; 10 = worst for anxiety)",
+      "emotion_tags": [
+        "hopeful"
+      ],
+      "note": null
+    },
+    {
+      "checkin_id": "mood_33020ccd8c90",
+      "logged_at": "2026-07-23T21:05:00-04:00",
+      "mood": 5,
+      "anxiety": 7,
+      "energy": 4,
+      "scale": "1-10 (10 = best for mood/energy; 10 = worst for anxiety)",
+      "emotion_tags": [
+        "hopeful",
+        "okay",
+        "restless"
+      ],
+      "note": null
+    },
+    {
+      "checkin_id": "mood_35f10300ee37",
+      "logged_at": "2026-07-25T08:37:00-04:00",
+      "mood": 4,
+      "anxiety": 8,
+      "energy": 5,
+      "scale": "1-10 (10 = best for mood/energy; 10 = worst for anxiety)",
+      "emotion_tags": [
+        "irritable",
+        "numb"
+      ],
+      "note": null
+    },
+    {
+      "checkin_id": "mood_4791c2e9823d",
+      "logged_at": "2026-07-26T08:45:00-04:00",
+      "mood": 5,
+      "anxiety": 7,
+      "energy": 4,
+      "scale": "1-10 (10 = best for mood/energy; 10 = worst for anxiety)",
+      "emotion_tags": [
+        "uncertain",
+        "wistful"
+      ],
+      "note": null
+    },
+    {
+      "checkin_id": "mood_580dc5ab6a8a",
+      "logged_at": "2026-07-27T21:20:00-04:00",
+      "mood": 4,
+      "anxiety": 7,
+      "energy": 4,
+      "scale": "1-10 (10 = best for mood/energy; 10 = worst for anxiety)",
+      "emotion_tags": [
+        "ashamed",
+        "drained",
+        "overwhelmed"
+      ],
+      "note": null
+    },
+    {
+      "checkin_id": "mood_b688b661321c",
+      "logged_at": "2026-07-28T08:57:00-04:00",
+      "mood": 5,
+      "anxiety": 7,
+      "energy": 5,
+      "scale": "1-10 (10 = best for mood/energy; 10 = worst for anxiety)",
+      "emotion_tags": [
+        "okay",
+        "restless"
+      ],
+      "note": null
+    },
+    {
+      "checkin_id": "mood_46709312c172",
+      "logged_at": "2026-07-29T08:17:00-04:00",
+      "mood": 5,
+      "anxiety": 7,
+      "energy": 3,
+      "scale": "1-10 (10 = best for mood/energy; 10 = worst for anxiety)",
+      "emotion_tags": [
+        "tense"
+      ],
+      "note": null
+    },
+    {
+      "checkin_id": "mood_3099f27150cb",
+      "logged_at": "2026-07-30T21:50:00-04:00",
+      "mood": 6,
+      "anxiety": 7,
+      "energy": 4,
+      "scale": "1-10 (10 = best for mood/energy; 10 = worst for anxiety)",
+      "emotion_tags": [
+        "tired",
+        "uncertain"
+      ],
+      "note": null
+    },
+    {
+      "checkin_id": "mood_736b96a0692f",
+      "logged_at": "2026-08-02T08:41:00-04:00",
+      "mood": 4,
+      "anxiety": 6,
+      "energy": 6,
+      "scale": "1-10 (10 = best for mood/energy; 10 = worst for anxiety)",
+      "emotion_tags": [
+        "hopeless"
+      ],
+      "note": null
+    },
+    {
+      "checkin_id": "mood_41785bc64c3a",
+      "logged_at": "2026-08-04T21:25:00-04:00",
+      "mood": 5,
+      "anxiety": 8,
+      "energy": 4,
+      "scale": "1-10 (10 = best for mood/energy; 10 = worst for anxiety)",
+      "emotion_tags": [
+        "hopeful",
+        "tired"
+      ],
+      "note": null
+    },
+    {
+      "checkin_id": "mood_7f405bc8cfd3",
+      "logged_at": "2026-08-05T08:28:00-04:00",
+      "mood": 5,
+      "anxiety": 8,
+      "energy": 5,
+      "scale": "1-10 (10 = best for mood/energy; 10 = worst for anxiety)",
+      "emotion_tags": [
+        "flat",
+        "hopeful"
+      ],
+      "note": null
+    },
+    {
+      "checkin_id": "mood_51bcd77a1751",
+      "logged_at": "2026-08-08T08:23:00-04:00",
+      "mood": 6,
+      "anxiety": 7,
+      "energy": 6,
+      "scale": "1-10 (10 = best for mood/energy; 10 = worst for anxiety)",
+      "emotion_tags": [
+        "uncertain"
+      ],
+      "note": null
+    },
+    {
+      "checkin_id": "mood_7f867d5f0fe3",
+      "logged_at": "2026-08-09T21:36:00-04:00",
+      "mood": 4,
+      "anxiety": 6,
+      "energy": 5,
+      "scale": "1-10 (10 = best for mood/energy; 10 = worst for anxiety)",
+      "emotion_tags": [
+        "ashamed",
+        "drained",
+        "overwhelmed"
+      ],
+      "note": null
+    },
+    {
+      "checkin_id": "mood_66567bc46272",
+      "logged_at": "2026-08-11T21:27:00-04:00",
+      "mood": 5,
+      "anxiety": 5,
+      "energy": 5,
+      "scale": "1-10 (10 = best for mood/energy; 10 = worst for anxiety)",
+      "emotion_tags": [
+        "flat",
+        "uncertain"
+      ],
+      "note": null
+    },
+    {
+      "checkin_id": "mood_ed9bf0b6ed44",
+      "logged_at": "2026-08-13T21:28:00-04:00",
+      "mood": 6,
+      "anxiety": 6,
+      "energy": 7,
+      "scale": "1-10 (10 = best for mood/energy; 10 = worst for anxiety)",
+      "emotion_tags": [
+        "hopeful",
+        "okay",
+        "restless"
+      ],
+      "note": null
+    },
+    {
+      "checkin_id": "mood_0a1fb43bc6e0",
+      "logged_at": "2026-08-14T08:50:00-04:00",
+      "mood": 6,
+      "anxiety": 7,
+      "energy": 6,
+      "scale": "1-10 (10 = best for mood/energy; 10 = worst for anxiety)",
+      "emotion_tags": [
+        "hopeful"
+      ],
+      "note": null
+    },
+    {
+      "checkin_id": "mood_1202952f1975",
+      "logged_at": "2026-08-15T21:33:00-04:00",
+      "mood": 6,
+      "anxiety": 6,
+      "energy": 5,
+      "scale": "1-10 (10 = best for mood/energy; 10 = worst for anxiety)",
+      "emotion_tags": [
+        "okay",
+        "tense"
+      ],
+      "note": null
+    },
+    {
+      "checkin_id": "mood_75efd233ff12",
+      "logged_at": "2026-08-17T21:20:00-04:00",
+      "mood": 4,
+      "anxiety": 6,
+      "energy": 7,
+      "scale": "1-10 (10 = best for mood/energy; 10 = worst for anxiety)",
+      "emotion_tags": [
+        "hopeless"
+      ],
+      "note": null
+    },
+    {
+      "checkin_id": "mood_aca99fd0e285",
+      "logged_at": "2026-08-18T21:05:00-04:00",
+      "mood": 7,
+      "anxiety": 5,
+      "energy": 5,
+      "scale": "1-10 (10 = best for mood/energy; 10 = worst for anxiety)",
+      "emotion_tags": [
+        "content",
+        "proud",
+        "relieved"
+      ],
+      "note": null
+    },
+    {
+      "checkin_id": "mood_6ba99d01b7e4",
+      "logged_at": "2026-08-19T21:43:00-04:00",
+      "mood": 6,
+      "anxiety": 5,
+      "energy": 4,
+      "scale": "1-10 (10 = best for mood/energy; 10 = worst for anxiety)",
+      "emotion_tags": [
+        "hopeful",
+        "restless"
+      ],
+      "note": null
+    },
+    {
+      "checkin_id": "mood_43d87a9738b0",
+      "logged_at": "2026-08-20T21:06:00-04:00",
+      "mood": 6,
+      "anxiety": 6,
+      "energy": 6,
+      "scale": "1-10 (10 = best for mood/energy; 10 = worst for anxiety)",
+      "emotion_tags": [
+        "flat",
+        "tired",
+        "uncertain"
+      ],
+      "note": null
+    },
+    {
+      "checkin_id": "mood_3683d4bc0dea",
+      "logged_at": "2026-08-22T08:38:00-04:00",
+      "mood": 6,
+      "anxiety": 6,
+      "energy": 6,
+      "scale": "1-10 (10 = best for mood/energy; 10 = worst for anxiety)",
+      "emotion_tags": [
+        "flat",
+        "restless",
+        "wistful"
+      ],
+      "note": null
+    },
+    {
+      "checkin_id": "mood_30d0a2b85449",
+      "logged_at": "2026-08-23T08:41:00-04:00",
+      "mood": 6,
+      "anxiety": 6,
+      "energy": 4,
+      "scale": "1-10 (10 = best for mood/energy; 10 = worst for anxiety)",
+      "emotion_tags": [
+        "flat",
+        "restless"
+      ],
+      "note": null
+    },
+    {
+      "checkin_id": "mood_1407ab3300bc",
+      "logged_at": "2026-08-26T21:05:00-04:00",
+      "mood": 6,
+      "anxiety": 6,
+      "energy": 4,
+      "scale": "1-10 (10 = best for mood/energy; 10 = worst for anxiety)",
+      "emotion_tags": [
+        "tense",
+        "tired"
+      ],
+      "note": null
+    },
+    {
+      "checkin_id": "mood_0c9c20ef1677",
+      "logged_at": "2026-08-27T21:12:00-04:00",
+      "mood": 6,
+      "anxiety": 7,
+      "energy": 5,
+      "scale": "1-10 (10 = best for mood/energy; 10 = worst for anxiety)",
+      "emotion_tags": [
+        "okay",
+        "wistful"
+      ],
+      "note": null
+    },
+    {
+      "checkin_id": "mood_cfd3bb743f7d",
+      "logged_at": "2026-08-28T21:02:00-04:00",
+      "mood": 5,
+      "anxiety": 8,
+      "energy": 4,
+      "scale": "1-10 (10 = best for mood/energy; 10 = worst for anxiety)",
+      "emotion_tags": [
+        "hopeful",
+        "restless"
+      ],
+      "note": null
+    },
+    {
+      "checkin_id": "mood_f52b254955c0",
+      "logged_at": "2026-08-29T08:16:00-04:00",
+      "mood": 4,
+      "anxiety": 8,
+      "energy": 5,
+      "scale": "1-10 (10 = best for mood/energy; 10 = worst for anxiety)",
+      "emotion_tags": [
+        "dread"
+      ],
+      "note": null
+    },
+    {
+      "checkin_id": "mood_79a5fd621b75",
+      "logged_at": "2026-09-02T21:49:00-04:00",
+      "mood": 5,
+      "anxiety": 8,
+      "energy": 3,
+      "scale": "1-10 (10 = best for mood/energy; 10 = worst for anxiety)",
+      "emotion_tags": [
+        "restless"
+      ],
+      "note": null
+    },
+    {
+      "checkin_id": "mood_d2a0169d4da6",
+      "logged_at": "2026-09-03T08:38:00-04:00",
+      "mood": 5,
+      "anxiety": 9,
+      "energy": 2,
+      "scale": "1-10 (10 = best for mood/energy; 10 = worst for anxiety)",
+      "emotion_tags": [
+        "okay",
+        "restless"
+      ],
+      "note": null
+    },
+    {
+      "checkin_id": "mood_3f4f8b9d28f1",
+      "logged_at": "2026-09-04T21:04:00-04:00",
+      "mood": 5,
+      "anxiety": 8,
+      "energy": 4,
+      "scale": "1-10 (10 = best for mood/energy; 10 = worst for anxiety)",
+      "emotion_tags": [
+        "tired"
+      ],
+      "note": null
+    },
+    {
+      "checkin_id": "mood_18af266c3555",
+      "logged_at": "2026-09-06T21:31:00-04:00",
+      "mood": 4,
+      "anxiety": 7,
+      "energy": 4,
+      "scale": "1-10 (10 = best for mood/energy; 10 = worst for anxiety)",
+      "emotion_tags": [
+        "lonely"
+      ],
+      "note": "Launch shipped. I did not break anything."
+    },
+    {
+      "checkin_id": "mood_47868e4a4b35",
+      "logged_at": "2026-09-09T21:23:00-04:00",
+      "mood": 5,
+      "anxiety": 8,
+      "energy": 5,
+      "scale": "1-10 (10 = best for mood/energy; 10 = worst for anxiety)",
+      "emotion_tags": [
+        "flat",
+        "okay"
+      ],
+      "note": null
+    },
+    {
+      "checkin_id": "mood_fe111ebc406c",
+      "logged_at": "2026-09-10T08:32:00-04:00",
+      "mood": 5,
+      "anxiety": 8,
+      "energy": 5,
+      "scale": "1-10 (10 = best for mood/energy; 10 = worst for anxiety)",
+      "emotion_tags": [
+        "tired",
+        "uncertain"
+      ],
+      "note": null
+    },
+    {
+      "checkin_id": "mood_3b2a421ad1b0",
+      "logged_at": "2026-09-11T21:58:00-04:00",
+      "mood": 6,
+      "anxiety": 7,
+      "energy": 4,
+      "scale": "1-10 (10 = best for mood/energy; 10 = worst for anxiety)",
+      "emotion_tags": [
+        "hopeful",
+        "okay",
+        "restless"
+      ],
+      "note": null
+    },
+    {
+      "checkin_id": "mood_72f920262d81",
+      "logged_at": "2026-09-12T21:49:00-04:00",
+      "mood": 6,
+      "anxiety": 7,
+      "energy": 6,
+      "scale": "1-10 (10 = best for mood/energy; 10 = worst for anxiety)",
+      "emotion_tags": [
+        "flat",
+        "uncertain"
+      ],
+      "note": null
+    },
+    {
+      "checkin_id": "mood_0b4e7f7c2430",
+      "logged_at": "2026-09-13T08:16:00-04:00",
+      "mood": 6,
+      "anxiety": 7,
+      "energy": 5,
+      "scale": "1-10 (10 = best for mood/energy; 10 = worst for anxiety)",
+      "emotion_tags": [
+        "restless",
+        "tired"
+      ],
+      "note": null
+    },
+    {
+      "checkin_id": "mood_080e31b03412",
+      "logged_at": "2026-09-14T21:35:00-04:00",
+      "mood": 5,
+      "anxiety": 5,
+      "energy": 6,
+      "scale": "1-10 (10 = best for mood/energy; 10 = worst for anxiety)",
+      "emotion_tags": [
+        "flat",
+        "tense",
+        "wistful"
+      ],
+      "note": null
+    },
+    {
+      "checkin_id": "mood_456b312cb206",
+      "logged_at": "2026-09-15T21:18:00-04:00",
+      "mood": 4,
+      "anxiety": 6,
+      "energy": 6,
+      "scale": "1-10 (10 = best for mood/energy; 10 = worst for anxiety)",
+      "emotion_tags": [
+        "dread",
+        "numb"
+      ],
+      "note": null
+    },
+    {
+      "checkin_id": "mood_ba60491e6406",
+      "logged_at": "2026-09-16T21:13:00-04:00",
+      "mood": 5,
+      "anxiety": 7,
+      "energy": 5,
+      "scale": "1-10 (10 = best for mood/energy; 10 = worst for anxiety)",
+      "emotion_tags": [
+        "okay",
+        "restless",
+        "uncertain"
+      ],
+      "note": null
+    },
+    {
+      "checkin_id": "mood_75fdf37c5d5e",
+      "logged_at": "2026-09-18T08:08:00-04:00",
+      "mood": 4,
+      "anxiety": 7,
+      "energy": 5,
+      "scale": "1-10 (10 = best for mood/energy; 10 = worst for anxiety)",
+      "emotion_tags": [
+        "irritable"
+      ],
+      "note": null
+    },
+    {
+      "checkin_id": "mood_856aab1d296c",
+      "logged_at": "2026-09-19T08:59:00-04:00",
+      "mood": 5,
+      "anxiety": 6,
+      "energy": 5,
+      "scale": "1-10 (10 = best for mood/energy; 10 = worst for anxiety)",
+      "emotion_tags": [
+        "flat",
+        "uncertain"
+      ],
+      "note": null
+    },
+    {
+      "checkin_id": "mood_f9bd6bbb0b22",
+      "logged_at": "2026-09-20T21:20:00-04:00",
+      "mood": 6,
+      "anxiety": 5,
+      "energy": 6,
+      "scale": "1-10 (10 = best for mood/energy; 10 = worst for anxiety)",
+      "emotion_tags": [
+        "flat",
+        "wistful"
+      ],
+      "note": null
+    },
+    {
+      "checkin_id": "mood_3234752bd8aa",
+      "logged_at": "2026-09-21T21:11:00-04:00",
+      "mood": 6,
+      "anxiety": 6,
+      "energy": 6,
+      "scale": "1-10 (10 = best for mood/energy; 10 = worst for anxiety)",
+      "emotion_tags": [
+        "tired",
+        "wistful"
+      ],
+      "note": "Forgot my meds twice this week, noticed by Wednesday."
+    },
+    {
+      "checkin_id": "mood_f87f4a4d3f3f",
+      "logged_at": "2026-09-22T08:02:00-04:00",
+      "mood": 5,
+      "anxiety": 8,
+      "energy": 6,
+      "scale": "1-10 (10 = best for mood/energy; 10 = worst for anxiety)",
+      "emotion_tags": [
+        "okay",
+        "uncertain"
+      ],
+      "note": null
+    },
+    {
+      "checkin_id": "mood_63a366aa6cfd",
+      "logged_at": "2026-09-25T21:28:00-04:00",
+      "mood": 6,
+      "anxiety": 5,
+      "energy": 5,
+      "scale": "1-10 (10 = best for mood/energy; 10 = worst for anxiety)",
+      "emotion_tags": [
+        "okay",
+        "uncertain"
+      ],
+      "note": null
+    },
+    {
+      "checkin_id": "mood_d1a80888c7ac",
+      "logged_at": "2026-09-26T21:53:00-04:00",
+      "mood": 7,
+      "anxiety": 6,
+      "energy": 6,
+      "scale": "1-10 (10 = best for mood/energy; 10 = worst for anxiety)",
+      "emotion_tags": [
+        "calm",
+        "curious",
+        "energized"
+      ],
+      "note": null
+    },
+    {
+      "checkin_id": "mood_0a6fb154a837",
+      "logged_at": "2026-09-27T08:40:00-04:00",
+      "mood": 6,
+      "anxiety": 6,
+      "energy": 6,
+      "scale": "1-10 (10 = best for mood/energy; 10 = worst for anxiety)",
+      "emotion_tags": [
+        "hopeful"
+      ],
+      "note": null
+    },
+    {
+      "checkin_id": "mood_60bb9aeee516",
+      "logged_at": "2026-09-28T08:01:00-04:00",
+      "mood": 7,
+      "anxiety": 6,
+      "energy": 5,
+      "scale": "1-10 (10 = best for mood/energy; 10 = worst for anxiety)",
+      "emotion_tags": [
+        "content"
+      ],
+      "note": null
+    },
+    {
+      "checkin_id": "mood_c194ff539c46",
+      "logged_at": "2026-10-01T21:10:00-04:00",
+      "mood": 7,
+      "anxiety": 5,
+      "energy": 7,
+      "scale": "1-10 (10 = best for mood/energy; 10 = worst for anxiety)",
+      "emotion_tags": [
+        "content",
+        "energized"
+      ],
+      "note": null
+    },
+    {
+      "checkin_id": "mood_3554ada87ae8",
+      "logged_at": "2026-10-02T21:39:00-04:00",
+      "mood": 6,
+      "anxiety": 4,
+      "energy": 5,
+      "scale": "1-10 (10 = best for mood/energy; 10 = worst for anxiety)",
+      "emotion_tags": [
+        "hopeful",
+        "uncertain",
+        "wistful"
+      ],
+      "note": null
+    },
+    {
+      "checkin_id": "mood_43abd7adc8ed",
+      "logged_at": "2026-10-03T08:49:00-04:00",
+      "mood": 7,
+      "anxiety": 5,
+      "energy": 6,
+      "scale": "1-10 (10 = best for mood/energy; 10 = worst for anxiety)",
+      "emotion_tags": [
+        "connected",
+        "energized"
+      ],
+      "note": null
+    },
+    {
+      "checkin_id": "mood_bce8879664ed",
+      "logged_at": "2026-10-04T21:16:00-04:00",
+      "mood": 7,
+      "anxiety": 5,
+      "energy": 5,
+      "scale": "1-10 (10 = best for mood/energy; 10 = worst for anxiety)",
+      "emotion_tags": [
+        "calm",
+        "grateful",
+        "proud"
+      ],
+      "note": null
+    }
+  ],
+  "journal_entries": [
+    {
+      "entry_id": "jrn_93cde6095e73",
+      "created_at": "2026-07-15T22:09:00-04:00",
+      "text": "First entry. Dr. Ortiz wants me to write when the worry spiral starts. It started at 6am about a meeting that isn't until Thursday.",
+      "word_count": 24,
+      "ai_summary": "Anticipatory worry days ahead of a work event.",
+      "ai_themes": [
+        "rumination",
+        "work",
+        "anxiety"
+      ],
+      "sentiment_score": -0.45,
+      "sentiment_scale": "-1 (very negative) to +1 (very positive)",
+      "shared_with_clinician": true
+    },
+    {
+      "entry_id": "jrn_14d5aea4c3bf",
+      "created_at": "2026-07-22T22:28:00-04:00",
+      "text": "I rewrote the same email four times. I know it's the ADHD plus the anxiety feeding each other but knowing doesn't stop it.",
+      "word_count": 23,
+      "ai_summary": "Perfectionism loop around a work email; insight without relief.",
+      "ai_themes": [
+        "work",
+        "perfectionism",
+        "adhd"
+      ],
+      "sentiment_score": -0.4,
+      "sentiment_scale": "-1 (very negative) to +1 (very positive)",
+      "shared_with_clinician": true
+    },
+    {
+      "entry_id": "jrn_be5c39319d89",
+      "created_at": "2026-07-29T22:03:00-04:00",
+      "text": "Tried the 10-minute worry window. Weird to schedule worrying but I actually stopped at the timer.",
+      "word_count": 16,
+      "ai_summary": "First use of scheduled worry time with success.",
+      "ai_themes": [
+        "coping_skill",
+        "therapy"
+      ],
+      "sentiment_score": 0.2,
+      "sentiment_scale": "-1 (very negative) to +1 (very positive)",
+      "shared_with_clinician": true
+    },
+    {
+      "entry_id": "jrn_40ef5ec2841f",
+      "created_at": "2026-08-05T22:19:00-04:00",
+      "text": "Ran before work three times. Mornings are less jittery when I do. The med timer on my watch is helping.",
+      "word_count": 20,
+      "ai_summary": "Exercise and medication routine reducing morning anxiety.",
+      "ai_themes": [
+        "exercise",
+        "routine",
+        "medication"
+      ],
+      "sentiment_score": 0.4,
+      "sentiment_scale": "-1 (very negative) to +1 (very positive)",
+      "shared_with_clinician": true
+    },
+    {
+      "entry_id": "jrn_decbc10bfbeb",
+      "created_at": "2026-08-12T22:37:00-04:00",
+      "text": "Best week in a while. Finished the planning doc a day early. Nobody died.",
+      "word_count": 14,
+      "ai_summary": "Improved task completion; self-deprecating humor.",
+      "ai_themes": [
+        "work",
+        "self_efficacy"
+      ],
+      "sentiment_score": 0.55,
+      "sentiment_scale": "-1 (very negative) to +1 (very positive)",
+      "shared_with_clinician": true
+    },
+    {
+      "entry_id": "jrn_5009c0a9e54e",
+      "created_at": "2026-08-19T22:46:00-04:00",
+      "text": "Ran into my old manager at the coffee place and didn't freeze. Said something normal. Progress.",
+      "word_count": 16,
+      "ai_summary": "Social exposure handled well.",
+      "ai_themes": [
+        "social_connection",
+        "exposure"
+      ],
+      "sentiment_score": 0.5,
+      "sentiment_scale": "-1 (very negative) to +1 (very positive)",
+      "shared_with_clinician": true
+    },
+    {
+      "entry_id": "jrn_38bd3c6908a6",
+      "created_at": "2026-08-26T22:09:00-04:00",
+      "text": "Launch got pulled in by two weeks. I am back to 4am wakeups and chest tightness. Skipped the run all week.",
+      "word_count": 21,
+      "ai_summary": "Acute work stressor; sleep disruption and lapsed exercise.",
+      "ai_themes": [
+        "work",
+        "acute_stressor",
+        "sleep",
+        "practice_lapse"
+      ],
+      "sentiment_score": -0.7,
+      "sentiment_scale": "-1 (very negative) to +1 (very positive)",
+      "shared_with_clinician": true
+    },
+    {
+      "entry_id": "jrn_6ea6d05ea028",
+      "created_at": "2026-09-02T22:26:00-04:00",
+      "text": "Missed session because of a release call. Took a double dose of coffee instead of eating. Not great.",
+      "word_count": 18,
+      "ai_summary": "Missed therapy; poor self-care during crunch.",
+      "ai_themes": [
+        "work",
+        "practice_lapse",
+        "self_care"
+      ],
+      "sentiment_score": -0.6,
+      "sentiment_scale": "-1 (very negative) to +1 (very positive)",
+      "shared_with_clinician": true
+    },
+    {
+      "entry_id": "jrn_0c3b1266e542",
+      "created_at": "2026-09-09T22:08:00-04:00",
+      "text": "Shipped. Slept 9 hours. Then spent the whole weekend convinced something would break. Nothing did.",
+      "word_count": 15,
+      "ai_summary": "Post-launch relief with lingering catastrophic worry.",
+      "ai_themes": [
+        "work",
+        "catastrophizing",
+        "relief"
+      ],
+      "sentiment_score": -0.1,
+      "sentiment_scale": "-1 (very negative) to +1 (very positive)",
+      "shared_with_clinician": true
+    },
+    {
+      "entry_id": "jrn_a7321d319cce",
+      "created_at": "2026-09-16T22:02:00-04:00",
+      "text": "Back to running. Did the thought record on the 'they'll find out I'm a fraud' thought. Evidence against was long.",
+      "word_count": 20,
+      "ai_summary": "Resumed exercise; cognitive restructuring applied to imposter thought.",
+      "ai_themes": [
+        "exercise",
+        "cognitive_restructuring",
+        "self_criticism"
+      ],
+      "sentiment_score": 0.35,
+      "sentiment_scale": "-1 (very negative) to +1 (very positive)",
+      "shared_with_clinician": true
+    },
+    {
+      "entry_id": "jrn_912eda4100ab",
+      "created_at": "2026-09-23T22:22:00-04:00",
+      "text": "Noticed I forgot meds two days and the fog was obvious. Set a second alarm. Mood fine though.",
+      "word_count": 18,
+      "ai_summary": "Medication adherence slip caught quickly.",
+      "ai_themes": [
+        "medication",
+        "adhd",
+        "routine"
+      ],
+      "sentiment_score": 0.3,
+      "sentiment_scale": "-1 (very negative) to +1 (very positive)",
+      "shared_with_clinician": true
+    },
+    {
+      "entry_id": "jrn_5b6e48b085e9",
+      "created_at": "2026-09-30T22:34:00-04:00",
+      "text": "Presented to leadership. Heart rate on the watch was 110 but I got through it and it was fine. Dr. Ortiz says that's the whole point.",
+      "word_count": 26,
+      "ai_summary": "Exposure to feared presentation completed successfully.",
+      "ai_themes": [
+        "exposure",
+        "work",
+        "self_efficacy"
+      ],
+      "sentiment_score": 0.62,
+      "sentiment_scale": "-1 (very negative) to +1 (very positive)",
+      "shared_with_clinician": true
+    }
+  ],
+  "voice_notes": [
+    {
+      "voice_note_id": "vn_4d187e3e9566",
+      "recorded_at": "2026-07-18T18:08:00-04:00",
+      "duration_sec": 16,
+      "audio_uri": "s3://carelinq-demo/audio/pt_b2c4e8d1/vn_w00.m4a",
+      "transcript": "Okay. Uh, it's Saturday and I've been thinking about Monday since I woke up. That's the thing I'm supposed to notice. Noticed.",
+      "transcription_confidence": 0.91,
+      "ai_summary": "Anticipatory anxiety about the work week.",
+      "sentiment_score": -0.35,
+      "shared_with_clinician": true
+    },
+    {
+      "voice_note_id": "vn_227ee409289b",
+      "recorded_at": "2026-08-01T08:59:00-04:00",
+      "duration_sec": 11,
+      "audio_uri": "s3://carelinq-demo/audio/pt_b2c4e8d1/vn_w02.m4a",
+      "transcript": "Ran this morning. Legs hurt, brain quiet for like twenty minutes. Worth it.",
+      "transcription_confidence": 0.94,
+      "ai_summary": "Exercise producing short mental quiet.",
+      "sentiment_score": 0.4,
+      "shared_with_clinician": true
+    },
+    {
+      "voice_note_id": "vn_a361bca2104c",
+      "recorded_at": "2026-08-15T08:55:00-04:00",
+      "duration_sec": 14,
+      "audio_uri": "s3://carelinq-demo/audio/pt_b2c4e8d1/vn_w04.m4a",
+      "transcript": "Had a good week. I keep waiting for the catch. That's probably a thing to bring up.",
+      "transcription_confidence": 0.92,
+      "ai_summary": "Positive week with anticipatory doubt.",
+      "sentiment_score": 0.3,
+      "shared_with_clinician": true
+    },
+    {
+      "voice_note_id": "vn_0e5e928c02f1",
+      "recorded_at": "2026-08-29T18:52:00-04:00",
+      "duration_sec": 20,
+      "audio_uri": "s3://carelinq-demo/audio/pt_b2c4e8d1/vn_w06.m4a",
+      "transcript": "It's 4am again. Launch stuff. I'm not going to get back to sleep so I'm just saying it out loud.",
+      "transcription_confidence": 0.96,
+      "ai_summary": "Early-morning waking under work stress.",
+      "sentiment_score": -0.65,
+      "shared_with_clinician": true
+    },
+    {
+      "voice_note_id": "vn_7199e0b39416",
+      "recorded_at": "2026-09-12T18:59:00-04:00",
+      "duration_sec": 21,
+      "audio_uri": "s3://carelinq-demo/audio/pt_b2c4e8d1/vn_w08.m4a",
+      "transcript": "Launch is done. I feel like I ran a marathon and I'm angry at myself for how much it took out of me.",
+      "transcription_confidence": 0.95,
+      "ai_summary": "Post-launch exhaustion with self-directed frustration.",
+      "sentiment_score": -0.2,
+      "shared_with_clinician": true
+    },
+    {
+      "voice_note_id": "vn_001a2fd3e74c",
+      "recorded_at": "2026-09-26T08:03:00-04:00",
+      "duration_sec": 17,
+      "audio_uri": "s3://carelinq-demo/audio/pt_b2c4e8d1/vn_w10.m4a",
+      "transcript": "Presentation went fine. Hands shook but nobody noticed, or they didn't care. Either way.",
+      "transcription_confidence": 0.88,
+      "ai_summary": "Successful exposure; tolerated visible anxiety.",
+      "sentiment_score": 0.55,
+      "shared_with_clinician": true
+    }
+  ],
+  "practices": {
+    "definitions": [
+      {
+        "practice_id": "prc_run",
+        "name": "Morning run (25 min)",
+        "track": "make_it_happen",
+        "target_per_week": 3,
+        "created_at": "2026-07-21T18:30:00-04:00"
+      },
+      {
+        "practice_id": "prc_meds",
+        "name": "Take escitalopram + methylphenidate",
+        "track": "make_it_happen",
+        "target_per_week": 7,
+        "created_at": "2026-07-21T18:31:00-04:00"
+      },
+      {
+        "practice_id": "prc_worry",
+        "name": "10-min worry window",
+        "track": "make_it_happen",
+        "target_per_week": 5,
+        "created_at": "2026-07-21T18:32:00-04:00"
+      },
+      {
+        "practice_id": "prc_reach",
+        "name": "Text or call a friend",
+        "track": "make_it_happen",
+        "target_per_week": 2,
+        "created_at": "2026-07-21T18:33:00-04:00"
+      },
+      {
+        "practice_id": "prc_name",
+        "name": "Pause and name the feeling",
+        "track": "meet_the_moment",
+        "target_per_week": null,
+        "trigger": "When I notice a surge of stress",
+        "created_at": "2026-07-21T18:40:00-04:00"
+      }
+    ],
+    "daily_logs": [
+      {
+        "log_id": "plog_0ef1f01228c2",
+        "practice_id": "prc_run",
+        "date": "2026-07-21",
+        "completed": false
+      },
+      {
+        "log_id": "plog_8d0949799cd5",
+        "practice_id": "prc_meds",
+        "date": "2026-07-21",
+        "completed": true
+      },
+      {
+        "log_id": "plog_3313a10169c6",
+        "practice_id": "prc_worry",
+        "date": "2026-07-21",
+        "completed": false
+      },
+      {
+        "log_id": "plog_a43dede7a5c8",
+        "practice_id": "prc_reach",
+        "date": "2026-07-21",
+        "completed": false
+      },
+      {
+        "log_id": "plog_4f33b0ee8232",
+        "practice_id": "prc_run",
+        "date": "2026-07-22",
+        "completed": true
+      },
+      {
+        "log_id": "plog_e3ac99b2fe7a",
+        "practice_id": "prc_meds",
+        "date": "2026-07-22",
+        "completed": true
+      },
+      {
+        "log_id": "plog_01a01d4289d4",
+        "practice_id": "prc_worry",
+        "date": "2026-07-22",
+        "completed": true
+      },
+      {
+        "log_id": "plog_771ba4bae989",
+        "practice_id": "prc_reach",
+        "date": "2026-07-22",
+        "completed": true
+      },
+      {
+        "log_id": "plog_39d7c1402ce6",
+        "practice_id": "prc_run",
+        "date": "2026-07-23",
+        "completed": false
+      },
+      {
+        "log_id": "plog_09eff2b4a4de",
+        "practice_id": "prc_meds",
+        "date": "2026-07-23",
+        "completed": true
+      },
+      {
+        "log_id": "plog_b1f2ad8becd8",
+        "practice_id": "prc_worry",
+        "date": "2026-07-23",
+        "completed": false
+      },
+      {
+        "log_id": "plog_4417c5300d72",
+        "practice_id": "prc_reach",
+        "date": "2026-07-23",
+        "completed": false
+      },
+      {
+        "log_id": "plog_c9d7dc2aaf8c",
+        "practice_id": "prc_run",
+        "date": "2026-07-24",
+        "completed": false
+      },
+      {
+        "log_id": "plog_a45a52094bad",
+        "practice_id": "prc_meds",
+        "date": "2026-07-24",
+        "completed": false
+      },
+      {
+        "log_id": "plog_e14aa46015de",
+        "practice_id": "prc_worry",
+        "date": "2026-07-24",
+        "completed": false
+      },
+      {
+        "log_id": "plog_3c71a896e79a",
+        "practice_id": "prc_reach",
+        "date": "2026-07-24",
+        "completed": false
+      },
+      {
+        "log_id": "plog_bf03c64428c0",
+        "practice_id": "prc_run",
+        "date": "2026-07-25",
+        "completed": false
+      },
+      {
+        "log_id": "plog_541c18d56382",
+        "practice_id": "prc_meds",
+        "date": "2026-07-25",
+        "completed": true
+      },
+      {
+        "log_id": "plog_a1754ba6da17",
+        "practice_id": "prc_worry",
+        "date": "2026-07-25",
+        "completed": false
+      },
+      {
+        "log_id": "plog_faa09f65d76d",
+        "practice_id": "prc_reach",
+        "date": "2026-07-25",
+        "completed": false
+      },
+      {
+        "log_id": "plog_b2971b7787d6",
+        "practice_id": "prc_run",
+        "date": "2026-07-26",
+        "completed": true
+      },
+      {
+        "log_id": "plog_b980ea1ef4a8",
+        "practice_id": "prc_meds",
+        "date": "2026-07-26",
+        "completed": true
+      },
+      {
+        "log_id": "plog_36436924ca09",
+        "practice_id": "prc_worry",
+        "date": "2026-07-26",
+        "completed": true
+      },
+      {
+        "log_id": "plog_e929840090b1",
+        "practice_id": "prc_reach",
+        "date": "2026-07-26",
+        "completed": true
+      },
+      {
+        "log_id": "plog_1b4f463f1ca5",
+        "practice_id": "prc_run",
+        "date": "2026-07-27",
+        "completed": false
+      },
+      {
+        "log_id": "plog_244fbafcfa37",
+        "practice_id": "prc_meds",
+        "date": "2026-07-27",
+        "completed": true
+      },
+      {
+        "log_id": "plog_b14fe2d6236e",
+        "practice_id": "prc_worry",
+        "date": "2026-07-27",
+        "completed": false
+      },
+      {
+        "log_id": "plog_bc9df599115d",
+        "practice_id": "prc_reach",
+        "date": "2026-07-27",
+        "completed": true
+      },
+      {
+        "log_id": "plog_5d082eeac303",
+        "practice_id": "prc_run",
+        "date": "2026-07-28",
+        "completed": true
+      },
+      {
+        "log_id": "plog_e42af0ad88ad",
+        "practice_id": "prc_meds",
+        "date": "2026-07-28",
+        "completed": true
+      },
+      {
+        "log_id": "plog_ea16b18fc17a",
+        "practice_id": "prc_worry",
+        "date": "2026-07-28",
+        "completed": false
+      },
+      {
+        "log_id": "plog_34aa4a203f1f",
+        "practice_id": "prc_reach",
+        "date": "2026-07-28",
+        "completed": false
+      },
+      {
+        "log_id": "plog_d903ff4df302",
+        "practice_id": "prc_run",
+        "date": "2026-07-29",
+        "completed": false
+      },
+      {
+        "log_id": "plog_d337264b1664",
+        "practice_id": "prc_meds",
+        "date": "2026-07-29",
+        "completed": true
+      },
+      {
+        "log_id": "plog_19918b8a7a24",
+        "practice_id": "prc_worry",
+        "date": "2026-07-29",
+        "completed": true
+      },
+      {
+        "log_id": "plog_347a7325a575",
+        "practice_id": "prc_reach",
+        "date": "2026-07-29",
+        "completed": false
+      },
+      {
+        "log_id": "plog_055ae98e42db",
+        "practice_id": "prc_run",
+        "date": "2026-07-30",
+        "completed": true
+      },
+      {
+        "log_id": "plog_b73c30c80c64",
+        "practice_id": "prc_meds",
+        "date": "2026-07-30",
+        "completed": true
+      },
+      {
+        "log_id": "plog_f6c8a64ac4ec",
+        "practice_id": "prc_worry",
+        "date": "2026-07-30",
+        "completed": false
+      },
+      {
+        "log_id": "plog_9e47539449a3",
+        "practice_id": "prc_reach",
+        "date": "2026-07-30",
+        "completed": false
+      },
+      {
+        "log_id": "plog_6fbb28f307ff",
+        "practice_id": "prc_run",
+        "date": "2026-07-31",
+        "completed": false
+      },
+      {
+        "log_id": "plog_b4649035780c",
+        "practice_id": "prc_meds",
+        "date": "2026-07-31",
+        "completed": true
+      },
+      {
+        "log_id": "plog_dcbbb757b6e2",
+        "practice_id": "prc_worry",
+        "date": "2026-07-31",
+        "completed": false
+      },
+      {
+        "log_id": "plog_2b9d73644980",
+        "practice_id": "prc_reach",
+        "date": "2026-07-31",
+        "completed": false
+      },
+      {
+        "log_id": "plog_c31e4b9749d0",
+        "practice_id": "prc_run",
+        "date": "2026-08-01",
+        "completed": false
+      },
+      {
+        "log_id": "plog_7da693705909",
+        "practice_id": "prc_meds",
+        "date": "2026-08-01",
+        "completed": true
+      },
+      {
+        "log_id": "plog_2f3ca661d349",
+        "practice_id": "prc_worry",
+        "date": "2026-08-01",
+        "completed": false
+      },
+      {
+        "log_id": "plog_d4f3318ef50b",
+        "practice_id": "prc_reach",
+        "date": "2026-08-01",
+        "completed": false
+      },
+      {
+        "log_id": "plog_48a2835428ad",
+        "practice_id": "prc_run",
+        "date": "2026-08-02",
+        "completed": false
+      },
+      {
+        "log_id": "plog_7f919c893b45",
+        "practice_id": "prc_meds",
+        "date": "2026-08-02",
+        "completed": true
+      },
+      {
+        "log_id": "plog_14b4b8d8c44d",
+        "practice_id": "prc_worry",
+        "date": "2026-08-02",
+        "completed": true
+      },
+      {
+        "log_id": "plog_c974732b8fae",
+        "practice_id": "prc_reach",
+        "date": "2026-08-02",
+        "completed": true
+      },
+      {
+        "log_id": "plog_66b9aaf9185b",
+        "practice_id": "prc_run",
+        "date": "2026-08-03",
+        "completed": false
+      },
+      {
+        "log_id": "plog_160f6d6ebec6",
+        "practice_id": "prc_meds",
+        "date": "2026-08-03",
+        "completed": true
+      },
+      {
+        "log_id": "plog_34c411c35f38",
+        "practice_id": "prc_worry",
+        "date": "2026-08-03",
+        "completed": true
+      },
+      {
+        "log_id": "plog_804dffe88b80",
+        "practice_id": "prc_reach",
+        "date": "2026-08-03",
+        "completed": true
+      },
+      {
+        "log_id": "plog_3bcb9bcea178",
+        "practice_id": "prc_run",
+        "date": "2026-08-04",
+        "completed": false
+      },
+      {
+        "log_id": "plog_c125516b9816",
+        "practice_id": "prc_meds",
+        "date": "2026-08-04",
+        "completed": true
+      },
+      {
+        "log_id": "plog_5936578308ac",
+        "practice_id": "prc_worry",
+        "date": "2026-08-04",
+        "completed": false
+      },
+      {
+        "log_id": "plog_d7d5ccbede35",
+        "practice_id": "prc_reach",
+        "date": "2026-08-04",
+        "completed": false
+      },
+      {
+        "log_id": "plog_2b67a9fd52c6",
+        "practice_id": "prc_run",
+        "date": "2026-08-05",
+        "completed": false
+      },
+      {
+        "log_id": "plog_9444785741d8",
+        "practice_id": "prc_meds",
+        "date": "2026-08-05",
+        "completed": true
+      },
+      {
+        "log_id": "plog_e2979619a488",
+        "practice_id": "prc_worry",
+        "date": "2026-08-05",
+        "completed": false
+      },
+      {
+        "log_id": "plog_4d2f9bba4479",
+        "practice_id": "prc_reach",
+        "date": "2026-08-05",
+        "completed": false
+      },
+      {
+        "log_id": "plog_27937e859e09",
+        "practice_id": "prc_run",
+        "date": "2026-08-06",
+        "completed": false
+      },
+      {
+        "log_id": "plog_53999ac8b921",
+        "practice_id": "prc_meds",
+        "date": "2026-08-06",
+        "completed": true
+      },
+      {
+        "log_id": "plog_53fcba583c78",
+        "practice_id": "prc_worry",
+        "date": "2026-08-06",
+        "completed": false
+      },
+      {
+        "log_id": "plog_ba8e3338f478",
+        "practice_id": "prc_reach",
+        "date": "2026-08-06",
+        "completed": false
+      },
+      {
+        "log_id": "plog_1a04f280a86c",
+        "practice_id": "prc_run",
+        "date": "2026-08-07",
+        "completed": true
+      },
+      {
+        "log_id": "plog_cb7dc45a25f8",
+        "practice_id": "prc_meds",
+        "date": "2026-08-07",
+        "completed": true
+      },
+      {
+        "log_id": "plog_323991af4619",
+        "practice_id": "prc_worry",
+        "date": "2026-08-07",
+        "completed": true
+      },
+      {
+        "log_id": "plog_34d982fb47e2",
+        "practice_id": "prc_reach",
+        "date": "2026-08-07",
+        "completed": false
+      },
+      {
+        "log_id": "plog_66263f9f033a",
+        "practice_id": "prc_run",
+        "date": "2026-08-08",
+        "completed": false
+      },
+      {
+        "log_id": "plog_801fe30b38f2",
+        "practice_id": "prc_meds",
+        "date": "2026-08-08",
+        "completed": false
+      },
+      {
+        "log_id": "plog_244dd37f05a9",
+        "practice_id": "prc_worry",
+        "date": "2026-08-08",
+        "completed": true
+      },
+      {
+        "log_id": "plog_bdae9f930169",
+        "practice_id": "prc_reach",
+        "date": "2026-08-08",
+        "completed": false
+      },
+      {
+        "log_id": "plog_92f03975b37f",
+        "practice_id": "prc_run",
+        "date": "2026-08-09",
+        "completed": false
+      },
+      {
+        "log_id": "plog_3a8335f8d893",
+        "practice_id": "prc_meds",
+        "date": "2026-08-09",
+        "completed": true
+      },
+      {
+        "log_id": "plog_c628087de0aa",
+        "practice_id": "prc_worry",
+        "date": "2026-08-09",
+        "completed": false
+      },
+      {
+        "log_id": "plog_adfa09b03a85",
+        "practice_id": "prc_reach",
+        "date": "2026-08-09",
+        "completed": true
+      },
+      {
+        "log_id": "plog_5021b4206eba",
+        "practice_id": "prc_run",
+        "date": "2026-08-10",
+        "completed": true
+      },
+      {
+        "log_id": "plog_6b699f07e50d",
+        "practice_id": "prc_meds",
+        "date": "2026-08-10",
+        "completed": true
+      },
+      {
+        "log_id": "plog_a12e6df3b66f",
+        "practice_id": "prc_worry",
+        "date": "2026-08-10",
+        "completed": true
+      },
+      {
+        "log_id": "plog_7487a00c7b95",
+        "practice_id": "prc_reach",
+        "date": "2026-08-10",
+        "completed": true
+      },
+      {
+        "log_id": "plog_acdcdb5f84ac",
+        "practice_id": "prc_run",
+        "date": "2026-08-11",
+        "completed": false
+      },
+      {
+        "log_id": "plog_a78ca31ee4fd",
+        "practice_id": "prc_meds",
+        "date": "2026-08-11",
+        "completed": true
+      },
+      {
+        "log_id": "plog_7d662a32d4f5",
+        "practice_id": "prc_worry",
+        "date": "2026-08-11",
+        "completed": false
+      },
+      {
+        "log_id": "plog_8b19a2b64050",
+        "practice_id": "prc_reach",
+        "date": "2026-08-11",
+        "completed": true
+      },
+      {
+        "log_id": "plog_f0ca5b41f38a",
+        "practice_id": "prc_run",
+        "date": "2026-08-12",
+        "completed": true
+      },
+      {
+        "log_id": "plog_93166586d8df",
+        "practice_id": "prc_meds",
+        "date": "2026-08-12",
+        "completed": true
+      },
+      {
+        "log_id": "plog_831ef5c379c9",
+        "practice_id": "prc_worry",
+        "date": "2026-08-12",
+        "completed": true
+      },
+      {
+        "log_id": "plog_858d5cd25eb2",
+        "practice_id": "prc_reach",
+        "date": "2026-08-12",
+        "completed": false
+      },
+      {
+        "log_id": "plog_35c86b7874f8",
+        "practice_id": "prc_run",
+        "date": "2026-08-13",
+        "completed": false
+      },
+      {
+        "log_id": "plog_c3406a1a8387",
+        "practice_id": "prc_meds",
+        "date": "2026-08-13",
+        "completed": false
+      },
+      {
+        "log_id": "plog_5b0047539d2f",
+        "practice_id": "prc_worry",
+        "date": "2026-08-13",
+        "completed": false
+      },
+      {
+        "log_id": "plog_6651b3c461c0",
+        "practice_id": "prc_reach",
+        "date": "2026-08-13",
+        "completed": true
+      },
+      {
+        "log_id": "plog_6ba8f8eeea59",
+        "practice_id": "prc_run",
+        "date": "2026-08-14",
+        "completed": false
+      },
+      {
+        "log_id": "plog_43e15c559486",
+        "practice_id": "prc_meds",
+        "date": "2026-08-14",
+        "completed": true
+      },
+      {
+        "log_id": "plog_f09f57916685",
+        "practice_id": "prc_worry",
+        "date": "2026-08-14",
+        "completed": false
+      },
+      {
+        "log_id": "plog_cd2e4676fe85",
+        "practice_id": "prc_reach",
+        "date": "2026-08-14",
+        "completed": false
+      },
+      {
+        "log_id": "plog_2119c05c2a1e",
+        "practice_id": "prc_run",
+        "date": "2026-08-15",
+        "completed": false
+      },
+      {
+        "log_id": "plog_a261621fcc63",
+        "practice_id": "prc_meds",
+        "date": "2026-08-15",
+        "completed": true
+      },
+      {
+        "log_id": "plog_39da457ab880",
+        "practice_id": "prc_worry",
+        "date": "2026-08-15",
+        "completed": false
+      },
+      {
+        "log_id": "plog_a3882a8aaa81",
+        "practice_id": "prc_reach",
+        "date": "2026-08-15",
+        "completed": false
+      },
+      {
+        "log_id": "plog_77d5759d69cd",
+        "practice_id": "prc_run",
+        "date": "2026-08-16",
+        "completed": false
+      },
+      {
+        "log_id": "plog_200ae258a64c",
+        "practice_id": "prc_meds",
+        "date": "2026-08-16",
+        "completed": true
+      },
+      {
+        "log_id": "plog_d9c57c3cc899",
+        "practice_id": "prc_worry",
+        "date": "2026-08-16",
+        "completed": true
+      },
+      {
+        "log_id": "plog_40e898f2affc",
+        "practice_id": "prc_reach",
+        "date": "2026-08-16",
+        "completed": false
+      },
+      {
+        "log_id": "plog_00b09f637b48",
+        "practice_id": "prc_run",
+        "date": "2026-08-17",
+        "completed": false
+      },
+      {
+        "log_id": "plog_3eb62c1c5ba4",
+        "practice_id": "prc_meds",
+        "date": "2026-08-17",
+        "completed": true
+      },
+      {
+        "log_id": "plog_6db1bc287c23",
+        "practice_id": "prc_worry",
+        "date": "2026-08-17",
+        "completed": false
+      },
+      {
+        "log_id": "plog_5cc8512ee5a2",
+        "practice_id": "prc_reach",
+        "date": "2026-08-17",
+        "completed": true
+      },
+      {
+        "log_id": "plog_0e9bac316296",
+        "practice_id": "prc_run",
+        "date": "2026-08-18",
+        "completed": true
+      },
+      {
+        "log_id": "plog_c8b6be1f531f",
+        "practice_id": "prc_meds",
+        "date": "2026-08-18",
+        "completed": false
+      },
+      {
+        "log_id": "plog_a216ed03585b",
+        "practice_id": "prc_worry",
+        "date": "2026-08-18",
+        "completed": true
+      },
+      {
+        "log_id": "plog_f3a71b0035b2",
+        "practice_id": "prc_reach",
+        "date": "2026-08-18",
+        "completed": true
+      },
+      {
+        "log_id": "plog_19fcafba9bb3",
+        "practice_id": "prc_run",
+        "date": "2026-08-19",
+        "completed": false
+      },
+      {
+        "log_id": "plog_c6bbf6582f87",
+        "practice_id": "prc_meds",
+        "date": "2026-08-19",
+        "completed": true
+      },
+      {
+        "log_id": "plog_e772436e3562",
+        "practice_id": "prc_worry",
+        "date": "2026-08-19",
+        "completed": true
+      },
+      {
+        "log_id": "plog_e42172519c09",
+        "practice_id": "prc_reach",
+        "date": "2026-08-19",
+        "completed": false
+      },
+      {
+        "log_id": "plog_ab200eff1724",
+        "practice_id": "prc_run",
+        "date": "2026-08-20",
+        "completed": false
+      },
+      {
+        "log_id": "plog_d6bbcb67a2f7",
+        "practice_id": "prc_meds",
+        "date": "2026-08-20",
+        "completed": true
+      },
+      {
+        "log_id": "plog_87e23671368d",
+        "practice_id": "prc_worry",
+        "date": "2026-08-20",
+        "completed": true
+      },
+      {
+        "log_id": "plog_e1f77a88abd5",
+        "practice_id": "prc_reach",
+        "date": "2026-08-20",
+        "completed": true
+      },
+      {
+        "log_id": "plog_3bf2f1086b46",
+        "practice_id": "prc_run",
+        "date": "2026-08-21",
+        "completed": false
+      },
+      {
+        "log_id": "plog_0ef6df4f8ea4",
+        "practice_id": "prc_meds",
+        "date": "2026-08-21",
+        "completed": true
+      },
+      {
+        "log_id": "plog_7dca9202b34e",
+        "practice_id": "prc_worry",
+        "date": "2026-08-21",
+        "completed": true
+      },
+      {
+        "log_id": "plog_dce58d7d997f",
+        "practice_id": "prc_reach",
+        "date": "2026-08-21",
+        "completed": false
+      },
+      {
+        "log_id": "plog_77cc40da5218",
+        "practice_id": "prc_run",
+        "date": "2026-08-22",
+        "completed": false
+      },
+      {
+        "log_id": "plog_d72f537c4bfc",
+        "practice_id": "prc_meds",
+        "date": "2026-08-22",
+        "completed": true
+      },
+      {
+        "log_id": "plog_f5eac4c1fffc",
+        "practice_id": "prc_worry",
+        "date": "2026-08-22",
+        "completed": false
+      },
+      {
+        "log_id": "plog_a2d929735c41",
+        "practice_id": "prc_reach",
+        "date": "2026-08-22",
+        "completed": false
+      },
+      {
+        "log_id": "plog_aebe17730bbe",
+        "practice_id": "prc_run",
+        "date": "2026-08-23",
+        "completed": false
+      },
+      {
+        "log_id": "plog_fb518504cf00",
+        "practice_id": "prc_meds",
+        "date": "2026-08-23",
+        "completed": true
+      },
+      {
+        "log_id": "plog_e5c69b8ec1d6",
+        "practice_id": "prc_worry",
+        "date": "2026-08-23",
+        "completed": true
+      },
+      {
+        "log_id": "plog_a01235b86a64",
+        "practice_id": "prc_reach",
+        "date": "2026-08-23",
+        "completed": true
+      },
+      {
+        "log_id": "plog_5dbc8d63a8b5",
+        "practice_id": "prc_run",
+        "date": "2026-08-24",
+        "completed": true
+      },
+      {
+        "log_id": "plog_c5445ce88ddb",
+        "practice_id": "prc_meds",
+        "date": "2026-08-24",
+        "completed": false
+      },
+      {
+        "log_id": "plog_6c21a8d6578a",
+        "practice_id": "prc_worry",
+        "date": "2026-08-24",
+        "completed": true
+      },
+      {
+        "log_id": "plog_4afa5e694a05",
+        "practice_id": "prc_reach",
+        "date": "2026-08-24",
+        "completed": false
+      },
+      {
+        "log_id": "plog_80f5b4a3556e",
+        "practice_id": "prc_run",
+        "date": "2026-08-25",
+        "completed": false
+      },
+      {
+        "log_id": "plog_f9994f185845",
+        "practice_id": "prc_meds",
+        "date": "2026-08-25",
+        "completed": true
+      },
+      {
+        "log_id": "plog_54b59e2d1e30",
+        "practice_id": "prc_worry",
+        "date": "2026-08-25",
+        "completed": true
+      },
+      {
+        "log_id": "plog_9621a9d320a8",
+        "practice_id": "prc_reach",
+        "date": "2026-08-25",
+        "completed": false
+      },
+      {
+        "log_id": "plog_0a40c9e8ff1a",
+        "practice_id": "prc_run",
+        "date": "2026-08-26",
+        "completed": true
+      },
+      {
+        "log_id": "plog_8b9f684a67f1",
+        "practice_id": "prc_meds",
+        "date": "2026-08-26",
+        "completed": true
+      },
+      {
+        "log_id": "plog_019705ee1bc6",
+        "practice_id": "prc_worry",
+        "date": "2026-08-26",
+        "completed": true
+      },
+      {
+        "log_id": "plog_9bd2d202799d",
+        "practice_id": "prc_reach",
+        "date": "2026-08-26",
+        "completed": false
+      },
+      {
+        "log_id": "plog_e8ea1b438037",
+        "practice_id": "prc_run",
+        "date": "2026-08-27",
+        "completed": false
+      },
+      {
+        "log_id": "plog_a076e64b25a5",
+        "practice_id": "prc_meds",
+        "date": "2026-08-27",
+        "completed": true
+      },
+      {
+        "log_id": "plog_ae54a836e056",
+        "practice_id": "prc_worry",
+        "date": "2026-08-27",
+        "completed": true
+      },
+      {
+        "log_id": "plog_75379466a233",
+        "practice_id": "prc_reach",
+        "date": "2026-08-27",
+        "completed": false
+      },
+      {
+        "log_id": "plog_2e698e5fa9e2",
+        "practice_id": "prc_run",
+        "date": "2026-08-28",
+        "completed": false
+      },
+      {
+        "log_id": "plog_ea01558319c1",
+        "practice_id": "prc_meds",
+        "date": "2026-08-28",
+        "completed": false
+      },
+      {
+        "log_id": "plog_d2969d35df36",
+        "practice_id": "prc_worry",
+        "date": "2026-08-28",
+        "completed": true
+      },
+      {
+        "log_id": "plog_420c7738b5cb",
+        "practice_id": "prc_reach",
+        "date": "2026-08-28",
+        "completed": false
+      },
+      {
+        "log_id": "plog_5187b6ec08c4",
+        "practice_id": "prc_run",
+        "date": "2026-08-29",
+        "completed": true
+      },
+      {
+        "log_id": "plog_ef115a1b940a",
+        "practice_id": "prc_meds",
+        "date": "2026-08-29",
+        "completed": false
+      },
+      {
+        "log_id": "plog_0a14c57985ab",
+        "practice_id": "prc_worry",
+        "date": "2026-08-29",
+        "completed": false
+      },
+      {
+        "log_id": "plog_934842396bcb",
+        "practice_id": "prc_reach",
+        "date": "2026-08-29",
+        "completed": false
+      },
+      {
+        "log_id": "plog_039e0d8b1135",
+        "practice_id": "prc_run",
+        "date": "2026-08-30",
+        "completed": false
+      },
+      {
+        "log_id": "plog_f00e60f8fe3d",
+        "practice_id": "prc_meds",
+        "date": "2026-08-30",
+        "completed": true
+      },
+      {
+        "log_id": "plog_69942abdc517",
+        "practice_id": "prc_worry",
+        "date": "2026-08-30",
+        "completed": false
+      },
+      {
+        "log_id": "plog_3657c7bb78e1",
+        "practice_id": "prc_reach",
+        "date": "2026-08-30",
+        "completed": false
+      },
+      {
+        "log_id": "plog_01397a296d4f",
+        "practice_id": "prc_run",
+        "date": "2026-08-31",
+        "completed": true
+      },
+      {
+        "log_id": "plog_f7629cb0fc94",
+        "practice_id": "prc_meds",
+        "date": "2026-08-31",
+        "completed": false
+      },
+      {
+        "log_id": "plog_210414281f10",
+        "practice_id": "prc_worry",
+        "date": "2026-08-31",
+        "completed": false
+      },
+      {
+        "log_id": "plog_3e056e8091a9",
+        "practice_id": "prc_reach",
+        "date": "2026-08-31",
+        "completed": false
+      },
+      {
+        "log_id": "plog_0cd5e3e3ec3c",
+        "practice_id": "prc_run",
+        "date": "2026-09-01",
+        "completed": false
+      },
+      {
+        "log_id": "plog_db01b9f2b1e1",
+        "practice_id": "prc_meds",
+        "date": "2026-09-01",
+        "completed": true
+      },
+      {
+        "log_id": "plog_a0ed72774b0b",
+        "practice_id": "prc_worry",
+        "date": "2026-09-01",
+        "completed": false
+      },
+      {
+        "log_id": "plog_eeae4612ab67",
+        "practice_id": "prc_reach",
+        "date": "2026-09-01",
+        "completed": false
+      },
+      {
+        "log_id": "plog_b79b14f30d7b",
+        "practice_id": "prc_run",
+        "date": "2026-09-02",
+        "completed": true
+      },
+      {
+        "log_id": "plog_a6941c22e222",
+        "practice_id": "prc_meds",
+        "date": "2026-09-02",
+        "completed": true
+      },
+      {
+        "log_id": "plog_4fa1cc6f6392",
+        "practice_id": "prc_worry",
+        "date": "2026-09-02",
+        "completed": true
+      },
+      {
+        "log_id": "plog_dc685e91f52b",
+        "practice_id": "prc_reach",
+        "date": "2026-09-02",
+        "completed": false
+      },
+      {
+        "log_id": "plog_5e18c71250f7",
+        "practice_id": "prc_run",
+        "date": "2026-09-03",
+        "completed": false
+      },
+      {
+        "log_id": "plog_ad47f8fa7844",
+        "practice_id": "prc_meds",
+        "date": "2026-09-03",
+        "completed": true
+      },
+      {
+        "log_id": "plog_5cfef9541de0",
+        "practice_id": "prc_worry",
+        "date": "2026-09-03",
+        "completed": false
+      },
+      {
+        "log_id": "plog_6affbc9acd45",
+        "practice_id": "prc_reach",
+        "date": "2026-09-03",
+        "completed": false
+      },
+      {
+        "log_id": "plog_f1e6679573e7",
+        "practice_id": "prc_run",
+        "date": "2026-09-04",
+        "completed": true
+      },
+      {
+        "log_id": "plog_4ad9f5985579",
+        "practice_id": "prc_meds",
+        "date": "2026-09-04",
+        "completed": true
+      },
+      {
+        "log_id": "plog_b4093893a6a4",
+        "practice_id": "prc_worry",
+        "date": "2026-09-04",
+        "completed": false
+      },
+      {
+        "log_id": "plog_9b1737bcde9b",
+        "practice_id": "prc_reach",
+        "date": "2026-09-04",
+        "completed": false
+      },
+      {
+        "log_id": "plog_99e4226426af",
+        "practice_id": "prc_run",
+        "date": "2026-09-05",
+        "completed": false
+      },
+      {
+        "log_id": "plog_e35c18a0f9f4",
+        "practice_id": "prc_meds",
+        "date": "2026-09-05",
+        "completed": true
+      },
+      {
+        "log_id": "plog_9a0e63e2604e",
+        "practice_id": "prc_worry",
+        "date": "2026-09-05",
+        "completed": false
+      },
+      {
+        "log_id": "plog_4886f5727386",
+        "practice_id": "prc_reach",
+        "date": "2026-09-05",
+        "completed": false
+      },
+      {
+        "log_id": "plog_6c28f618449d",
+        "practice_id": "prc_run",
+        "date": "2026-09-06",
+        "completed": true
+      },
+      {
+        "log_id": "plog_e32ef1eac369",
+        "practice_id": "prc_meds",
+        "date": "2026-09-06",
+        "completed": true
+      },
+      {
+        "log_id": "plog_cfcf01962402",
+        "practice_id": "prc_worry",
+        "date": "2026-09-06",
+        "completed": false
+      },
+      {
+        "log_id": "plog_461af27f25a1",
+        "practice_id": "prc_reach",
+        "date": "2026-09-06",
+        "completed": false
+      },
+      {
+        "log_id": "plog_af447cf28c3f",
+        "practice_id": "prc_run",
+        "date": "2026-09-07",
+        "completed": false
+      },
+      {
+        "log_id": "plog_15c6b9a688d8",
+        "practice_id": "prc_meds",
+        "date": "2026-09-07",
+        "completed": true
+      },
+      {
+        "log_id": "plog_334f6a8461b9",
+        "practice_id": "prc_worry",
+        "date": "2026-09-07",
+        "completed": false
+      },
+      {
+        "log_id": "plog_3be98937fb76",
+        "practice_id": "prc_reach",
+        "date": "2026-09-07",
+        "completed": false
+      },
+      {
+        "log_id": "plog_771f672a653f",
+        "practice_id": "prc_run",
+        "date": "2026-09-08",
+        "completed": false
+      },
+      {
+        "log_id": "plog_c04a4a4c961d",
+        "practice_id": "prc_meds",
+        "date": "2026-09-08",
+        "completed": true
+      },
+      {
+        "log_id": "plog_167392518a62",
+        "practice_id": "prc_worry",
+        "date": "2026-09-08",
+        "completed": false
+      },
+      {
+        "log_id": "plog_3b9d226a1008",
+        "practice_id": "prc_reach",
+        "date": "2026-09-08",
+        "completed": false
+      },
+      {
+        "log_id": "plog_e29585124271",
+        "practice_id": "prc_run",
+        "date": "2026-09-09",
+        "completed": false
+      },
+      {
+        "log_id": "plog_96de3dda8194",
+        "practice_id": "prc_meds",
+        "date": "2026-09-09",
+        "completed": true
+      },
+      {
+        "log_id": "plog_2e41ea061799",
+        "practice_id": "prc_worry",
+        "date": "2026-09-09",
+        "completed": false
+      },
+      {
+        "log_id": "plog_907e897c93ef",
+        "practice_id": "prc_reach",
+        "date": "2026-09-09",
+        "completed": false
+      },
+      {
+        "log_id": "plog_2625748adb61",
+        "practice_id": "prc_run",
+        "date": "2026-09-10",
+        "completed": true
+      },
+      {
+        "log_id": "plog_5fc11cc07e46",
+        "practice_id": "prc_meds",
+        "date": "2026-09-10",
+        "completed": false
+      },
+      {
+        "log_id": "plog_c98f9bf576a3",
+        "practice_id": "prc_worry",
+        "date": "2026-09-10",
+        "completed": true
+      },
+      {
+        "log_id": "plog_584cc92f07c5",
+        "practice_id": "prc_reach",
+        "date": "2026-09-10",
+        "completed": false
+      },
+      {
+        "log_id": "plog_0898a37e1815",
+        "practice_id": "prc_run",
+        "date": "2026-09-11",
+        "completed": true
+      },
+      {
+        "log_id": "plog_7c7f2cba90c2",
+        "practice_id": "prc_meds",
+        "date": "2026-09-11",
+        "completed": true
+      },
+      {
+        "log_id": "plog_c7790c37eced",
+        "practice_id": "prc_worry",
+        "date": "2026-09-11",
+        "completed": true
+      },
+      {
+        "log_id": "plog_c46a6d887265",
+        "practice_id": "prc_reach",
+        "date": "2026-09-11",
+        "completed": false
+      },
+      {
+        "log_id": "plog_4105d9f92182",
+        "practice_id": "prc_run",
+        "date": "2026-09-12",
+        "completed": false
+      },
+      {
+        "log_id": "plog_2e44accbfe9f",
+        "practice_id": "prc_meds",
+        "date": "2026-09-12",
+        "completed": true
+      },
+      {
+        "log_id": "plog_8eb078c808e9",
+        "practice_id": "prc_worry",
+        "date": "2026-09-12",
+        "completed": true
+      },
+      {
+        "log_id": "plog_f27c07f57ca1",
+        "practice_id": "prc_reach",
+        "date": "2026-09-12",
+        "completed": false
+      },
+      {
+        "log_id": "plog_991aff0adceb",
+        "practice_id": "prc_run",
+        "date": "2026-09-13",
+        "completed": false
+      },
+      {
+        "log_id": "plog_f5947675b4d5",
+        "practice_id": "prc_meds",
+        "date": "2026-09-13",
+        "completed": true
+      },
+      {
+        "log_id": "plog_a40085d33bb3",
+        "practice_id": "prc_worry",
+        "date": "2026-09-13",
+        "completed": true
+      },
+      {
+        "log_id": "plog_64a3667481aa",
+        "practice_id": "prc_reach",
+        "date": "2026-09-13",
+        "completed": true
+      },
+      {
+        "log_id": "plog_f73c9a825ef4",
+        "practice_id": "prc_run",
+        "date": "2026-09-14",
+        "completed": true
+      },
+      {
+        "log_id": "plog_09e3c3c32c10",
+        "practice_id": "prc_meds",
+        "date": "2026-09-14",
+        "completed": false
+      },
+      {
+        "log_id": "plog_e71aeba50f2c",
+        "practice_id": "prc_worry",
+        "date": "2026-09-14",
+        "completed": false
+      },
+      {
+        "log_id": "plog_0c0af636eb4a",
+        "practice_id": "prc_reach",
+        "date": "2026-09-14",
+        "completed": false
+      },
+      {
+        "log_id": "plog_a58d41a4bd54",
+        "practice_id": "prc_run",
+        "date": "2026-09-15",
+        "completed": false
+      },
+      {
+        "log_id": "plog_2511741219de",
+        "practice_id": "prc_meds",
+        "date": "2026-09-15",
+        "completed": true
+      },
+      {
+        "log_id": "plog_ad489bce32ee",
+        "practice_id": "prc_worry",
+        "date": "2026-09-15",
+        "completed": false
+      },
+      {
+        "log_id": "plog_c205971770f7",
+        "practice_id": "prc_reach",
+        "date": "2026-09-15",
+        "completed": false
+      },
+      {
+        "log_id": "plog_41cb712f5f26",
+        "practice_id": "prc_run",
+        "date": "2026-09-16",
+        "completed": true
+      },
+      {
+        "log_id": "plog_2b27df876130",
+        "practice_id": "prc_meds",
+        "date": "2026-09-16",
+        "completed": true
+      },
+      {
+        "log_id": "plog_ad79fddcea0f",
+        "practice_id": "prc_worry",
+        "date": "2026-09-16",
+        "completed": false
+      },
+      {
+        "log_id": "plog_31f251c2e99f",
+        "practice_id": "prc_reach",
+        "date": "2026-09-16",
+        "completed": false
+      },
+      {
+        "log_id": "plog_38761dc7d534",
+        "practice_id": "prc_run",
+        "date": "2026-09-17",
+        "completed": true
+      },
+      {
+        "log_id": "plog_e38256935f83",
+        "practice_id": "prc_meds",
+        "date": "2026-09-17",
+        "completed": true
+      },
+      {
+        "log_id": "plog_18d42af1f53c",
+        "practice_id": "prc_worry",
+        "date": "2026-09-17",
+        "completed": false
+      },
+      {
+        "log_id": "plog_a0dce6040590",
+        "practice_id": "prc_reach",
+        "date": "2026-09-17",
+        "completed": true
+      },
+      {
+        "log_id": "plog_d2b41d4f5293",
+        "practice_id": "prc_run",
+        "date": "2026-09-18",
+        "completed": true
+      },
+      {
+        "log_id": "plog_248c6fa65db4",
+        "practice_id": "prc_meds",
+        "date": "2026-09-18",
+        "completed": true
+      },
+      {
+        "log_id": "plog_b6b6a4d22e24",
+        "practice_id": "prc_worry",
+        "date": "2026-09-18",
+        "completed": true
+      },
+      {
+        "log_id": "plog_dee7b6447060",
+        "practice_id": "prc_reach",
+        "date": "2026-09-18",
+        "completed": true
+      },
+      {
+        "log_id": "plog_27db11733f2b",
+        "practice_id": "prc_run",
+        "date": "2026-09-19",
+        "completed": true
+      },
+      {
+        "log_id": "plog_55a25f594bea",
+        "practice_id": "prc_meds",
+        "date": "2026-09-19",
+        "completed": true
+      },
+      {
+        "log_id": "plog_516cd45d1bf7",
+        "practice_id": "prc_worry",
+        "date": "2026-09-19",
+        "completed": true
+      },
+      {
+        "log_id": "plog_fa86f4df2743",
+        "practice_id": "prc_reach",
+        "date": "2026-09-19",
+        "completed": false
+      },
+      {
+        "log_id": "plog_ab14660fc9a0",
+        "practice_id": "prc_run",
+        "date": "2026-09-20",
+        "completed": false
+      },
+      {
+        "log_id": "plog_49469368d5d5",
+        "practice_id": "prc_meds",
+        "date": "2026-09-20",
+        "completed": true
+      },
+      {
+        "log_id": "plog_5d417373f87f",
+        "practice_id": "prc_worry",
+        "date": "2026-09-20",
+        "completed": true
+      },
+      {
+        "log_id": "plog_ecd2073d3d19",
+        "practice_id": "prc_reach",
+        "date": "2026-09-20",
+        "completed": true
+      },
+      {
+        "log_id": "plog_e56d54046a67",
+        "practice_id": "prc_run",
+        "date": "2026-09-21",
+        "completed": true
+      },
+      {
+        "log_id": "plog_4b246aa0fa81",
+        "practice_id": "prc_meds",
+        "date": "2026-09-21",
+        "completed": true
+      },
+      {
+        "log_id": "plog_ce99106f712e",
+        "practice_id": "prc_worry",
+        "date": "2026-09-21",
+        "completed": true
+      },
+      {
+        "log_id": "plog_007e07127168",
+        "practice_id": "prc_reach",
+        "date": "2026-09-21",
+        "completed": false
+      },
+      {
+        "log_id": "plog_2f91f0c54951",
+        "practice_id": "prc_run",
+        "date": "2026-09-22",
+        "completed": true
+      },
+      {
+        "log_id": "plog_37e035bc68b0",
+        "practice_id": "prc_meds",
+        "date": "2026-09-22",
+        "completed": true
+      },
+      {
+        "log_id": "plog_2e1cfdd8d7e7",
+        "practice_id": "prc_worry",
+        "date": "2026-09-22",
+        "completed": true
+      },
+      {
+        "log_id": "plog_325baf8e2cf5",
+        "practice_id": "prc_reach",
+        "date": "2026-09-22",
+        "completed": false
+      },
+      {
+        "log_id": "plog_9bca4f90e3aa",
+        "practice_id": "prc_run",
+        "date": "2026-09-23",
+        "completed": false
+      },
+      {
+        "log_id": "plog_34be81ec2ce1",
+        "practice_id": "prc_meds",
+        "date": "2026-09-23",
+        "completed": true
+      },
+      {
+        "log_id": "plog_cfc3f35aa0e1",
+        "practice_id": "prc_worry",
+        "date": "2026-09-23",
+        "completed": true
+      },
+      {
+        "log_id": "plog_10d168240291",
+        "practice_id": "prc_reach",
+        "date": "2026-09-23",
+        "completed": false
+      },
+      {
+        "log_id": "plog_b8be7212d750",
+        "practice_id": "prc_run",
+        "date": "2026-09-24",
+        "completed": false
+      },
+      {
+        "log_id": "plog_55d0f05158ff",
+        "practice_id": "prc_meds",
+        "date": "2026-09-24",
+        "completed": true
+      },
+      {
+        "log_id": "plog_7e365e8af215",
+        "practice_id": "prc_worry",
+        "date": "2026-09-24",
+        "completed": true
+      },
+      {
+        "log_id": "plog_7a0365dbc352",
+        "practice_id": "prc_reach",
+        "date": "2026-09-24",
+        "completed": true
+      },
+      {
+        "log_id": "plog_2fa11d653f93",
+        "practice_id": "prc_run",
+        "date": "2026-09-25",
+        "completed": false
+      },
+      {
+        "log_id": "plog_29da5ad20963",
+        "practice_id": "prc_meds",
+        "date": "2026-09-25",
+        "completed": true
+      },
+      {
+        "log_id": "plog_01300da2dbaa",
+        "practice_id": "prc_worry",
+        "date": "2026-09-25",
+        "completed": true
+      },
+      {
+        "log_id": "plog_84000732f7ff",
+        "practice_id": "prc_reach",
+        "date": "2026-09-25",
+        "completed": true
+      },
+      {
+        "log_id": "plog_d10878d03ea6",
+        "practice_id": "prc_run",
+        "date": "2026-09-26",
+        "completed": false
+      },
+      {
+        "log_id": "plog_b6105065c774",
+        "practice_id": "prc_meds",
+        "date": "2026-09-26",
+        "completed": true
+      },
+      {
+        "log_id": "plog_0fab53e5e5e6",
+        "practice_id": "prc_worry",
+        "date": "2026-09-26",
+        "completed": true
+      },
+      {
+        "log_id": "plog_7eab71d1bb1f",
+        "practice_id": "prc_reach",
+        "date": "2026-09-26",
+        "completed": false
+      },
+      {
+        "log_id": "plog_898e8ddacdf3",
+        "practice_id": "prc_run",
+        "date": "2026-09-27",
+        "completed": true
+      },
+      {
+        "log_id": "plog_3944562916ad",
+        "practice_id": "prc_meds",
+        "date": "2026-09-27",
+        "completed": true
+      },
+      {
+        "log_id": "plog_401e05484fd9",
+        "practice_id": "prc_worry",
+        "date": "2026-09-27",
+        "completed": true
+      },
+      {
+        "log_id": "plog_18b2594d04fa",
+        "practice_id": "prc_reach",
+        "date": "2026-09-27",
+        "completed": false
+      },
+      {
+        "log_id": "plog_0487286342ec",
+        "practice_id": "prc_run",
+        "date": "2026-09-28",
+        "completed": false
+      },
+      {
+        "log_id": "plog_85dd835876c4",
+        "practice_id": "prc_meds",
+        "date": "2026-09-28",
+        "completed": true
+      },
+      {
+        "log_id": "plog_de9943a659c7",
+        "practice_id": "prc_worry",
+        "date": "2026-09-28",
+        "completed": true
+      },
+      {
+        "log_id": "plog_1f80266645e4",
+        "practice_id": "prc_reach",
+        "date": "2026-09-28",
+        "completed": false
+      },
+      {
+        "log_id": "plog_47955cd6c2f2",
+        "practice_id": "prc_run",
+        "date": "2026-09-29",
+        "completed": true
+      },
+      {
+        "log_id": "plog_230f757de26a",
+        "practice_id": "prc_meds",
+        "date": "2026-09-29",
+        "completed": true
+      },
+      {
+        "log_id": "plog_25b03ea73a1e",
+        "practice_id": "prc_worry",
+        "date": "2026-09-29",
+        "completed": false
+      },
+      {
+        "log_id": "plog_2a11131c6588",
+        "practice_id": "prc_reach",
+        "date": "2026-09-29",
+        "completed": false
+      },
+      {
+        "log_id": "plog_6384c698a28e",
+        "practice_id": "prc_run",
+        "date": "2026-09-30",
+        "completed": false
+      },
+      {
+        "log_id": "plog_868ebb8e9a50",
+        "practice_id": "prc_meds",
+        "date": "2026-09-30",
+        "completed": true
+      },
+      {
+        "log_id": "plog_c6e362db0d4d",
+        "practice_id": "prc_worry",
+        "date": "2026-09-30",
+        "completed": true
+      },
+      {
+        "log_id": "plog_55c7f81dd6ac",
+        "practice_id": "prc_reach",
+        "date": "2026-09-30",
+        "completed": false
+      },
+      {
+        "log_id": "plog_cdebbef6907e",
+        "practice_id": "prc_run",
+        "date": "2026-10-01",
+        "completed": false
+      },
+      {
+        "log_id": "plog_d8fe52f8668d",
+        "practice_id": "prc_meds",
+        "date": "2026-10-01",
+        "completed": true
+      },
+      {
+        "log_id": "plog_f53660b92589",
+        "practice_id": "prc_worry",
+        "date": "2026-10-01",
+        "completed": false
+      },
+      {
+        "log_id": "plog_6c111d32ded8",
+        "practice_id": "prc_reach",
+        "date": "2026-10-01",
+        "completed": false
+      },
+      {
+        "log_id": "plog_87e266361be9",
+        "practice_id": "prc_run",
+        "date": "2026-10-02",
+        "completed": true
+      },
+      {
+        "log_id": "plog_8138e9663366",
+        "practice_id": "prc_meds",
+        "date": "2026-10-02",
+        "completed": true
+      },
+      {
+        "log_id": "plog_f83e02206bb4",
+        "practice_id": "prc_worry",
+        "date": "2026-10-02",
+        "completed": true
+      },
+      {
+        "log_id": "plog_a21a26727427",
+        "practice_id": "prc_reach",
+        "date": "2026-10-02",
+        "completed": true
+      },
+      {
+        "log_id": "plog_e277e9dbf929",
+        "practice_id": "prc_run",
+        "date": "2026-10-03",
+        "completed": true
+      },
+      {
+        "log_id": "plog_4409a2329ef5",
+        "practice_id": "prc_meds",
+        "date": "2026-10-03",
+        "completed": true
+      },
+      {
+        "log_id": "plog_8ad12fc9a0d4",
+        "practice_id": "prc_worry",
+        "date": "2026-10-03",
+        "completed": false
+      },
+      {
+        "log_id": "plog_402615f619ba",
+        "practice_id": "prc_reach",
+        "date": "2026-10-03",
+        "completed": true
+      },
+      {
+        "log_id": "plog_f36bf2113c95",
+        "practice_id": "prc_run",
+        "date": "2026-10-04",
+        "completed": true
+      },
+      {
+        "log_id": "plog_a5c3e09d58f9",
+        "practice_id": "prc_meds",
+        "date": "2026-10-04",
+        "completed": true
+      },
+      {
+        "log_id": "plog_f4c1f93ef586",
+        "practice_id": "prc_worry",
+        "date": "2026-10-04",
+        "completed": false
+      },
+      {
+        "log_id": "plog_77671f6c15a0",
+        "practice_id": "prc_reach",
+        "date": "2026-10-04",
+        "completed": false
+      }
+    ],
+    "weekly_cycles": [
+      {
+        "practice_id": "prc_run",
+        "week": 1,
+        "cycle_start": "2026-07-20",
+        "cycle_end": "2026-07-26",
+        "target": 3,
+        "completed": 2,
+        "met_target": false
+      },
+      {
+        "practice_id": "prc_meds",
+        "week": 1,
+        "cycle_start": "2026-07-20",
+        "cycle_end": "2026-07-26",
+        "target": 7,
+        "completed": 5,
+        "met_target": false
+      },
+      {
+        "practice_id": "prc_worry",
+        "week": 1,
+        "cycle_start": "2026-07-20",
+        "cycle_end": "2026-07-26",
+        "target": 5,
+        "completed": 2,
+        "met_target": false
+      },
+      {
+        "practice_id": "prc_reach",
+        "week": 1,
+        "cycle_start": "2026-07-20",
+        "cycle_end": "2026-07-26",
+        "target": 2,
+        "completed": 2,
+        "met_target": true
+      },
+      {
+        "practice_id": "prc_run",
+        "week": 2,
+        "cycle_start": "2026-07-27",
+        "cycle_end": "2026-08-02",
+        "target": 3,
+        "completed": 2,
+        "met_target": false
+      },
+      {
+        "practice_id": "prc_meds",
+        "week": 2,
+        "cycle_start": "2026-07-27",
+        "cycle_end": "2026-08-02",
+        "target": 7,
+        "completed": 7,
+        "met_target": true
+      },
+      {
+        "practice_id": "prc_worry",
+        "week": 2,
+        "cycle_start": "2026-07-27",
+        "cycle_end": "2026-08-02",
+        "target": 5,
+        "completed": 2,
+        "met_target": false
+      },
+      {
+        "practice_id": "prc_reach",
+        "week": 2,
+        "cycle_start": "2026-07-27",
+        "cycle_end": "2026-08-02",
+        "target": 2,
+        "completed": 2,
+        "met_target": true
+      },
+      {
+        "practice_id": "prc_run",
+        "week": 3,
+        "cycle_start": "2026-08-03",
+        "cycle_end": "2026-08-09",
+        "target": 3,
+        "completed": 1,
+        "met_target": false
+      },
+      {
+        "practice_id": "prc_meds",
+        "week": 3,
+        "cycle_start": "2026-08-03",
+        "cycle_end": "2026-08-09",
+        "target": 7,
+        "completed": 6,
+        "met_target": false
+      },
+      {
+        "practice_id": "prc_worry",
+        "week": 3,
+        "cycle_start": "2026-08-03",
+        "cycle_end": "2026-08-09",
+        "target": 5,
+        "completed": 3,
+        "met_target": false
+      },
+      {
+        "practice_id": "prc_reach",
+        "week": 3,
+        "cycle_start": "2026-08-03",
+        "cycle_end": "2026-08-09",
+        "target": 2,
+        "completed": 2,
+        "met_target": true
+      },
+      {
+        "practice_id": "prc_run",
+        "week": 4,
+        "cycle_start": "2026-08-10",
+        "cycle_end": "2026-08-16",
+        "target": 3,
+        "completed": 2,
+        "met_target": false
+      },
+      {
+        "practice_id": "prc_meds",
+        "week": 4,
+        "cycle_start": "2026-08-10",
+        "cycle_end": "2026-08-16",
+        "target": 7,
+        "completed": 6,
+        "met_target": false
+      },
+      {
+        "practice_id": "prc_worry",
+        "week": 4,
+        "cycle_start": "2026-08-10",
+        "cycle_end": "2026-08-16",
+        "target": 5,
+        "completed": 3,
+        "met_target": false
+      },
+      {
+        "practice_id": "prc_reach",
+        "week": 4,
+        "cycle_start": "2026-08-10",
+        "cycle_end": "2026-08-16",
+        "target": 2,
+        "completed": 3,
+        "met_target": true
+      },
+      {
+        "practice_id": "prc_run",
+        "week": 5,
+        "cycle_start": "2026-08-17",
+        "cycle_end": "2026-08-23",
+        "target": 3,
+        "completed": 1,
+        "met_target": false
+      },
+      {
+        "practice_id": "prc_meds",
+        "week": 5,
+        "cycle_start": "2026-08-17",
+        "cycle_end": "2026-08-23",
+        "target": 7,
+        "completed": 6,
+        "met_target": false
+      },
+      {
+        "practice_id": "prc_worry",
+        "week": 5,
+        "cycle_start": "2026-08-17",
+        "cycle_end": "2026-08-23",
+        "target": 5,
+        "completed": 5,
+        "met_target": true
+      },
+      {
+        "practice_id": "prc_reach",
+        "week": 5,
+        "cycle_start": "2026-08-17",
+        "cycle_end": "2026-08-23",
+        "target": 2,
+        "completed": 4,
+        "met_target": true
+      },
+      {
+        "practice_id": "prc_run",
+        "week": 6,
+        "cycle_start": "2026-08-24",
+        "cycle_end": "2026-08-30",
+        "target": 3,
+        "completed": 3,
+        "met_target": true
+      },
+      {
+        "practice_id": "prc_meds",
+        "week": 6,
+        "cycle_start": "2026-08-24",
+        "cycle_end": "2026-08-30",
+        "target": 7,
+        "completed": 4,
+        "met_target": false
+      },
+      {
+        "practice_id": "prc_worry",
+        "week": 6,
+        "cycle_start": "2026-08-24",
+        "cycle_end": "2026-08-30",
+        "target": 5,
+        "completed": 5,
+        "met_target": true
+      },
+      {
+        "practice_id": "prc_reach",
+        "week": 6,
+        "cycle_start": "2026-08-24",
+        "cycle_end": "2026-08-30",
+        "target": 2,
+        "completed": 0,
+        "met_target": false
+      },
+      {
+        "practice_id": "prc_run",
+        "week": 7,
+        "cycle_start": "2026-08-31",
+        "cycle_end": "2026-09-06",
+        "target": 3,
+        "completed": 4,
+        "met_target": true
+      },
+      {
+        "practice_id": "prc_meds",
+        "week": 7,
+        "cycle_start": "2026-08-31",
+        "cycle_end": "2026-09-06",
+        "target": 7,
+        "completed": 6,
+        "met_target": false
+      },
+      {
+        "practice_id": "prc_worry",
+        "week": 7,
+        "cycle_start": "2026-08-31",
+        "cycle_end": "2026-09-06",
+        "target": 5,
+        "completed": 1,
+        "met_target": false
+      },
+      {
+        "practice_id": "prc_reach",
+        "week": 7,
+        "cycle_start": "2026-08-31",
+        "cycle_end": "2026-09-06",
+        "target": 2,
+        "completed": 0,
+        "met_target": false
+      },
+      {
+        "practice_id": "prc_run",
+        "week": 8,
+        "cycle_start": "2026-09-07",
+        "cycle_end": "2026-09-13",
+        "target": 3,
+        "completed": 2,
+        "met_target": false
+      },
+      {
+        "practice_id": "prc_meds",
+        "week": 8,
+        "cycle_start": "2026-09-07",
+        "cycle_end": "2026-09-13",
+        "target": 7,
+        "completed": 6,
+        "met_target": false
+      },
+      {
+        "practice_id": "prc_worry",
+        "week": 8,
+        "cycle_start": "2026-09-07",
+        "cycle_end": "2026-09-13",
+        "target": 5,
+        "completed": 4,
+        "met_target": false
+      },
+      {
+        "practice_id": "prc_reach",
+        "week": 8,
+        "cycle_start": "2026-09-07",
+        "cycle_end": "2026-09-13",
+        "target": 2,
+        "completed": 1,
+        "met_target": false
+      },
+      {
+        "practice_id": "prc_run",
+        "week": 9,
+        "cycle_start": "2026-09-14",
+        "cycle_end": "2026-09-20",
+        "target": 3,
+        "completed": 5,
+        "met_target": true
+      },
+      {
+        "practice_id": "prc_meds",
+        "week": 9,
+        "cycle_start": "2026-09-14",
+        "cycle_end": "2026-09-20",
+        "target": 7,
+        "completed": 6,
+        "met_target": false
+      },
+      {
+        "practice_id": "prc_worry",
+        "week": 9,
+        "cycle_start": "2026-09-14",
+        "cycle_end": "2026-09-20",
+        "target": 5,
+        "completed": 3,
+        "met_target": false
+      },
+      {
+        "practice_id": "prc_reach",
+        "week": 9,
+        "cycle_start": "2026-09-14",
+        "cycle_end": "2026-09-20",
+        "target": 2,
+        "completed": 3,
+        "met_target": true
+      },
+      {
+        "practice_id": "prc_run",
+        "week": 10,
+        "cycle_start": "2026-09-21",
+        "cycle_end": "2026-09-27",
+        "target": 3,
+        "completed": 3,
+        "met_target": true
+      },
+      {
+        "practice_id": "prc_meds",
+        "week": 10,
+        "cycle_start": "2026-09-21",
+        "cycle_end": "2026-09-27",
+        "target": 7,
+        "completed": 7,
+        "met_target": true
+      },
+      {
+        "practice_id": "prc_worry",
+        "week": 10,
+        "cycle_start": "2026-09-21",
+        "cycle_end": "2026-09-27",
+        "target": 5,
+        "completed": 7,
+        "met_target": true
+      },
+      {
+        "practice_id": "prc_reach",
+        "week": 10,
+        "cycle_start": "2026-09-21",
+        "cycle_end": "2026-09-27",
+        "target": 2,
+        "completed": 2,
+        "met_target": true
+      },
+      {
+        "practice_id": "prc_run",
+        "week": 11,
+        "cycle_start": "2026-09-28",
+        "cycle_end": "2026-10-04",
+        "target": 3,
+        "completed": 4,
+        "met_target": true
+      },
+      {
+        "practice_id": "prc_meds",
+        "week": 11,
+        "cycle_start": "2026-09-28",
+        "cycle_end": "2026-10-04",
+        "target": 7,
+        "completed": 7,
+        "met_target": true
+      },
+      {
+        "practice_id": "prc_worry",
+        "week": 11,
+        "cycle_start": "2026-09-28",
+        "cycle_end": "2026-10-04",
+        "target": 5,
+        "completed": 3,
+        "met_target": false
+      },
+      {
+        "practice_id": "prc_reach",
+        "week": 11,
+        "cycle_start": "2026-09-28",
+        "cycle_end": "2026-10-04",
+        "target": 2,
+        "completed": 2,
+        "met_target": true
+      }
+    ],
+    "meet_the_moment_logs": [
+      {
+        "log_id": "mtm_91f7442cb1e0",
+        "practice_id": "prc_name",
+        "logged_at": "2026-07-26T12:41:00-04:00",
+        "situation": "Slack message from VP with no context",
+        "emotion_named": "dread",
+        "intensity_before": 7,
+        "intensity_after": 4,
+        "scale": "0-10 subjective distress"
+      },
+      {
+        "log_id": "mtm_4dbf5d848c4b",
+        "practice_id": "prc_name",
+        "logged_at": "2026-07-27T18:30:00-04:00",
+        "situation": "Realized I forgot a deadline",
+        "emotion_named": "ashamed",
+        "intensity_before": 6,
+        "intensity_after": 3,
+        "scale": "0-10 subjective distress"
+      },
+      {
+        "log_id": "mtm_657e08bc95ef",
+        "practice_id": "prc_name",
+        "logged_at": "2026-07-29T09:59:00-04:00",
+        "situation": "Realized I forgot a deadline",
+        "emotion_named": "ashamed",
+        "intensity_before": 7,
+        "intensity_after": 5,
+        "scale": "0-10 subjective distress"
+      },
+      {
+        "log_id": "mtm_7dccdf5b5352",
+        "practice_id": "prc_name",
+        "logged_at": "2026-07-30T13:18:00-04:00",
+        "situation": "Calendar invite titled 'quick sync'",
+        "emotion_named": "anxious",
+        "intensity_before": 7,
+        "intensity_after": 5,
+        "scale": "0-10 subjective distress"
+      },
+      {
+        "log_id": "mtm_a860399970a2",
+        "practice_id": "prc_name",
+        "logged_at": "2026-07-31T09:33:00-04:00",
+        "situation": "Slack message from VP with no context",
+        "emotion_named": "dread",
+        "intensity_before": 7,
+        "intensity_after": 4,
+        "scale": "0-10 subjective distress"
+      },
+      {
+        "log_id": "mtm_46d8ec2ed999",
+        "practice_id": "prc_name",
+        "logged_at": "2026-08-10T22:53:00-04:00",
+        "situation": "Calendar invite titled 'quick sync'",
+        "emotion_named": "anxious",
+        "intensity_before": 6,
+        "intensity_after": 5,
+        "scale": "0-10 subjective distress"
+      },
+      {
+        "log_id": "mtm_65c220e77f75",
+        "practice_id": "prc_name",
+        "logged_at": "2026-08-18T18:09:00-04:00",
+        "situation": "Slack message from VP with no context",
+        "emotion_named": "dread",
+        "intensity_before": 7,
+        "intensity_after": 4,
+        "scale": "0-10 subjective distress"
+      },
+      {
+        "log_id": "mtm_da080c92612a",
+        "practice_id": "prc_name",
+        "logged_at": "2026-08-20T16:44:00-04:00",
+        "situation": "Code review with a lot of comments",
+        "emotion_named": "embarrassed",
+        "intensity_before": 6,
+        "intensity_after": 3,
+        "scale": "0-10 subjective distress"
+      },
+      {
+        "log_id": "mtm_a5f08356626e",
+        "practice_id": "prc_name",
+        "logged_at": "2026-08-21T14:00:00-04:00",
+        "situation": "Realized I forgot a deadline",
+        "emotion_named": "ashamed",
+        "intensity_before": 6,
+        "intensity_after": 3,
+        "scale": "0-10 subjective distress"
+      },
+      {
+        "log_id": "mtm_9bab7a3ed7e8",
+        "practice_id": "prc_name",
+        "logged_at": "2026-08-28T22:15:00-04:00",
+        "situation": "Realized I forgot a deadline",
+        "emotion_named": "ashamed",
+        "intensity_before": 7,
+        "intensity_after": 5,
+        "scale": "0-10 subjective distress"
+      },
+      {
+        "log_id": "mtm_909f8ff141ad",
+        "practice_id": "prc_name",
+        "logged_at": "2026-08-29T16:19:00-04:00",
+        "situation": "Crowded train, couldn't get off",
+        "emotion_named": "overwhelmed",
+        "intensity_before": 8,
+        "intensity_after": 6,
+        "scale": "0-10 subjective distress"
+      },
+      {
+        "log_id": "mtm_8fb3e428a606",
+        "practice_id": "prc_name",
+        "logged_at": "2026-09-11T18:09:00-04:00",
+        "situation": "Realized I forgot a deadline",
+        "emotion_named": "ashamed",
+        "intensity_before": 5,
+        "intensity_after": 3,
+        "scale": "0-10 subjective distress"
+      },
+      {
+        "log_id": "mtm_1c4a7f302cf3",
+        "practice_id": "prc_name",
+        "logged_at": "2026-09-20T19:57:00-04:00",
+        "situation": "Realized I forgot a deadline",
+        "emotion_named": "ashamed",
+        "intensity_before": 6,
+        "intensity_after": 4,
+        "scale": "0-10 subjective distress"
+      },
+      {
+        "log_id": "mtm_81404caf3532",
+        "practice_id": "prc_name",
+        "logged_at": "2026-09-26T12:26:00-04:00",
+        "situation": "Realized I forgot a deadline",
+        "emotion_named": "ashamed",
+        "intensity_before": 6,
+        "intensity_after": 4,
+        "scale": "0-10 subjective distress"
+      },
+      {
+        "log_id": "mtm_b90daa6ba2f2",
+        "practice_id": "prc_name",
+        "logged_at": "2026-09-27T09:44:00-04:00",
+        "situation": "Code review with a lot of comments",
+        "emotion_named": "embarrassed",
+        "intensity_before": 5,
+        "intensity_after": 2,
+        "scale": "0-10 subjective distress"
+      },
+      {
+        "log_id": "mtm_8d8cf9a8b0d1",
+        "practice_id": "prc_name",
+        "logged_at": "2026-09-28T09:58:00-04:00",
+        "situation": "Slack message from VP with no context",
+        "emotion_named": "dread",
+        "intensity_before": 5,
+        "intensity_after": 3,
+        "scale": "0-10 subjective distress"
+      },
+      {
+        "log_id": "mtm_9128a82e8da1",
+        "practice_id": "prc_name",
+        "logged_at": "2026-09-30T13:55:00-04:00",
+        "situation": "Slack message from VP with no context",
+        "emotion_named": "dread",
+        "intensity_before": 5,
+        "intensity_after": 3,
+        "scale": "0-10 subjective distress"
+      },
+      {
+        "log_id": "mtm_1b4d294b826d",
+        "practice_id": "prc_name",
+        "logged_at": "2026-10-03T09:06:00-04:00",
+        "situation": "Calendar invite titled 'quick sync'",
+        "emotion_named": "anxious",
+        "intensity_before": 5,
+        "intensity_after": 4,
+        "scale": "0-10 subjective distress"
+      },
+      {
+        "log_id": "mtm_0fe6c899cce0",
+        "practice_id": "prc_name",
+        "logged_at": "2026-10-04T19:00:00-04:00",
+        "situation": "Code review with a lot of comments",
+        "emotion_named": "embarrassed",
+        "intensity_before": 4,
+        "intensity_after": 2,
+        "scale": "0-10 subjective distress"
+      }
+    ]
+  }
+}

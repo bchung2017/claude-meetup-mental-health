@@ -9,7 +9,7 @@
 <body>
   <main class="page">
     <header class="head">
-      <h1>Symptom Tracker</h1>
+      <h1>Symptom Tracker <a class="navlink" href="/">Patient dashboard</a></h1>
       <p class="sub">Daily depression and ADHD similarity scores (0–100). Backend: <span id="backend">…</span></p>
     </header>
 
@@ -67,6 +67,6 @@
     </section>
   </main>
   <div id="tooltip" class="tooltip" hidden></div>
-  <script src="{{ url_for('static', filename='app.js') }}"></script>
+  <script src="{{ url_for('static', filename='tracker.js') }}"></script>
 </body>
 </html>

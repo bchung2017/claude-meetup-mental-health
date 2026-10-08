@@ -1,4 +1,6 @@
+import re
 from abc import ABC, abstractmethod
+from pathlib import Path
 
 METRICS = ("depression", "adhd")
 COLUMNS = ("id", "created_at", *METRICS, "meds_taken", "note")
@@ -6,74 +8,45 @@ COLUMNS = ("id", "created_at", *METRICS, "meds_taken", "note")
 # Columns added after the initial schema; applied idempotently on startup.
 ADDED_COLUMNS = (("meds_taken", "INTEGER NOT NULL DEFAULT 0"),)
 
-# Per-patient tables: name -> (columns, order-by column). Every table carries patient_id.
-PATIENT_TABLES = {
-    "patients": (
-        ("patient_id", "display_name", "date_of_birth", "sex_at_birth", "pronouns", "timezone",
-         "enrollment", "clinical", "care_team"),
-        "patient_id",
-    ),
-    "sessions": (
-        ("session_id", "patient_id", "session_number", "scheduled_start", "duration_min",
-         "modality", "cpt_code", "attended"),
-        "scheduled_start",
-    ),
-    "phq9_responses": (
-        ("response_id", "patient_id", "administration_week", "completed_at", "items",
-         "total_score", "item9_score", "severity_band", "functional_difficulty"),
-        "completed_at",
-    ),
-    "mood_checkins": (
-        ("checkin_id", "patient_id", "logged_at", "mood", "anxiety", "energy", "emotion_tags", "note"),
-        "logged_at",
-    ),
-    "journal_entries": (
-        ("entry_id", "patient_id", "created_at", "text", "word_count", "ai_summary", "ai_themes",
-         "sentiment_score", "shared_with_clinician"),
-        "created_at",
-    ),
-    "voice_notes": (
-        ("voice_note_id", "patient_id", "recorded_at", "duration_sec", "audio_uri", "transcript",
-         "transcription_confidence", "ai_summary", "sentiment_score", "shared_with_clinician"),
-        "recorded_at",
-    ),
-    "practices": (
-        ("patient_id", "practice_id", "name", "track", "target_per_week", "trigger_text", "created_at"),
-        "created_at",
-    ),
-    "practice_daily_logs": (
-        ("log_id", "patient_id", "practice_id", "date", "completed"),
-        "date",
-    ),
-    "practice_weekly_cycles": (
-        ("patient_id", "practice_id", "week", "cycle_start", "cycle_end", "target", "completed", "met_target"),
-        "week",
-    ),
-    "meet_the_moment_logs": (
-        ("log_id", "patient_id", "practice_id", "logged_at", "situation", "emotion_named",
-         "intensity_before", "intensity_after"),
-        "logged_at",
-    ),
-    "sleep_sessions": (
-        ("patient_id", "night_of", "source", "in_bed_start", "in_bed_end", "sleep_onset_latency_min",
-         "total_asleep_min", "awake_min", "awakenings", "asleep_core_min", "asleep_deep_min",
-         "asleep_rem_min", "sleep_efficiency"),
-        "night_of",
-    ),
-    "daily_metrics": (
-        ("patient_id", "date", "watch_worn", "step_count", "active_energy_kcal", "exercise_min",
-         "resting_hr", "hrv_sdnn_ms", "respiratory_rate", "time_in_daylight_min", "mindful_min"),
-        "date",
-    ),
+SCHEMA_PATH = Path(__file__).resolve().parent.parent / "schema.sql"
+_DDL = SCHEMA_PATH.read_text()
+
+# Per-patient model: every table and view in schema.sql except the tracker's `entries`.
+# Order follows the file, which is also valid FK insert order.
+TABLES = tuple(t for t in re.findall(r"^CREATE TABLE IF NOT EXISTS (\w+)", _DDL, re.M) if t != "entries")
+VIEWS = tuple(re.findall(r"^CREATE VIEW (\w+) AS", _DDL, re.M))
+RELATIONS = frozenset(TABLES + VIEWS)
+
+# Reference tables carry no patient_id.
+REFERENCE_TABLES = frozenset({"data_sources", "metric_definitions", "theme_definitions"})
+# assessment_items / *_tags / *_themes hang off a parent row, not a patient.
+CHILD_TABLES = frozenset({"assessment_items", "mood_checkin_tags", "narrative_themes"})
+
+# Default ORDER BY per relation; anything not listed is unordered.
+ORDER_BY = {
+    "encounters": "scheduled_start", "clinical_events": "onset_at", "assessments": "administered_at",
+    "assessment_items": "assessment_id, item_number", "mood_checkins": "logged_at",
+    "narratives": "created_at", "practices": "created_at", "practice_daily_logs": "log_date",
+    "practice_weekly_cycles": "practice_id, week", "meet_the_moment_logs": "logged_at",
+    "daily_observations": "obs_date, metric_code", "observation_coverage": "obs_date",
+    "sleep_sessions": "night_of", "risk_assessments": "assessed_at", "rtm_periods": "period_start",
+    "rtm_activities": "occurred_at", "care_plan_items": "recorded_at", "source_conflicts": "conflict_id",
+    "v_healthkit_daily": "obs_date", "v_mhss_daily": "obs_date", "v_daily_integrated": "obs_date",
+    "v_safety_signals": "priority, signal_at", "patients": "display_name",
 }
 
-# JSON-text columns, decoded on read.
-JSON_COLUMNS = {
-    "patients": ("enrollment", "clinical", "care_team"),
-    "phq9_responses": ("items",),
-    "mood_checkins": ("emotion_tags",),
-    "journal_entries": ("ai_themes",),
-}
+# Tables of the previous (12-table) per-patient model. Dropped once when found without `data_sources`.
+LEGACY_TABLES = (
+    "daily_metrics", "sleep_sessions", "meet_the_moment_logs", "practice_weekly_cycles",
+    "practice_daily_logs", "practices", "voice_notes", "journal_entries", "mood_checkins",
+    "phq9_responses", "sessions", "patients",
+)
+
+
+def check_relation(name: str) -> str:
+    if name not in RELATIONS:
+        raise KeyError(f"unknown relation {name!r}")
+    return name
 
 
 class Store(ABC):
@@ -90,14 +63,12 @@ class Store(ABC):
 
     @abstractmethod
     def insert_rows(self, table: str, rows: list[dict]) -> None:
-        """Bulk insert into a PATIENT_TABLES table; existing primary keys are skipped."""
+        """Bulk insert; rows sharing a primary/unique key with an existing row are skipped."""
 
     @abstractmethod
     def list_rows(self, table: str, patient_id: str | None = None) -> list[dict]:
-        """Rows of a PATIENT_TABLES table, optionally for one patient, in table order."""
+        """All rows of a table or view, optionally scoped to one patient, in ORDER_BY order."""
 
-
-def table_spec(table: str) -> tuple[tuple[str, ...], str]:
-    if table not in PATIENT_TABLES:
-        raise KeyError(f"unknown table {table!r}")
-    return PATIENT_TABLES[table]
+    @abstractmethod
+    def delete_patient_rows(self, patient_id: str) -> None:
+        """Remove every row belonging to one patient (child rows first)."""

@@ -15,14 +15,18 @@ def create_app() -> Flask:
 
     @app.get("/")
     def index():
-        return render_template("index.html")
+        return render_template("dashboard.html")
+
+    @app.get("/tracker")
+    def tracker():
+        return render_template("tracker.html")
 
     if os.environ.get("SEED_SAMPLE_DATA") == "1":
-        from .carelinq import seed_sample_if_empty
+        from .importer import seed_patients_if_empty
         from .sample_data import seed_if_empty
         from .stores import get_store
 
         seed_if_empty(get_store())
-        seed_sample_if_empty(get_store())
+        seed_patients_if_empty(get_store())
 
     return app

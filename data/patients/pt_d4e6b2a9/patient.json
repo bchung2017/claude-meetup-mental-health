@@ -1,0 +1,182 @@
+{
+  "_synthetic": true,
+  "_generated_at": "2026-10-08T19:30:00-04:00",
+  "patient_id": "pt_d4e6b2a9",
+  "display_name": "Marcus T.",
+  "date_of_birth": "1979-09-14",
+  "sex_at_birth": "male",
+  "pronouns": "he/him",
+  "timezone": "America/New_York",
+  "enrollment": {
+    "enrolled_at": "2026-07-13T18:49:00-04:00",
+    "program": "wellness_monitoring",
+    "observation_window": {
+      "start": "2026-07-13",
+      "end": "2026-10-04"
+    },
+    "practices_start": "2026-07-20",
+    "consents": {
+      "self_report_sharing": true,
+      "healthkit_sharing": true,
+      "healthkit_types_authorized": [
+        "HKCategoryTypeIdentifierSleepAnalysis",
+        "HKQuantityTypeIdentifierHeartRateVariabilitySDNN",
+        "HKQuantityTypeIdentifierRestingHeartRate",
+        "HKQuantityTypeIdentifierStepCount",
+        "HKQuantityTypeIdentifierActiveEnergyBurned",
+        "HKQuantityTypeIdentifierAppleExerciseTime",
+        "HKQuantityTypeIdentifierRespiratoryRate",
+        "HKQuantityTypeIdentifierTimeInDaylight",
+        "HKCategoryTypeIdentifierMindfulSession"
+      ],
+      "journal_ai_summary": true,
+      "voice_note_transcription": true
+    },
+    "devices": [
+      {
+        "type": "iPhone",
+        "model": "iPhone 14",
+        "os": "iOS 19.6"
+      },
+      {
+        "type": "Apple Watch",
+        "model": "Apple Watch Series 8",
+        "os": "watchOS 12.6"
+      }
+    ]
+  },
+  "clinical": {
+    "primary_diagnosis": null,
+    "secondary_diagnoses": [],
+    "medications": [],
+    "treatment_modality": "Wellness check-ins, 30-min monthly",
+    "intake_phq9_total": 4
+  },
+  "care_team": [
+    {
+      "clinician_id": "cl_2b81e04d",
+      "name": "Dr. Lena Ortiz, LPC",
+      "role": "primary_therapist"
+    }
+  ],
+  "sessions": [
+    {
+      "session_id": "ses_01",
+      "session_number": 1,
+      "scheduled_start": "2026-07-14T08:00:00-04:00",
+      "duration_min": 30,
+      "modality": "in_person",
+      "cpt_code": "96127",
+      "attended": true
+    },
+    {
+      "session_id": "ses_02",
+      "session_number": 2,
+      "scheduled_start": "2026-07-21T08:00:00-04:00",
+      "duration_min": 30,
+      "modality": "telehealth",
+      "cpt_code": "96127",
+      "attended": true
+    },
+    {
+      "session_id": "ses_03",
+      "session_number": 3,
+      "scheduled_start": "2026-07-28T08:00:00-04:00",
+      "duration_min": 30,
+      "modality": "telehealth",
+      "cpt_code": "96127",
+      "attended": true
+    },
+    {
+      "session_id": "ses_04",
+      "session_number": 4,
+      "scheduled_start": "2026-08-04T08:00:00-04:00",
+      "duration_min": 30,
+      "modality": "telehealth",
+      "cpt_code": "96127",
+      "attended": true
+    },
+    {
+      "session_id": "ses_05",
+      "session_number": 5,
+      "scheduled_start": "2026-08-11T08:00:00-04:00",
+      "duration_min": 30,
+      "modality": "telehealth",
+      "cpt_code": "96127",
+      "attended": true
+    },
+    {
+      "session_id": "ses_06",
+      "session_number": 6,
+      "scheduled_start": "2026-08-18T08:00:00-04:00",
+      "duration_min": 30,
+      "modality": "telehealth",
+      "cpt_code": "96127",
+      "attended": false
+    },
+    {
+      "session_id": "ses_07",
+      "session_number": 7,
+      "scheduled_start": "2026-08-25T08:00:00-04:00",
+      "duration_min": 30,
+      "modality": "telehealth",
+      "cpt_code": "96127",
+      "attended": true
+    },
+    {
+      "session_id": "ses_08",
+      "session_number": 8,
+      "scheduled_start": "2026-09-01T08:00:00-04:00",
+      "duration_min": 30,
+      "modality": "telehealth",
+      "cpt_code": "96127",
+      "attended": true
+    },
+    {
+      "session_id": "ses_09",
+      "session_number": 9,
+      "scheduled_start": "2026-09-08T08:00:00-04:00",
+      "duration_min": 30,
+      "modality": "in_person",
+      "cpt_code": "96127",
+      "attended": true
+    },
+    {
+      "session_id": "ses_10",
+      "session_number": 10,
+      "scheduled_start": "2026-09-15T08:00:00-04:00",
+      "duration_min": 30,
+      "modality": "telehealth",
+      "cpt_code": "96127",
+      "attended": true
+    },
+    {
+      "session_id": "ses_11",
+      "session_number": 11,
+      "scheduled_start": "2026-09-22T08:00:00-04:00",
+      "duration_min": 30,
+      "modality": "telehealth",
+      "cpt_code": "96127",
+      "attended": true
+    },
+    {
+      "session_id": "ses_12",
+      "session_number": 12,
+      "scheduled_start": "2026-09-29T08:00:00-04:00",
+      "duration_min": 30,
+      "modality": "telehealth",
+      "cpt_code": "96127",
+      "attended": true
+    }
+  ],
+  "clinical_events": [
+    {
+      "category": "medical",
+      "label": "acute_illness",
+      "description": "Upper respiratory infection after travel",
+      "onset_at": "2026-08-24T20:00:00-04:00",
+      "resolved_at": "2026-09-01T08:00:00-04:00",
+      "valence": -1
+    }
+  ]
+}

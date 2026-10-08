@@ -1,0 +1,540 @@
+{
+  "_synthetic": true,
+  "patient_id": "pt_b2c4e8d1",
+  "source": "Behavidence MHSS",
+  "unit": "percent",
+  "daily": [
+    {
+      "date": "2026-07-13",
+      "anxiety": 76,
+      "stress": 58,
+      "depression": 34,
+      "adhd": 76
+    },
+    {
+      "date": "2026-07-15",
+      "anxiety": 74,
+      "stress": 63,
+      "depression": 53,
+      "adhd": 78
+    },
+    {
+      "date": "2026-07-16",
+      "anxiety": 79,
+      "stress": 55,
+      "depression": 43,
+      "adhd": 71
+    },
+    {
+      "date": "2026-07-17",
+      "anxiety": 84,
+      "stress": 55,
+      "depression": 51,
+      "adhd": 75
+    },
+    {
+      "date": "2026-07-18",
+      "anxiety": 85,
+      "stress": 62,
+      "depression": 42,
+      "adhd": 78
+    },
+    {
+      "date": "2026-07-19",
+      "anxiety": 74,
+      "stress": 62,
+      "depression": 41,
+      "adhd": 74
+    },
+    {
+      "date": "2026-07-20",
+      "anxiety": 76,
+      "stress": 48,
+      "depression": 38,
+      "adhd": 76
+    },
+    {
+      "date": "2026-07-21",
+      "anxiety": 75,
+      "stress": 47,
+      "depression": 41,
+      "adhd": 79
+    },
+    {
+      "date": "2026-07-22",
+      "anxiety": 83,
+      "stress": 54,
+      "depression": 43,
+      "adhd": 74
+    },
+    {
+      "date": "2026-07-23",
+      "anxiety": 81,
+      "stress": 57,
+      "depression": 41,
+      "adhd": 71
+    },
+    {
+      "date": "2026-07-24",
+      "anxiety": 86,
+      "stress": 52,
+      "depression": 46,
+      "adhd": 77
+    },
+    {
+      "date": "2026-07-25",
+      "anxiety": 78,
+      "stress": 46,
+      "depression": 49,
+      "adhd": 74
+    },
+    {
+      "date": "2026-07-26",
+      "anxiety": 79,
+      "stress": 46,
+      "depression": 43,
+      "adhd": 70
+    },
+    {
+      "date": "2026-07-27",
+      "anxiety": 70,
+      "stress": 57,
+      "depression": 47,
+      "adhd": 69
+    },
+    {
+      "date": "2026-07-28",
+      "anxiety": 76,
+      "stress": 52,
+      "depression": 36,
+      "adhd": 68
+    },
+    {
+      "date": "2026-07-29",
+      "anxiety": 81,
+      "stress": 51,
+      "depression": 47,
+      "adhd": 73
+    },
+    {
+      "date": "2026-07-31",
+      "anxiety": 81,
+      "stress": 48,
+      "depression": 37,
+      "adhd": 76
+    },
+    {
+      "date": "2026-08-01",
+      "anxiety": 72,
+      "stress": 56,
+      "depression": 42,
+      "adhd": 73
+    },
+    {
+      "date": "2026-08-02",
+      "anxiety": 67,
+      "stress": 51,
+      "depression": 36,
+      "adhd": 70
+    },
+    {
+      "date": "2026-08-03",
+      "anxiety": 78,
+      "stress": 46,
+      "depression": 33,
+      "adhd": 73
+    },
+    {
+      "date": "2026-08-04",
+      "anxiety": 68,
+      "stress": 50,
+      "depression": 33,
+      "adhd": 66
+    },
+    {
+      "date": "2026-08-05",
+      "anxiety": 76,
+      "stress": 53,
+      "depression": 47,
+      "adhd": 67
+    },
+    {
+      "date": "2026-08-06",
+      "anxiety": 70,
+      "stress": 51,
+      "depression": 36,
+      "adhd": 71
+    },
+    {
+      "date": "2026-08-07",
+      "anxiety": 72,
+      "stress": 41,
+      "depression": 37,
+      "adhd": 69
+    },
+    {
+      "date": "2026-08-08",
+      "anxiety": 66,
+      "stress": 46,
+      "depression": 35,
+      "adhd": 75
+    },
+    {
+      "date": "2026-08-09",
+      "anxiety": 64,
+      "stress": 52,
+      "depression": 43,
+      "adhd": 71
+    },
+    {
+      "date": "2026-08-10",
+      "anxiety": 64,
+      "stress": 53,
+      "depression": 31,
+      "adhd": 73
+    },
+    {
+      "date": "2026-08-11",
+      "anxiety": 64,
+      "stress": 52,
+      "depression": 42,
+      "adhd": 69
+    },
+    {
+      "date": "2026-08-12",
+      "anxiety": 63,
+      "stress": 52,
+      "depression": 38,
+      "adhd": 72
+    },
+    {
+      "date": "2026-08-13",
+      "anxiety": 65,
+      "stress": 47,
+      "depression": 38,
+      "adhd": 65
+    },
+    {
+      "date": "2026-08-14",
+      "anxiety": 58,
+      "stress": 43,
+      "depression": 41,
+      "adhd": 77
+    },
+    {
+      "date": "2026-08-15",
+      "anxiety": 70,
+      "stress": 52,
+      "depression": 35,
+      "adhd": 72
+    },
+    {
+      "date": "2026-08-17",
+      "anxiety": 68,
+      "stress": 39,
+      "depression": 31,
+      "adhd": 76
+    },
+    {
+      "date": "2026-08-18",
+      "anxiety": 68,
+      "stress": 47,
+      "depression": 41,
+      "adhd": 67
+    },
+    {
+      "date": "2026-08-19",
+      "anxiety": 70,
+      "stress": 47,
+      "depression": 43,
+      "adhd": 71
+    },
+    {
+      "date": "2026-08-20",
+      "anxiety": 74,
+      "stress": 45,
+      "depression": 34,
+      "adhd": 70
+    },
+    {
+      "date": "2026-08-21",
+      "anxiety": 66,
+      "stress": 45,
+      "depression": 36,
+      "adhd": 65
+    },
+    {
+      "date": "2026-08-22",
+      "anxiety": 63,
+      "stress": 43,
+      "depression": 39,
+      "adhd": 67
+    },
+    {
+      "date": "2026-08-23",
+      "anxiety": 66,
+      "stress": 54,
+      "depression": 35,
+      "adhd": 73
+    },
+    {
+      "date": "2026-08-24",
+      "anxiety": 67,
+      "stress": 51,
+      "depression": 38,
+      "adhd": 73
+    },
+    {
+      "date": "2026-08-25",
+      "anxiety": 73,
+      "stress": 47,
+      "depression": 31,
+      "adhd": 69
+    },
+    {
+      "date": "2026-08-26",
+      "anxiety": 73,
+      "stress": 49,
+      "depression": 41,
+      "adhd": 71
+    },
+    {
+      "date": "2026-08-27",
+      "anxiety": 68,
+      "stress": 52,
+      "depression": 46,
+      "adhd": 73
+    },
+    {
+      "date": "2026-08-28",
+      "anxiety": 77,
+      "stress": 48,
+      "depression": 26,
+      "adhd": 73
+    },
+    {
+      "date": "2026-08-29",
+      "anxiety": 66,
+      "stress": 52,
+      "depression": 32,
+      "adhd": 76
+    },
+    {
+      "date": "2026-08-31",
+      "anxiety": 80,
+      "stress": 54,
+      "depression": 35,
+      "adhd": 75
+    },
+    {
+      "date": "2026-09-01",
+      "anxiety": 84,
+      "stress": 48,
+      "depression": 32,
+      "adhd": 76
+    },
+    {
+      "date": "2026-09-02",
+      "anxiety": 81,
+      "stress": 50,
+      "depression": 51,
+      "adhd": 77
+    },
+    {
+      "date": "2026-09-03",
+      "anxiety": 75,
+      "stress": 57,
+      "depression": 44,
+      "adhd": 76
+    },
+    {
+      "date": "2026-09-04",
+      "anxiety": 74,
+      "stress": 61,
+      "depression": 37,
+      "adhd": 68
+    },
+    {
+      "date": "2026-09-05",
+      "anxiety": 79,
+      "stress": 58,
+      "depression": 46,
+      "adhd": 72
+    },
+    {
+      "date": "2026-09-06",
+      "anxiety": 77,
+      "stress": 63,
+      "depression": 43,
+      "adhd": 72
+    },
+    {
+      "date": "2026-09-07",
+      "anxiety": 68,
+      "stress": 48,
+      "depression": 44,
+      "adhd": 69
+    },
+    {
+      "date": "2026-09-08",
+      "anxiety": 81,
+      "stress": 54,
+      "depression": 41,
+      "adhd": 75
+    },
+    {
+      "date": "2026-09-09",
+      "anxiety": 81,
+      "stress": 61,
+      "depression": 41,
+      "adhd": 75
+    },
+    {
+      "date": "2026-09-11",
+      "anxiety": 70,
+      "stress": 50,
+      "depression": 39,
+      "adhd": 71
+    },
+    {
+      "date": "2026-09-12",
+      "anxiety": 79,
+      "stress": 46,
+      "depression": 40,
+      "adhd": 74
+    },
+    {
+      "date": "2026-09-13",
+      "anxiety": 76,
+      "stress": 50,
+      "depression": 40,
+      "adhd": 71
+    },
+    {
+      "date": "2026-09-14",
+      "anxiety": 72,
+      "stress": 45,
+      "depression": 40,
+      "adhd": 68
+    },
+    {
+      "date": "2026-09-15",
+      "anxiety": 67,
+      "stress": 56,
+      "depression": 41,
+      "adhd": 76
+    },
+    {
+      "date": "2026-09-16",
+      "anxiety": 73,
+      "stress": 47,
+      "depression": 31,
+      "adhd": 72
+    },
+    {
+      "date": "2026-09-17",
+      "anxiety": 76,
+      "stress": 47,
+      "depression": 38,
+      "adhd": 76
+    },
+    {
+      "date": "2026-09-19",
+      "anxiety": 66,
+      "stress": 51,
+      "depression": 36,
+      "adhd": 65
+    },
+    {
+      "date": "2026-09-20",
+      "anxiety": 73,
+      "stress": 43,
+      "depression": 30,
+      "adhd": 72
+    },
+    {
+      "date": "2026-09-21",
+      "anxiety": 68,
+      "stress": 47,
+      "depression": 34,
+      "adhd": 73
+    },
+    {
+      "date": "2026-09-22",
+      "anxiety": 68,
+      "stress": 48,
+      "depression": 42,
+      "adhd": 75
+    },
+    {
+      "date": "2026-09-23",
+      "anxiety": 64,
+      "stress": 46,
+      "depression": 37,
+      "adhd": 76
+    },
+    {
+      "date": "2026-09-24",
+      "anxiety": 67,
+      "stress": 52,
+      "depression": 33,
+      "adhd": 72
+    },
+    {
+      "date": "2026-09-25",
+      "anxiety": 72,
+      "stress": 43,
+      "depression": 34,
+      "adhd": 71
+    },
+    {
+      "date": "2026-09-26",
+      "anxiety": 56,
+      "stress": 52,
+      "depression": 33,
+      "adhd": 61
+    },
+    {
+      "date": "2026-09-27",
+      "anxiety": 61,
+      "stress": 40,
+      "depression": 28,
+      "adhd": 68
+    },
+    {
+      "date": "2026-09-29",
+      "anxiety": 61,
+      "stress": 42,
+      "depression": 37,
+      "adhd": 74
+    },
+    {
+      "date": "2026-10-01",
+      "anxiety": 62,
+      "stress": 44,
+      "depression": 26,
+      "adhd": 71
+    },
+    {
+      "date": "2026-10-02",
+      "anxiety": 65,
+      "stress": 40,
+      "depression": 32,
+      "adhd": 71
+    },
+    {
+      "date": "2026-10-03",
+      "anxiety": 59,
+      "stress": 46,
+      "depression": 35,
+      "adhd": 70
+    },
+    {
+      "date": "2026-10-04",
+      "anxiety": 53,
+      "stress": 38,
+      "depression": 33,
+      "adhd": 66
+    }
+  ]
+}
