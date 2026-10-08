@@ -20,11 +20,17 @@
   function bubble(role, text) {
     const d = document.createElement("div");
     d.className = `msg ${role}`;
-    d.textContent = text;
+    setText(d, text);
     log.append(d);
     log.scrollTop = log.scrollHeight;
     return d;
   }
+  function setText(el, text) {
+    el.dataset.raw = text;
+    if (el.classList.contains("assistant")) window.renderMarkdown(text, el);
+    else el.textContent = text;
+  }
+  const plain = (md) => md.replace(/```[\s\S]*?```/g, " ").replace(/[#*_`>|]+/g, " ").replace(/\s+/g, " ").trim();
   function stopSpeaking() {
     if (!player) return;
     player.audio.pause();
@@ -40,7 +46,7 @@
     try {
       const res = await fetch("/api/tether/speak", {
         method: "POST", headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ text: bubbleEl.textContent }),
+        body: JSON.stringify({ text: plain(bubbleEl.dataset.raw || bubbleEl.textContent) }),
       });
       if (!res.ok) throw new Error((await res.json()).error || `HTTP ${res.status}`);
       const audio = new Audio(URL.createObjectURL(await res.blob()));
@@ -129,7 +135,7 @@
           history.push(data);
         } else if (event === "text") {
           out.classList.remove("pending");
-          out.textContent += data;
+          setText(out, (out.dataset.raw || "") + data);
           log.scrollTop = log.scrollHeight;
         } else if (event === "done") {
           if (data.stop_reason === "refusal" || !data.content.some((b) => b.type === "text")) {

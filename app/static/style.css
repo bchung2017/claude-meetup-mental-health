@@ -166,7 +166,20 @@ td button { padding: 2px 8px; font-size: 12px; }
 }
 .msg { max-width: 80%; padding: 8px 12px; border-radius: 10px; white-space: pre-wrap; overflow-wrap: anywhere; }
 .msg.user { align-self: flex-end; background: var(--series-1); color: #fff; border-bottom-right-radius: 3px; }
-.msg.assistant { align-self: flex-start; background: var(--page); border: 1px solid var(--border); border-bottom-left-radius: 3px; }
+.msg.assistant { align-self: flex-start; background: var(--page); border: 1px solid var(--border); border-bottom-left-radius: 3px; white-space: normal; }
+.msg.assistant > :first-child { margin-top: 0; }
+.msg.assistant > :last-child { margin-bottom: 0; }
+.msg.assistant p { margin: 0 0 10px; }
+.msg.assistant h3, .msg.assistant h4, .msg.assistant h5, .msg.assistant h6 { font-size: 14px; font-weight: 600; margin: 12px 0 6px; color: var(--ink); }
+.msg.assistant h3 { font-size: 15px; }
+.msg.assistant ul, .msg.assistant ol { margin: 0 0 10px; padding-left: 22px; }
+.msg.assistant li { margin: 2px 0; }
+.msg.assistant hr { border: 0; border-top: 1px solid var(--border); margin: 10px 0; }
+.msg.assistant code { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: 13px; background: var(--surface); border: 1px solid var(--border); border-radius: 4px; padding: 0 4px; }
+.msg.assistant pre { background: var(--surface); border: 1px solid var(--border); border-radius: 6px; padding: 8px 10px; overflow-x: auto; margin: 0 0 10px; }
+.msg.assistant pre code { border: 0; padding: 0; background: none; }
+.msg.assistant table { width: auto; font-size: 13px; margin: 0 0 10px; }
+.msg.assistant th, .msg.assistant td { padding: 4px 8px; }
 .msg.assistant.pending { min-width: 3em; }
 .msg.assistant.pending::after { content: "…"; color: var(--muted); }
 .msg.notice { align-self: center; color: var(--muted); font-size: 13px; }
