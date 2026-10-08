@@ -14,11 +14,15 @@ def health():
     return jsonify(ok=True, backend=get_store().backend)
 
 
+def _public(row: dict) -> dict:
+    return {**row, "meds_taken": bool(row["meds_taken"])}
+
+
 @bp.get("/entries")
 def list_entries():
     days = request.args.get("days", default=30, type=int)
     since = 0 if days <= 0 else int(time.time()) - days * 86400
-    return jsonify(entries=get_store().list_entries(since))
+    return jsonify(entries=[_public(r) for r in get_store().list_entries(since)])
 
 
 @bp.post("/entries")
@@ -33,9 +37,13 @@ def create_entry():
         if not 0 <= v <= 100:
             return jsonify(error=f"{m} must be an integer 0-100"), 400
         row[m] = v
+    meds = body.get("meds_taken", False)
+    if not isinstance(meds, bool):
+        return jsonify(error="meds_taken must be a boolean"), 400
+    row["meds_taken"] = int(meds)
     row["note"] = str(body.get("note") or "")[:280]
     get_store().insert_entry(row)
-    return jsonify(row), 201
+    return jsonify(_public(row)), 201
 
 
 @bp.delete("/entries/<id>")

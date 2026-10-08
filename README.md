@@ -1,7 +1,8 @@
 # Symptom Tracker
 
 Small Flask site for one person: log daily depression and ADHD scores (0–100, matching the
-Behavidence MHSS similarity scale) and see them as two lines over time.
+Behavidence MHSS similarity scale) plus whether meds were taken, and see the scores as two
+lines over time with a green/red medication strip under them.
 Runs on SQLite with zero config; set `DATABASE_URL` to persist in Postgres/Supabase,
 isolated in its own schema so it can share a Supabase project with other apps.
 
@@ -34,7 +35,7 @@ Leave `DATABASE_URL` unset and the service falls back to SQLite on Render's ephe
 |---|---|---|
 | GET | `/api/health` | – |
 | GET | `/api/entries?days=30` | `days=0` for all |
-| POST | `/api/entries` | `{"depression": 0-100, "adhd": 0-100, "note": ""}` |
+| POST | `/api/entries` | `{"depression": 0-100, "adhd": 0-100, "meds_taken": true/false, "note": ""}` |
 | DELETE | `/api/entries/<id>` | – |
 
 ## Per-patient model
@@ -73,8 +74,10 @@ With `SEED_SAMPLE_DATA=1` the app imports `data/sample` on startup when `patient
 python scripts/seed_sample.py
 ```
 
-Loads the 19 daily depression/ADHD rows from the sample Behavidence report onto consecutive
-days ending today. Refuses to run if the table already has rows.
+Loads the 19 daily depression/ADHD rows from the sample Behavidence report, with synthetic
+meds-taken flags, onto consecutive days ending today. Refuses to run if the table already has rows.
+
+Existing databases get the `meds_taken` column added on startup (defaults to not taken).
 
 ## Migrate SQLite → Postgres
 
