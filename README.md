@@ -1,8 +1,8 @@
 # Symptom Tracker
 
 Small Flask site for one person: log daily depression and ADHD scores (0–100, matching the
-Behavidence MHSS similarity scale) plus whether meds were taken, and see the scores as two
-lines over time with a green/red medication strip under them.
+Behavidence MHSS similarity scale) and a medication adherence score (0–100), and see them as
+three lines over time.
 Runs on SQLite with zero config; set `DATABASE_URL` to persist in Postgres/Supabase,
 isolated in its own schema so it can share a Supabase project with other apps.
 
@@ -95,7 +95,7 @@ Leave `DATABASE_URL` unset and the service falls back to SQLite on Render's ephe
 |---|---|---|
 | GET | `/api/health` | – |
 | GET | `/api/entries?days=30` | `days=0` for all |
-| POST | `/api/entries` | `{"depression": 0-100, "adhd": 0-100, "meds_taken": true/false, "note": ""}` |
+| POST | `/api/entries` | `{"depression": 0-100, "adhd": 0-100, "adherence": 0-100, "note": ""}` |
 | DELETE | `/api/entries/<id>` | – |
 | GET | `/api/tether/health` | – → `{"configured": bool, "model": "...", "patient": "..."}` |
 | POST | `/api/tether/chat` | `{"messages": [...]}` full history ending with a user turn; responds with SSE events `context`, `text`, `done`, `error` |
@@ -137,9 +137,9 @@ python scripts/seed_sample.py
 ```
 
 Loads the 19 daily depression/ADHD rows from the sample Behavidence report, with synthetic
-meds-taken flags, onto consecutive days ending today. Refuses to run if the table already has rows.
+adherence scores, onto consecutive days ending today. Refuses to run if the table already has rows.
 
-Existing databases get the `meds_taken` column added on startup (defaults to not taken).
+Existing databases get the `adherence` column added on startup (defaults to 0).
 
 ## Migrate SQLite → Postgres
 
