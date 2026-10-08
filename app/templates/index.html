@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Symptom Tracker</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <main class="page">
+    <header class="head">
+      <h1>Symptom Tracker</h1>
+      <p class="sub">Daily depression and ADHD similarity scores (0–100). Backend: <span id="backend">…</span></p>
+    </header>
+
+    <form id="entry" class="card form">
+      <label>Depression
+        <span class="row"><input name="depression" type="range" min="0" max="100" value="50"><output>50</output></span>
+      </label>
+      <label>ADHD
+        <span class="row"><input name="adhd" type="range" min="0" max="100" value="50"><output>50</output></span>
+      </label>
+      <label class="grow">Note
+        <input name="note" type="text" maxlength="280" placeholder="optional">
+      </label>
+      <button type="submit">Add entry</button>
+      <span id="form-msg" class="muted" role="status"></span>
+    </form>
+
+    <div class="filters" role="group" aria-label="Date range">
+      <button type="button" data-days="7">7 days</button>
+      <button type="button" data-days="30" class="active">30 days</button>
+      <button type="button" data-days="90">90 days</button>
+      <button type="button" data-days="0">All</button>
+      <span class="spacer"></span>
+      <button type="button" id="toggle-table">Table view</button>
+    </div>
+
+    <section class="tiles">
+      <div class="tile"><div class="label">Entries</div><div class="value" id="t-count">–</div></div>
+      <div class="tile"><div class="label">Depression, latest</div><div class="value" id="t-depression">–</div><div class="delta" id="d-depression"></div></div>
+      <div class="tile"><div class="label">ADHD, latest</div><div class="value" id="t-adhd">–</div><div class="delta" id="d-adhd"></div></div>
+    </section>
+
+    <section class="card">
+      <div class="chart-head">
+        <h2>Scores over time</h2>
+        <div class="legend">
+          <span><i class="key depression"></i>Depression</span>
+          <span><i class="key adhd"></i>ADHD</span>
+        </div>
+      </div>
+      <div class="chart" id="chart-line"></div>
+    </section>
+
+    <section class="card" id="table-card" hidden>
+      <h2>Entries</h2>
+      <table id="table">
+        <thead><tr><th>When</th><th>Depression</th><th>ADHD</th><th>Note</th><th></th></tr></thead>
+        <tbody></tbody>
+      </table>
+    </section>
+  </main>
+  <div id="tooltip" class="tooltip" hidden></div>
+  <script src="{{ url_for('static', filename='app.js') }}"></script>
+</body>
+</html>

@@ -1,0 +1,15 @@
+services:
+  - type: web
+    name: mental-health-charts
+    runtime: python
+    plan: free
+    buildCommand: pip install -r requirements.txt
+    startCommand: gunicorn wsgi:app
+    healthCheckPath: /api/health
+    envVars:
+      - key: PYTHON_VERSION
+        value: "3.12.7"
+      - key: DB_SCHEMA
+        value: mental_health
+      - key: DATABASE_URL
+        sync: false
