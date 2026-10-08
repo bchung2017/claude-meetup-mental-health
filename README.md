@@ -144,6 +144,10 @@ per-patient layout is reset automatically on first boot.
 The single-person tracker (`/tracker`) is seeded separately by `scripts/seed_sample.py`: 19 daily
 depression/ADHD rows with synthetic adherence scores. `--replace` deletes existing entries first.
 
+Without shell access (Render free tier), set `SEED_SAMPLE_DATA=replace` on the service instead:
+every boot then wipes `entries` and reseeds. Set it back to `1` once the chart looks right, or
+every restart will keep wiping your real entries.
+
 ## Migrate SQLite → Postgres
 
 ```bash

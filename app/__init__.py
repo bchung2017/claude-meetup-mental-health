@@ -23,12 +23,14 @@ def create_app() -> Flask:
     def tracker():
         return render_template("tracker.html")
 
-    if os.environ.get("SEED_SAMPLE_DATA") == "1":
+    # "1": seed only an empty entries table. "replace": wipe entries and reseed on every boot.
+    seed_mode = os.environ.get("SEED_SAMPLE_DATA")
+    if seed_mode in ("1", "replace"):
         from .importer import seed_patients_if_empty
-        from .sample_data import seed_if_empty
+        from .sample_data import reseed, seed_if_empty
         from .stores import get_store
 
-        seed_if_empty(get_store())
+        (reseed if seed_mode == "replace" else seed_if_empty)(get_store())
         seed_patients_if_empty(get_store())
 
     return app
