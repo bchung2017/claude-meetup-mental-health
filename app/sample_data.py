@@ -15,6 +15,10 @@ def seed_if_empty(store) -> int:
     """Insert ROWS on consecutive days ending today. No-op if the table has rows."""
     if store.list_entries(0):
         return 0
+    return seed(store)
+
+
+def seed(store) -> int:
     now = int(time.time())
     for i, (dep, adhd, adherence) in enumerate(ROWS):
         day = len(ROWS) - 1 - i

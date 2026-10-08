@@ -116,9 +116,11 @@ python scripts/seed_sample.py
 ```
 
 Loads the 19 daily depression/ADHD rows from the sample Behavidence report, with synthetic
-adherence scores, onto consecutive days ending today. Refuses to run if the table already has rows.
+adherence scores, onto consecutive days ending today. Refuses to run if the table already has rows;
+`--replace` deletes the existing entries first and reseeds.
 
-Existing databases get the `adherence` column added on startup (defaults to 0).
+Existing databases get the `adherence` column added on startup (defaults to 0). A database seeded
+before that column existed shows a flat adherence line until you reseed with `--replace`.
 
 ## Migrate SQLite → Postgres
 
