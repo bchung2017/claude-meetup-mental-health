@@ -39,8 +39,9 @@ Leave `DATABASE_URL` unset and the service falls back to SQLite on Render's ephe
 
 ## Per-patient model
 
-Beyond the single-person `entries` table, the schema carries the CareLinq per-patient streams
-(`data/sample/README.md` documents fields and the clinical story). All tables are keyed by
+Beyond the single-person `entries` table, the schema carries the CareLinq per-patient streams.
+Full model with ER diagram: [docs/per-patient-schema.md](docs/per-patient-schema.md); source data
+and clinical story: `data/sample/README.md`. All tables are keyed by
 `patient_id`:
 
 | Table | Source |
