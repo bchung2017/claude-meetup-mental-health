@@ -37,6 +37,35 @@ Leave `DATABASE_URL` unset and the service falls back to SQLite on Render's ephe
 | POST | `/api/entries` | `{"depression": 0-100, "adhd": 0-100, "note": ""}` |
 | DELETE | `/api/entries/<id>` | – |
 
+## Per-patient model
+
+Beyond the single-person `entries` table, the schema carries the CareLinq per-patient streams
+(`data/sample/README.md` documents fields and the clinical story). All tables are keyed by
+`patient_id`:
+
+| Table | Source |
+|---|---|
+| `patients`, `sessions` | `patient.json` |
+| `phq9_responses` (with `item9_score` denormalized), `mood_checkins`, `journal_entries`, `voice_notes` | `self_report.json` |
+| `practices`, `practice_daily_logs`, `practice_weekly_cycles`, `meet_the_moment_logs` | `self_report.json` → `practices` |
+| `sleep_sessions`, `daily_metrics` (HealthKit identifiers flattened to columns) | `healthkit.json` |
+
+Read endpoints:
+
+| Method | Path |
+|---|---|
+| GET | `/api/patients` |
+| GET | `/api/patients/<patient_id>` |
+| GET | `/api/patients/<patient_id>/<stream>` where stream is any table above except `patients` |
+
+Import a bundle directory (defaults to `data/sample`; re-runs skip existing keys):
+
+```bash
+python scripts/import_carelinq.py [dir]
+```
+
+With `SEED_SAMPLE_DATA=1` the app imports `data/sample` on startup when `patients` is empty.
+
 ## Sample data
 
 ```bash

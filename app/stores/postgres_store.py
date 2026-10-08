@@ -3,7 +3,7 @@ from pathlib import Path
 from psycopg_pool import ConnectionPool
 
 from ..config import Config, pg_schema
-from .base import COLUMNS, Store
+from .base import COLUMNS, Store, table_spec
 
 _COLS = ", ".join(COLUMNS)
 _INSERT = f"INSERT INTO entries({_COLS}) VALUES({', '.join('%s' for _ in COLUMNS)})"
@@ -42,3 +42,23 @@ class PostgresStore(Store):
         with self._pool.connection() as conn:
             cur = conn.execute("DELETE FROM entries WHERE id=%s", (id,))
             return cur.rowcount
+
+    def insert_rows(self, table, rows):
+        cols, _ = table_spec(table)
+        sql = (
+            f"INSERT INTO {table}({', '.join(cols)}) VALUES({', '.join('%s' for _ in cols)}) "
+            "ON CONFLICT DO NOTHING"
+        )
+        with self._pool.connection() as conn, conn.cursor() as cur:
+            cur.executemany(sql, [tuple(r.get(c) for c in cols) for r in rows])
+
+    def list_rows(self, table, patient_id=None):
+        cols, order = table_spec(table)
+        sql = f"SELECT {', '.join(cols)} FROM {table}"
+        params = ()
+        if patient_id is not None:
+            sql += " WHERE patient_id = %s"
+            params = (patient_id,)
+        with self._pool.connection() as conn:
+            rows = conn.execute(f"{sql} ORDER BY {order}", params).fetchall()
+        return [dict(zip(cols, r)) for r in rows]
