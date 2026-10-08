@@ -1,56 +1,79 @@
 """Tether's prompt harness.
 
-The system prompt is assembled from named sections so each can be edited or swapped on
-its own. The top-level ``system`` is frozen for the life of a conversation (it is part of
-the prefix the model's thinking blocks are bound to, and it is what gets prompt-cached),
-so anything that changes over time - the tracker snapshot - is delivered as a
+The meta prompt lives in a file (default ``prompts/clinician.md``, override with
+``TETHER_PROMPT_FILE``) and is read once at startup. It becomes the top-level ``system``,
+which is frozen for the life of a conversation: it is part of the prefix the model's
+thinking blocks are bound to, and it is what gets prompt-cached.
+
+Anything that changes over time - the patient record - is delivered instead as a
 mid-conversation ``role: "system"`` message appended once, after the first user turn.
 """
-import time
+import json
 from datetime import datetime
+from functools import lru_cache
+from pathlib import Path
 
-IDENTITY = """You are Tether, a companion built into a personal symptom tracker. The person \
-you're talking with logs daily depression and ADHD scores and a medication adherence score (all 0-100), and may want to reflect on \
-patterns, vent, plan their day, or just talk."""
+from ..carelinq import decode_row
+from ..config import Config
+from ..stores.base import PATIENT_TABLES
 
-STANCE = """How you work:
-- Conversational, warm, direct. Match the person's register; short replies for short messages.
-- You are not a clinician. Don't diagnose, don't prescribe, and don't present scores as \
-medical fact: they are self-reported similarity scores, not clinical measures.
-- Ask at most one question at a time, and only when it moves things forward.
-- When tracker data is in context, refer to it concretely (dates, numbers, direction of \
-change) rather than generically.
-- Latency-sensitive: begin your visible answer immediately."""
+DEFAULT_PROMPT_FILE = Path(__file__).resolve().parent / "prompts" / "clinician.md"
 
-SAFETY = """If the person mentions self-harm, suicide, or being in danger: respond with care, \
-stay with them, and point to the 988 Suicide & Crisis Lifeline (call or text 988 in the US) \
-or local emergency services. Don't lecture, and don't end the conversation."""
-
-SECTIONS = (IDENTITY, STANCE, SAFETY)
-
-SNAPSHOT_DAYS = 30
-SNAPSHOT_LIMIT = 14
+# practice_daily_logs is omitted: practice_weekly_cycles is its rollup.
+STREAMS = tuple(t for t in PATIENT_TABLES if t not in ("patients", "practice_daily_logs"))
+SKIP_COLUMNS = {"patient_id", "audio_uri"}
 
 
+@lru_cache(maxsize=1)
 def system_prompt() -> str:
-    return "\n\n".join(SECTIONS)
+    path = Path(Config.TETHER_PROMPT_FILE) if Config.TETHER_PROMPT_FILE else DEFAULT_PROMPT_FILE
+    return path.read_text().strip()
 
 
-def tracker_snapshot(store) -> str:
-    since = int(time.time()) - SNAPSHOT_DAYS * 86400
-    rows = store.list_entries(since)[-SNAPSHOT_LIMIT:]
+def _line(row: dict) -> str:
+    parts = []
+    for k, v in row.items():
+        if k in SKIP_COLUMNS or v is None or k.endswith("_id"):
+            continue
+        if isinstance(v, (dict, list)):
+            v = json.dumps(v, ensure_ascii=False, separators=(",", ":"))
+        parts.append(f"{k}={v}")
+    return "- " + "  ".join(parts)
+
+
+def _patient(store):
+    rows = store.list_rows("patients", Config.TETHER_PATIENT_ID) if Config.TETHER_PATIENT_ID else store.list_rows("patients")
+    return decode_row("patients", rows[0]) if rows else None
+
+
+def patient_record(store) -> str:
     today = datetime.now().strftime("%Y-%m-%d")
-    if not rows:
-        return f"Tracker snapshot as of {today}: no entries in the last {SNAPSHOT_DAYS} days."
-    lines = [f"Tracker snapshot as of {today} (last {len(rows)} entries, oldest first):"]
-    for r in rows:
+    out = [f"Patient record as of {today}."]
+    patient = _patient(store)
+    if patient is None:
+        out.append("No patient on file.")
+    else:
+        pid = patient["patient_id"]
+        out.append(f"## patient\n{_line(patient)}")
+        for table in STREAMS:
+            rows = [decode_row(table, r) for r in store.list_rows(table, pid)]
+            out.append(f"## {table} ({len(rows)} rows)\n" + "\n".join(_line(r) for r in rows))
+
+    entries = store.list_entries(0)
+    out.append(f"## behavidence_scores ({len(entries)} rows; depression/adhd are 0-100 similarity scores, adherence is 0-100)")
+    for r in entries:
         day = datetime.fromtimestamp(r["created_at"]).strftime("%Y-%m-%d")
-        line = f"- {day}  depression {r['depression']}  adhd {r['adhd']}  adherence {r['adherence']}"
+        line = f"- date={day}  depression={r['depression']}  adhd={r['adhd']}  adherence={r['adherence']}"
         if r["note"]:
-            line += f"  note: {r['note']}"
-        lines.append(line)
-    return "\n".join(lines)
+            line += f"  note={r['note']}"
+        out.append(line)
+    return "\n\n".join(out)
 
 
 def context_message(store) -> dict:
-    return {"role": "system", "content": tracker_snapshot(store)}
+    return {"role": "system", "content": patient_record(store)}
+
+
+def patient_label(store) -> str | None:
+    p = _patient(store)
+    return p["display_name"] if p else None

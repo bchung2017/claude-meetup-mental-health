@@ -7,6 +7,8 @@
   const status = $("#tether-status");
   let history = [];
   let busy = false;
+  let tts = false;
+  let player = null;
 
   try { history = JSON.parse(sessionStorage.getItem(KEY) || "[]"); } catch { history = []; }
   const save = () => { try { sessionStorage.setItem(KEY, JSON.stringify(history)); } catch {} };
@@ -18,10 +20,57 @@
   function bubble(role, text) {
     const d = document.createElement("div");
     d.className = `msg ${role}`;
-    d.textContent = text;
+    setText(d, text);
     log.append(d);
     log.scrollTop = log.scrollHeight;
     return d;
+  }
+  function setText(el, text) {
+    el.dataset.raw = text;
+    if (el.classList.contains("assistant")) window.renderMarkdown(text, el);
+    else el.textContent = text;
+  }
+  const plain = (md) => md.replace(/```[\s\S]*?```/g, " ").replace(/[#*_`>|]+/g, " ").replace(/\s+/g, " ").trim();
+  function stopSpeaking() {
+    if (!player) return;
+    player.audio.pause();
+    URL.revokeObjectURL(player.audio.src);
+    player.btn.textContent = "Speak";
+    player = null;
+  }
+  async function speak(bubbleEl, btn) {
+    const mine = player && player.btn === btn;
+    stopSpeaking();
+    if (mine) return;
+    btn.textContent = "Loading…";
+    try {
+      const res = await fetch("/api/tether/speak", {
+        method: "POST", headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ text: plain(bubbleEl.dataset.raw || bubbleEl.textContent) }),
+      });
+      if (!res.ok) throw new Error((await res.json()).error || `HTTP ${res.status}`);
+      const audio = new Audio(URL.createObjectURL(await res.blob()));
+      player = { audio, btn };
+      btn.textContent = "Stop";
+      audio.addEventListener("ended", stopSpeaking);
+      await audio.play();
+    } catch (err) {
+      stopSpeaking();
+      btn.textContent = "Speak";
+      notice(`Speech error: ${err.message}`);
+    }
+  }
+  function addSpeakButton(bubbleEl) {
+    if (!tts) return;
+    const btn = document.createElement("button");
+    btn.type = "button";
+    btn.className = "speak";
+    btn.textContent = "Speak";
+    btn.addEventListener("click", () => speak(bubbleEl, btn));
+    const wrap = document.createElement("div");
+    wrap.className = "msg-tools";
+    wrap.append(btn);
+    bubbleEl.after(wrap);
   }
   function notice(text) {
     const d = document.createElement("div");
@@ -32,7 +81,11 @@
   }
   function render() {
     log.replaceChildren();
-    for (const m of history) if (m.role !== "system") bubble(m.role, textOf(m));
+    for (const m of history) {
+      if (m.role === "system") continue;
+      const b = bubble(m.role, textOf(m));
+      if (m.role === "assistant") addSpeakButton(b);
+    }
   }
   function setBusy(b) {
     busy = b;
@@ -82,7 +135,7 @@
           history.push(data);
         } else if (event === "text") {
           out.classList.remove("pending");
-          out.textContent += data;
+          setText(out, (out.dataset.raw || "") + data);
           log.scrollTop = log.scrollHeight;
         } else if (event === "done") {
           if (data.stop_reason === "refusal" || !data.content.some((b) => b.type === "text")) {
@@ -91,6 +144,7 @@
             notice("Tether couldn't respond to that one. Try rephrasing.");
           } else {
             history.push({ role: "assistant", content: data.content });
+            addSpeakButton(out);
           }
           if (data.stop_reason === "max_tokens") notice("Reply was cut off at the length limit.");
         } else if (event === "error") {
@@ -122,14 +176,16 @@
   });
   $("#tether-new").addEventListener("click", () => {
     if (busy) return;
+    stopSpeaking();
     history = [];
     save();
     render();
   });
 
   fetch("/api/tether/health").then((r) => r.json()).then((h) => {
-    status.textContent = h.configured ? h.model : "ANTHROPIC_API_KEY not set";
+    status.textContent = h.configured ? [h.patient, h.model].filter(Boolean).join(" · ") : "ANTHROPIC_API_KEY not set";
     if (!h.configured) setBusy(true);
+    tts = !!h.tts;
+    render();
   });
-  render();
 })();

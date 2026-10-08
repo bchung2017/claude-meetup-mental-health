@@ -1,4 +1,6 @@
 import json
+import urllib.error
+import urllib.request
 from functools import lru_cache
 
 import anthropic
@@ -6,7 +8,7 @@ from flask import Blueprint, Response, jsonify, request, stream_with_context
 
 from ..config import Config
 from ..stores import get_store
-from .prompt import context_message, system_prompt
+from .prompt import context_message, patient_label, system_prompt
 
 bp = Blueprint("tether", __name__, url_prefix="/api/tether")
 
@@ -39,7 +41,41 @@ def _echoable(content: list) -> list[dict]:
 
 @bp.get("/health")
 def health():
-    return jsonify(configured=bool(Config.ANTHROPIC_API_KEY), model=Config.TETHER_MODEL)
+    return jsonify(
+        configured=bool(Config.ANTHROPIC_API_KEY),
+        model=Config.TETHER_MODEL,
+        patient=patient_label(get_store()),
+        tts=bool(Config.ELEVENLABS_API_KEY),
+    )
+
+
+@bp.post("/speak")
+def speak():
+    """Proxy reply text to ElevenLabs text-to-speech and stream the mp3 back."""
+    if not Config.ELEVENLABS_API_KEY:
+        return jsonify(error="ELEVENLABS_API_KEY is not set"), 503
+    text = str((request.get_json(silent=True) or {}).get("text") or "").strip()[:5000]
+    if not text:
+        return jsonify(error="text is required"), 400
+    req = urllib.request.Request(
+        f"https://api.elevenlabs.io/v1/text-to-speech/{Config.ELEVENLABS_VOICE_ID}/stream?output_format=mp3_44100_128",
+        data=json.dumps({"text": text, "model_id": Config.ELEVENLABS_MODEL_ID}).encode(),
+        headers={"xi-api-key": Config.ELEVENLABS_API_KEY, "Content-Type": "application/json"},
+        method="POST",
+    )
+    try:
+        upstream = urllib.request.urlopen(req, timeout=60)
+    except urllib.error.HTTPError as e:
+        return jsonify(error=f"ElevenLabs error {e.code}: {e.read(500).decode(errors='replace')}"), 502
+    except urllib.error.URLError as e:
+        return jsonify(error=f"Could not reach ElevenLabs: {e.reason}"), 502
+
+    def generate():
+        with upstream:
+            while chunk := upstream.read(16384):
+                yield chunk
+
+    return Response(stream_with_context(generate()), mimetype="audio/mpeg", headers={"Cache-Control": "no-cache"})
 
 
 @bp.post("/chat")
