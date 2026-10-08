@@ -2,11 +2,8 @@ import re
 from abc import ABC, abstractmethod
 from pathlib import Path
 
-METRICS = ("depression", "adhd")
-COLUMNS = ("id", "created_at", *METRICS, "meds_taken", "note")
-
-# Columns added after the initial schema; applied idempotently on startup.
-ADDED_COLUMNS = (("meds_taken", "INTEGER NOT NULL DEFAULT 0"),)
+METRICS = ("depression", "adhd", "adherence")
+COLUMNS = ("id", "created_at", *METRICS, "note")
 
 SCHEMA_PATH = Path(__file__).resolve().parent.parent / "schema.sql"
 _DDL = SCHEMA_PATH.read_text()

@@ -2,11 +2,22 @@ import sqlite3
 import threading
 
 from ..config import Config
-from .base import (ADDED_COLUMNS, CHILD_TABLES, COLUMNS, LEGACY_TABLES, ORDER_BY, REFERENCE_TABLES,
+from .base import (CHILD_TABLES, COLUMNS, LEGACY_TABLES, ORDER_BY, REFERENCE_TABLES,
                    SCHEMA_PATH, TABLES, Store, check_relation)
 
 _COLS = ", ".join(COLUMNS)
 _INSERT = f"INSERT INTO entries({_COLS}) VALUES({', '.join('?' for _ in COLUMNS)})"
+
+
+def migrate(db: sqlite3.Connection) -> None:
+    """Bring a pre-existing entries table up to the current schema (idempotent)."""
+    have = {r[1] for r in db.execute("PRAGMA table_info(entries)")}
+    if "adherence" not in have:
+        db.execute("ALTER TABLE entries ADD COLUMN adherence INTEGER NOT NULL DEFAULT 0")
+    if "meds_taken" in have:  # short-lived boolean, folded into the 0-100 score
+        db.execute("UPDATE entries SET adherence = meds_taken * 100")
+        db.execute("ALTER TABLE entries DROP COLUMN meds_taken")
+    db.commit()
 
 
 class SqliteStore(Store):
@@ -20,10 +31,7 @@ class SqliteStore(Store):
         self._db.execute("PRAGMA foreign_keys=ON;")
         self._reset_legacy()
         self._db.executescript(SCHEMA_PATH.read_text())
-        have = {r["name"] for r in self._db.execute("PRAGMA table_info(entries)")}
-        for col, decl in ADDED_COLUMNS:
-            if col not in have:
-                self._db.execute(f"ALTER TABLE entries ADD COLUMN {col} {decl}")
+        migrate(self._db)
         self._db.commit()
 
     def _has_table(self, name: str) -> bool:
