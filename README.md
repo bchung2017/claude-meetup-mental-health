@@ -1,7 +1,8 @@
 # Symptom Tracker
 
 Small Flask site for one person: log daily depression and ADHD scores (0–100, matching the
-Behavidence MHSS similarity scale) and see them as two lines over time.
+Behavidence MHSS similarity scale) plus whether meds were taken, and see the scores as two
+lines over time with a green/red medication strip under them.
 Runs on SQLite with zero config; set `DATABASE_URL` to persist in Postgres/Supabase,
 isolated in its own schema so it can share a Supabase project with other apps.
 
@@ -73,10 +74,40 @@ Leave `DATABASE_URL` unset and the service falls back to SQLite on Render's ephe
 |---|---|---|
 | GET | `/api/health` | – |
 | GET | `/api/entries?days=30` | `days=0` for all |
-| POST | `/api/entries` | `{"depression": 0-100, "adhd": 0-100, "note": ""}` |
+| POST | `/api/entries` | `{"depression": 0-100, "adhd": 0-100, "meds_taken": true/false, "note": ""}` |
 | DELETE | `/api/entries/<id>` | – |
 | GET | `/api/tether/health` | – → `{"configured": bool, "model": "..."}` |
 | POST | `/api/tether/chat` | `{"messages": [...]}` full history ending with a user turn; responds with SSE events `context`, `text`, `done`, `error` |
+
+## Per-patient model
+
+Beyond the single-person `entries` table, the schema carries the CareLinq per-patient streams.
+Full model with ER diagram: [docs/per-patient-schema.md](docs/per-patient-schema.md); source data
+and clinical story: `data/sample/README.md`. All tables are keyed by
+`patient_id`:
+
+| Table | Source |
+|---|---|
+| `patients`, `sessions` | `patient.json` |
+| `phq9_responses` (with `item9_score` denormalized), `mood_checkins`, `journal_entries`, `voice_notes` | `self_report.json` |
+| `practices`, `practice_daily_logs`, `practice_weekly_cycles`, `meet_the_moment_logs` | `self_report.json` → `practices` |
+| `sleep_sessions`, `daily_metrics` (HealthKit identifiers flattened to columns) | `healthkit.json` |
+
+Read endpoints:
+
+| Method | Path |
+|---|---|
+| GET | `/api/patients` |
+| GET | `/api/patients/<patient_id>` |
+| GET | `/api/patients/<patient_id>/<stream>` where stream is any table above except `patients` |
+
+Import a bundle directory (defaults to `data/sample`; re-runs skip existing keys):
+
+```bash
+python scripts/import_carelinq.py [dir]
+```
+
+With `SEED_SAMPLE_DATA=1` the app imports `data/sample` on startup when `patients` is empty.
 
 ## Sample data
 
@@ -84,8 +115,10 @@ Leave `DATABASE_URL` unset and the service falls back to SQLite on Render's ephe
 python scripts/seed_sample.py
 ```
 
-Loads the 19 daily depression/ADHD rows from the sample Behavidence report onto consecutive
-days ending today. Refuses to run if the table already has rows.
+Loads the 19 daily depression/ADHD rows from the sample Behavidence report, with synthetic
+meds-taken flags, onto consecutive days ending today. Refuses to run if the table already has rows.
+
+Existing databases get the `meds_taken` column added on startup (defaults to not taken).
 
 ## Migrate SQLite → Postgres
 

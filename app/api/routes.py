@@ -14,11 +14,15 @@ def health():
     return jsonify(ok=True, backend=get_store().backend)
 
 
+def _public(row: dict) -> dict:
+    return {**row, "meds_taken": bool(row["meds_taken"])}
+
+
 @bp.get("/entries")
 def list_entries():
     days = request.args.get("days", default=30, type=int)
     since = 0 if days <= 0 else int(time.time()) - days * 86400
-    return jsonify(entries=get_store().list_entries(since))
+    return jsonify(entries=[_public(r) for r in get_store().list_entries(since)])
 
 
 @bp.post("/entries")
@@ -33,12 +37,46 @@ def create_entry():
         if not 0 <= v <= 100:
             return jsonify(error=f"{m} must be an integer 0-100"), 400
         row[m] = v
+    meds = body.get("meds_taken", False)
+    if not isinstance(meds, bool):
+        return jsonify(error="meds_taken must be a boolean"), 400
+    row["meds_taken"] = int(meds)
     row["note"] = str(body.get("note") or "")[:280]
     get_store().insert_entry(row)
-    return jsonify(row), 201
+    return jsonify(_public(row)), 201
 
 
 @bp.delete("/entries/<id>")
 def delete_entry(id: str):
     n = get_store().delete_entry(id)
     return (jsonify(ok=True), 200) if n else (jsonify(error="not found"), 404)
+
+
+# --- per-patient model (see data/sample/README.md) ---
+
+from ..carelinq import decode_row  # noqa: E402
+from ..stores.base import PATIENT_TABLES  # noqa: E402
+
+STREAMS = tuple(t for t in PATIENT_TABLES if t != "patients")
+
+
+@bp.get("/patients")
+def list_patients():
+    rows = [decode_row("patients", r) for r in get_store().list_rows("patients")]
+    return jsonify(patients=rows)
+
+
+@bp.get("/patients/<patient_id>")
+def get_patient(patient_id: str):
+    rows = get_store().list_rows("patients", patient_id)
+    if not rows:
+        return jsonify(error="not found"), 404
+    return jsonify(decode_row("patients", rows[0]))
+
+
+@bp.get("/patients/<patient_id>/<stream>")
+def get_patient_stream(patient_id: str, stream: str):
+    if stream not in STREAMS:
+        return jsonify(error=f"stream must be one of {', '.join(STREAMS)}"), 404
+    rows = [decode_row(stream, r) for r in get_store().list_rows(stream, patient_id)]
+    return jsonify({"patient_id": patient_id, stream: rows})

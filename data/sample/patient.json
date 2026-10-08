@@ -1,0 +1,192 @@
+{
+  "_synthetic": true,
+  "_generated_at": "2026-10-08T18:45:00-04:00",
+  "patient_id": "pt_7f3a9c21",
+  "display_name": "Maya R.",
+  "date_of_birth": "1992-03-19",
+  "sex_at_birth": "female",
+  "pronouns": "she/her",
+  "timezone": "America/New_York",
+  "enrollment": {
+    "enrolled_at": "2026-07-13T18:12:00-04:00",
+    "program": "between_session_support",
+    "observation_window": {
+      "start": "2026-07-13",
+      "end": "2026-10-04"
+    },
+    "practices_start": "2026-07-20",
+    "consents": {
+      "self_report_sharing": true,
+      "healthkit_sharing": true,
+      "healthkit_types_authorized": [
+        "HKCategoryTypeIdentifierSleepAnalysis",
+        "HKQuantityTypeIdentifierHeartRateVariabilitySDNN",
+        "HKQuantityTypeIdentifierRestingHeartRate",
+        "HKQuantityTypeIdentifierStepCount",
+        "HKQuantityTypeIdentifierActiveEnergyBurned",
+        "HKQuantityTypeIdentifierAppleExerciseTime",
+        "HKQuantityTypeIdentifierRespiratoryRate",
+        "HKQuantityTypeIdentifierTimeInDaylight",
+        "HKCategoryTypeIdentifierMindfulSession"
+      ],
+      "journal_ai_summary": true,
+      "voice_note_transcription": true
+    },
+    "devices": [
+      {
+        "type": "iPhone",
+        "model": "iPhone 15",
+        "os": "iOS 19.6"
+      },
+      {
+        "type": "Apple Watch",
+        "model": "Apple Watch Series 9",
+        "os": "watchOS 12.6"
+      }
+    ]
+  },
+  "clinical": {
+    "primary_diagnosis": {
+      "icd10": "F33.1",
+      "description": "Major depressive disorder, recurrent, moderate"
+    },
+    "secondary_diagnoses": [
+      {
+        "icd10": "G47.00",
+        "description": "Insomnia, unspecified"
+      }
+    ],
+    "medications": [
+      {
+        "name": "sertraline",
+        "dose": "50 mg",
+        "frequency": "daily",
+        "started": "2026-05-02"
+      }
+    ],
+    "treatment_modality": "CBT, weekly 53-min sessions",
+    "intake_phq9_total": 18
+  },
+  "care_team": [
+    {
+      "clinician_id": "cl_2b81e04d",
+      "name": "Dr. Lena Ortiz, LPC",
+      "role": "primary_therapist"
+    },
+    {
+      "clinician_id": "cl_9c44a7e1",
+      "name": "Dr. Sam Whitfield, MD",
+      "role": "prescriber"
+    }
+  ],
+  "sessions": [
+    {
+      "session_id": "ses_01",
+      "session_number": 1,
+      "scheduled_start": "2026-07-14T17:00:00-04:00",
+      "duration_min": 53,
+      "modality": "in_person",
+      "cpt_code": "90791",
+      "attended": true
+    },
+    {
+      "session_id": "ses_02",
+      "session_number": 2,
+      "scheduled_start": "2026-07-21T17:00:00-04:00",
+      "duration_min": 53,
+      "modality": "in_person",
+      "cpt_code": "90837",
+      "attended": true
+    },
+    {
+      "session_id": "ses_03",
+      "session_number": 3,
+      "scheduled_start": "2026-07-28T17:00:00-04:00",
+      "duration_min": 53,
+      "modality": "in_person",
+      "cpt_code": "90837",
+      "attended": true
+    },
+    {
+      "session_id": "ses_04",
+      "session_number": 4,
+      "scheduled_start": "2026-08-04T17:00:00-04:00",
+      "duration_min": 53,
+      "modality": "telehealth",
+      "cpt_code": "90837",
+      "attended": true
+    },
+    {
+      "session_id": "ses_05",
+      "session_number": 5,
+      "scheduled_start": "2026-08-11T17:00:00-04:00",
+      "duration_min": 53,
+      "modality": "in_person",
+      "cpt_code": "90837",
+      "attended": true
+    },
+    {
+      "session_id": "ses_06",
+      "session_number": 6,
+      "scheduled_start": "2026-08-18T17:00:00-04:00",
+      "duration_min": 53,
+      "modality": "in_person",
+      "cpt_code": "90837",
+      "attended": true
+    },
+    {
+      "session_id": "ses_07",
+      "session_number": 7,
+      "scheduled_start": "2026-08-25T17:00:00-04:00",
+      "duration_min": 53,
+      "modality": "in_person",
+      "cpt_code": "90837",
+      "attended": true
+    },
+    {
+      "session_id": "ses_08",
+      "session_number": 8,
+      "scheduled_start": "2026-09-01T17:00:00-04:00",
+      "duration_min": 53,
+      "modality": "in_person",
+      "cpt_code": "90837",
+      "attended": true
+    },
+    {
+      "session_id": "ses_09",
+      "session_number": 9,
+      "scheduled_start": "2026-09-08T17:00:00-04:00",
+      "duration_min": 53,
+      "modality": "telehealth",
+      "cpt_code": "90837",
+      "attended": true
+    },
+    {
+      "session_id": "ses_10",
+      "session_number": 10,
+      "scheduled_start": "2026-09-15T17:00:00-04:00",
+      "duration_min": 53,
+      "modality": "in_person",
+      "cpt_code": "90837",
+      "attended": true
+    },
+    {
+      "session_id": "ses_11",
+      "session_number": 11,
+      "scheduled_start": "2026-09-22T17:00:00-04:00",
+      "duration_min": 53,
+      "modality": "in_person",
+      "cpt_code": "90837",
+      "attended": true
+    },
+    {
+      "session_id": "ses_12",
+      "session_number": 12,
+      "scheduled_start": "2026-09-29T17:00:00-04:00",
+      "duration_min": 53,
+      "modality": "in_person",
+      "cpt_code": "90837",
+      "attended": true
+    }
+  ]
+}

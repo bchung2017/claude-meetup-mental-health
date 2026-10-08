@@ -70,6 +70,8 @@ h2 { font-size: 15px; font-weight: 600; margin: 0 0 12px; color: var(--ink-2); }
 .form label { display: flex; flex-direction: column; gap: 4px; font-size: 13px; color: var(--ink-2); }
 .form .row { display: flex; align-items: center; gap: 8px; }
 .form .grow { flex: 1 1 200px; }
+.form .check { flex-direction: row; align-items: center; gap: 6px; padding-bottom: 6px; }
+.form input[type="checkbox"] { accent-color: var(--good); width: 16px; height: 16px; margin: 0; }
 .form input[type="text"] {
   font: inherit; color: var(--ink); background: var(--page);
   border: 1px solid var(--axis); border-radius: 6px; padding: 6px 8px;
@@ -100,6 +102,9 @@ button {
 .key { display: inline-block; width: 14px; height: 2px; border-radius: 1px; }
 .key.depression { background: var(--series-1); }
 .key.adhd { background: var(--series-2); }
+.key.med { width: 10px; height: 10px; border-radius: 2px; }
+.key.med.on { background: var(--good); }
+.key.med.off { background: transparent; border: 2px solid var(--bad); }
 
 .chart { position: relative; width: 100%; height: 280px; }
 .chart svg { width: 100%; height: 100%; display: block; overflow: visible; }
@@ -115,6 +120,9 @@ button {
 .chart .hit { fill: transparent; }
 .chart .crosshair { stroke: var(--axis); stroke-width: 1; }
 .chart .label { fill: var(--ink-2); font-size: 12px; }
+.chart .strip-label { fill: var(--ink-2); font-size: 11px; }
+.chart .med.on { fill: var(--good); }
+.chart .med.off { fill: none; stroke: var(--bad); stroke-width: 2; }
 .chart .empty { fill: var(--muted); font-size: 13px; }
 
 .tooltip {
@@ -131,6 +139,8 @@ table { width: 100%; border-collapse: collapse; font-size: 14px; }
 th, td { text-align: left; padding: 6px 8px; border-bottom: 1px solid var(--grid); }
 th { color: var(--ink-2); font-weight: 600; }
 td.num { font-variant-numeric: tabular-nums; }
+td.med.on { color: var(--good); }
+td.med.off { color: var(--bad); }
 td button { padding: 2px 8px; font-size: 12px; }
 
 .tabs { display: flex; gap: 4px; margin-top: 16px; border-bottom: 1px solid var(--border); }
