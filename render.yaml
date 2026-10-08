@@ -15,3 +15,5 @@ services:
         sync: false
       - key: SEED_SAMPLE_DATA
         value: "1"
+      - key: ANTHROPIC_API_KEY
+        sync: false
