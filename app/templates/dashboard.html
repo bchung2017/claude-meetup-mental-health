@@ -18,6 +18,12 @@
       <p class="sub">Synthetic demo cohort. Backend: <span id="backend">…</span></p>
     </header>
 
+    <nav class="tabs" role="tablist">
+      <button type="button" role="tab" data-tab="dashboard" aria-selected="true">Dashboard</button>
+      <button type="button" role="tab" data-tab="tether" aria-selected="false">Tether</button>
+    </nav>
+
+    <section id="tab-dashboard" role="tabpanel">
     <section class="card" id="patient-card">
       <div class="patient-head">
         <div>
@@ -82,8 +88,16 @@
       <h2>Practices, weekly target met</h2>
       <div id="practices"></div>
     </section>
+    </section>
+
+    <section id="tab-tether" role="tabpanel" hidden>
+      {% include '_tether.html' %}
+    </section>
   </main>
   <div id="tooltip" class="tooltip" hidden></div>
   <script src="{{ url_for('static', filename='dashboard.js') }}"></script>
+  <script src="{{ url_for('static', filename='markdown.js') }}"></script>
+  <script src="{{ url_for('static', filename='tether.js') }}"></script>
+  <script src="{{ url_for('static', filename='tabs.js') }}"></script>
 </body>
 </html>

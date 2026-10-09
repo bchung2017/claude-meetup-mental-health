@@ -85,19 +85,7 @@
     </section>
 
     <section id="tab-tether" role="tabpanel" hidden>
-      <div class="card">
-        <div class="chat-head">
-          <h2>Tether</h2>
-          <span id="tether-status" class="muted"></span>
-          <span class="spacer"></span>
-          <button type="button" id="tether-new">New chat</button>
-        </div>
-        <div id="tether-log" class="chat-log" aria-live="polite"></div>
-        <form id="tether-form" class="chat-form">
-          <textarea name="text" rows="2" placeholder="Ask Tether to prep for the session… (Enter to send, Shift+Enter for a new line)" required></textarea>
-          <button type="submit">Send</button>
-        </form>
-      </div>
+      {% include '_tether.html' %}
     </section>
   </main>
   <div id="tooltip" class="tooltip" hidden></div>

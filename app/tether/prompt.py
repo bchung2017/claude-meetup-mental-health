@@ -43,15 +43,16 @@ def _line(row: dict) -> str:
     return "- " + "  ".join(parts)
 
 
-def _patient(store):
-    rows = store.list_rows("patients", Config.TETHER_PATIENT_ID) if Config.TETHER_PATIENT_ID else store.list_rows("patients")
+def _patient(store, patient_id: str | None = None):
+    pid = patient_id or Config.TETHER_PATIENT_ID
+    rows = store.list_rows("patients", pid) if pid else store.list_rows("patients")
     return rows[0] if rows else None
 
 
-def patient_record(store) -> str:
+def patient_record(store, patient_id: str | None = None) -> str:
     today = datetime.now().strftime("%Y-%m-%d")
     out = [f"Patient record as of {today}."]
-    patient = _patient(store)
+    patient = _patient(store, patient_id)
     if patient is None:
         out.append("No patient on file.")
     else:
@@ -72,10 +73,10 @@ def patient_record(store) -> str:
     return "\n\n".join(out)
 
 
-def context_message(store) -> dict:
-    return {"role": "system", "content": patient_record(store)}
+def context_message(store, patient_id: str | None = None) -> dict:
+    return {"role": "system", "content": patient_record(store, patient_id)}
 
 
-def patient_label(store) -> str | None:
-    p = _patient(store)
+def patient_label(store, patient_id: str | None = None) -> str | None:
+    p = _patient(store, patient_id)
     return p["display_name"] if p else None

@@ -321,6 +321,7 @@
     const res = await fetch(`/api/patients/${pid}/dashboard`);
     data = await res.json();
     try { localStorage.setItem("patient", pid); } catch (_) { /* ignore */ }
+    document.dispatchEvent(new CustomEvent("patientchange", { detail: pid }));
     render();
   }
 

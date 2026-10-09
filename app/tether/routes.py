@@ -44,46 +44,42 @@ def health():
     return jsonify(
         configured=bool(Config.ANTHROPIC_API_KEY),
         model=Config.TETHER_MODEL,
-        patient=patient_label(get_store()),
+        patient=patient_label(get_store(), request.args.get("patient_id") or None),
         tts=bool(Config.ELEVENLABS_API_KEY),
     )
 
 
 @bp.post("/speak")
 def speak():
-    """Proxy reply text to ElevenLabs text-to-speech and stream the mp3 back."""
+    """Proxy reply text to ElevenLabs text-to-speech and return the mp3."""
     if not Config.ELEVENLABS_API_KEY:
         return jsonify(error="ELEVENLABS_API_KEY is not set"), 503
     text = str((request.get_json(silent=True) or {}).get("text") or "").strip()[:5000]
     if not text:
         return jsonify(error="text is required"), 400
     req = urllib.request.Request(
-        f"https://api.elevenlabs.io/v1/text-to-speech/{Config.ELEVENLABS_VOICE_ID}/stream?output_format=mp3_44100_128",
+        f"https://api.elevenlabs.io/v1/text-to-speech/{Config.ELEVENLABS_VOICE_ID}?output_format=mp3_44100_128",
         data=json.dumps({"text": text, "model_id": Config.ELEVENLABS_MODEL_ID}).encode(),
         headers={"xi-api-key": Config.ELEVENLABS_API_KEY, "Content-Type": "application/json"},
         method="POST",
     )
     try:
-        upstream = urllib.request.urlopen(req, timeout=60)
+        with urllib.request.urlopen(req, timeout=90) as upstream:
+            audio = upstream.read()
     except urllib.error.HTTPError as e:
         return jsonify(error=f"ElevenLabs error {e.code}: {e.read(500).decode(errors='replace')}"), 502
-    except urllib.error.URLError as e:
-        return jsonify(error=f"Could not reach ElevenLabs: {e.reason}"), 502
-
-    def generate():
-        with upstream:
-            while chunk := upstream.read(16384):
-                yield chunk
-
-    return Response(stream_with_context(generate()), mimetype="audio/mpeg", headers={"Cache-Control": "no-cache"})
+    except (urllib.error.URLError, TimeoutError) as e:
+        return jsonify(error=f"Could not reach ElevenLabs: {getattr(e, 'reason', e)}"), 502
+    return Response(audio, mimetype="audio/mpeg", headers={"Cache-Control": "no-cache"})
 
 
 @bp.post("/chat")
 def chat():
     """Stream one assistant turn as server-sent events.
 
-    Body: {"messages": [...]} - the full conversation so far, as Messages API message
-    objects, ending with the new user message. The server is stateless; the client keeps
+    Body: {"messages": [...], "patient_id": "..."} - the full conversation so far, as
+    Messages API message objects, ending with the new user message; patient_id picks
+    whose record is injected (default: TETHER_PATIENT_ID or the first patient on file). The server is stateless; the client keeps
     the history and must echo assistant turns back exactly as the ``done`` event gave them
     (thinking blocks included), and keep the ``context`` system message in place.
 
@@ -103,7 +99,7 @@ def chat():
     if not valid:
         return jsonify(error="messages must be a non-empty list ending with a user message"), 400
 
-    injected = context_message(get_store()) if len(messages) == 1 else None
+    injected = context_message(get_store(), str(body.get("patient_id") or "") or None) if len(messages) == 1 else None
     if injected:
         messages = messages + [injected]
 

@@ -16,8 +16,9 @@ flask --app wsgi run --debug    # http://127.0.0.1:5000, SQLite at ./mental_heal
 
 ## Tether (chat tab)
 
-Second tab: Tether, a clinician's assistant backed by Claude Opus 5.5 through the Anthropic
-API. It prepares for the session with the patient on file, flags concerns (PHQ-9 item 9, risk
+Tether is a clinician's assistant backed by Claude Opus 5.5 through the Anthropic API. It is
+the second tab on the patient dashboard (`/`), following the patient selector, and also on
+`/tracker`. It prepares for the session with the selected patient, flags concerns (PHQ-9 item 9, risk
 language, deterioration, engagement and sleep drops) and answers follow-up questions from the
 record. It needs an API key from <https://console.anthropic.com/settings/keys>.
 
@@ -79,7 +80,7 @@ Two rules for what goes where:
   rather than surfacing as a dead turn.
 - Env: `ANTHROPIC_API_KEY` (required), `TETHER_MODEL` (default `claude-opus-5-5`),
   `TETHER_EFFORT` (default `medium`), `TETHER_PROMPT_FILE` (default
-  `app/tether/prompts/clinician.md`), `TETHER_PATIENT_ID` (default: first patient on file).
+  `app/tether/prompts/clinician.md`), `TETHER_PATIENT_ID` (fallback when the page sends no patient; default: first patient on file).
 
 ## Deploy on Render
 
@@ -104,9 +105,9 @@ Leave `DATABASE_URL` unset and the service falls back to SQLite on Render's ephe
 | GET | `/api/entries?days=30` | `days=0` for all |
 | POST | `/api/entries` | `{"depression": 0-100, "adhd": 0-100, "adherence": 0-100, "note": ""}` |
 | DELETE | `/api/entries/<id>` | – |
-| GET | `/api/tether/health` | – → `{"configured": bool, "model": "...", "patient": "...", "tts": bool}` |
+| GET | `/api/tether/health?patient_id=` | – → `{"configured": bool, "model": "...", "patient": "...", "tts": bool}` |
 | POST | `/api/tether/speak` | `{"text": "..."}` → `audio/mpeg` stream (needs `ELEVENLABS_API_KEY`) |
-| POST | `/api/tether/chat` | `{"messages": [...]}` full history ending with a user turn; responds with SSE events `context`, `text`, `done`, `error` |
+| POST | `/api/tether/chat` | `{"messages": [...], "patient_id": "..."}` full history ending with a user turn; responds with SSE events `context`, `text`, `done`, `error` |
 
 ## Per-patient model
 

@@ -1,5 +1,8 @@
 (() => {
   const KEY = "tether.history";
+  const patientSelect = document.querySelector("#patient-select");
+  const patientId = () => (patientSelect && patientSelect.value) || "";
+  const storageKey = () => (patientId() ? `${KEY}:${patientId()}` : KEY);
   const $ = (s) => document.querySelector(s);
   const log = $("#tether-log");
   const form = $("#tether-form");
@@ -10,8 +13,9 @@
   let tts = false;
   let player = null;
 
-  try { history = JSON.parse(sessionStorage.getItem(KEY) || "[]"); } catch { history = []; }
-  const save = () => { try { sessionStorage.setItem(KEY, JSON.stringify(history)); } catch {} };
+  const load = () => { try { history = JSON.parse(sessionStorage.getItem(storageKey()) || "[]"); } catch { history = []; } };
+  const save = () => { try { sessionStorage.setItem(storageKey(), JSON.stringify(history)); } catch {} };
+  load();
 
   const textOf = (m) => typeof m.content === "string"
     ? m.content
@@ -34,30 +38,54 @@
   function stopSpeaking() {
     if (!player) return;
     player.audio.pause();
-    URL.revokeObjectURL(player.audio.src);
+    if (player.url) URL.revokeObjectURL(player.url);
     player.btn.textContent = "Speak";
     player = null;
   }
   async function speak(bubbleEl, btn) {
-    const mine = player && player.btn === btn;
+    if (player && player.btn === btn) {
+      if (player.audio.paused && player.url) { // blocked autoplay: this click is the gesture
+        player.audio.play().then(() => { btn.textContent = "Stop"; }).catch((e) => notice(`Playback blocked: ${e.message}`));
+        return;
+      }
+      stopSpeaking();
+      return;
+    }
     stopSpeaking();
-    if (mine) return;
+    const audio = new Audio(); // created inside the click so the gesture carries to play()
+    player = { audio, btn, url: null };
     btn.textContent = "Loading…";
+    const ctl = new AbortController();
+    const timer = setTimeout(() => ctl.abort(), 90000);
     try {
       const res = await fetch("/api/tether/speak", {
         method: "POST", headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ text: plain(bubbleEl.dataset.raw || bubbleEl.textContent) }),
+        signal: ctl.signal,
       });
-      if (!res.ok) throw new Error((await res.json()).error || `HTTP ${res.status}`);
-      const audio = new Audio(URL.createObjectURL(await res.blob()));
-      player = { audio, btn };
-      btn.textContent = "Stop";
+      if (!res.ok) {
+        let msg = `HTTP ${res.status}`;
+        try { msg = (await res.json()).error || msg; } catch {}
+        throw new Error(msg);
+      }
+      const blob = await res.blob();
+      if (player?.audio !== audio) return; // stopped or replaced while loading
+      player.url = URL.createObjectURL(blob);
+      audio.src = player.url;
       audio.addEventListener("ended", stopSpeaking);
-      await audio.play();
+      try {
+        await audio.play();
+        btn.textContent = "Stop";
+      } catch (e) {
+        btn.textContent = "Play"; // autoplay blocked (Safari/iOS): next click plays within a gesture
+        notice(`Audio ready; tap Play (${e.name}).`);
+      }
     } catch (err) {
-      stopSpeaking();
+      if (player?.audio === audio) stopSpeaking();
       btn.textContent = "Speak";
-      notice(`Speech error: ${err.message}`);
+      notice(err.name === "AbortError" ? "Speech timed out after 90s." : `Speech error: ${err.message}`);
+    } finally {
+      clearTimeout(timer);
     }
   }
   function addSpeakButton(bubbleEl) {
@@ -127,7 +155,7 @@
       const res = await fetch("/api/tether/chat", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ messages: history }),
+        body: JSON.stringify({ messages: history, patient_id: patientId() || undefined }),
       });
       if (!res.ok) throw new Error((await res.json()).error || `HTTP ${res.status}`);
       for await (const { event, data } of sse(res)) {
@@ -182,10 +210,20 @@
     render();
   });
 
-  fetch("/api/tether/health").then((r) => r.json()).then((h) => {
-    status.textContent = h.configured ? [h.patient, h.model].filter(Boolean).join(" · ") : "ANTHROPIC_API_KEY not set";
-    if (!h.configured) setBusy(true);
-    tts = !!h.tts;
-    render();
+  function refreshStatus() {
+    const q = patientId() ? `?patient_id=${encodeURIComponent(patientId())}` : "";
+    fetch(`/api/tether/health${q}`).then((r) => r.json()).then((h) => {
+      status.textContent = h.configured ? [h.patient, h.model].filter(Boolean).join(" · ") : "ANTHROPIC_API_KEY not set";
+      if (!h.configured) setBusy(true);
+      tts = !!h.tts;
+      render();
+    });
+  }
+  document.addEventListener("patientchange", () => {
+    if (busy) return;
+    stopSpeaking();
+    load();
+    refreshStatus();
   });
+  refreshStatus();
 })();
